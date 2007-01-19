@@ -1,0 +1,18 @@
+## Interface: 20003
+
+## Title: Engravings
+## Notes: Adds notes to item tooltips.
+## Author: Tekkub Stoutwrithe
+## X-Category: Inventory
+## X-RelSite-WoWI: 4858
+## X-AceForum: 1356
+## X-WoWIPortal: tekkub
+## X-Wiki-Discussion: {{Ace Forum|1356|Ace Forum}}
+## X-Wiki-Bugtracker: {{WoWI Portal|tekkub|WoWI Portal}}
+
+## Dependencies: Ace
+
+## SavedVariables: EngravingsDB
+
+Engravings.lua
+EngravingsPresets.lua
