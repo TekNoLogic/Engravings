@@ -10,5 +10,9 @@
 
 ## SavedVariables: EngravingsDB
 
+## OptionalDeps: Dongle
+
+Dongle.lua
+
 EngravingsPresets.lua
 Engravings.lua
