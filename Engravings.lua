@@ -4,7 +4,7 @@ local presets = Engravings_presets
 Engravings_presets = nil
 
 
-Engravings = DongleStub("Dongle-1.0-RC3"):New("Engravings")
+Engravings = DongleStub("Dongle-1.0"):New("Engravings")
 
 
 function Engravings:Initialize()
