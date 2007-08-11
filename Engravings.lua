@@ -4,11 +4,16 @@ local presets = Engravings_presets
 Engravings_presets = nil
 
 
+local R, G, B = 1, 136/255, 0
+
 Engravings = DongleStub("Dongle-1.0"):New("Engravings")
 
 
 function Engravings:Initialize()
 	db = self:InitializeDB("EngravingsDB", nil, "global")
+	for i,v in pairs(db.profile) do -- Upgrade old notes
+		if type(v) == "table" then db.profile[i] = string.join("\n", unpack(v)) end
+	end
 
 	slash = self:InitializeSlashCommand("Engrave notes on your items", "ENGRAVINGS", "engrave")
 	slash:RegisterSlashHandler("[link] <note>: Engrave an item, blank note erases saved engraving",
@@ -29,8 +34,7 @@ function Engravings:Initialize()
 	end
 
 	for i,v in pairs(p) do
-		if type(i) == "string" then
-			f(v, string.split(" ", i))
+		if type(i) == "string" then f(v, string.split(" ", i))
 		else presets[i] = v end
 	end
 
@@ -62,14 +66,16 @@ function Engravings:ParseTooltip(frame, link)
 	local _, _, id = string.find(link or "", "item:(%d+):%d+:%d+:%d+")
 	id = id and tonumber(id)
 	local engraving = self:GetEngraving(id)
-	if type(engraving) == "string" then
-		frame:AddDoubleLine("Engraving:", engraving, 1, 136/255, 0, 1, 136/255, 0)
-	elseif type(engraving) == "table" then
-		for i,v in ipairs(engraving) do
-			frame:AddDoubleLine(i == 1 and "Engraving:" or " ", v, 1, 136/255, 0, 1, 136/255, 0)
-		end
-	end
+	if not engraving then return end
+	self:Engrave(frame, string.split("\n", engraving))
 	frame:Show()
+end
+
+
+function Engravings:Engrave(frame, ...)
+	for i=1,select("#", ...) do
+		frame:AddDoubleLine(i == 1 and "Engraving:" or " ", select(i, ...), R, G, B, R, G, B)
+	end
 end
 
 

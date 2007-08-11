@@ -1,14 +1,14 @@
 
 Engravings_presets = {
 	---- Librams ----
-	[11732] = "+150MP Head/Leg enchant quest, Burning Steppes",
-	[11733] = "+100HP Head/Leg enchant quest, Burning Steppes",
-	[11734] = "+125 Armor Head/Leg enchant quest, Burning Steppes",
-	[11736] = "+20 Fire Resistance Head/Leg enchant quest, Burning Steppes",
-	[11737] = "+8 Any Stat Head/Leg enchant quest, Burning Steppes",
-	[18332] = "+1% Haste Head/Leg enchant quest, Dire Maul",
-	[18333] = "+8 Healing/Damage Head/Leg enchant quest, Dire Maul",
-	[18334] = "+1% Dodge Head/Leg enchant quest, Dire Maul",
+	[11732] = "+150MP Head/Leg enchant\nBurning Steppes",
+	[11733] = "+100HP Head/Leg enchant\nBurning Steppes",
+	[11734] = "+125 Armor Head/Leg enchant\nBurning Steppes",
+	[11736] = "+20 Fire Resistance Head/Leg enchant\nBurning Steppes",
+	[11737] = "+8 Any Stat Head/Leg enchant\nBurning Steppes",
+	[18332] = "+1% Haste Head/Leg enchant\nDire Maul",
+	[18333] = "+8 Healing/Damage Head/Leg enchant\nDire Maul",
+	[18334] = "+1% Dodge Head/Leg enchant\nDire Maul",
 
 	---- ZG Coin sets ----
 	["19698 19699 19700"] = "Zulian - Razzashi - Hakkari",
@@ -24,7 +24,7 @@ Engravings_presets = {
 	---- Currency ----
 	[24579] = "Currency - Honor Hold", -- Mark of Honor Hold
 	[24581] = "Currency - Thrallmar", -- Mark of Thrallmar
-	[24245] = {"Currency - Sporeggar", "Faction Rep - Sporeggar (x10)"}, -- Glowcap
+	[24245] = "Currency - Sporeggar\nFaction Rep - Sporeggar (x10)", -- Glowcap
 	[29735] = "Currency - The Aldor", -- Holy Dust
 	[29736] = "Currency - The Scryers", -- Arcane Rune
 	[26045] = "Currency - Halaa", -- Halaa Battle Token
@@ -36,10 +36,13 @@ Engravings_presets = {
 	[24291] = "Faction Rep - Sporeggar (x6)",  -- Bog Lord Tendril
 	[29425] = "Faction Rep - The Aldor (x10)", -- Mark of Kil'jaeden
 	[30809] = "Faction Rep - The Aldor (x10)", -- Mark of Sargeras
-	[29740] = {"Faction Rep - The Aldor", "Reward - Holy Dust"},     -- Fel Armament
-	[29739] = {"Faction Rep - The Scryers", "Reward - Arcane Rune"}, -- Arcane Tome
+	[29740] = "Faction Rep - The Aldor\nReward - Holy Dust",     -- Fel Armament
+	[29739] = "Faction Rep - The Scryers\nReward - Arcane Rune", -- Arcane Tome
 	[29426] = "Faction Rep - The Scryers (x10)", -- Firewing Signet
 	[30810] = "Faction Rep - The Scryers (x10)", -- Sunfury Signet
+	[25463] = "Faction Rep - Consortium (x3)\nUntil friendly", -- Pair of Ivory Tusks
+	[25433] = "Faction Rep - Consortium (x10)\nFaction Rep - " .. (UnitFactionGroup("player") == "Alliance" and "Kurenai" or "Mag'har").. " (x10)", -- Obsidian Warbeads
+	[25719] = "Faction Rep - Lower City (x30)\nUntil honored", -- Arakkoa Feather
 }
 
 
