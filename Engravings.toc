@@ -12,6 +12,9 @@
 
 ## OptionalDeps: Dongle
 
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
 Dongle.lua
 
 EngravingsPresets.lua
