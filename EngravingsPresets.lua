@@ -43,6 +43,10 @@ Engravings_presets = {
 	[25463] = "Faction Rep - Consortium (x3)\nUntil friendly", -- Pair of Ivory Tusks
 	[25433] = "Faction Rep - Consortium (x10)\nFaction Rep - " .. (UnitFactionGroup("player") == "Alliance" and "Kurenai" or "Mag'har").. " (x10)", -- Obsidian Warbeads
 	[25719] = "Faction Rep - Lower City (x30)\nUntil honored", -- Arakkoa Feather
+
+	---- Incorrect recipe colors ----
+	["12703 23151 288291 23147 23153 6377 11223 11163 11101 6346 6342 11039 7451 7361 5789 8409 13288 13287 5788 9301 14634 23574"] = "Vendor recipe",
+	["3393 3394 3931 6211 17709"] = "Mob-dropped recipe",
 }
 
 
