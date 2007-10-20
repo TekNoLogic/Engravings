@@ -1,5 +1,7 @@
 
 Engravings_presets = {
+	[10450] = "This item has no use, vendor it!",
+
 	---- Librams ----
 	[11732] = "+150MP Head/Leg enchant\nBurning Steppes",
 	[11733] = "+100HP Head/Leg enchant\nBurning Steppes",
