@@ -12,6 +12,7 @@
 
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed
+## X-LoadOn-Slash: /engrave
 
 Engravings.lua
 
