@@ -1,11 +1,15 @@
 
 local slash, db
 
+local obj = DongleStub("Dongle-1.0"):New("Engravings")
 
-function Engravings:Initialize()
+
+function obj:Initialize()
 	EngravingsDB = EngravingsDB or {}
 	if EngravingsDB.profiles then EngravingsDB = EngravingsDB.profiles.global or {} end
 	db = EngravingsDB
+
+	Engravings["Engraving:"] = db
 
 	slash = self:InitializeSlashCommand("Engrave notes on your items", "ENGRAVINGS", "engrave")
 	slash:RegisterSlashHandler("[link] <note>: Engrave an item, blank note erases saved engraving",
@@ -15,12 +19,4 @@ function Engravings:Initialize()
 	end)
 end
 
-
-----------------------------
---      Main Methods      --
-----------------------------
-
-function Engravings:GetEngraving(id)
-	return id and db[id]
-end
 
