@@ -1,16 +1,19 @@
 
 local db
+local f = CreateFrame("Frame")
+f:RegisterEvent("ADDON_LOADED")
+f:SetScript("OnEvent", function(frame, event, addon)
+	if addon ~= "Engravings" then return end
 
-local obj = DongleStub("Dongle-1.0"):New("Engravings")
-
-
-function obj:Initialize()
 	EngravingsDB = EngravingsDB or {}
 	if EngravingsDB.profiles then EngravingsDB = EngravingsDB.profiles.global or {} end
 	db = EngravingsDB
 
 	Engravings["Engraving:"] = db
-end
+
+	f:UnregisterEvent("ADDON_LOADED")
+	f:SetScript("OnEvent", nil)
+end)
 
 SLASH_ENGRAVINGS1 = "/engrave"
 SlashCmdList.ENGRAVINGS = function(msg)
