@@ -64,4 +64,6 @@ Engravings["Faction Rep:"] = setmetatable({}, {
 	end
 })
 
-
+Engravings["iLevel:"] = setmetatable({}, {__index = function(t,i) local _, _, _, ilvl = GetItemInfo(i); t[i] = ilvl; return ilvl end})
+Engravings["Stack size:"] = setmetatable({}, {__index = function(t,i) local _, _, _, _, _, _, _, stack = GetItemInfo(i); t[i] = stack; return stack end})
+Engravings["ItemID:"] = setmetatable({}, {__index = function(t,i) t[i] = i; return i end})
