@@ -26,3 +26,4 @@ Data\Stacksize.lua
 Data\PvPGear.lua
 Data\BadgeOfJustice.lua
 Data\SpiritShard.lua
+Data\DropLocations.lua
