@@ -25,3 +25,4 @@ Data\RepTokens.lua
 Data\Stacksize.lua
 Data\PvPGear.lua
 Data\BadgeOfJustice.lua
+Data\SpiritShard.lua
