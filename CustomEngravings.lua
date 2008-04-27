@@ -1,5 +1,5 @@
 
-local slash, db
+local db
 
 local obj = DongleStub("Dongle-1.0"):New("Engravings")
 
@@ -10,13 +10,15 @@ function obj:Initialize()
 	db = EngravingsDB
 
 	Engravings["Engraving:"] = db
-
-	slash = self:InitializeSlashCommand("Engrave notes on your items", "ENGRAVINGS", "engrave")
-	slash:RegisterSlashHandler("[link] <note>: Engrave an item, blank note erases saved engraving",
-		"^|c.+|Hitem:(%d+):.+|h|r%s*(.*)", function(itemid, note)
-			if note == "" then note = nil end
-			if itemid then db[tonumber(itemid)] = note end
-	end)
 end
 
-
+SLASH_ENGRAVINGS1 = "/engrave"
+SlashCmdList.ENGRAVINGS = function(msg)
+	local itemid, note = msg:match("^%s*|c.+|Hitem:(%d+):.+|h|r(.*)$")
+	if not itemid then ChatFrame1:AddMessage("Usage: '/engrave [item link] note' - Engraves an item, blank note erases saved engraving")
+	else
+		note = string.trim(note)
+		if note == "" then note = nil end
+		db[tonumber(itemid)] = note
+	end
+end
