@@ -23,3 +23,4 @@ Data\ItemID.lua
 Data\Recipes.lua
 Data\RepTokens.lua
 Data\Stacksize.lua
+Data\PvPGear.lua
