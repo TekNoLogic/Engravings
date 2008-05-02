@@ -13,7 +13,7 @@ local function OnTooltipSetItem(frame, ...)
 end
 
 
-for _,frame in pairs{GameTooltip, ItemRefTooltip} do
+for _,frame in pairs{GameTooltip, ItemRefTooltip, ShoppingTooltip1, ShoppingTooltip2} do
 	origs[frame] = frame:GetScript("OnTooltipSetItem")
 	frame:SetScript("OnTooltipSetItem", OnTooltipSetItem)
 end
