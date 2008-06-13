@@ -1,3 +1,4 @@
+#! /c/ruby/bin/ruby
 
 #~ require 'config/environment'
 require 'net/http'
