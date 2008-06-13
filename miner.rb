@@ -40,26 +40,26 @@ def parse_list(raw_data)
 end
 
 
-def parse_zone(zone_id)
+def parse_zone(http, zone_id)
 	puts "\nQuerying zone #{zone_id}"
-	res = Net::HTTP.get URI.parse("http://www.wowhead.com/?zone=#{zone_id}")
+	res = http.get "/?zone=#{zone_id}"
 
-	if res =~ /<h1><span class="bc-icon">(.*)<\/span><\/h1>/
+	if res.body =~ /<h1><span class="bc-icon">(.*)<\/span><\/h1>/
 		name = $1
 		name = name[/: (.*)/, 1] if name =~ /:/
 		puts "  Found zone '#{name}'"
 
 		imports = 0
 
-		bosses = parse_list($&) if res =~ /name: 'Bosses'(.*)/
+		bosses = parse_list($&) if res.body =~ /id: 'bosses'(.*)/
 
-		normal_drops = parse_list($&) if res =~ /name: 'Normal drops'(.*)/
-		heroic_drops = parse_list($&) if res =~ /name: 'Heroic drops'(.*)/
+		normal_drops = parse_list($&) if res.body =~ /id: 'normal-drops'(.*)/
+		heroic_drops = parse_list($&) if res.body =~ /id: 'heroic-drops'(.*)/
 		normal_only = normal_drops - heroic_drops rescue nil
 		heroic_only = heroic_drops - normal_drops rescue nil
 		both_drops = heroic_drops - heroic_only rescue nil
 
-		drops = parse_list($&) if res =~ /name: 'Drops'(.*)/
+		drops = parse_list($&) if res.body =~ /id: 'drops'(.*)/
 
 		all_drops = []
 		all_drops += normal_only unless normal_only.nil?
@@ -84,20 +84,20 @@ def parse_zone(zone_id)
 end
 
 
-def parse_npc(npc_id, zone_drops)
+def parse_npc(http, npc_id, zone_drops)
 	puts "\nQuerying NPC #{npc_id}"
-	res = Net::HTTP.get URI.parse("http://www.wowhead.com/?npc=#{npc_id}")
+	res = http.get "/?npc=#{npc_id}"
 
-	name = $1 if res =~ /<h1>(.*) - NPCs - World of Warcraft<\/h1>/
+	name = $1 if res.body =~ /<h1>(.*) - NPC - World of Warcraft<\/h1>/
 	#~ name = $1
 	#~ name = name[/: (.*)/, 1] if name =~ /:/
 	puts "  Found npc '#{name}'"
 
 	imports = 0
 
-	normal_drops = parse_list($&) if res =~ /name: 'Normal drops'(.*)/
-	heroic_drops = parse_list($&) if res =~ /name: 'Heroic drops'(.*)/
-	drops = parse_list($&) if res =~ /name: 'Drops'(.*)/
+	normal_drops = parse_list($&) if res.body =~ /id: 'normal-drops'(.*)/
+	heroic_drops = parse_list($&) if res.body =~ /id: 'heroic-drops'(.*)/
+	drops = parse_list($&) if res.body =~ /id: 'drops'(.*)/
 
 	all_drops = []
 	all_drops += normal_drops unless normal_drops.nil?
@@ -110,47 +110,47 @@ def parse_npc(npc_id, zone_drops)
 end
 
 
-namespace :datamine do
-  task(:drop_locations) do
-		zone_ids = []
+def mine_drops(http)
+	zone_ids = []
 
-		res = Net::HTTP.get URI.parse("http://www.wowhead.com/?zones=2")
-		res.scan(/\/\?zone=(\d+)/) {|id| zone_ids << id.first.to_i}
-		puts "Found #{zone_ids.size} dungeons"
+	res = http.get "/?zones=2"
+	res.body.scan(/\/\?zone=(\d+)/) {|id| zone_ids << id.first.to_i}
+	res = http.get "/?zones=3"
+	res.body.scan(/\/\?zone=(\d+)/) {|id| zone_ids << id.first.to_i}
+	puts "Found #{zone_ids.size} instances"
 
-		res = Net::HTTP.get URI.parse("http://www.wowhead.com/?zones=3")
-		res.scan(/\/\?zone=(\d+)/) {|id| zone_ids << id.first.to_i}
-		puts "Found #{zone_ids.size} raids"
-
-		instance_drops = []
-		boss_drops = []
-		zone_ids.each do |zone_id|
-			val = parse_zone zone_id
-			instance_drops += val[0] unless val[0].nil?
-			val[1].each {|npc_id| boss_drops += parse_npc(npc_id, val[2])} unless val[0].nil?
-		end
-
-		export(File.join("Data", "DropLocations.lua"), "DROP_LOCATIONS", "Drops in:", instance_drops.sort.join("\n"))
-		export(File.join("Data", "DropNPCs.lua"), "DROP_NPC", "Dropped by:", boss_drops.uniq.sort.join("\n"))
+	instance_drops = []
+	boss_drops = []
+	zone_ids.each do |zone_id|
+		val = parse_zone http, zone_id
+		instance_drops += val[0] unless val[0].nil?
+		val[1].each {|npc_id| boss_drops += parse_npc(http, npc_id, val[2])} unless val[0].nil?
 	end
 
-
-  task(:boj) do
-		puts "\nQuerying Badge of Justice rewards"
-		res = Net::HTTP.get URI.parse("http://www.wowhead.com/?item=29434")
-
-		if res =~ /name: 'Currency for'(.*)/
-			badge_rewards = []
-			$&.scan(/id:(\d+),[^\}]*,cost:\[0,0,0,\[\[29434,(\d+)\]\]\]\}/) {|m| badge_rewards << m }
-
-			export(File.join("Data", "BadgeOfJustice.lua"), "BADGE_REWARDS", "Badge of Justice:", badge_rewards.map {|id,cost| "#{id} #{cost} Badges"}.sort.join("\n"))
-		end
-
-
-		puts "BoJ rewards added, #{badge_rewards.size} items imported."
-	end
-
+	export(File.join("Data", "DropLocations.lua"), "DROP_LOCATIONS", "Drops in:", instance_drops.sort.join("\n"))
+	export(File.join("Data", "DropNPCs.lua"), "DROP_NPC", "Dropped by:", boss_drops.uniq.sort.join("\n"))
 end
 
+
+def mine_boj
+	puts "\nQuerying Badge of Justice rewards"
+	res = Net::HTTP.get URI.parse("http://www.wowhead.com/?item=29434")
+
+	if res =~ /name: 'Currency for'(.*)/
+		badge_rewards = []
+		$&.scan(/id:(\d+),[^\}]*,cost:\[0,0,0,\[\[29434,(\d+)\]\]\]\}/) {|m| badge_rewards << m }
+
+		export(File.join("Data", "BadgeOfJustice.lua"), "BADGE_REWARDS", "Badge of Justice:", badge_rewards.map {|id,cost| "#{id} #{cost} Badges"}.sort.join("\n"))
+	end
+
+
+	puts "BoJ rewards added, #{badge_rewards.size} items imported."
+end
+
+
+Net::HTTP.start("www.wowhead.com") do |http|
+	mine_drops http
+	#~ mine_boj http
+end
 
 
