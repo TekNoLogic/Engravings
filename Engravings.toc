@@ -23,3 +23,8 @@ Data\ItemID.lua
 Data\Recipes.lua
 Data\RepTokens.lua
 Data\Stacksize.lua
+Data\PvPGear.lua
+Data\BadgeOfJustice.lua
+Data\SpiritShard.lua
+Data\DropLocations.lua
+Data\DropNPCs.lua
