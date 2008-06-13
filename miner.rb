@@ -134,15 +134,16 @@ def mine_drops(http)
 end
 
 
-def mine_boj
+def mine_boj(http)
 	puts "\nQuerying Badge of Justice rewards"
-	res = Net::HTTP.get URI.parse("http://www.wowhead.com/?item=29434")
+	res = http.get "/?item=29434"
 
-	if res =~ /name: 'Currency for'(.*)/
+	if res.body =~ /id: 'currency-for'(.*)/
 		badge_rewards = []
-		$&.scan(/id:(\d+),[^\}]*,cost:\[0,0,0,\[\[29434,(\d+)\]\]\]\}/) {|m| badge_rewards << m }
+		list = $&.gsub(/sourcemore:\[[^\]]+\]/, "")
+		list.scan(/id:(\d+),[^\}]*,cost:\[0,0,0,\[\[29434,(\d+)\]\]\]\}/) {|m| badge_rewards << m }
 
-		export(File.join("Data", "BadgeOfJustice.lua"), "BADGE_REWARDS", "Badge of Justice:", badge_rewards.map {|id,cost| "#{id} #{cost} Badges"}.sort.join("\n"))
+		export(File.join("Data", "BadgeOfJustice.lua"), "BADGE_REWARDS", "Badge of Justice:", badge_rewards.map {|id,cost| "#{id} #{cost} |TInterface\\Icons\\Spell_Holy_ChampionsBond:14|t"}.sort.join("\n"))
 	end
 
 
@@ -152,7 +153,7 @@ end
 
 Net::HTTP.start("www.wowhead.com") do |http|
 	mine_drops http
-	#~ mine_boj http
+	mine_boj http
 end
 
 
