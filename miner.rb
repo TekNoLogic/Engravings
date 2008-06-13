@@ -14,6 +14,8 @@ MANUAL_IMPORT = {
 }
 
 
+EXCLUDE = [29434]
+
 def export(filename, constant, title, data)
 	f = File.open(filename, "w")
 	f << "\nlocal #{constant} = [[\n"
@@ -33,10 +35,10 @@ Engravings["| + title + %q|"] = setmetatable({}, {
 end
 
 
-def parse_list(raw_data)
+def parse_list(raw_data, exclusions = [])
 	id_list = []
 	raw_data.scan(/id:(\d+)/) {|id| id_list << id.first.to_i }
-	id_list
+	id_list - exclusions
 end
 
 
@@ -53,13 +55,13 @@ def parse_zone(http, zone_id)
 
 		bosses = parse_list($&) if res.body =~ /id: 'bosses'(.*)/
 
-		normal_drops = parse_list($&) if res.body =~ /id: 'normal-drops'(.*)/
-		heroic_drops = parse_list($&) if res.body =~ /id: 'heroic-drops'(.*)/
+		normal_drops = parse_list($&, EXCLUDE) if res.body =~ /id: 'normal-drops'(.*)/
+		heroic_drops = parse_list($&, EXCLUDE) if res.body =~ /id: 'heroic-drops'(.*)/
 		normal_only = normal_drops - heroic_drops rescue nil
 		heroic_only = heroic_drops - normal_drops rescue nil
 		both_drops = heroic_drops - heroic_only rescue nil
 
-		drops = parse_list($&) if res.body =~ /id: 'drops'(.*)/
+		drops = parse_list($&, EXCLUDE) if res.body =~ /id: 'drops'(.*)/
 
 		all_drops = []
 		all_drops += normal_only unless normal_only.nil?
@@ -95,9 +97,9 @@ def parse_npc(http, npc_id, zone_drops)
 
 	imports = 0
 
-	normal_drops = parse_list($&) if res.body =~ /id: 'normal-drops'(.*)/
-	heroic_drops = parse_list($&) if res.body =~ /id: 'heroic-drops'(.*)/
-	drops = parse_list($&) if res.body =~ /id: 'drops'(.*)/
+	normal_drops = parse_list($&, EXCLUDE) if res.body =~ /id: 'normal-drops'(.*)/
+	heroic_drops = parse_list($&, EXCLUDE) if res.body =~ /id: 'heroic-drops'(.*)/
+	drops = parse_list($&, EXCLUDE) if res.body =~ /id: 'drops'(.*)/
 
 	all_drops = []
 	all_drops += normal_drops unless normal_drops.nil?
