@@ -215,11 +215,33 @@ def mine_pvp_prices(http)
 end
 
 
+def mine_item_sets(http)
+	puts "\nQuerying Item set names"
+
+	item_sets = []
+	vendors = [
+		["/?npc=20616", "Tier 4"],
+		["/?npc=21906", "Tier 5"],
+		["/?npc=23381", "Tier 6"],
+		["/?npc=24392", "Arena S3"],
+		["/?npc=23396", "Arena S2"],
+		["/?npc=20278", "Arena S1"],
+	].each do |vendor,set_name|
+		res = http.get vendor
+		items = parse_list($&) if res.body =~ /id: 'sells'(.*)/
+		items.each {|item| item_sets << "#{item} #{set_name}"}
+	end
+
+	export(File.join("Data", "ItemSetNames.lua"), "ITEM_SET_NAMES", "Item set:", item_sets.sort.join("\n"))
+	puts "Item set names added, #{item_sets.size} items imported."
+end
+
 Net::HTTP.start("www.wowhead.com") do |http|
 	mine_drops http
 	mine_boj http
 	mine_raid_tokens http
 	mine_pvp_prices http
+	mine_item_sets http
 end
 
 
