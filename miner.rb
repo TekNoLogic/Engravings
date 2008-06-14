@@ -112,8 +112,8 @@ def parse_npc(http, npc_id, zone_drops)
 end
 
 
-def parse_prices(body)
-	return [] unless body =~ /id: 'sells'(.*)/
+def parse_prices(body, block_id = "sells")
+	return [] unless body =~ /id: '#{block_id}'(.*)/
 	items = $&.gsub(/sourcemore:\[[^\]]+\]/, "").scan(/id:\d+,[^\}]+\}/).map {|str| [$1, $2.gsub(/[\[\]]/, "").split(",")] if str =~ /id:(\d+),.+cost:\[(.*)\]\}/}
 	icons = items.map {|id,cost| cost[3]}.uniq.map {|id| [id, "Interface\\Icons\\" + $1] if body =~ /\[#{id}\]=\{icon:'([^;]+)'\};/}
 	items.map do |id,cost|
@@ -151,16 +151,9 @@ end
 
 def mine_boj(http)
 	puts "\nQuerying Badge of Justice rewards"
-	res = http.get "/?item=29434"
 
-	if res.body =~ /id: 'currency-for'(.*)/
-		badge_rewards = []
-		list = $&.gsub(/sourcemore:\[[^\]]+\]/, "")
-		list.scan(/id:(\d+),[^\}]*,cost:\[0,0,0,\[\[29434,(\d+)\]\]\]\}/) {|m| badge_rewards << m }
-
-		export(File.join("Data", "BadgeOfJustice.lua"), "BADGE_REWARDS", "Badge of Justice:", badge_rewards.map {|id,cost| "#{id} #{cost} |TInterface\\Icons\\Spell_Holy_ChampionsBond:14|t"}.sort.join("\n"))
-	end
-
+	badge_rewards = parse_prices http.get("/?item=29434").body, "currency-for"
+	export(File.join("Data", "BadgeOfJustice.lua"), "BADGE_REWARDS", "Badge of Justice:", badge_rewards.sort.join("\n"))
 
 	puts "BoJ rewards added, #{badge_rewards.size} items imported."
 end
