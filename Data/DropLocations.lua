@@ -55,9 +55,9 @@ local DROP_LOCATIONS = [[
 24160 Sethekk Halls
 24172 The Botanica
 24173 Old Hillsbrad Foothills
-24308 The Arcatraz (Heroic)
+24308 The Arcatraz
 24309 Shadow Labyrinth
-24310 The Botanica (Heroic)
+24310 The Botanica
 24311 The Botanica
 24312 The Shattered Halls
 24313 The Steamvault
@@ -117,8 +117,8 @@ local DROP_LOCATIONS = [[
 25939 Mana-Tombs (Normal)
 25940 Mana-Tombs (Normal)
 25941 Mana-Tombs (Normal)
-25942 Mana-Tombs
-25943 Mana-Tombs
+25942 Mana-Tombs (Normal)
+25943 Mana-Tombs (Normal)
 25944 Mana-Tombs (Normal)
 25945 Mana-Tombs (Normal)
 25946 Mana-Tombs (Normal)
@@ -147,7 +147,7 @@ local DROP_LOCATIONS = [[
 27420 Old Hillsbrad Foothills (Normal)
 27423 Old Hillsbrad Foothills
 27424 Old Hillsbrad Foothills
-27426 Old Hillsbrad Foothills
+27426 Old Hillsbrad Foothills (Normal)
 27427 Old Hillsbrad Foothills (Normal)
 27428 Old Hillsbrad Foothills
 27430 Old Hillsbrad Foothills
@@ -402,7 +402,7 @@ local DROP_LOCATIONS = [[
 28121 The Blood Furnace (Heroic)
 28124 The Slave Pens (Heroic)
 28134 Shadow Labyrinth
-28166 Mana-Tombs
+28166 Mana-Tombs (Normal)
 28184 The Black Morass
 28185 The Black Morass
 28186 The Black Morass
@@ -502,7 +502,7 @@ local DROP_LOCATIONS = [[
 28374 The Arcatraz
 28375 The Arcatraz
 28384 The Arcatraz
-28386 The Arcatraz (Normal)
+28386 The Arcatraz
 28387 The Arcatraz
 28390 The Arcatraz
 28391 The Arcatraz
@@ -731,18 +731,10 @@ local DROP_LOCATIONS = [[
 29359 The Botanica (Heroic)
 29360 The Arcatraz (Heroic)
 29362 The Mechanar (Heroic)
-29434 Black Temple
-29434 Gruul's Lair
-29434 Hyjal Summit
-29434 Karazhan
-29434 Magtheridon's Lair
-29434 Serpentshrine Cavern
-29434 Sunwell Plateau
-29434 The Eye
-29434 Zul'Aman
 29458 Magtheridon's Lair
 29463 The Steamvault (Heroic)
 29669 Sethekk Halls
+29672 The Arcatraz
 29673 The Steamvault
 29674 The Slave Pens
 29675 The Black Morass
@@ -1309,6 +1301,13 @@ local DROP_LOCATIONS = [[
 34011 Black Temple
 34012 Black Temple
 34029 Zul'Aman
+34164 Sunwell Plateau
+34165 Sunwell Plateau
+34166 Sunwell Plateau
+34167 Sunwell Plateau
+34168 Sunwell Plateau
+34169 Sunwell Plateau
+34170 Sunwell Plateau
 34176 Sunwell Plateau
 34177 Sunwell Plateau
 34178 Sunwell Plateau
@@ -1321,6 +1320,59 @@ local DROP_LOCATIONS = [[
 34185 Sunwell Plateau
 34186 Sunwell Plateau
 34188 Sunwell Plateau
+34189 Sunwell Plateau
+34190 Sunwell Plateau
+34192 Sunwell Plateau
+34193 Sunwell Plateau
+34194 Sunwell Plateau
+34195 Sunwell Plateau
+34196 Sunwell Plateau
+34197 Sunwell Plateau
+34198 Sunwell Plateau
+34199 Sunwell Plateau
+34202 Sunwell Plateau
+34203 Sunwell Plateau
+34204 Sunwell Plateau
+34205 Sunwell Plateau
+34206 Sunwell Plateau
+34208 Sunwell Plateau
+34209 Sunwell Plateau
+34210 Sunwell Plateau
+34211 Sunwell Plateau
+34212 Sunwell Plateau
+34213 Sunwell Plateau
+34214 Sunwell Plateau
+34215 Sunwell Plateau
+34216 Sunwell Plateau
+34228 Sunwell Plateau
+34229 Sunwell Plateau
+34230 Sunwell Plateau
+34231 Sunwell Plateau
+34232 Sunwell Plateau
+34233 Sunwell Plateau
+34234 Sunwell Plateau
+34240 Sunwell Plateau
+34241 Sunwell Plateau
+34242 Sunwell Plateau
+34243 Sunwell Plateau
+34244 Sunwell Plateau
+34245 Sunwell Plateau
+34247 Sunwell Plateau
+34329 Sunwell Plateau
+34331 Sunwell Plateau
+34332 Sunwell Plateau
+34333 Sunwell Plateau
+34334 Sunwell Plateau
+34335 Sunwell Plateau
+34336 Sunwell Plateau
+34337 Sunwell Plateau
+34339 Sunwell Plateau
+34340 Sunwell Plateau
+34341 Sunwell Plateau
+34342 Sunwell Plateau
+34343 Sunwell Plateau
+34344 Sunwell Plateau
+34345 Sunwell Plateau
 34346 Sunwell Plateau
 34347 Sunwell Plateau
 34348 Sunwell Plateau
@@ -1328,6 +1380,10 @@ local DROP_LOCATIONS = [[
 34350 Sunwell Plateau
 34351 Sunwell Plateau
 34352 Sunwell Plateau
+34427 Sunwell Plateau
+34428 Sunwell Plateau
+34429 Sunwell Plateau
+34430 Sunwell Plateau
 34470 Magisters' Terrace (Heroic)
 34471 Magisters' Terrace (Heroic)
 34472 Magisters' Terrace (Heroic)
@@ -1379,6 +1435,9 @@ local DROP_LOCATIONS = [[
 34809 Magisters' Terrace (Normal)
 34810 Magisters' Terrace (Normal)
 34845 Magtheridon's Lair
+34848 Sunwell Plateau
+34851 Sunwell Plateau
+34852 Sunwell Plateau
 34853 Sunwell Plateau
 34854 Sunwell Plateau
 34855 Sunwell Plateau
@@ -1386,6 +1445,7 @@ local DROP_LOCATIONS = [[
 34857 Sunwell Plateau
 34858 Sunwell Plateau
 35198 Sunwell Plateau
+35199 Sunwell Plateau
 35200 Sunwell Plateau
 35204 Sunwell Plateau
 35205 Sunwell Plateau
@@ -1393,9 +1453,16 @@ local DROP_LOCATIONS = [[
 35209 Sunwell Plateau
 35212 Sunwell Plateau
 35213 Sunwell Plateau
+35214 Sunwell Plateau
 35215 Sunwell Plateau
 35273 Sunwell Plateau
 35275 Magisters' Terrace (Heroic)
+35282 Sunwell Plateau
+35283 Sunwell Plateau
+35284 Sunwell Plateau
+35290 Sunwell Plateau
+35291 Sunwell Plateau
+35292 Sunwell Plateau
 35294 Magisters' Terrace
 35295 Magisters' Terrace
 35296 Magisters' Terrace
@@ -1408,16 +1475,16 @@ local DROP_LOCATIONS = [[
 35303 Magisters' Terrace
 35304 Magisters' Terrace (Heroic)
 35305 Magisters' Terrace
-35306 Magisters' Terrace (Normal)
+35306 Magisters' Terrace
 35307 Magisters' Terrace
 35308 Magisters' Terrace
 35309 Magisters' Terrace
 35310 Magisters' Terrace
-35311 Magisters' Terrace (Heroic)
+35311 Magisters' Terrace
 35504 Magisters' Terrace
 35513 Magisters' Terrace (Heroic)
 35516 Magisters' Terrace
-35582 The Mechanar (Heroic)
+35582 The Mechanar
 35733 Sunwell Plateau
 35756 Magisters' Terrace
 ]]
