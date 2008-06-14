@@ -24,7 +24,12 @@ Data\Recipes.lua
 Data\RepTokens.lua
 Data\Stacksize.lua
 Data\PvPGear.lua
+Data\PvPCosts.lua
 Data\BadgeOfJustice.lua
 Data\SpiritShard.lua
 Data\DropLocations.lua
 Data\DropNPCs.lua
+Data\TierArmorTokenDropLocations.lua
+Data\TierArmorTokenDropNPCs.lua
+Data\HeadOnAPike.lua
+Data\ItemSetNames.lua
