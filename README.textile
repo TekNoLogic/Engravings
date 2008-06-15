@@ -1,0 +1,15 @@
+Ever wish you could jot down important notes about an item somewhere handy?
+Well what better place than on the item!
+Engravings allows you to attach any text you want to an item's tooltip.
+
+Engravings now includes a comprehensive listing of boss drops, PvP gear, and token rewards.
+More data is planned.
+
+To add a note to an item: @/engrave [item link] This is a handy item@<br/>
+To erase a note: @/engrave [item link]@
+
+h2. Links
+
+<b>Visit "my site":http://www.tekkub.net/addons/Engravings for more info.<br>
+Please report all bugs and feature requests to my "Google Code":http://code.google.com/p/tekkub-wow/issues/list?can=1&q=addon:Engravings&sort=status+milestone&colspec=ID%20Type%20Status%20Addon%20Milestone%20Summary tracker<br>
+Please direct all feedback and questions to my "Google Groups":http://groups-beta.google.com/group/tekkub-wow mailinglist</b>
