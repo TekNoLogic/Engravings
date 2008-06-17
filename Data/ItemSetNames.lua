@@ -1,90 +1,90 @@
 
 local ITEM_SET_NAMES = [[
-24544 Arena S1
-24545 Arena S1
-24546 Arena S1
-24547 Arena S1
-24549 Arena S1
-24550 Arena S1
-24552 Arena S1
-24553 Arena S1
-24554 Arena S1
-24555 Arena S1
-24556 Arena S1
-24557 Arena S1
-25830 Arena S1
-25831 Arena S1
-25832 Arena S1
-25833 Arena S1
-25834 Arena S1
-25854 Arena S1
-25855 Arena S1
-25856 Arena S1
-25857 Arena S1
-25858 Arena S1
-25997 Arena S1
-25998 Arena S1
-25999 Arena S1
-26000 Arena S1
-26001 Arena S1
-27469 Arena S1
-27470 Arena S1
-27471 Arena S1
-27472 Arena S1
-27473 Arena S1
-27702 Arena S1
-27703 Arena S1
-27704 Arena S1
-27705 Arena S1
-27706 Arena S1
-27707 Arena S1
-27708 Arena S1
-27709 Arena S1
-27710 Arena S1
-27711 Arena S1
-27879 Arena S1
-27880 Arena S1
-27881 Arena S1
-27882 Arena S1
-27883 Arena S1
-28126 Arena S1
-28127 Arena S1
-28128 Arena S1
-28129 Arena S1
-28130 Arena S1
-28136 Arena S1
-28137 Arena S1
-28138 Arena S1
-28139 Arena S1
-28140 Arena S1
-28294 Arena S1
-28295 Arena S1
-28297 Arena S1
-28298 Arena S1
-28299 Arena S1
-28300 Arena S1
-28302 Arena S1
-28305 Arena S1
-28307 Arena S1
-28308 Arena S1
-28309 Arena S1
-28310 Arena S1
-28312 Arena S1
-28313 Arena S1
-28314 Arena S1
-28319 Arena S1
-28320 Arena S1
-28331 Arena S1
-28332 Arena S1
-28333 Arena S1
-28334 Arena S1
-28335 Arena S1
-28346 Arena S1
-28355 Arena S1
-28356 Arena S1
-28357 Arena S1
-28358 Arena S1
-28476 Arena S1
+24544 Season 1
+24545 Season 1
+24546 Season 1
+24547 Season 1
+24549 Season 1
+24550 Season 1
+24552 Season 1
+24553 Season 1
+24554 Season 1
+24555 Season 1
+24556 Season 1
+24557 Season 1
+25830 Season 1
+25831 Season 1
+25832 Season 1
+25833 Season 1
+25834 Season 1
+25854 Season 1
+25855 Season 1
+25856 Season 1
+25857 Season 1
+25858 Season 1
+25997 Season 1
+25998 Season 1
+25999 Season 1
+26000 Season 1
+26001 Season 1
+27469 Season 1
+27470 Season 1
+27471 Season 1
+27472 Season 1
+27473 Season 1
+27702 Season 1
+27703 Season 1
+27704 Season 1
+27705 Season 1
+27706 Season 1
+27707 Season 1
+27708 Season 1
+27709 Season 1
+27710 Season 1
+27711 Season 1
+27879 Season 1
+27880 Season 1
+27881 Season 1
+27882 Season 1
+27883 Season 1
+28126 Season 1
+28127 Season 1
+28128 Season 1
+28129 Season 1
+28130 Season 1
+28136 Season 1
+28137 Season 1
+28138 Season 1
+28139 Season 1
+28140 Season 1
+28294 Season 1
+28295 Season 1
+28297 Season 1
+28298 Season 1
+28299 Season 1
+28300 Season 1
+28302 Season 1
+28305 Season 1
+28307 Season 1
+28308 Season 1
+28309 Season 1
+28310 Season 1
+28312 Season 1
+28313 Season 1
+28314 Season 1
+28319 Season 1
+28320 Season 1
+28331 Season 1
+28332 Season 1
+28333 Season 1
+28334 Season 1
+28335 Season 1
+28346 Season 1
+28355 Season 1
+28356 Season 1
+28357 Season 1
+28358 Season 1
+28476 Season 1
 28963 Tier 4
 28964 Tier 4
 28966 Tier 4
@@ -226,16 +226,16 @@ local ITEM_SET_NAMES = [[
 30172 Tier 5
 30173 Tier 5
 30185 Tier 5
-30186 Arena S1
-30187 Arena S1
-30188 Arena S1
+30186 Season 1
+30187 Season 1
+30188 Season 1
 30189 Tier 5
 30190 Tier 5
 30192 Tier 5
 30194 Tier 5
 30196 Tier 5
-30200 Arena S1
-30201 Arena S1
+30200 Season 1
+30201 Season 1
 30205 Tier 5
 30206 Tier 5
 30207 Tier 5
@@ -260,11 +260,11 @@ local ITEM_SET_NAMES = [[
 30233 Tier 5
 30234 Tier 5
 30235 Tier 5
-30486 Arena S2
-30487 Arena S2
-30488 Arena S2
-30489 Arena S2
-30490 Arena S2
+30486 Season 2
+30487 Season 2
+30488 Season 2
+30489 Season 2
+30490 Season 2
 30969 Tier 6
 30970 Tier 6
 30972 Tier 6
@@ -350,282 +350,389 @@ local ITEM_SET_NAMES = [[
 31068 Tier 6
 31069 Tier 6
 31070 Tier 6
-31375 Arena S1
-31376 Arena S1
-31377 Arena S1
-31378 Arena S1
-31379 Arena S1
-31396 Arena S1
-31397 Arena S1
-31400 Arena S1
-31406 Arena S1
-31407 Arena S1
-31409 Arena S1
-31410 Arena S1
-31411 Arena S1
-31412 Arena S1
-31413 Arena S1
-31613 Arena S1
-31614 Arena S1
-31616 Arena S1
-31618 Arena S1
-31619 Arena S1
-31958 Arena S2
-31959 Arena S2
-31960 Arena S2
-31961 Arena S2
-31962 Arena S2
-31963 Arena S2
-31964 Arena S2
-31965 Arena S2
-31966 Arena S2
-31967 Arena S2
-31968 Arena S2
-31969 Arena S2
-31971 Arena S2
-31972 Arena S2
-31973 Arena S2
-31974 Arena S2
-31975 Arena S2
-31976 Arena S2
-31977 Arena S2
-31978 Arena S2
-31979 Arena S2
-31980 Arena S2
-31981 Arena S2
-31982 Arena S2
-31983 Arena S2
-31984 Arena S2
-31985 Arena S2
-31986 Arena S2
-31987 Arena S2
-31988 Arena S2
-31989 Arena S2
-31990 Arena S2
-31991 Arena S2
-31992 Arena S2
-31993 Arena S2
-31995 Arena S2
-31996 Arena S2
-31997 Arena S2
-31998 Arena S2
-31999 Arena S2
-32000 Arena S2
-32001 Arena S2
-32002 Arena S2
-32003 Arena S2
-32004 Arena S2
-32005 Arena S2
-32006 Arena S2
-32007 Arena S2
-32008 Arena S2
-32009 Arena S2
-32010 Arena S2
-32011 Arena S2
-32012 Arena S2
-32013 Arena S2
-32014 Arena S2
-32015 Arena S2
-32016 Arena S2
-32017 Arena S2
-32018 Arena S2
-32019 Arena S2
-32020 Arena S2
-32021 Arena S2
-32022 Arena S2
-32023 Arena S2
-32024 Arena S2
-32025 Arena S2
-32026 Arena S2
-32027 Arena S2
-32028 Arena S2
-32029 Arena S2
-32030 Arena S2
-32031 Arena S2
-32032 Arena S2
-32033 Arena S2
-32034 Arena S2
-32035 Arena S2
-32036 Arena S2
-32037 Arena S2
-32038 Arena S2
-32039 Arena S2
-32040 Arena S2
-32041 Arena S2
-32042 Arena S2
-32043 Arena S2
-32044 Arena S2
-32045 Arena S2
-32046 Arena S2
-32047 Arena S2
-32048 Arena S2
-32049 Arena S2
-32050 Arena S2
-32051 Arena S2
-32052 Arena S2
-32053 Arena S2
-32054 Arena S2
-32055 Arena S2
-32056 Arena S2
-32057 Arena S2
-32058 Arena S2
-32059 Arena S2
-32060 Arena S2
-32450 Arena S1
-32451 Arena S1
-32452 Arena S1
-32961 Arena S2
-32962 Arena S2
-32963 Arena S2
-32964 Arena S2
-33006 Arena S3
-33076 Arena S2
-33077 Arena S2
-33078 Arena S2
-33309 Arena S2
-33313 Arena S2
-33661 Arena S3
-33662 Arena S3
-33663 Arena S3
-33664 Arena S3
-33665 Arena S3
-33666 Arena S3
-33667 Arena S3
-33668 Arena S3
-33669 Arena S3
-33670 Arena S3
-33671 Arena S3
-33672 Arena S3
-33673 Arena S3
-33674 Arena S3
-33675 Arena S3
-33676 Arena S3
-33677 Arena S3
-33678 Arena S3
-33679 Arena S3
-33680 Arena S3
-33681 Arena S3
-33682 Arena S3
-33683 Arena S3
-33684 Arena S3
-33685 Arena S3
-33686 Arena S3
-33687 Arena S3
-33688 Arena S3
-33689 Arena S3
-33690 Arena S3
-33691 Arena S3
-33692 Arena S3
-33693 Arena S3
-33694 Arena S3
-33695 Arena S3
-33696 Arena S3
-33697 Arena S3
-33698 Arena S3
-33699 Arena S3
-33700 Arena S3
-33701 Arena S3
-33702 Arena S3
-33703 Arena S3
-33704 Arena S3
-33705 Arena S3
-33706 Arena S3
-33707 Arena S3
-33708 Arena S3
-33709 Arena S3
-33710 Arena S3
-33711 Arena S3
-33712 Arena S3
-33713 Arena S3
-33714 Arena S3
-33715 Arena S3
-33716 Arena S3
-33717 Arena S3
-33718 Arena S3
-33719 Arena S3
-33720 Arena S3
-33721 Arena S3
-33722 Arena S3
-33723 Arena S3
-33724 Arena S3
-33725 Arena S3
-33726 Arena S3
-33727 Arena S3
-33728 Arena S3
-33729 Arena S3
-33730 Arena S3
-33731 Arena S3
-33732 Arena S3
-33733 Arena S3
-33734 Arena S3
-33735 Arena S3
-33736 Arena S3
-33737 Arena S3
-33738 Arena S3
-33739 Arena S3
-33740 Arena S3
-33741 Arena S3
-33742 Arena S3
-33743 Arena S3
-33744 Arena S3
-33745 Arena S3
-33746 Arena S3
-33747 Arena S3
-33748 Arena S3
-33749 Arena S3
-33750 Arena S3
-33751 Arena S3
-33752 Arena S3
-33753 Arena S3
-33754 Arena S3
-33755 Arena S3
-33756 Arena S3
-33757 Arena S3
-33758 Arena S3
-33759 Arena S3
-33760 Arena S3
-33761 Arena S3
-33762 Arena S3
-33763 Arena S3
-33764 Arena S3
-33765 Arena S3
-33766 Arena S3
-33767 Arena S3
-33768 Arena S3
-33769 Arena S3
-33770 Arena S3
-33771 Arena S3
-33801 Arena S3
-33841 Arena S3
-33842 Arena S3
-33843 Arena S3
-33936 Arena S1
-33937 Arena S2
-33938 Arena S3
-33939 Arena S1
-33940 Arena S2
-33941 Arena S3
-33942 Arena S1
-33943 Arena S2
-33944 Arena S3
-33945 Arena S1
-33946 Arena S2
-33947 Arena S3
-33948 Arena S1
-33949 Arena S2
-33950 Arena S3
-33951 Arena S1
-33952 Arena S2
-33953 Arena S3
-34014 Arena S3
-34015 Arena S3
-34016 Arena S3
-34033 Arena S3
-34059 Arena S3
-34066 Arena S3
-34529 Arena S3
-34530 Arena S3
-34540 Arena S3
+31375 Season 1
+31376 Season 1
+31377 Season 1
+31378 Season 1
+31379 Season 1
+31396 Season 1
+31397 Season 1
+31400 Season 1
+31406 Season 1
+31407 Season 1
+31409 Season 1
+31410 Season 1
+31411 Season 1
+31412 Season 1
+31413 Season 1
+31613 Season 1
+31614 Season 1
+31616 Season 1
+31618 Season 1
+31619 Season 1
+31958 Season 2
+31959 Season 2
+31960 Season 2
+31961 Season 2
+31962 Season 2
+31963 Season 2
+31964 Season 2
+31965 Season 2
+31966 Season 2
+31967 Season 2
+31968 Season 2
+31969 Season 2
+31971 Season 2
+31972 Season 2
+31973 Season 2
+31974 Season 2
+31975 Season 2
+31976 Season 2
+31977 Season 2
+31978 Season 2
+31979 Season 2
+31980 Season 2
+31981 Season 2
+31982 Season 2
+31983 Season 2
+31984 Season 2
+31985 Season 2
+31986 Season 2
+31987 Season 2
+31988 Season 2
+31989 Season 2
+31990 Season 2
+31991 Season 2
+31992 Season 2
+31993 Season 2
+31995 Season 2
+31996 Season 2
+31997 Season 2
+31998 Season 2
+31999 Season 2
+32000 Season 2
+32001 Season 2
+32002 Season 2
+32003 Season 2
+32004 Season 2
+32005 Season 2
+32006 Season 2
+32007 Season 2
+32008 Season 2
+32009 Season 2
+32010 Season 2
+32011 Season 2
+32012 Season 2
+32013 Season 2
+32014 Season 2
+32015 Season 2
+32016 Season 2
+32017 Season 2
+32018 Season 2
+32019 Season 2
+32020 Season 2
+32021 Season 2
+32022 Season 2
+32023 Season 2
+32024 Season 2
+32025 Season 2
+32026 Season 2
+32027 Season 2
+32028 Season 2
+32029 Season 2
+32030 Season 2
+32031 Season 2
+32032 Season 2
+32033 Season 2
+32034 Season 2
+32035 Season 2
+32036 Season 2
+32037 Season 2
+32038 Season 2
+32039 Season 2
+32040 Season 2
+32041 Season 2
+32042 Season 2
+32043 Season 2
+32044 Season 2
+32045 Season 2
+32046 Season 2
+32047 Season 2
+32048 Season 2
+32049 Season 2
+32050 Season 2
+32051 Season 2
+32052 Season 2
+32053 Season 2
+32054 Season 2
+32055 Season 2
+32056 Season 2
+32057 Season 2
+32058 Season 2
+32059 Season 2
+32060 Season 2
+32450 Season 1
+32451 Season 1
+32452 Season 1
+32785 Season 2 Non-set
+32786 Season 2 Non-set
+32787 Season 2 Non-set
+32788 Season 2 Non-set
+32789 Season 2 Non-set
+32790 Season 2 Non-set
+32791 Season 2 Non-set
+32792 Season 2 Non-set
+32793 Season 2 Non-set
+32794 Season 2 Non-set
+32795 Season 2 Non-set
+32796 Season 2 Non-set
+32797 Season 2 Non-set
+32798 Season 2 Non-set
+32799 Season 2 Non-set
+32800 Season 2 Non-set
+32801 Season 2 Non-set
+32802 Season 2 Non-set
+32803 Season 2 Non-set
+32804 Season 2 Non-set
+32805 Season 2 Non-set
+32806 Season 2 Non-set
+32807 Season 2 Non-set
+32808 Season 2 Non-set
+32809 Season 2 Non-set
+32810 Season 2 Non-set
+32811 Season 2 Non-set
+32812 Season 2 Non-set
+32813 Season 2 Non-set
+32814 Season 2 Non-set
+32816 Season 2 Non-set
+32817 Season 2 Non-set
+32818 Season 2 Non-set
+32819 Season 2 Non-set
+32820 Season 2 Non-set
+32821 Season 2 Non-set
+32961 Season 2
+32962 Season 2
+32963 Season 2
+32964 Season 2
+32979 Season 2 Non-set
+32980 Season 2 Non-set
+32981 Season 2 Non-set
+32988 Season 2 Non-set
+32989 Season 2 Non-set
+32990 Season 2 Non-set
+32997 Season 2 Non-set
+32998 Season 2 Non-set
+32999 Season 2 Non-set
+33006 Season 3
+33056 Season 2 Non-set
+33057 Season 2 Non-set
+33064 Season 2 Non-set
+33065 Season 2 Non-set
+33066 Season 2 Non-set
+33067 Season 2 Non-set
+33068 Season 2 Non-set
+33076 Season 2
+33077 Season 2
+33078 Season 2
+33309 Season 2
+33313 Season 2
+33661 Season 3
+33662 Season 3
+33663 Season 3
+33664 Season 3
+33665 Season 3
+33666 Season 3
+33667 Season 3
+33668 Season 3
+33669 Season 3
+33670 Season 3
+33671 Season 3
+33672 Season 3
+33673 Season 3
+33674 Season 3
+33675 Season 3
+33676 Season 3
+33677 Season 3
+33678 Season 3
+33679 Season 3
+33680 Season 3
+33681 Season 3
+33682 Season 3
+33683 Season 3
+33684 Season 3
+33685 Season 3
+33686 Season 3
+33687 Season 3
+33688 Season 3
+33689 Season 3
+33690 Season 3
+33691 Season 3
+33692 Season 3
+33693 Season 3
+33694 Season 3
+33695 Season 3
+33696 Season 3
+33697 Season 3
+33698 Season 3
+33699 Season 3
+33700 Season 3
+33701 Season 3
+33702 Season 3
+33703 Season 3
+33704 Season 3
+33705 Season 3
+33706 Season 3
+33707 Season 3
+33708 Season 3
+33709 Season 3
+33710 Season 3
+33711 Season 3
+33712 Season 3
+33713 Season 3
+33714 Season 3
+33715 Season 3
+33716 Season 3
+33717 Season 3
+33718 Season 3
+33719 Season 3
+33720 Season 3
+33721 Season 3
+33722 Season 3
+33723 Season 3
+33724 Season 3
+33725 Season 3
+33726 Season 3
+33727 Season 3
+33728 Season 3
+33729 Season 3
+33730 Season 3
+33731 Season 3
+33732 Season 3
+33733 Season 3
+33734 Season 3
+33735 Season 3
+33736 Season 3
+33737 Season 3
+33738 Season 3
+33739 Season 3
+33740 Season 3
+33741 Season 3
+33742 Season 3
+33743 Season 3
+33744 Season 3
+33745 Season 3
+33746 Season 3
+33747 Season 3
+33748 Season 3
+33749 Season 3
+33750 Season 3
+33751 Season 3
+33752 Season 3
+33753 Season 3
+33754 Season 3
+33755 Season 3
+33756 Season 3
+33757 Season 3
+33758 Season 3
+33759 Season 3
+33760 Season 3
+33761 Season 3
+33762 Season 3
+33763 Season 3
+33764 Season 3
+33765 Season 3
+33766 Season 3
+33767 Season 3
+33768 Season 3
+33769 Season 3
+33770 Season 3
+33771 Season 3
+33801 Season 3
+33811 Season 3 Non-set
+33812 Season 3 Non-set
+33813 Season 3 Non-set
+33841 Season 3
+33842 Season 3
+33843 Season 3
+33853 Season 3 Non-set
+33876 Season 3 Non-set
+33877 Season 3 Non-set
+33878 Season 3 Non-set
+33879 Season 3 Non-set
+33880 Season 3 Non-set
+33881 Season 3 Non-set
+33882 Season 3 Non-set
+33883 Season 3 Non-set
+33884 Season 3 Non-set
+33885 Season 3 Non-set
+33886 Season 3 Non-set
+33887 Season 3 Non-set
+33888 Season 3 Non-set
+33889 Season 3 Non-set
+33890 Season 3 Non-set
+33891 Season 3 Non-set
+33892 Season 3 Non-set
+33893 Season 3 Non-set
+33894 Season 3 Non-set
+33895 Season 3 Non-set
+33896 Season 3 Non-set
+33897 Season 3 Non-set
+33898 Season 3 Non-set
+33899 Season 3 Non-set
+33900 Season 3 Non-set
+33901 Season 3 Non-set
+33902 Season 3 Non-set
+33903 Season 3 Non-set
+33904 Season 3 Non-set
+33905 Season 3 Non-set
+33906 Season 3 Non-set
+33907 Season 3 Non-set
+33908 Season 3 Non-set
+33909 Season 3 Non-set
+33910 Season 3 Non-set
+33911 Season 3 Non-set
+33912 Season 3 Non-set
+33913 Season 3 Non-set
+33914 Season 3 Non-set
+33915 Season 3 Non-set
+33916 Season 3 Non-set
+33917 Season 3 Non-set
+33918 Season 3 Non-set
+33919 Season 3 Non-set
+33920 Season 3 Non-set
+33921 Season 3 Non-set
+33922 Season 3 Non-set
+33923 Season 3 Non-set
+33936 Season 1
+33937 Season 2
+33938 Season 3
+33939 Season 1
+33940 Season 2
+33941 Season 3
+33942 Season 1
+33943 Season 2
+33944 Season 3
+33945 Season 1
+33946 Season 2
+33947 Season 3
+33948 Season 1
+33949 Season 2
+33950 Season 3
+33951 Season 1
+33952 Season 2
+33953 Season 3
+34014 Season 3
+34015 Season 3
+34016 Season 3
+34033 Season 3
+34059 Season 3
+34066 Season 3
+34529 Season 3
+34530 Season 3
+34540 Season 3
+35317 Season 3 Non-set
+35319 Season 3 Non-set
+35320 Season 3 Non-set
 ]]
 
 Engravings["Item set:"] = setmetatable({}, {

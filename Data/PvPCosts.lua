@@ -219,11 +219,63 @@ local PVP_COSTS = [[
 32450 25200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 32451 25200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 32452 9000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32785 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32786 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32787 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32788 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32789 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32790 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32791 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32792 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32793 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32794 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32795 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32796 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32797 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32798 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32799 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32800 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32801 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32802 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32803 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32804 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32805 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32806 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32807 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32808 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32809 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32810 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32811 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32812 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32813 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32814 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32816 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32817 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32818 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32819 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32820 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32821 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
 32961 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 32962 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 32963 2739 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 32964 2739 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+32979 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32980 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32981 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32988 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32989 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32990 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+32997 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+32998 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+32999 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 33006 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33056 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33057 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33064 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33065 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33066 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33067 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33068 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 33076 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33077 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33078 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -341,9 +393,61 @@ local PVP_COSTS = [[
 33770 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33771 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33801 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33811 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33812 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33813 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
 33841 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33842 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33843 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33853 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33876 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33877 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33878 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33879 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33880 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33881 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33882 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33883 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33884 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33885 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33886 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33887 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33888 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33889 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33890 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33891 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33892 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33893 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33894 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33895 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33896 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33897 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33898 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33899 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33900 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33901 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33902 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33903 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33904 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33905 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33906 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33907 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33908 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33909 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33910 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33911 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33912 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33913 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33914 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33915 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+33916 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33917 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33918 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33919 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33920 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33921 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33922 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33923 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 33936 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 33937 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33938 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -371,6 +475,15 @@ local PVP_COSTS = [[
 34529 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34530 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34540 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34576 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+34577 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+34578 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+34579 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+34580 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+35317 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35319 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35320 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+35327 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 ]]
 
 Engravings["PvP:"] = setmetatable({}, {

@@ -425,6 +425,102 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32058 Fathom-Lord Karathress
 32059 Void Reaver
 32060 Kael'thas Sunstrider
+33811 Brutallus
+33812 Felmyst
+33813 Sathrovarr the Corruptor
+33876 Sathrovarr the Corruptor
+33877 Brutallus
+33878 Felmyst
+33879 Brutallus
+33880 Felmyst
+33881 Sathrovarr the Corruptor
+33882 Brutallus
+33883 Sathrovarr the Corruptor
+33884 Felmyst
+33885 Brutallus
+33886 Felmyst
+33887 Sathrovarr the Corruptor
+33888 Brutallus
+33889 Sathrovarr the Corruptor
+33890 Felmyst
+33891 Brutallus
+33892 Felmyst
+33893 Sathrovarr the Corruptor
+33894 Sathrovarr the Corruptor
+33895 Brutallus
+33896 Felmyst
+33897 Sathrovarr the Corruptor
+33898 Brutallus
+33899 Felmyst
+33900 Brutallus
+33901 Sathrovarr the Corruptor
+33902 Felmyst
+33903 Brutallus
+33904 Sathrovarr the Corruptor
+33905 Felmyst
+33906 Sathrovarr the Corruptor
+33907 Brutallus
+33908 Felmyst
+33909 Brutallus
+33910 Sathrovarr the Corruptor
+33911 Felmyst
+33912 Brutallus
+33913 Sathrovarr the Corruptor
+33914 Felmyst
+33915 Brutallus
+33916 Felmyst
+33917 Sathrovarr the Corruptor
+34431 Sathrovarr the Corruptor
+34432 Sathrovarr the Corruptor
+34433 Sathrovarr the Corruptor
+34434 Sathrovarr the Corruptor
+34435 Sathrovarr the Corruptor
+34436 Sathrovarr the Corruptor
+34437 Sathrovarr the Corruptor
+34438 Sathrovarr the Corruptor
+34439 Sathrovarr the Corruptor
+34441 Sathrovarr the Corruptor
+34442 Sathrovarr the Corruptor
+34443 Sathrovarr the Corruptor
+34444 Sathrovarr the Corruptor
+34445 Sathrovarr the Corruptor
+34446 Sathrovarr the Corruptor
+34447 Sathrovarr the Corruptor
+34448 Sathrovarr the Corruptor
+34485 Brutallus
+34487 Brutallus
+34488 Brutallus
+34527 Brutallus
+34528 Brutallus
+34541 Brutallus
+34542 Brutallus
+34543 Brutallus
+34545 Brutallus
+34546 Brutallus
+34547 Brutallus
+34549 Brutallus
+34554 Brutallus
+34555 Brutallus
+34556 Brutallus
+34557 Brutallus
+34558 Brutallus
+34559 Felmyst
+34560 Felmyst
+34561 Felmyst
+34562 Felmyst
+34563 Felmyst
+34564 Felmyst
+34565 Felmyst
+34566 Felmyst
+34567 Felmyst
+34568 Felmyst
+34569 Felmyst
+34570 Felmyst
+34571 Felmyst
+34572 Felmyst
+34573 Felmyst
+34574 Felmyst
+34575 Felmyst
 ]]
 
 Engravings["Token dropped by:"] = setmetatable({}, {
