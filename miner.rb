@@ -167,9 +167,11 @@ def mine_raid_tokens(http)
 		"/?npc=20616", # Tier 4
 		"/?npc=21906", # Tier 5
 		"/?npc=23381", # Tier 6
-		"/?npc=26090", # Arena S1
-		"/?npc=26091", # Arena S2
-		#~ "/?npc=26092", # Arena S3, currently sells S2?
+		"/?npc=25976", # Tier 6 additional (Sunwell)
+		"/?npc=26090", # Season 1
+		"/?npc=26091", # Season 2
+		"/?npc=26089", # Season 3 Non-set
+		#~ "/?npc=26092", # Season 3, currently sells S2?
 	].each do |vendor|
 		res = http.get vendor
 
@@ -183,7 +185,7 @@ def mine_raid_tokens(http)
 		res = http.get "/?item=#{tokenid}"
 		if res.body =~ /id: 'dropped-by'(.*)/
 			npcs = $&
-			npc_names = npcs.scan(/name:'([^,]+)',/).flatten
+			npc_names = npcs.scan(/name:'([^,]+)',/).flatten.reject {|name| name == "Lady Sacrolash" || name == "Grand Warlock Alythess"}
 			token_sources << [tokenid, (npc_names.include?("Lady Malande") ? "Illidari Council" : npc_names.first)]
 			token_zones << [tokenid, npcs.scan(/location:\[(\d+)\]/).flatten.uniq.first]
 		end
@@ -205,6 +207,7 @@ def mine_pvp_prices(http)
 
 	pvp_rewards = []
 	vendors = [
+		"/?npc=23446", # Season 3 Non-set
 		"/?npc=24392", # Season 3
 		"/?npc=23396", # Season 2
 		"/?npc=20278", # Season 1
@@ -223,12 +226,14 @@ def mine_item_sets(http)
 		["/?npc=20616", "Tier 4"],
 		["/?npc=21906", "Tier 5"],
 		["/?npc=23381", "Tier 6"],
-		["/?npc=24392", "Arena S3"],
-		["/?npc=23396", "Arena S2"],
-		["/?npc=20278", "Arena S1"],
+		["/?npc=20278", "Season 1"],
+		["/?npc=23396", "Season 2"],
+		["/?npc=24392", "Season 3"],
+		["/?items&filter=na=veteran%27s;cr=93;crs=1;crv=0", "Season 2 Non-set"],
+		["/?items&filter=na=vindicator's;cr=93;crs=1;crv=0", "Season 3 Non-set"],
 	].each do |vendor,set_name|
 		res = http.get vendor
-		items = parse_list($&) if res.body =~ /id: 'sells'(.*)/
+		items = parse_list($&) if res.body =~ /id: 'sells'(.*)/ || res.body =~ /id: 'items'(.*)/
 		items.each {|item| item_sets << "#{item} #{set_name}"}
 	end
 
