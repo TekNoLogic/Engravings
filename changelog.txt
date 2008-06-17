@@ -1,0 +1,21 @@
+2.4.2.3-Beta
+    Add some new mined data
+    Run miner, update existing datasets
+
+2.4.1.2-Beta
+    GetItem can return nil, joy...
+
+2.4.1.1-Beta
+    Removed Dongle
+    AddonLoader goodness
+    Split up into data modules, added lots of new data:
+     - Drop sources (NPCs)
+     - Drop locations
+     - Badge of Justice costs
+     - Spirit Shard costs
+     - Stack size
+     - iLevel
+     - PvP gear (source only, no prices yet)
+     - ItemID
+     - User-created notes
+    Engrave compare tips as well

@@ -677,52 +677,6 @@ local DROP_NPC = [[
 29359 Warp Splinter
 29360 Harbinger Skyriss
 29362 Pathaleon the Calculator
-29434 Akil'zon
-29434 Al'ar
-29434 Anetheron
-29434 Archimonde
-29434 Attumen the Huntsman
-29434 Azgalor
-29434 Brutallus
-29434 Essence of Anger
-29434 Fathom-Lord Karathress
-29434 Gruul the Dragonkiller
-29434 Gurtogg Bloodboil
-29434 Halazzi
-29434 Hex Lord Malacrass
-29434 High Astromancer Solarian
-29434 High King Maulgar
-29434 High Nethermancer Zerevor
-29434 High Warlord Naj'entus
-29434 Hydross the Unstable
-29434 Illidan Stormrage
-29434 Jan'alai
-29434 Julianne
-29434 Kaz'rogal
-29434 Lady Vashj
-29434 Leotheras the Blind
-29434 Magtheridon
-29434 Maiden of Virtue
-29434 Moroes
-29434 Morogrim Tidewalker
-29434 Mother Shahraz
-29434 Nalorakk
-29434 Netherspite
-29434 Nightbane
-29434 Prince Malchezaar
-29434 Rage Winterchill
-29434 Romulo
-29434 Shade of Akama
-29434 Shade of Aran
-29434 Supremus
-29434 Terestian Illhoof
-29434 Teron Gorefiend
-29434 The Big Bad Wolf
-29434 The Crone
-29434 The Curator
-29434 The Lurker Below
-29434 Void Reaver
-29434 Zul'jin
 29458 Magtheridon
 29463 Warlord Kalithresh
 29673 Hydromancer Thespia
@@ -780,7 +734,6 @@ local DROP_NPC = [[
 29997 Kael'thas Sunstrider
 29998 Kael'thas Sunstrider
 30008 Morogrim Tidewalker
-30026 Al'ar
 30047 Hydross the Unstable
 30048 Hydross the Unstable
 30049 Hydross the Unstable
@@ -957,6 +910,7 @@ local DROP_NPC = [[
 30560 Blackheart the Inciter
 30560 Grandmaster Vorpil
 30560 Murmur
+30563 Ambassador Hellmaw
 30563 Blackheart the Inciter
 30563 Grandmaster Vorpil
 30563 Murmur
@@ -991,6 +945,7 @@ local DROP_NPC = [[
 30581 Dalliah the Doomsayer
 30581 Harbinger Skyriss
 30581 Wrath-Scryer Soccothrates
+30581 Zereketh the Unbound
 30582 Dalliah the Doomsayer
 30582 Harbinger Skyriss
 30582 Wrath-Scryer Soccothrates
@@ -1146,6 +1101,7 @@ local DROP_NPC = [[
 31096 Archimonde
 31097 Archimonde
 31098 Gathios the Shatterer
+31098 Lady Malande
 31098 Veras Darkshadow
 31099 Gathios the Shatterer
 31099 Lady Malande
@@ -1462,7 +1418,61 @@ local DROP_NPC = [[
 34185 Felmyst
 34186 Felmyst
 34188 Felmyst
+34189 Grand Warlock Alythess
+34189 Lady Sacrolash
+34190 Grand Warlock Alythess
+34190 Lady Sacrolash
+34192 Grand Warlock Alythess
+34192 Lady Sacrolash
+34193 Grand Warlock Alythess
+34193 Lady Sacrolash
+34194 Grand Warlock Alythess
+34194 Lady Sacrolash
+34195 Grand Warlock Alythess
+34195 Lady Sacrolash
+34196 Grand Warlock Alythess
+34196 Lady Sacrolash
+34197 Grand Warlock Alythess
+34197 Lady Sacrolash
+34198 Grand Warlock Alythess
+34198 Lady Sacrolash
+34199 Grand Warlock Alythess
+34199 Lady Sacrolash
+34202 Grand Warlock Alythess
+34202 Lady Sacrolash
+34203 Grand Warlock Alythess
+34203 Lady Sacrolash
+34204 Grand Warlock Alythess
+34204 Lady Sacrolash
+34205 Grand Warlock Alythess
+34205 Lady Sacrolash
+34206 Grand Warlock Alythess
+34206 Lady Sacrolash
+34208 Grand Warlock Alythess
+34208 Lady Sacrolash
+34209 Grand Warlock Alythess
+34209 Lady Sacrolash
+34210 Grand Warlock Alythess
+34210 Lady Sacrolash
+34211 Entropius
+34212 Entropius
+34213 Entropius
+34214 Entropius
+34215 Entropius
+34216 Entropius
+34228 Entropius
+34229 Entropius
+34230 Entropius
+34231 Entropius
+34232 Entropius
+34233 Entropius
+34234 Entropius
+34240 Entropius
 34352 Felmyst
+34427 Entropius
+34428 Entropius
+34429 Entropius
+34430 Entropius
 34470 Priestess Delrissa
 34471 Priestess Delrissa
 34472 Priestess Delrissa
@@ -1514,16 +1524,43 @@ local DROP_NPC = [[
 34809 Kael'thas Sunstrider
 34810 Kael'thas Sunstrider
 34845 Magtheridon
+34848 Grand Warlock Alythess
+34848 Lady Sacrolash
+34851 Grand Warlock Alythess
+34851 Lady Sacrolash
+34852 Grand Warlock Alythess
+34852 Lady Sacrolash
 34853 Brutallus
+34853 Grand Warlock Alythess
+34853 Lady Sacrolash
 34854 Brutallus
+34854 Grand Warlock Alythess
+34854 Lady Sacrolash
 34855 Brutallus
+34855 Grand Warlock Alythess
+34855 Lady Sacrolash
 34856 Felmyst
+34856 Grand Warlock Alythess
+34856 Lady Sacrolash
 34857 Felmyst
+34857 Grand Warlock Alythess
+34857 Lady Sacrolash
 34858 Felmyst
+34858 Grand Warlock Alythess
+34858 Lady Sacrolash
 35275 Kael'thas Sunstrider
 35275 Priestess Delrissa
 35275 Selin Fireheart
 35275 Vexallus
+35282 Entropius
+35283 Entropius
+35284 Entropius
+35290 Grand Warlock Alythess
+35290 Lady Sacrolash
+35291 Grand Warlock Alythess
+35291 Lady Sacrolash
+35292 Grand Warlock Alythess
+35292 Lady Sacrolash
 35294 Kael'thas Sunstrider
 35295 Kael'thas Sunstrider
 35296 Kael'thas Sunstrider
