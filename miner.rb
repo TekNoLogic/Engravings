@@ -207,6 +207,7 @@ def mine_pvp_prices(http)
 
 	pvp_rewards = []
 	vendors = [
+		"/?npc=26352", # Season 4
 		"/?npc=23446", # Season 3 Non-set
 		"/?npc=24392", # Season 3
 		"/?npc=23396", # Season 2
