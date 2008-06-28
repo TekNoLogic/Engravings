@@ -1,3 +1,10 @@
+2.4.2.4-Beta
+    New data!
+     - Season 2 & 3 non-set items
+     - Season 4 set item costs
+     - Sunwell T6 token data (Twins not included since they drop random tokens)
+     - Ahune drops
+
 2.4.2.3-Beta
     Add some new mined data
     Run miner, update existing datasets
