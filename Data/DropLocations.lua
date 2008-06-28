@@ -1444,6 +1444,7 @@ local DROP_LOCATIONS = [[
 34856 Sunwell Plateau
 34857 Sunwell Plateau
 34858 Sunwell Plateau
+34955 The Slave Pens
 35198 Sunwell Plateau
 35199 Sunwell Plateau
 35200 Sunwell Plateau
@@ -1481,8 +1482,18 @@ local DROP_LOCATIONS = [[
 35309 Magisters' Terrace
 35310 Magisters' Terrace
 35311 Magisters' Terrace
+35494 The Slave Pens
+35495 The Slave Pens
+35496 The Slave Pens
+35497 The Slave Pens
+35498 The Slave Pens
 35504 Magisters' Terrace
+35507 The Slave Pens (Heroic)
+35508 The Slave Pens (Heroic)
+35509 The Slave Pens (Heroic)
+35511 The Slave Pens (Heroic)
 35513 Magisters' Terrace (Heroic)
+35514 The Slave Pens
 35516 Magisters' Terrace
 35582 The Mechanar
 35733 Sunwell Plateau
