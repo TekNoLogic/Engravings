@@ -1,224 +1,5 @@
 
 local PVP_COSTS = [[
-24544 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-24545 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-24546 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-24547 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-24549 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-24550 27000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-24552 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-24553 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-24554 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-24555 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-24556 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-24557 27000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-25830 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-25831 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-25832 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-25833 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-25834 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-25854 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-25855 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-25856 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-25857 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-25858 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-25997 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-25998 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-25999 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-26000 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-26001 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-27469 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-27470 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-27471 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-27472 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-27473 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-27702 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-27703 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-27704 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-27705 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-27706 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-27707 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-27708 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-27709 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-27710 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-27711 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-27879 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-27880 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-27881 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-27882 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-27883 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-28126 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-28127 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-28128 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-28129 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-28130 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-28136 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-28137 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-28138 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-28139 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-28140 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-28294 27000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-28295 18000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28297 25200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28298 27000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-28299 27000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-28300 27000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-28302 9000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28305 18000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28307 9000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28308 18000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28309 9000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28310 9000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28312 18000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28313 18000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28314 9000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28319 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28320 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28331 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-28332 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-28333 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-28334 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-28335 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-28346 9000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28355 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28356 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28357 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28358 15000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-28476 27000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-30186 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-30187 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-30188 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-30200 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-30201 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-30486 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-30487 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-30488 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-30489 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-30490 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31375 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-31376 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-31377 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-31378 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-31379 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-31396 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-31397 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-31400 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-31406 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-31407 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-31409 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-31410 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-31411 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-31412 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-31413 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-31613 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-31614 10500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-31616 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-31618 14500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 30 |TInterface\Icons\INV_Misc_Rune_07:18|t
-31619 11250 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-31958 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31959 3261 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31960 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31961 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31962 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31963 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31964 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31965 2283 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31966 3261 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31967 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31968 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31969 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31971 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31972 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31973 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31974 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31975 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31976 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31977 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31978 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31979 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31980 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31981 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31982 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31983 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31984 3261 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31985 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31986 3261 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31987 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31988 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31989 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31990 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31991 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31992 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31993 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31995 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31996 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31997 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31998 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-31999 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32000 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32001 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32002 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32003 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32004 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32005 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32006 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32007 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32008 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32009 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32010 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32011 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32012 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32013 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32014 3261 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32015 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32016 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32017 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32018 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32019 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32020 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32021 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32022 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32023 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32024 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32025 3261 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32026 2283 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32027 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32028 2283 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32029 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32030 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32031 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32032 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32033 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32034 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32035 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32036 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32037 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32038 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32039 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32040 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32041 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32042 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32043 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32044 2283 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32045 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32046 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32047 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32048 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32049 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32050 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32051 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32052 2283 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32053 2739 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32054 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32055 3261 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32056 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32057 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32058 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32059 1304 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32060 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32450 25200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-32451 25200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-32452 9000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 32785 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 32786 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 32787 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
@@ -255,10 +36,6 @@ local PVP_COSTS = [[
 32819 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
 32820 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
 32821 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-32961 978 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32962 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32963 2739 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-32964 2739 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 32979 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
 32980 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
 32981 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
@@ -268,223 +45,192 @@ local PVP_COSTS = [[
 32997 9435 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
 32998 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
 32999 14280 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33006 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33056 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-33057 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-33064 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33006 3000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33056 9500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33057 9500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33064 9500 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 33065 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 33066 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 33067 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 33068 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33076 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33077 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33078 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33309 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33313 1630 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33661 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33662 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33663 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33664 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33665 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33666 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33667 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33668 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33669 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33670 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33671 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33672 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33673 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33674 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33675 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33676 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33677 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33678 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33679 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33680 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33681 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33682 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33683 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33684 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33685 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33686 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33687 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33688 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33689 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33690 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33691 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33692 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33693 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33694 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33695 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33696 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33697 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33698 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33699 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33700 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33701 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33702 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33703 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33704 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33705 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33706 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33707 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33708 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33709 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33710 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33711 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33712 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33713 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33714 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33715 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33716 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33717 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33718 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33719 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33720 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33721 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33722 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33723 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33724 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33725 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33726 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33727 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33728 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33729 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33730 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33731 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33732 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33733 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33734 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33735 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33736 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33737 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33738 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33739 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33740 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33741 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33742 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33743 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33744 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33745 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33746 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33747 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33748 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33749 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33750 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33751 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33752 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33753 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33754 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33755 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33756 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33757 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33758 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33759 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33760 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33761 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33762 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33763 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33764 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33765 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33766 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33767 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33768 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33769 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33770 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33771 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33801 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33811 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33812 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33813 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33841 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33842 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33843 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33853 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-33876 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33877 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33878 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33879 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33880 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33881 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33882 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33883 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33884 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33885 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33886 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33887 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33888 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33889 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33890 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33891 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33892 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33893 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33894 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33895 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33896 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33897 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33898 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33899 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33900 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33901 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33902 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33903 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33904 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33905 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33906 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33907 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33908 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33909 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33910 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33911 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33912 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33913 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33914 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33915 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
-33916 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33917 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
-33918 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-33919 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
-33920 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33921 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33922 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33923 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33936 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33937 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33938 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33939 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33940 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33941 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33942 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33943 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33944 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33945 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33946 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33947 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33948 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33949 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33950 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33951 8000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-33952 870 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33953 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34014 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34015 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34016 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34033 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34059 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34066 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34529 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34530 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34540 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33661 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33662 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33663 3000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33664 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33665 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33666 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33667 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33668 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33669 2100 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33670 3000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33671 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33672 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33673 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33674 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33675 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33676 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33677 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33678 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33679 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33680 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33681 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33682 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33683 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33684 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33685 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33686 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33687 2520 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33688 3000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33689 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33690 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33691 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33692 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33693 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33694 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33695 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33696 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33697 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33698 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33699 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33700 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33701 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33702 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33703 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33704 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33705 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33706 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33707 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33708 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33709 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33710 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33711 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33712 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33713 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33714 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33715 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33716 3000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33717 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33718 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33719 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33720 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33721 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33722 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33723 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33724 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33725 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33726 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33727 3000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33728 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33729 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33730 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33731 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33732 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33733 2100 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33734 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33735 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33736 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33737 2100 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33738 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33739 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33740 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33741 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33742 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33743 2520 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33744 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33745 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33746 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33747 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33748 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33749 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33750 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33751 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33752 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33753 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33754 2100 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33755 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33756 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33757 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33758 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33759 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33760 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33761 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33762 2100 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33763 2520 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33764 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33765 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33766 3000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33767 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33768 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33769 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33770 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33771 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33801 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33812 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33813 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33841 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33842 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33843 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33853 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33876 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33878 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33880 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33881 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33883 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33884 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33886 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33887 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33889 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33890 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33892 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33893 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33894 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33896 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33897 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33899 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33901 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33902 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33904 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33905 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33906 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33908 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33910 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33911 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33913 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33914 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33916 13923 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+33917 9199 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+33918 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33919 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+33938 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33941 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33944 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33947 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33950 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33953 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34014 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34015 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34016 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34033 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34059 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34066 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34529 3000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34530 3000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34540 3000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34576 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 34577 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 34578 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 34579 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 34580 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 34985 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34986 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34986 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34987 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34988 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34989 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34990 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34991 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34992 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34993 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34994 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34995 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34996 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34997 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -493,8 +239,19 @@ local PVP_COSTS = [[
 35000 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35001 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35002 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35003 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35004 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35005 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35006 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35007 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35008 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35009 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35010 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35011 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35012 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35013 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35014 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35015 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35016 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35017 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35018 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -506,25 +263,80 @@ local PVP_COSTS = [[
 35024 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35025 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35026 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35027 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35028 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35029 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35030 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35031 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35032 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35033 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35034 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35035 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35036 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35037 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35038 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35039 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35040 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35041 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35042 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35043 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35044 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35045 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35046 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35047 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35048 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35049 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35050 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35051 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35052 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35053 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35054 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35055 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35056 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35057 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35058 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35059 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35060 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35061 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35062 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35063 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35064 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35065 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35066 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35067 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35068 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35069 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35070 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35071 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35072 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35073 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35074 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35075 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35076 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35077 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35078 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35079 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35080 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35081 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35082 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35083 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35084 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35085 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35086 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35087 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35088 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35089 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35090 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35091 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35092 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35093 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35094 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35095 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35096 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35097 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35098 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35099 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35100 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35101 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35102 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35103 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -534,17 +346,72 @@ local PVP_COSTS = [[
 35107 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35108 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35109 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35110 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35111 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35112 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35113 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35114 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35115 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35317 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-35319 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
-35320 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+35129 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+35130 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+35131 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+35132 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35133 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35134 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35135 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35136 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35137 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35138 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35139 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35140 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35141 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35142 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35143 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35144 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35145 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35146 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35147 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35148 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35149 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35150 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+35151 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35152 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35153 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35154 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35155 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35156 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35157 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35158 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35159 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35160 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35161 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35162 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35163 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35164 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35165 17850 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Amulet_07:18|t
+35166 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35167 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35168 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35169 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35170 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35171 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35172 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35173 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35174 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35175 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35176 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35177 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35178 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35179 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35180 11794 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 20 |TInterface\Icons\INV_Misc_Rune_07:18|t
+35320 11934 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 35327 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+36737 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 37739 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 37740 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+37927 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+37928 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
+37929 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 ]]
 
 Engravings["PvP:"] = setmetatable({}, {
