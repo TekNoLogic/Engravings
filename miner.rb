@@ -227,12 +227,15 @@ def mine_item_sets(http)
 		["/?npc=20616", "Tier 4"],
 		["/?npc=21906", "Tier 5"],
 		["/?npc=23381", "Tier 6"],
-		["/?npc=20278", "Season 1"],
-		["/?npc=23396", "Season 2"],
-		["/?npc=24392", "Season 3"],
-		["/?items&filter=na=veteran%27s;cr=93;crs=1;crv=0", "Season 2 Non-set"],
-		["/?items&filter=na=vindicator's;cr=93;crs=1;crv=0", "Season 3 Non-set"],
+		["/?items&filter=na=Gladiator%27s;maxle=135", "Season 1"],
+		["/?items&filter=na=Merciless+Gladiator's", "Season 2"],
+		["/?items&filter=na=Vengeful+Gladiator's", "Season 3"],
+		["/?items&filter=na=Brutal+Gladiator's", "Season 4"],
+		["/?items&filter=na=Veteran's;minle=126", "Season 2 Non-set"],
+		["/?items&filter=na=Vindicator's;minle=141", "Season 3 Non-set"],
+		["/?items&filter=na=Guardian's;minle=154", "Season 4 Non-set"],
 	].each do |vendor,set_name|
+		puts "Querying set '#{set_name}'"
 		res = http.get vendor
 		items = parse_list($&) if res.body =~ /id: 'sells'(.*)/ || res.body =~ /id: 'items'(.*)/
 		items.each {|item| item_sets << "#{item} #{set_name}"}
