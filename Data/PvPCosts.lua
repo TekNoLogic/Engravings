@@ -480,10 +480,71 @@ local PVP_COSTS = [[
 34578 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 34579 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 34580 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+34985 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34986 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34987 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34988 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34989 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34995 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34996 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34997 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34998 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+34999 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35000 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35001 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35002 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35008 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35014 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35016 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35017 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35018 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35019 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35020 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35021 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35022 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35023 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35024 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35025 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35026 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35037 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35038 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35039 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35040 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35041 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35047 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35058 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35064 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35065 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35071 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35072 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35073 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35074 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35075 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35076 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35082 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35093 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35094 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35095 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35101 2625 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35102 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35103 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35104 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35105 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35106 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35107 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35108 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35109 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35111 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35112 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35113 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35114 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+35115 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35317 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 35319 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\Spell_Nature_EyeOfTheStorm:18|t
 35320 15300 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 10 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
 35327 30000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 40 |TInterface\Icons\INV_Jewelry_Necklace_21:18|t
+37739 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+37740 3150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 ]]
 
 Engravings["PvP:"] = setmetatable({}, {
