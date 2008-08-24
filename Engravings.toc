@@ -22,6 +22,7 @@ Data\iLevel.lua
 Data\ItemID.lua
 Data\ItemType.lua
 Data\Recipes.lua
+Data\RawFood.lua
 Data\RepTokens.lua
 Data\Stacksize.lua
 Data\PvPGear.lua
