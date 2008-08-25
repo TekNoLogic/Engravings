@@ -19,6 +19,7 @@ Engravings.lua
 CustomEngravings.lua
 Data\Currency.lua
 Data\iLevel.lua
+Data\WeightediLevel.lua
 Data\ItemID.lua
 Data\ItemType.lua
 Data\Recipes.lua
