@@ -1,3 +1,6 @@
+3.0.1.6-Release
+    Add "weighted iLevel" module, for comparing rare and epic items to uncommons
+
 3.0.1.5-Release
     Add S4 item sets
     Update PvP costs
