@@ -1,3 +1,13 @@
+3.0.1.6-Release
+    Add "weighted iLevel" module, for comparing rare and epic items to uncommons
+
+3.0.1.5-Release
+    Add S4 item sets
+    Update PvP costs
+    Updated drop info
+    Add item type/subtype module
+    Add raw food list for BC items
+
 2.4.2.4-Beta
     New data!
      - Season 2 & 3 non-set items

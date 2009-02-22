@@ -726,7 +726,6 @@ local DROP_LOCATIONS = [[
 29354 Auchenai Crypts (Heroic)
 29355 Sethekk Halls (Heroic)
 29356 The Black Morass (Heroic)
-29357 Old Hillsbrad Foothills (Heroic)
 29357 Shadow Labyrinth (Heroic)
 29359 The Botanica (Heroic)
 29360 The Arcatraz (Heroic)
@@ -1208,8 +1207,6 @@ local DROP_LOCATIONS = [[
 32781 Sethekk Halls (Heroic)
 32837 Black Temple
 32838 Black Temple
-32895 Serpentshrine Cavern
-32896 The Eye
 32943 Black Temple
 32944 The Eye
 32945 Hyjal Summit

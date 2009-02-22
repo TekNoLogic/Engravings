@@ -20,3 +20,18 @@ Engravings["Currency:"] = setmetatable({}, {
 		end
 	end
 })
+
+
+Engravings["Owned currency:"] = setmetatable({}, {
+	__index = function(t,i)
+		local name, _, _, _, _, itemtype, itemsubtype = GetItemInfo(i)
+		if itemtype ~= "Money" or itemsubtype ~= "Money(OBSOLETE)" then t[i] = false; return end
+
+		local onhand
+		for i=1,GetCurrencyListSize() do
+			local tokenname, _, _, _, _, qty = GetCurrencyListInfo(i)
+			if tokenname == name then onhand = qty end
+		end
+		return onhand
+	end
+})

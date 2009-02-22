@@ -672,7 +672,6 @@ local DROP_NPC = [[
 29354 Exarch Maladaar
 29355 Talon King Ikiss
 29356 Aeonus
-29357 Epoch Hunter
 29357 Murmur
 29359 Warp Splinter
 29360 Harbinger Skyriss
@@ -1340,8 +1339,6 @@ local DROP_NPC = [[
 32781 Anzu
 32837 Illidan Stormrage
 32838 Illidan Stormrage
-32895 Lady Vashj
-32896 Kael'thas Sunstrider
 32944 Al'ar
 33054 The Lurker Below
 33055 Hydross the Unstable

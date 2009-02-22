@@ -730,9 +730,198 @@ local ITEM_SET_NAMES = [[
 34529 Season 3
 34530 Season 3
 34540 Season 3
+34985 Season 4
+34986 Season 4
+34987 Season 4
+34988 Season 4
+34989 Season 4
+34990 Season 4
+34991 Season 4
+34992 Season 4
+34993 Season 4
+34994 Season 4
+34995 Season 4
+34996 Season 4
+34997 Season 4
+34998 Season 4
+34999 Season 4
+35000 Season 4
+35001 Season 4
+35002 Season 4
+35003 Season 4
+35004 Season 4
+35005 Season 4
+35006 Season 4
+35007 Season 4
+35008 Season 4
+35009 Season 4
+35010 Season 4
+35011 Season 4
+35012 Season 4
+35013 Season 4
+35014 Season 4
+35015 Season 4
+35016 Season 4
+35017 Season 4
+35018 Season 4
+35019 Season 4
+35020 Season 4
+35021 Season 4
+35022 Season 4
+35023 Season 4
+35024 Season 4
+35025 Season 4
+35026 Season 4
+35027 Season 4
+35028 Season 4
+35029 Season 4
+35030 Season 4
+35031 Season 4
+35032 Season 4
+35033 Season 4
+35034 Season 4
+35035 Season 4
+35036 Season 4
+35037 Season 4
+35038 Season 4
+35039 Season 4
+35040 Season 4
+35041 Season 4
+35042 Season 4
+35043 Season 4
+35044 Season 4
+35045 Season 4
+35046 Season 4
+35047 Season 4
+35048 Season 4
+35049 Season 4
+35050 Season 4
+35051 Season 4
+35052 Season 4
+35053 Season 4
+35054 Season 4
+35055 Season 4
+35056 Season 4
+35057 Season 4
+35058 Season 4
+35059 Season 4
+35060 Season 4
+35061 Season 4
+35062 Season 4
+35063 Season 4
+35064 Season 4
+35065 Season 4
+35066 Season 4
+35067 Season 4
+35068 Season 4
+35069 Season 4
+35070 Season 4
+35071 Season 4
+35072 Season 4
+35073 Season 4
+35074 Season 4
+35075 Season 4
+35076 Season 4
+35077 Season 4
+35078 Season 4
+35079 Season 4
+35080 Season 4
+35081 Season 4
+35082 Season 4
+35083 Season 4
+35084 Season 4
+35085 Season 4
+35086 Season 4
+35087 Season 4
+35088 Season 4
+35089 Season 4
+35090 Season 4
+35091 Season 4
+35092 Season 4
+35093 Season 4
+35094 Season 4
+35095 Season 4
+35096 Season 4
+35097 Season 4
+35098 Season 4
+35099 Season 4
+35100 Season 4
+35101 Season 4
+35102 Season 4
+35103 Season 4
+35104 Season 4
+35105 Season 4
+35106 Season 4
+35107 Season 4
+35108 Season 4
+35109 Season 4
+35110 Season 4
+35111 Season 4
+35112 Season 4
+35113 Season 4
+35114 Season 4
+35115 Season 4
+35129 Season 4 Non-set
+35130 Season 4 Non-set
+35131 Season 4 Non-set
+35132 Season 4 Non-set
+35133 Season 4 Non-set
+35134 Season 4 Non-set
+35135 Season 4 Non-set
+35136 Season 4 Non-set
+35137 Season 4 Non-set
+35138 Season 4 Non-set
+35139 Season 4 Non-set
+35140 Season 4 Non-set
+35141 Season 4 Non-set
+35142 Season 4 Non-set
+35143 Season 4 Non-set
+35144 Season 4 Non-set
+35145 Season 4 Non-set
+35146 Season 4 Non-set
+35147 Season 4 Non-set
+35148 Season 4 Non-set
+35149 Season 4 Non-set
+35150 Season 4 Non-set
+35151 Season 4 Non-set
+35152 Season 4 Non-set
+35153 Season 4 Non-set
+35154 Season 4 Non-set
+35155 Season 4 Non-set
+35156 Season 4 Non-set
+35157 Season 4 Non-set
+35158 Season 4 Non-set
+35159 Season 4 Non-set
+35160 Season 4 Non-set
+35161 Season 4 Non-set
+35162 Season 4 Non-set
+35163 Season 4 Non-set
+35164 Season 4 Non-set
+35165 Season 4 Non-set
+35166 Season 4 Non-set
+35167 Season 4 Non-set
+35168 Season 4 Non-set
+35169 Season 4 Non-set
+35170 Season 4 Non-set
+35171 Season 4 Non-set
+35172 Season 4 Non-set
+35173 Season 4 Non-set
+35174 Season 4 Non-set
+35175 Season 4 Non-set
+35176 Season 4 Non-set
+35177 Season 4 Non-set
+35178 Season 4 Non-set
+35179 Season 4 Non-set
+35180 Season 4 Non-set
 35317 Season 3 Non-set
 35319 Season 3 Non-set
 35320 Season 3 Non-set
+36737 Season 4
+37739 Season 4
+37740 Season 4
+37927 Season 4 Non-set
+37928 Season 4 Non-set
+37929 Season 4 Non-set
 ]]
 
 Engravings["Item set:"] = setmetatable({}, {
