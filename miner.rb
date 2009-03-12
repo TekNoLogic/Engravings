@@ -14,7 +14,7 @@ MANUAL_IMPORT = {
 }
 
 
-EXCLUDE = [29434]
+EXCLUDE = [29434, 40752, 40753]
 
 def export(filename, constant, title, data)
 	f = File.open(filename, "w")
