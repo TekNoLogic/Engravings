@@ -46,7 +46,7 @@ def parse_zone(http, zone_id)
 	puts "\nQuerying zone #{zone_id}"
 	res = http.get "/?zone=#{zone_id}"
 
-	if res.body =~ /<h1><span class="bc-icon">(.*)<\/span><\/h1>/
+	if res.body =~ /<h1><span class="(?:bc|wotlk)-icon">(.*)<\/span><\/h1>/
 		name = $1
 		name = name[/: (.*)/, 1] if name =~ /:/
 		puts "  Found zone '#{name}'"
@@ -80,7 +80,7 @@ def parse_zone(http, zone_id)
 		[formatted_drops, bosses, all_drops]
 
 	else
-		puts "  Not a BC zone"
+		puts "  Not a BC or Wrath zone"
 		[]
 	end
 end
