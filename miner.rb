@@ -115,7 +115,7 @@ end
 def parse_prices(body, block_id = "sells")
 	return [] unless body =~ /id: '#{block_id}'(.*)/
 	items = $&.gsub(/sourcemore:\[[^\]]+\]/, "").scan(/id:\d+,[^\}]+\}/).map {|str| [$1, $2.gsub(/[\[\]]/, "").split(",")] if str =~ /id:(\d+),.+cost:\[(.*)\]\}/}
-	icons = items.map {|id,cost| cost[3]}.uniq.map {|id| [id, "Interface\\Icons\\" + $1] if body =~ /\[#{id}\]=\{icon:'([^;]+)'\};/}
+	icons = items.map {|id,cost| cost[3]}.uniq.map {|id| [id, "Interface\\Icons\\" + $1] if body =~ /\[#{id}\]=\{[^{]*icon:'([^;]+)'\};/}
 	items.map do |id,cost|
 		str = id
 		str += " #{cost[0]} gold" if cost[0].to_i > 0
@@ -149,13 +149,13 @@ def mine_drops(http)
 end
 
 
-def mine_boj(http)
-	puts "\nQuerying Badge of Justice rewards"
+def mine_token_rewards(http, name, itemid)
+	puts "\nQuerying #{name} rewards"
 
-	badge_rewards = parse_prices http.get("/?item=29434").body, "currency-for"
-	export(File.join("Data", "BadgeOfJustice.lua"), "BADGE_REWARDS", "Badge of Justice:", badge_rewards.sort.join("\n"))
+	badge_rewards = parse_prices http.get("/?item=#{itemid}").body, "currency-for"
+	export(File.join("Data", "#{name.gsub(" ", "")}.lua"), "TOKEN_REWARDS", "#{name}:", badge_rewards.sort.join("\n"))
 
-	puts "BoJ rewards added, #{badge_rewards.size} items imported."
+	puts "#{name} rewards added, #{badge_rewards.size} items imported."
 end
 
 
@@ -247,7 +247,9 @@ end
 
 Net::HTTP.start("www.wowhead.com") do |http|
 	mine_drops http
-	mine_boj http
+	mine_token_rewards http, "Badge of Justice", 29434
+	mine_token_rewards http, "Emblem of Heroism", 40752
+	mine_token_rewards http, "Emblem of Valor", 40752
 	mine_raid_tokens http
 	mine_pvp_prices http
 	mine_item_sets http
