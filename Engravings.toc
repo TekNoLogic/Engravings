@@ -29,6 +29,8 @@ Data\Stacksize.lua
 Data\PvPGear.lua
 Data\PvPCosts.lua
 Data\BadgeOfJustice.lua
+Data\EmblemOfHeroism.lua
+Data\EmblemOfValor.lua
 Data\SpiritShard.lua
 Data\DropLocations.lua
 Data\DropNPCs.lua

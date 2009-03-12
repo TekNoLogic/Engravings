@@ -1,5 +1,5 @@
 
-local BADGE_REWARDS = [[
+local TOKEN_REWARDS = [[
 23572 10 |TInterface\Icons\Spell_Holy_ChampionsBond:18|t
 29266 33 |TInterface\Icons\Spell_Holy_ChampionsBond:18|t
 29267 33 |TInterface\Icons\Spell_Holy_ChampionsBond:18|t
@@ -249,7 +249,7 @@ local BADGE_REWARDS = [[
 
 Engravings["Badge of Justice:"] = setmetatable({}, {
 	__index = function(t,i)
-		local v = BADGE_REWARDS:match("\n"..i.." ([^\n]+)\n")
+		local v = TOKEN_REWARDS:match("\n"..i.." ([^\n]+)\n")
 		if v then t[i] = v; return v
 		else t[i] = false; return end
 	end
