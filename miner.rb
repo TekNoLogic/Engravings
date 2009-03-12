@@ -227,12 +227,15 @@ def mine_item_sets(http)
 		["/?npc=20616", "Tier 4"],
 		["/?npc=21906", "Tier 5"],
 		["/?npc=23381", "Tier 6"],
+		["/?items&filter=na=Heroes';minle=200", "Tier 7 Normal"],
+		["/?items&filter=na=Valorous;minle=213", "Tier 7 Heroic"],
 		["/?items&filter=na=Gladiator%27s;maxle=135", "Season 1"],
 		["/?items&filter=na=Merciless+Gladiator's", "Season 2"],
 		["/?items&filter=na=Vengeful+Gladiator's", "Season 3"],
 		["/?items&filter=na=Brutal+Gladiator's", "Season 4"],
+		["/?items&filter=na=Deadly+Gladiator's", "Season 5"],
 		["/?items&filter=na=Veteran's;minle=126", "Season 2 Non-set"],
-		["/?items&filter=na=Vindicator's;minle=141", "Season 3 Non-set"],
+		["/?items&filter=na=Vindicator's;minle=141;maxle=157", "Season 3 Non-set"],
 		["/?items&filter=na=Guardian's;minle=154", "Season 4 Non-set"],
 	].each do |vendor,set_name|
 		puts "Querying set '#{set_name}'"
