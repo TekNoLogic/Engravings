@@ -8,13 +8,20 @@
 ## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Inventory
 
-## SavedVariables: EngravingsDB
+## SavedVariables: EngravingsDB, EngravingsDB2
 
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed
 ## X-LoadOn-Slash: /engrave
 
+LibStub.lua
+tekKonfigScroll.lua
+tekKonfigAboutPanel.lua
+CallbackHandler-1.0.lua
+LibDataBroker-1.1\LibDataBroker-1.1.lua
+
 Engravings.lua
+Config.lua
 
 CustomEngravings.lua
 Data\Currency.lua
