@@ -1,6 +1,17 @@
 
 local DROP_NPC = [[
+21524 Captain Skarloc
+21524 Grand Magus Telestra
+21524 High Botanist Freywinn
+21524 Jedoga Shadowseeker
+21525 Exarch Maladaar
+21525 Grand Warlock Nethekurse
+21525 Grandmaster Vorpil
+21525 Mage-Lord Urom
 21907 Pathaleon the Calculator
+22206 Maiden of Grief
+22206 Prince Keleseth
+22206 Prince Taldaram
 22559 Moroes
 22560 Shade of Aran
 22561 Terestian Illhoof
@@ -638,7 +649,6 @@ local DROP_NPC = [[
 29239 Keli'dan the Breaker
 29240 Nexus-Prince Shaffar
 29241 Harbinger Skyriss
-29241 Murmur
 29242 Quagmirran
 29243 Warlord Kalithresh
 29244 Exarch Maladaar
@@ -650,9 +660,7 @@ local DROP_NPC = [[
 29250 Epoch Hunter
 29251 Pathaleon the Calculator
 29252 Harbinger Skyriss
-29252 Nexus-Prince Shaffar
 29253 Aeonus
-29254 Harbinger Skyriss
 29254 Warchief Kargath Bladefist
 29255 Warchief Kargath Bladefist
 29257 Exarch Maladaar
@@ -1111,9 +1119,7 @@ local DROP_NPC = [[
 31101 Mother Shahraz
 31102 Mother Shahraz
 31103 Mother Shahraz
-31919 Yor
 31920 Yor
-31921 Yor
 31922 Yor
 31923 Yor
 31924 Yor
@@ -1275,10 +1281,6 @@ local DROP_NPC = [[
 32524 Illidan Stormrage
 32525 Illidan Stormrage
 32736 High Warlord Naj'entus
-32736 Illidan Stormrage
-32736 Shade of Akama
-32736 Supremus
-32736 Teron Gorefiend
 32738 Essence of Anger
 32738 Gurtogg Bloodboil
 32738 High Warlord Naj'entus
@@ -1295,18 +1297,8 @@ local DROP_NPC = [[
 32744 Shade of Akama
 32744 Supremus
 32744 Teron Gorefiend
-32746 Essence of Anger
-32746 Illidan Stormrage
-32746 Shade of Akama
-32746 Supremus
-32746 Teron Gorefiend
-32748 Essence of Anger
-32748 Gurtogg Bloodboil
-32748 High Warlord Naj'entus
 32748 Illidan Stormrage
 32748 Mother Shahraz
-32748 Shade of Akama
-32748 Supremus
 32750 Essence of Anger
 32750 Gurtogg Bloodboil
 32750 High Warlord Naj'entus
@@ -1315,14 +1307,7 @@ local DROP_NPC = [[
 32750 Shade of Akama
 32750 Supremus
 32750 Teron Gorefiend
-32752 Essence of Anger
-32752 Gurtogg Bloodboil
-32752 High Warlord Naj'entus
 32752 Illidan Stormrage
-32752 Mother Shahraz
-32752 Shade of Akama
-32752 Supremus
-32752 Teron Gorefiend
 32754 Essence of Anger
 32754 Gurtogg Bloodboil
 32754 High Warlord Naj'entus
@@ -1339,6 +1324,8 @@ local DROP_NPC = [[
 32781 Anzu
 32837 Illidan Stormrage
 32838 Illidan Stormrage
+32895 Lady Vashj
+32896 Kael'thas Sunstrider
 32944 Al'ar
 33054 The Lurker Below
 33055 Hydross the Unstable
@@ -1558,31 +1545,1184 @@ local DROP_NPC = [[
 35291 Lady Sacrolash
 35292 Grand Warlock Alythess
 35292 Lady Sacrolash
-35294 Kael'thas Sunstrider
-35295 Kael'thas Sunstrider
-35296 Kael'thas Sunstrider
-35297 Kael'thas Sunstrider
-35298 Kael'thas Sunstrider
-35299 Kael'thas Sunstrider
-35300 Kael'thas Sunstrider
-35301 Kael'thas Sunstrider
-35302 Kael'thas Sunstrider
-35303 Kael'thas Sunstrider
-35304 Kael'thas Sunstrider
-35305 Kael'thas Sunstrider
-35306 Kael'thas Sunstrider
-35307 Kael'thas Sunstrider
-35308 Kael'thas Sunstrider
-35309 Kael'thas Sunstrider
-35310 Kael'thas Sunstrider
-35311 Kael'thas Sunstrider
 35504 Kael'thas Sunstrider
 35513 Kael'thas Sunstrider
-35516 Kael'thas Sunstrider
-35516 Selin Fireheart
-35516 Vexallus
+35570 Prince Keleseth
+35571 Prince Keleseth
+35572 Prince Keleseth
+35573 Dalronn the Controller
+35573 Skarvald the Constructor
+35574 Dalronn the Controller
+35574 Skarvald the Constructor
+35575 Dalronn the Controller
+35575 Skarvald the Constructor
+35576 Ingvar the Plunderer
+35577 Ingvar the Plunderer
+35578 Ingvar the Plunderer
 35582 Mechano-Lord Capacitus
+35583 Slad'ran
+35584 Slad'ran
+35585 Slad'ran
+35587 Moorabi
+35588 Moorabi
+35589 Moorabi
+35595 Keristrasza
+35596 Keristrasza
+35597 Keristrasza
+35598 Anomalus
+35599 Anomalus
+35600 Anomalus
+35601 Ormorok the Tree-Shaper
+35602 Ormorok the Tree-Shaper
+35603 Ormorok the Tree-Shaper
+35604 Grand Magus Telestra
+35605 Grand Magus Telestra
+35606 Elder Nadox
+35607 Elder Nadox
+35608 Elder Nadox
+35609 Prince Taldaram
+35610 Prince Taldaram
+35611 Prince Taldaram
+35612 Herald Volazj
+35613 Herald Volazj
+35614 Herald Volazj
+35617 Grand Magus Telestra
+35618 Trollgore
+35619 Trollgore
+35620 Trollgore
+35630 Novos the Summoner
+35631 Novos the Summoner
+35632 Novos the Summoner
+35633 King Dred
+35634 King Dred
+35635 King Dred
+35636 The Prophet Tharon'ja
+35637 The Prophet Tharon'ja
+35638 The Prophet Tharon'ja
+35642 Xevozz
+35643 Ichoron
+35644 Xevozz
+35645 Lavanthor
+35646 Lavanthor
+35647 Ichoron
+35649 Cyanigosa
+35650 Cyanigosa
+35651 Cyanigosa
+35655 Krik'thir the Gatewatcher
+35656 Krik'thir the Gatewatcher
+35657 Krik'thir the Gatewatcher
+35658 Hadronox
+35659 Hadronox
+35660 Hadronox
+35661 Anub'arak
+35662 Anub'arak
+35663 Anub'arak
+35670 Krystallus
+35672 Krystallus
+35673 Krystallus
+35678 Sjonnir The Ironshaper
+35679 Sjonnir The Ironshaper
+35680 Sjonnir The Ironshaper
 35756 Priestess Delrissa
+36943 Drakos the Interrogator
+36944 Drakos the Interrogator
+36945 Drakos the Interrogator
+36946 Drakos the Interrogator
+36947 Varos Cloudstrider
+36948 Varos Cloudstrider
+36949 Varos Cloudstrider
+36950 Varos Cloudstrider
+36951 Mage-Lord Urom
+36952 Mage-Lord Urom
+36953 Mage-Lord Urom
+36954 Mage-Lord Urom
+36979 General Bjarngrim
+36980 General Bjarngrim
+36981 General Bjarngrim
+36982 General Bjarngrim
+36983 Volkhan
+36984 Volkhan
+36985 Volkhan
+36986 Volkhan
+36988 Loken
+36989 Loken
+36991 Loken
+36992 Loken
+36993 Loken
+36994 Loken
+36995 Loken
+36996 Loken
+37037 Svala Sorrowgrave
+37038 Svala Sorrowgrave
+37040 Svala Sorrowgrave
+37043 Svala Sorrowgrave
+37048 Gortok Palehoof
+37050 Gortok Palehoof
+37051 Gortok Palehoof
+37052 Gortok Palehoof
+37053 Skadi the Ruthless
+37055 Skadi the Ruthless
+37056 Skadi the Ruthless
+37057 Skadi the Ruthless
+37058 King Ymiron
+37060 King Ymiron
+37061 King Ymiron
+37062 King Ymiron
+37064 King Ymiron
+37065 King Ymiron
+37066 King Ymiron
+37067 King Ymiron
+37079 Meathook
+37081 Meathook
+37082 Meathook
+37083 Meathook
+37084 Salramm the Fleshcrafter
+37086 Salramm the Fleshcrafter
+37088 Salramm the Fleshcrafter
+37095 Salramm the Fleshcrafter
+37096 Chrono-Lord Epoch
+37099 Chrono-Lord Epoch
+37105 Chrono-Lord Epoch
+37106 Chrono-Lord Epoch
+37134 Grand Magus Telestra
+37135 Grand Magus Telestra
+37138 Grand Magus Telestra
+37139 Grand Magus Telestra
+37141 Anomalus
+37144 Anomalus
+37149 Anomalus
+37150 Anomalus
+37151 Ormorok the Tree-Shaper
+37152 Ormorok the Tree-Shaper
+37153 Ormorok the Tree-Shaper
+37155 Ormorok the Tree-Shaper
+37162 Keristrasza
+37165 Keristrasza
+37166 Keristrasza
+37167 Keristrasza
+37169 Keristrasza
+37170 Keristrasza
+37171 Keristrasza
+37172 Keristrasza
+37177 Prince Keleseth
+37178 Prince Keleseth
+37179 Prince Keleseth
+37180 Prince Keleseth
+37181 Skarvald the Constructor
+37182 Skarvald the Constructor
+37183 Skarvald the Constructor
+37184 Skarvald the Constructor
+37186 Ingvar the Plunderer
+37188 Ingvar the Plunderer
+37189 Ingvar the Plunderer
+37190 Ingvar the Plunderer
+37191 Ingvar the Plunderer
+37192 Ingvar the Plunderer
+37193 Ingvar the Plunderer
+37194 Ingvar the Plunderer
+37195 Mage-Lord Urom
+37216 Krik'thir the Gatewatcher
+37217 Krik'thir the Gatewatcher
+37218 Krik'thir the Gatewatcher
+37219 Krik'thir the Gatewatcher
+37220 Hadronox
+37221 Hadronox
+37222 Hadronox
+37230 Hadronox
+37232 Anub'arak
+37235 Anub'arak
+37236 Anub'arak
+37237 Anub'arak
+37238 Anub'arak
+37240 Anub'arak
+37241 Anub'arak
+37242 Anub'arak
+37255 Drakos the Interrogator
+37256 Drakos the Interrogator
+37257 Drakos the Interrogator
+37258 Drakos the Interrogator
+37260 Varos Cloudstrider
+37261 Varos Cloudstrider
+37262 Varos Cloudstrider
+37263 Varos Cloudstrider
+37264 Mage-Lord Urom
+37288 Mage-Lord Urom
+37289 Mage-Lord Urom
+37367 Svala Sorrowgrave
+37368 Svala Sorrowgrave
+37369 Svala Sorrowgrave
+37370 Svala Sorrowgrave
+37371 Gortok Palehoof
+37373 Gortok Palehoof
+37374 Gortok Palehoof
+37376 Gortok Palehoof
+37377 Skadi the Ruthless
+37379 Skadi the Ruthless
+37384 Skadi the Ruthless
+37389 Skadi the Ruthless
+37390 King Ymiron
+37395 King Ymiron
+37397 King Ymiron
+37398 King Ymiron
+37401 King Ymiron
+37407 King Ymiron
+37408 King Ymiron
+37409 King Ymiron
+37591 Elder Nadox
+37592 Elder Nadox
+37593 Elder Nadox
+37594 Elder Nadox
+37595 Prince Taldaram
+37612 Prince Taldaram
+37613 Prince Taldaram
+37614 Prince Taldaram
+37615 Herald Volazj
+37616 Herald Volazj
+37617 Herald Volazj
+37618 Herald Volazj
+37619 Herald Volazj
+37620 Herald Volazj
+37622 Herald Volazj
+37623 Herald Volazj
+37626 Slad'ran
+37627 Slad'ran
+37628 Slad'ran
+37629 Slad'ran
+37630 Moorabi
+37631 Moorabi
+37632 Moorabi
+37633 Moorabi
+37638 Gal'darah
+37639 Gal'darah
+37640 Gal'darah
+37641 Gal'darah
+37642 Gal'darah
+37643 Gal'darah
+37644 Gal'darah
+37645 Gal'darah
+37650 Krystallus
+37651 Krystallus
+37652 Krystallus
+37657 Sjonnir The Ironshaper
+37658 Sjonnir The Ironshaper
+37660 Sjonnir The Ironshaper
+37666 Sjonnir The Ironshaper
+37667 Sjonnir The Ironshaper
+37668 Sjonnir The Ironshaper
+37669 Sjonnir The Ironshaper
+37670 Sjonnir The Ironshaper
+37675 Meathook
+37678 Meathook
+37679 Meathook
+37680 Meathook
+37681 Salramm the Fleshcrafter
+37682 Salramm the Fleshcrafter
+37683 Salramm the Fleshcrafter
+37684 Salramm the Fleshcrafter
+37685 Chrono-Lord Epoch
+37686 Chrono-Lord Epoch
+37687 Chrono-Lord Epoch
+37688 Chrono-Lord Epoch
+37712 Trollgore
+37714 Trollgore
+37715 Trollgore
+37717 Trollgore
+37718 Novos the Summoner
+37721 Novos the Summoner
+37722 Novos the Summoner
+37723 King Dred
+37724 King Dred
+37725 King Dred
+37726 King Dred
+37732 The Prophet Tharon'ja
+37733 The Prophet Tharon'ja
+37734 The Prophet Tharon'ja
+37735 The Prophet Tharon'ja
+37784 The Prophet Tharon'ja
+37788 The Prophet Tharon'ja
+37791 The Prophet Tharon'ja
+37798 The Prophet Tharon'ja
+37814 General Bjarngrim
+37818 General Bjarngrim
+37825 General Bjarngrim
+37826 General Bjarngrim
+37840 Volkhan
+37841 Volkhan
+37842 Volkhan
+37843 Volkhan
+37844 Ionar
+37845 Ionar
+37846 Ionar
+37847 Ionar
+37848 Loken
+37849 Loken
+37850 Loken
+37851 Loken
+37852 Loken
+37853 Loken
+37854 Loken
+37855 Loken
+37861 Xevozz
+37862 Ichoron
+37867 Xevozz
+37868 Xevozz
+37869 Ichoron
+37870 Lavanthor
+37871 Lavanthor
+37872 Lavanthor
+37873 Cyanigosa
+37874 Cyanigosa
+37875 Cyanigosa
+37876 Cyanigosa
+37883 Cyanigosa
+37884 Cyanigosa
+37886 Cyanigosa
+38611 Maiden of Grief
+38613 Maiden of Grief
+38614 Maiden of Grief
+38615 Maiden of Grief
+38616 Maiden of Grief
+38617 Maiden of Grief
+38618 Maiden of Grief
+39139 Anub'Rekhan
+39140 Anub'Rekhan
+39140 Gluth
+39141 Anub'Rekhan
+39146 Anub'Rekhan
+39152 Slad'ran
+39188 Anub'Rekhan
+39189 Anub'Rekhan
+39189 Gluth
+39190 Anub'Rekhan
+39190 Gluth
+39191 Anub'Rekhan
+39192 Anub'Rekhan
+39193 Anub'Rekhan
+39195 Gluth
+39195 Grand Widow Faerlina
+39196 Grand Widow Faerlina
+39197 Grand Widow Faerlina
+39198 Grand Widow Faerlina
+39199 Grand Widow Faerlina
+39200 Grand Widow Faerlina
+39215 Grand Widow Faerlina
+39216 Grand Widow Faerlina
+39217 Grand Widow Faerlina
+39221 Maexxna
+39224 Maexxna
+39225 Maexxna
+39226 Maexxna
+39228 Maexxna
+39229 Maexxna
+39230 Maexxna
+39231 Maexxna
+39232 Maexxna
+39233 Maexxna
+39234 Noth the Plaguebringer
+39236 Noth the Plaguebringer
+39237 Noth the Plaguebringer
+39239 Noth the Plaguebringer
+39240 Noth the Plaguebringer
+39241 Noth the Plaguebringer
+39242 Noth the Plaguebringer
+39243 Noth the Plaguebringer
+39244 Noth the Plaguebringer
+39245 Heigan the Unclean
+39246 Heigan the Unclean
+39247 Heigan the Unclean
+39248 Heigan the Unclean
+39249 Heigan the Unclean
+39250 Heigan the Unclean
+39251 Heigan the Unclean
+39252 Heigan the Unclean
+39254 Heigan the Unclean
+39255 Heigan the Unclean
+39256 Loatheb
+39257 Loatheb
+39258 Loatheb
+39259 Loatheb
+39260 Loatheb
+39261 Patchwerk
+39262 Gluth
+39262 Patchwerk
+39267 Patchwerk
+39270 Patchwerk
+39271 Patchwerk
+39272 Patchwerk
+39273 Patchwerk
+39274 Patchwerk
+39275 Patchwerk
+39276 Grobbulus
+39277 Grobbulus
+39278 Grobbulus
+39279 Grobbulus
+39280 Grobbulus
+39281 Grobbulus
+39282 Grobbulus
+39284 Gluth
+39284 Grobbulus
+39285 Grobbulus
+39291 Thaddius
+39292 Thaddius
+39293 Thaddius
+39294 Thaddius
+39295 Thaddius
+39296 Instructor Razuvious
+39297 Instructor Razuvious
+39298 Instructor Razuvious
+39299 Instructor Razuvious
+39306 Instructor Razuvious
+39307 Instructor Razuvious
+39308 Instructor Razuvious
+39309 Instructor Razuvious
+39311 Instructor Razuvious
+39344 Gothik the Harvester
+39345 Gluth
+39345 Gothik the Harvester
+39369 Gothik the Harvester
+39379 Gothik the Harvester
+39386 Gothik the Harvester
+39388 Gothik the Harvester
+39389 Gothik the Harvester
+39390 Gothik the Harvester
+39391 Gothik the Harvester
+39392 Gothik the Harvester
+39398 Sapphiron
+39399 Sapphiron
+39401 Sapphiron
+39403 Sapphiron
+39404 Sapphiron
+39405 Sapphiron
+39407 Sapphiron
+39408 Sapphiron
+39409 Sapphiron
+39415 Sapphiron
+39416 Kel'Thuzad
+39417 Kel'Thuzad
+39419 Kel'Thuzad
+39420 Kel'Thuzad
+39421 Kel'Thuzad
+39422 Kel'Thuzad
+39423 Kel'Thuzad
+39424 Kel'Thuzad
+39425 Kel'Thuzad
+39426 Kel'Thuzad
+39492 Archavon the Stone Watcher
+39493 Archavon the Stone Watcher
+39495 Archavon the Stone Watcher
+39497 Archavon the Stone Watcher
+39498 Archavon the Stone Watcher
+39500 Archavon the Stone Watcher
+39515 Archavon the Stone Watcher
+39517 Archavon the Stone Watcher
+39519 Archavon the Stone Watcher
+39523 Archavon the Stone Watcher
+39528 Archavon the Stone Watcher
+39530 Archavon the Stone Watcher
+39534 Ionar
+39535 Ionar
+39536 Ionar
+39539 Archavon the Stone Watcher
+39543 Archavon the Stone Watcher
+39546 Archavon the Stone Watcher
+39554 Archavon the Stone Watcher
+39555 Archavon the Stone Watcher
+39557 Archavon the Stone Watcher
+39558 Archavon the Stone Watcher
+39560 Archavon the Stone Watcher
+39564 Archavon the Stone Watcher
+39579 Archavon the Stone Watcher
+39580 Archavon the Stone Watcher
+39582 Archavon the Stone Watcher
+39589 Archavon the Stone Watcher
+39593 Archavon the Stone Watcher
+39595 Archavon the Stone Watcher
+39606 Archavon the Stone Watcher
+39607 Archavon the Stone Watcher
+39609 Archavon the Stone Watcher
+39611 Archavon the Stone Watcher
+39612 Archavon the Stone Watcher
+39617 Archavon the Stone Watcher
+39620 Archavon the Stone Watcher
+39622 Archavon the Stone Watcher
+39623 Archavon the Stone Watcher
+39626 Archavon the Stone Watcher
+39630 Archavon the Stone Watcher
+39634 Archavon the Stone Watcher
+39638 Archavon the Stone Watcher
+39639 Archavon the Stone Watcher
+39657 Ionar
+39701 Anub'Rekhan
+39702 Anub'Rekhan
+39703 Anub'Rekhan
+39704 Anub'Rekhan
+39706 Anub'Rekhan
+39712 Anub'Rekhan
+39714 Anub'Rekhan
+39714 Gluth
+39716 Anub'Rekhan
+39716 Gluth
+39718 Anub'Rekhan
+39719 Anub'Rekhan
+39720 Anub'Rekhan
+39721 Anub'Rekhan
+39721 Gluth
+39722 Anub'Rekhan
+39723 Grand Widow Faerlina
+39725 Grand Widow Faerlina
+39726 Grand Widow Faerlina
+39727 Grand Widow Faerlina
+39728 Grand Widow Faerlina
+39729 Grand Widow Faerlina
+39730 Grand Widow Faerlina
+39731 Grand Widow Faerlina
+39732 Grand Widow Faerlina
+39734 Grand Widow Faerlina
+39735 Grand Widow Faerlina
+39756 Grand Widow Faerlina
+39757 Grand Widow Faerlina
+39758 Maexxna
+39759 Maexxna
+39760 Gluth
+39760 Maexxna
+39761 Gluth
+39761 Maexxna
+39763 Maexxna
+39764 Maexxna
+39765 Maexxna
+39766 Gluth
+39766 Maexxna
+39767 Maexxna
+39768 Maexxna
+40060 Maexxna
+40061 Maexxna
+40062 Maexxna
+40063 Maexxna
+40064 Anub'Rekhan
+40064 Grand Widow Faerlina
+40064 Instructor Razuvious
+40064 Noth the Plaguebringer
+40064 Patchwerk
+40065 Anub'Rekhan
+40065 Grand Widow Faerlina
+40065 Instructor Razuvious
+40065 Noth the Plaguebringer
+40065 Patchwerk
+40069 Anub'Rekhan
+40069 Grand Widow Faerlina
+40069 Instructor Razuvious
+40069 Noth the Plaguebringer
+40069 Patchwerk
+40071 Anub'Rekhan
+40071 Grand Widow Faerlina
+40071 Instructor Razuvious
+40071 Noth the Plaguebringer
+40071 Patchwerk
+40074 Anub'Rekhan
+40074 Grand Widow Faerlina
+40074 Instructor Razuvious
+40074 Noth the Plaguebringer
+40074 Patchwerk
+40075 Anub'Rekhan
+40075 Grand Widow Faerlina
+40075 Instructor Razuvious
+40075 Noth the Plaguebringer
+40075 Patchwerk
+40080 Anub'Rekhan
+40080 Grand Widow Faerlina
+40080 Instructor Razuvious
+40080 Noth the Plaguebringer
+40080 Patchwerk
+40107 Anub'Rekhan
+40107 Grand Widow Faerlina
+40107 Instructor Razuvious
+40107 Noth the Plaguebringer
+40107 Patchwerk
+40108 Anub'Rekhan
+40108 Grand Widow Faerlina
+40108 Instructor Razuvious
+40108 Noth the Plaguebringer
+40108 Patchwerk
+40184 Noth the Plaguebringer
+40185 Gluth
+40185 Noth the Plaguebringer
+40186 Noth the Plaguebringer
+40188 Noth the Plaguebringer
+40189 Noth the Plaguebringer
+40190 Noth the Plaguebringer
+40191 Gluth
+40191 Noth the Plaguebringer
+40192 Noth the Plaguebringer
+40193 Gluth
+40193 Noth the Plaguebringer
+40196 Noth the Plaguebringer
+40197 Noth the Plaguebringer
+40198 Noth the Plaguebringer
+40200 Noth the Plaguebringer
+40201 Heigan the Unclean
+40203 Gluth
+40203 Heigan the Unclean
+40204 Gluth
+40204 Heigan the Unclean
+40205 Heigan the Unclean
+40207 Heigan the Unclean
+40208 Heigan the Unclean
+40209 Heigan the Unclean
+40210 Heigan the Unclean
+40233 Heigan the Unclean
+40234 Heigan the Unclean
+40235 Heigan the Unclean
+40236 Heigan the Unclean
+40237 Heigan the Unclean
+40238 Heigan the Unclean
+40239 Gluth
+40239 Loatheb
+40240 Loatheb
+40241 Loatheb
+40242 Gluth
+40242 Loatheb
+40243 Loatheb
+40244 Loatheb
+40245 Loatheb
+40247 Loatheb
+40249 Loatheb
+40250 Gothik the Harvester
+40250 Grobbulus
+40250 Heigan the Unclean
+40250 Maexxna
+40251 Gothik the Harvester
+40251 Grobbulus
+40251 Heigan the Unclean
+40251 Maexxna
+40252 Gothik the Harvester
+40252 Grobbulus
+40252 Heigan the Unclean
+40252 Maexxna
+40253 Gothik the Harvester
+40253 Grobbulus
+40253 Heigan the Unclean
+40253 Maexxna
+40254 Gothik the Harvester
+40254 Grobbulus
+40254 Heigan the Unclean
+40254 Maexxna
+40255 Gothik the Harvester
+40255 Grobbulus
+40255 Heigan the Unclean
+40255 Maexxna
+40256 Gothik the Harvester
+40256 Grobbulus
+40256 Heigan the Unclean
+40256 Maexxna
+40257 Gothik the Harvester
+40257 Grobbulus
+40257 Heigan the Unclean
+40257 Maexxna
+40258 Gothik the Harvester
+40258 Grobbulus
+40258 Heigan the Unclean
+40258 Maexxna
+40259 Patchwerk
+40260 Patchwerk
+40261 Patchwerk
+40262 Gluth
+40262 Patchwerk
+40263 Patchwerk
+40264 Patchwerk
+40265 Gluth
+40265 Patchwerk
+40266 Patchwerk
+40267 Patchwerk
+40268 Gluth
+40268 Patchwerk
+40269 Patchwerk
+40271 Gluth
+40271 Patchwerk
+40272 Patchwerk
+40273 Gluth
+40273 Patchwerk
+40274 Gluth
+40274 Grobbulus
+40275 Grobbulus
+40277 Grobbulus
+40278 Grobbulus
+40279 Grobbulus
+40280 Grobbulus
+40281 Gluth
+40281 Grobbulus
+40283 Grobbulus
+40284 Grobbulus
+40285 Grobbulus
+40287 Grobbulus
+40288 Grobbulus
+40289 Gluth
+40289 Grobbulus
+40294 Thaddius
+40296 Thaddius
+40297 Thaddius
+40298 Thaddius
+40299 Thaddius
+40300 Thaddius
+40301 Thaddius
+40303 Gluth
+40303 Thaddius
+40304 Thaddius
+40306 Instructor Razuvious
+40315 Instructor Razuvious
+40316 Instructor Razuvious
+40317 Instructor Razuvious
+40318 Instructor Razuvious
+40319 Instructor Razuvious
+40320 Instructor Razuvious
+40321 Instructor Razuvious
+40322 Instructor Razuvious
+40323 Instructor Razuvious
+40324 Instructor Razuvious
+40325 Instructor Razuvious
+40326 Instructor Razuvious
+40327 Instructor Razuvious
+40328 Gothik the Harvester
+40329 Gothik the Harvester
+40330 Gothik the Harvester
+40331 Gothik the Harvester
+40332 Gothik the Harvester
+40333 Gothik the Harvester
+40334 Gluth
+40334 Gothik the Harvester
+40335 Gothik the Harvester
+40336 Gothik the Harvester
+40337 Gothik the Harvester
+40339 Gothik the Harvester
+40340 Gluth
+40340 Gothik the Harvester
+40341 Gothik the Harvester
+40342 Gothik the Harvester
+40346 Gluth
+40351 Grobbulus
+40363 Sapphiron
+40365 Sapphiron
+40366 Sapphiron
+40367 Sapphiron
+40368 Sapphiron
+40369 Sapphiron
+40370 Sapphiron
+40371 Sapphiron
+40372 Sapphiron
+40373 Sapphiron
+40374 Sapphiron
+40375 Sapphiron
+40376 Sapphiron
+40377 Sapphiron
+40378 Sapphiron
+40379 Sapphiron
+40380 Sapphiron
+40381 Sapphiron
+40382 Sapphiron
+40383 Kel'Thuzad
+40384 Kel'Thuzad
+40385 Kel'Thuzad
+40386 Kel'Thuzad
+40387 Kel'Thuzad
+40388 Kel'Thuzad
+40395 Kel'Thuzad
+40396 Kel'Thuzad
+40398 Kel'Thuzad
+40399 Kel'Thuzad
+40400 Kel'Thuzad
+40401 Kel'Thuzad
+40402 Kel'Thuzad
+40403 Kel'Thuzad
+40405 Kel'Thuzad
+40415 Archavon the Stone Watcher
+40417 Archavon the Stone Watcher
+40418 Archavon the Stone Watcher
+40422 Archavon the Stone Watcher
+40423 Archavon the Stone Watcher
+40427 Sartharion
+40428 Sartharion
+40429 Sartharion
+40430 Sartharion
+40431 Sartharion
+40432 Sartharion
+40437 Sartharion
+40438 Sartharion
+40445 Archavon the Stone Watcher
+40446 Sartharion
+40448 Archavon the Stone Watcher
+40449 Archavon the Stone Watcher
+40451 Sartharion
+40453 Sartharion
+40454 Archavon the Stone Watcher
+40455 Sartharion
+40457 Archavon the Stone Watcher
+40458 Archavon the Stone Watcher
+40460 Archavon the Stone Watcher
+40462 Archavon the Stone Watcher
+40463 Archavon the Stone Watcher
+40466 Archavon the Stone Watcher
+40468 Archavon the Stone Watcher
+40469 Archavon the Stone Watcher
+40471 Archavon the Stone Watcher
+40472 Archavon the Stone Watcher
+40490 Novos the Summoner
+40493 Archavon the Stone Watcher
+40495 Archavon the Stone Watcher
+40496 Archavon the Stone Watcher
+40500 Archavon the Stone Watcher
+40503 Archavon the Stone Watcher
+40504 Archavon the Stone Watcher
+40506 Archavon the Stone Watcher
+40508 Archavon the Stone Watcher
+40509 Archavon the Stone Watcher
+40512 Archavon the Stone Watcher
+40514 Archavon the Stone Watcher
+40515 Archavon the Stone Watcher
+40517 Archavon the Stone Watcher
+40520 Archavon the Stone Watcher
+40522 Archavon the Stone Watcher
+40523 Archavon the Stone Watcher
+40525 Archavon the Stone Watcher
+40527 Archavon the Stone Watcher
+40529 Archavon the Stone Watcher
+40544 Archavon the Stone Watcher
+40545 Archavon the Stone Watcher
+40547 Archavon the Stone Watcher
+40550 Archavon the Stone Watcher
+40552 Archavon the Stone Watcher
+40556 Archavon the Stone Watcher
+40559 Archavon the Stone Watcher
+40563 Archavon the Stone Watcher
+40567 Archavon the Stone Watcher
+40569 Archavon the Stone Watcher
+40570 Archavon the Stone Watcher
+40572 Archavon the Stone Watcher
+40574 Archavon the Stone Watcher
+40575 Archavon the Stone Watcher
+40577 Archavon the Stone Watcher
+40579 Archavon the Stone Watcher
+40580 Archavon the Stone Watcher
+40583 Archavon the Stone Watcher
+40602 Noth the Plaguebringer
+40610 Gluth
+40611 Gluth
+40612 Gluth
+40613 Sartharion
+40614 Sartharion
+40615 Sartharion
+40616 Kel'Thuzad
+40617 Kel'Thuzad
+40618 Kel'Thuzad
+40619 Gluth
+40619 Thaddius
+40620 Gluth
+40620 Thaddius
+40621 Gluth
+40621 Thaddius
+40622 Gluth
+40622 Loatheb
+40623 Gluth
+40623 Loatheb
+40624 Gluth
+40624 Loatheb
+40625 Gluth
+40626 Gluth
+40627 Gluth
+40628 Sartharion
+40629 Sartharion
+40630 Sartharion
+40631 Kel'Thuzad
+40632 Kel'Thuzad
+40633 Kel'Thuzad
+40634 Gluth
+40634 Thaddius
+40635 Gluth
+40635 Thaddius
+40636 Gluth
+40636 Thaddius
+40637 Gluth
+40637 Loatheb
+40638 Gluth
+40638 Loatheb
+40639 Gluth
+40639 Loatheb
+40752 Anomalus
+40752 Anub'Rekhan
+40752 Anub'arak
+40752 Archavon the Stone Watcher
+40752 Chrono-Lord Epoch
+40752 Cyanigosa
+40752 Drakos the Interrogator
+40752 Eck the Ferocious
+40752 Elder Nadox
+40752 Erekem
+40752 Gal'darah
+40752 General Bjarngrim
+40752 Gluth
+40752 Gortok Palehoof
+40752 Gothik the Harvester
+40752 Grand Magus Telestra
+40752 Grand Widow Faerlina
+40752 Grobbulus
+40752 Hadronox
+40752 Heigan the Unclean
+40752 Herald Volazj
+40752 Ichoron
+40752 Ingvar the Plunderer
+40752 Instructor Razuvious
+40752 Ionar
+40752 Jedoga Shadowseeker
+40752 Kel'Thuzad
+40752 Keristrasza
+40752 King Dred
+40752 King Ymiron
+40752 Krik'thir the Gatewatcher
+40752 Krystallus
+40752 Lavanthor
+40752 Loatheb
+40752 Loken
+40752 Maexxna
+40752 Mage-Lord Urom
+40752 Maiden of Grief
+40752 Meathook
+40752 Moorabi
+40752 Moragg
+40752 Noth the Plaguebringer
+40752 Novos the Summoner
+40752 Ormorok the Tree-Shaper
+40752 Patchwerk
+40752 Prince Keleseth
+40752 Prince Taldaram
+40752 Salramm the Fleshcrafter
+40752 Sapphiron
+40752 Sartharion
+40752 Sjonnir The Ironshaper
+40752 Skadi the Ruthless
+40752 Skarvald the Constructor
+40752 Slad'ran
+40752 Svala Sorrowgrave
+40752 Thaddius
+40752 The Prophet Tharon'ja
+40752 Trollgore
+40752 Varos Cloudstrider
+40752 Volkhan
+40752 Xevozz
+40752 Zuramat the Obliterator
+40753 Anub'Rekhan
+40753 Archavon the Stone Watcher
+40753 Gluth
+40753 Gothik the Harvester
+40753 Grand Widow Faerlina
+40753 Grobbulus
+40753 Heigan the Unclean
+40753 Instructor Razuvious
+40753 Kel'Thuzad
+40753 Loatheb
+40753 Maexxna
+40753 Noth the Plaguebringer
+40753 Patchwerk
+40753 Sapphiron
+40753 Sartharion
+40753 Thaddius
+40781 Archavon the Stone Watcher
+40782 Archavon the Stone Watcher
+40783 Archavon the Stone Watcher
+40784 Archavon the Stone Watcher
+40785 Archavon the Stone Watcher
+40786 Archavon the Stone Watcher
+40801 Archavon the Stone Watcher
+40802 Archavon the Stone Watcher
+40803 Archavon the Stone Watcher
+40804 Archavon the Stone Watcher
+40805 Archavon the Stone Watcher
+40806 Archavon the Stone Watcher
+40840 Archavon the Stone Watcher
+40841 Archavon the Stone Watcher
+40842 Archavon the Stone Watcher
+40844 Archavon the Stone Watcher
+40845 Archavon the Stone Watcher
+40846 Archavon the Stone Watcher
+40904 Archavon the Stone Watcher
+40905 Archavon the Stone Watcher
+40925 Archavon the Stone Watcher
+40926 Archavon the Stone Watcher
+40937 Archavon the Stone Watcher
+40938 Archavon the Stone Watcher
+40990 Archavon the Stone Watcher
+40991 Archavon the Stone Watcher
+41000 Archavon the Stone Watcher
+41005 Archavon the Stone Watcher
+41006 Archavon the Stone Watcher
+41026 Archavon the Stone Watcher
+41031 Archavon the Stone Watcher
+41032 Archavon the Stone Watcher
+41079 Archavon the Stone Watcher
+41080 Archavon the Stone Watcher
+41085 Archavon the Stone Watcher
+41086 Archavon the Stone Watcher
+41135 Archavon the Stone Watcher
+41136 Archavon the Stone Watcher
+41141 Archavon the Stone Watcher
+41142 Archavon the Stone Watcher
+41162 Archavon the Stone Watcher
+41198 Archavon the Stone Watcher
+41203 Archavon the Stone Watcher
+41204 Archavon the Stone Watcher
+41286 Archavon the Stone Watcher
+41291 Archavon the Stone Watcher
+41292 Archavon the Stone Watcher
+41296 Archavon the Stone Watcher
+41297 Archavon the Stone Watcher
+41302 Archavon the Stone Watcher
+41303 Archavon the Stone Watcher
+41308 Archavon the Stone Watcher
+41309 Archavon the Stone Watcher
+41314 Archavon the Stone Watcher
+41315 Archavon the Stone Watcher
+41648 Archavon the Stone Watcher
+41649 Archavon the Stone Watcher
+41653 Archavon the Stone Watcher
+41654 Archavon the Stone Watcher
+41660 Archavon the Stone Watcher
+41665 Archavon the Stone Watcher
+41666 Archavon the Stone Watcher
+41765 Archavon the Stone Watcher
+41766 Archavon the Stone Watcher
+41771 Archavon the Stone Watcher
+41772 Archavon the Stone Watcher
+41790 Herald Volazj
+41791 Cyanigosa
+41792 Sjonnir The Ironshaper
+41793 Ingvar the Plunderer
+41794 Keristrasza
+41795 The Prophet Tharon'ja
+41796 Anub'arak
+41797 King Ymiron
+41799 Loken
+41857 Archavon the Stone Watcher
+41858 Archavon the Stone Watcher
+41862 Archavon the Stone Watcher
+41863 Archavon the Stone Watcher
+41872 Archavon the Stone Watcher
+41873 Archavon the Stone Watcher
+41919 Archavon the Stone Watcher
+41920 Archavon the Stone Watcher
+41925 Archavon the Stone Watcher
+41926 Archavon the Stone Watcher
+41938 Archavon the Stone Watcher
+41939 Archavon the Stone Watcher
+41950 Archavon the Stone Watcher
+41951 Archavon the Stone Watcher
+41957 Archavon the Stone Watcher
+41958 Archavon the Stone Watcher
+41969 Archavon the Stone Watcher
+41970 Archavon the Stone Watcher
+41997 Archavon the Stone Watcher
+42001 Archavon the Stone Watcher
+42003 Archavon the Stone Watcher
+42004 Archavon the Stone Watcher
+42015 Archavon the Stone Watcher
+42016 Archavon the Stone Watcher
+43228 Anomalus
+43228 Anub'arak
+43228 Chrono-Lord Epoch
+43228 Cyanigosa
+43228 Drakos the Interrogator
+43228 Eck the Ferocious
+43228 Elder Nadox
+43228 Erekem
+43228 Gal'darah
+43228 General Bjarngrim
+43228 Gortok Palehoof
+43228 Grand Magus Telestra
+43228 Hadronox
+43228 Herald Volazj
+43228 Ichoron
+43228 Ingvar the Plunderer
+43228 Ionar
+43228 Jedoga Shadowseeker
+43228 Keristrasza
+43228 King Dred
+43228 King Ymiron
+43228 Krik'thir the Gatewatcher
+43228 Krystallus
+43228 Lavanthor
+43228 Loken
+43228 Mage-Lord Urom
+43228 Maiden of Grief
+43228 Meathook
+43228 Moorabi
+43228 Moragg
+43228 Novos the Summoner
+43228 Ormorok the Tree-Shaper
+43228 Prince Keleseth
+43228 Prince Taldaram
+43228 Salramm the Fleshcrafter
+43228 Sjonnir The Ironshaper
+43228 Skadi the Ruthless
+43228 Skarvald the Constructor
+43228 Slad'ran
+43228 Svala Sorrowgrave
+43228 The Prophet Tharon'ja
+43228 Trollgore
+43228 Varos Cloudstrider
+43228 Volkhan
+43228 Xevozz
+43228 Zuramat the Obliterator
+43277 Jedoga Shadowseeker
+43278 Jedoga Shadowseeker
+43279 Jedoga Shadowseeker
+43280 Jedoga Shadowseeker
+43281 Jedoga Shadowseeker
+43282 Jedoga Shadowseeker
+43283 Jedoga Shadowseeker
+43305 Gal'darah
+43306 Gal'darah
+43309 Gal'darah
+43310 Eck the Ferocious
+43311 Eck the Ferocious
+43312 Eck the Ferocious
+43313 Eck the Ferocious
+43345 Sartharion
+43346 Sartharion
+43347 Sartharion
+43353 Zuramat the Obliterator
+43358 Zuramat the Obliterator
+43363 Erekem
+43375 Erekem
+43382 Moragg
+43387 Moragg
+43401 Ichoron
+43402 Zuramat the Obliterator
+43403 Zuramat the Obliterator
+43404 Zuramat the Obliterator
+43405 Erekem
+43406 Erekem
+43407 Erekem
+43408 Moragg
+43409 Moragg
+43410 Moragg
+43500 Cyanigosa
+43954 Sartharion
+43988 Sartharion
+43989 Sartharion
+43990 Sartharion
+43991 Sartharion
+43992 Sartharion
+44000 Sartharion
+44002 Sartharion
+44003 Sartharion
+44004 Sartharion
+44005 Sartharion
+44006 Sartharion
+44007 Sartharion
+44008 Sartharion
+44011 Sartharion
+44151 Skadi the Ruthless
+44569 Sapphiron
+44577 Sapphiron
+44731 Maiden of Grief
+44731 Prince Keleseth
+44731 Prince Taldaram
 ]]
 
 Engravings["Dropped by:"] = setmetatable({}, {
