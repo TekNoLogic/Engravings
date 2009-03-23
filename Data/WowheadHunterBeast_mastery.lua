@@ -3377,7 +3377,7 @@ local WOWHEAD_SCORE = [[
 44935 2.069
 ]]
 
-Engravings["Wowhead score (Beast_mastery):"] = setmetatable({}, {
+Engravings["Wowhead score (Beast mastery):"] = setmetatable({}, {
 	__index = function(t,i)
 		local v = WOWHEAD_SCORE:match("\n"..i.." ([^\n]+)\n")
 		if v then t[i] = v; return v
