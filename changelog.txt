@@ -1,3 +1,8 @@
+3.0.9.8-Release
+    Sort the tooltip displays
+    Add wowhead weight datasets (only the sets for your class will be loaded)
+    Add config panel
+
 3.0.9.7-Release
     New data! WHEEEEE!
     Add support for new non-item currencies
