@@ -339,9 +339,9 @@ def mine_item_weights(wh)
 			data = []
 			p "Grabbing #{spec} #{c} item scores"
 			item_values.each do |v|
-				[3,4].each do |q|
+				[2,3,4].each do |q|
 					item_data = wh.get("/?items=#{v}qu=#{q};gm=3;#{w}") || []
-					data += item_data.map {|val| [val["id"], val["score"]]}
+					data += item_data.map {|val| [val["id"], "%.3f" % val["score"]]}
 				end
 			end
 			export(File.join("Data", "Wowhead#{c.to_s.capitalize}#{spec.to_s.capitalize}.lua"), "WOWHEAD_SCORE", "Wowhead score (#{spec.to_s.capitalize}):", data.compact.sort.map {|d| d.join(" ")}.join("\n"), c.to_s.upcase.gsub("_", ""))
