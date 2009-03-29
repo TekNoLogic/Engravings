@@ -3,7 +3,7 @@
 ## Title: Engravings
 ## Notes: Adds notes to item tooltips.
 ## Author: Tekkub Stoutwrithe
-## Version: Alpha
+## Version: 3.0.9.9
 ## X-Website: http://code.google.com/p/tekkub-wow/
 ## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Inventory
