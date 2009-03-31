@@ -9,6 +9,7 @@
 ## X-Category: Inventory
 
 ## SavedVariables: EngravingsDB, EngravingsDB2
+## SavedVariablesPerCharacter: EngravingsDBPC
 
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed

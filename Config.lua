@@ -1,14 +1,15 @@
 
 local EDGEGAP, ROWHEIGHT, ROWGAP, GAP = 16, 19, 2, 4
 local sources = Engravings
-local db
-
+local db, dbpc
+local initdb = Engravings.initdb
+Engravings.initdb = nil
 
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 frame.name = "Engravings"
 frame:Hide()
 frame:SetScript("OnShow", function(frame)
-	if not db then EngravingsDB2 = EngravingsDB2 or {}; db = EngravingsDB2 end
+	if not db then db, dbpc = initdb() end
 	local sortedtitles = {}
 	for title,data in pairs(sources) do table.insert(sortedtitles, title) end
 	table.sort(sortedtitles, function(a,b) return string.lower(a) < string.lower(b) end)
@@ -31,7 +32,10 @@ frame:SetScript("OnShow", function(frame)
 	subtitle:SetText("This panel can be used to toggle tooltip engravings.")
 
 	local rows, anchor = {}
-	local function OnClick(self) db[self.value] = not db[self.value] end
+	local function OnClick(self)
+		local sv = self.value:match("^Wowhead score") and dbpc or db
+		sv[self.value] = not sv[self.value]
+	end
 	for i=1,15 do
 		local row = CreateFrame("Button", nil, frame)
 		if not anchor then row:SetPoint("TOP", subtitle, "BOTTOM", 0, -16)
@@ -73,7 +77,7 @@ frame:SetScript("OnShow", function(frame)
 		local offset = math.floor(value)
 		for i,row in pairs(rows) do
 			local title = sortedtitles[i + offset]
-			row.check:SetChecked(not db[title])
+			row.check:SetChecked(not (db[title] or dbpc[title]))
 			row.check.value = title
 			row.title:SetText(title:gsub(":", ""))
 		end
