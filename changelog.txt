@@ -1,3 +1,6 @@
+3.0.9.10-Release
+    Make wowhead score settings save per-char
+
 3.0.9.9-Release
     Add weight scores for uncommon items (seriously, this is super useful for NR quest rewards... damn!)
 
