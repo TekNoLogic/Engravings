@@ -39,7 +39,10 @@ Data\PvPCosts.lua
 Data\BadgeOfJustice.lua
 Data\EmblemOfHeroism.lua
 Data\EmblemOfValor.lua
+Data\EmblemofConquest.lua
 Data\SpiritShard.lua
+Data\StoneKeeper'sShard.lua
+Data\WintergraspMarkofHonor.lua
 Data\DropLocations.lua
 Data\DropNPCs.lua
 Data\TierArmorTokenDropLocations.lua
