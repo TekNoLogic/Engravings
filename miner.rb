@@ -352,9 +352,12 @@ end
 
 Net::HTTP.start("www.wowhead.com") do |http|
 	mine_drops http
+	mine_token_rewards http, "Stone Keeper's Shard", 43228
+	mine_token_rewards http, "Wintergrasp Mark of Honor", 43589
 	mine_token_rewards http, "Badge of Justice", 29434
 	mine_token_rewards http, "Emblem of Heroism", 40752
 	mine_token_rewards http, "Emblem of Valor", 40753
+	mine_token_rewards http, "Emblem of Conquest", 45624
 	mine_raid_tokens http
 	mine_pvp_prices http
 	mine_item_sets http
