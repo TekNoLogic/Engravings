@@ -1,3 +1,6 @@
+3.1.0.11-Release
+    New 3.1 datas!
+
 3.0.9.10-Release
     Make wowhead score settings save per-char
 
