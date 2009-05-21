@@ -257,99 +257,6 @@ def mine_item_sets(http)
 	puts "Item set names added, #{item_sets.size} items imported."
 end
 
-def mine_item_weights(wh)
-	weights = {
-		:priest => {
-			:holy => "ub=5;wt=123:61:103:23:24:96;wtv=100:93:89:88:85:63",
-			:discipline => "ub=5;wt=123:96:23:103:24:61;wtv=100:95:59:47:36:36",
-			:shadow => "ub=5;wt=119:57:123:96:23:61:103:24;wtv=100:61:61:50:43:27:25:6",
-		},
-		:paladin => {
-			:holy => "ub=2;wt=103:123:96:23:61;wtv=100:55:36:29:15",
-			:protection => "ub=2;wt=42:20:21:44:45:22:46:43:119:77:96:123:41;wtv=100:96:88:80:79:76:76:52:50:25:23:20:9",
-			:retribution => "ub=2;wt=20:96:114:21:119:117:103:77:123;wtv=100:70:67:67:59:44:38:38:12",
-		},
-		:druid => {
-			:restoration => "ub=11;wt=61:123:24:23:96:103;wtv=100:53:48:28:14:12",
-			:bear => "ub=11;wt=21:42:45:22:41:117:20:119:103:77:97:96;wtv=100:72:70:65:25:16:10:6:5:4:4:3",
-			:cat => "ub=11;wt=20:21:117:119:96:77:97:114:103;wtv=100:85:58:58:52:43:43:42:40",
-			:balance => "ub=11;wt=119:103:123:96:23:61:24;wtv=100:46:46:43:26:15:8",
-		},
-		:hunter => {
-			:beast_mastery => "ub=3;wt=138:119:23:21:114:61:103:77:96;wtv=134:100:94:59:54:48:43:39:37",
-			:marksmanship => "ub=3;wt=138:23:119:61:21:114:103:96:77;wtv=151:100:90:70:63:62:59:43:38",
-			:survival => "ub=3;wt=138:23:119:21:61:103:114:96:77;wtv=147:100:93:83:72:70:66:58:35",
-		},
-		:shaman => {
-			:restoration => "ub=7;wt=61:23:123:103:96;wtv=100:87:76:57:34",
-			:elemental => "ub=7;wt=119:103:123:61:96:23;wtv=100:73:69:35:33:13",
-			:enhancement => "ub=7;wt=134:119:117:23:96:21:103:20:77:123:114;wtv=191:100:84:55:55:55:42:36:33:30:26",
-		},
-		:mage => {
-			:arcane => "ub=8;wt=119:103:52:123:23:96:24:61;wtv=100:49:44:44:39:34:14:9",
-			:fire => "ub=8;wt=119:96:53:123:103:23:61;wtv=100:55:49:49:47:35:15",
-			:frost => "ub=8;wt=119:54:123:103:96:23:61;wtv=100:50:50:46:33:21:13",
-		},
-		:rogue => {:general => "ub=4;wt=21:117:103:119:96:114:20:77:22;wtv=100:100:82:82:82:55:50:46:1"},
-		:warrior => {
-			:protection => "ub=1;wt=22:42:45:117:21:46:43:20:119:41:96:114:77:103;wtv=100:66:59:58:53:50:22:17:7:7:5:5:3:3",
-			:fury => "ub=1;wt=117:77:114:20:119:96:21:103:41;wtv=100:34:33:22:18:18:12:3:1",
-		},
-		:death_knight => {
-			:blood => "ub=6;wt=134:119:20:117:96:114:77:103;wtv=361:100:97:64:44:40:38:22",
-			:frost => "ub=6;wt=134:119:20:117:96:77:114:103;wtv=417:100:99:52:50:42:32:21",
-			:tank => "ub=6;wt=134:119:20:42:117:45:21:22:96:77:114:41;wtv=432:100:99:88:71:63:63:63:50:42:32:5",
-			:unholy => "ub=6;wt=134:119:20:117:96:77:103:114;wtv=305:100:100:56:46:41:26:22",
-		},
-		:warlock => {
-			:affliction => "ub=9;wt=123:57:24:119:103:96:61:23:53;wtv=100:88:74:32:25:24:22:14:13",
-			:demonology => "ub=9;wt=123:24:57:119:103:61:96:53:23;wtv=100:96:86:49:37:33:21:15:12",
-			:destruction => "ub=9;wt=123:24:57:119:61:103:96:53:23;wtv=100:56:55:50:48:48:47:46:45",
-		},
-	}
-	armor_slots = [1, 3, 5, 6, 7, 8, 9, 10]
-	items = {
-		:common => ["4.-6&filter=", "4.-5&filter=", "4.-3&filter=", "4.-2&filter=", "4.-4&filter="],
-		:offhand => ["4.-5&filter="], :shield => ["4.6&filter="],
-		:idol => ["4.8&filter="], :libram => ["4.7&filter="], :totem => ["4.9&filter="], :sigil => ["4.10&filter="], :wand => ["2.19&filter="],
-		:dagger => ["2.15&filter="], :fist => ["2.13&filter="], :axe_one => ["2.0&filter="], :mace_one => ["2.4&filter="], :sword_one => ["2.7&filter="],
-		:polearm => ["2.6&filter="], :staff => ["2.10&filter="], :axe_two => ["2.1&filter="], :mace_two => ["2.5&filter="], :sword_two => ["2.8&filter="],
-		:bow => ["2.2&filter="], :crossbow => ["2.18&filter="], :gun => ["2.3&filter="],
-		:thrown => ["2.16&filter="],
-	}
-	types = [:cloth, :leather, :mail, :plate]
-	types.each_index {|i| items[types[i]] = armor_slots.map {|s| "4.#{i+1}&filter=sl=#{s};"}}
-	item_sets = {
-		:mage         => [:common,   :cloth,   :wand, :offhand, :shield, :dagger,        :staff,                                                     :sword_one],
-		:warlock      => [:common,   :cloth,   :wand, :offhand, :shield, :dagger,        :staff,                                                     :sword_one],
-		:priest       => [:common,   :cloth,   :wand, :offhand,          :dagger,        :staff,           :mace_one],
-		:druid        => [:common, :leather,   :idol, :offhand,          :dagger, :fist, :staff, :polearm, :mace_one, :mace_two],
-		:rogue        => [:common, :leather,          :offhand,          :dagger, :fist,                   :mace_one,                                :sword_one, :sword_two, :thrown, :gun, :bow, :crossbow],
-		:shaman       => [:common,    :mail,  :totem, :offhand, :shield, :dagger, :fist, :staff,           :mace_one, :mace_two, :axe_one, :axe_two],
-		:hunter       => [:common,    :mail,          :offhand,          :dagger, :fist, :staff, :polearm,                       :axe_one, :axe_two, :sword_one, :sword_two, :thrown, :gun, :bow, :crossbow],
-		:paladin      => [:common,   :plate, :libram, :offhand, :shield,                         :polearm, :mace_one, :mace_two, :axe_one, :axe_two, :sword_one, :sword_two],
-		:warrior      => [:common,   :plate,          :offhand, :shield, :dagger, :fist, :staff, :polearm, :mace_one, :mace_two, :axe_one, :axe_two, :sword_one, :sword_two, :thrown, :gun, :bow, :crossbow],
-		:death_knight => [:common,   :plate,  :sigil, :offhand,                                  :polearm, :mace_one, :mace_two, :axe_one, :axe_two, :sword_one, :sword_two],
-	}
-
-	weights.each_pair do |c,specs|
-		item_values = item_sets[c].map {|s| items[s]}.flatten
-
-		specs.each_pair do |spec,w|
-			data = []
-			p "Grabbing #{spec} #{c} item scores"
-			item_values.each do |v|
-				[2,3,4].each do |q|
-					item_data = wh.get("/?items=#{v}qu=#{q};gm=3;#{w}") || []
-					data += item_data.map {|val| [val["id"], "%.3f" % val["score"]]}
-				end
-			end
-			export(File.join("Data", "Wowhead#{c.to_s.capitalize}#{spec.to_s.capitalize}.lua"), "WOWHEAD_SCORE", "Wowhead score (#{spec.to_s.gsub("_", " ").capitalize}):", data.compact.sort.map {|d| d.join(" ")}.join("\n"), c.to_s.upcase.gsub("_", ""))
-		end
-	end
-end
-
-
 Net::HTTP.start("www.wowhead.com") do |http|
 	mine_drops http
 	mine_token_rewards http, "Stone Keeper's Shard", 43228
@@ -362,7 +269,3 @@ Net::HTTP.start("www.wowhead.com") do |http|
 	mine_pvp_prices http
 	mine_item_sets http
 end
-
-
-wh = Wowhead.new
-mine_item_weights(wh)
