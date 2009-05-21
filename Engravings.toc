@@ -51,12 +51,12 @@ Data\HeadOnAPike.lua
 Data\ItemSetNames.lua
 
 Data\WowheadDeath_knightBlood.lua
-Data\WowheadDeath_knightFrost.lua
-Data\WowheadDeath_knightTank.lua
+Data\WowheadDeath_knightFrost_dps.lua
+Data\WowheadDeath_knightFrost_tanking.lua
 Data\WowheadDeath_knightUnholy.lua
 Data\WowheadDruidBalance.lua
-Data\WowheadDruidBear.lua
-Data\WowheadDruidCat.lua
+Data\WowheadDruidFeral_dps.lua
+Data\WowheadDruidFeral_tanking.lua
 Data\WowheadDruidRestoration.lua
 Data\WowheadHunterBeast_mastery.lua
 Data\WowheadHunterMarksmanship.lua
