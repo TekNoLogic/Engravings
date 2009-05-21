@@ -1,5 +1,15 @@
 
 local TOKEN_REWARDS = [[
+39728 25 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
+39757 25 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
+40191 25 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
+40207 25 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
+40267 25 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
+40268 25 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
+40321 25 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
+40322 25 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
+40337 25 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
+40342 25 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
 40634 75 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
 40635 75 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t
 40636 75 |TInterface\Icons\Spell_Holy_ProclaimChampion_02:18|t

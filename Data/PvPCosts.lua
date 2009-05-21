@@ -6,7 +6,7 @@ local PVP_COSTS = [[
 33665 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33666 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33667 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33668 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33668 1150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33669 2100 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33671 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33672 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -31,11 +31,11 @@ local PVP_COSTS = [[
 33696 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33697 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33698 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33699 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33699 1150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33700 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33701 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33702 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33703 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33703 1150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33704 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33705 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33706 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -49,13 +49,13 @@ local PVP_COSTS = [[
 33717 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33718 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33719 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33720 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33720 1150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33721 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33722 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33723 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33724 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33725 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33726 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33726 1150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33728 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33729 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33730 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -73,17 +73,17 @@ local PVP_COSTS = [[
 33744 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33745 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33746 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33747 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33747 1150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33748 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33749 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33750 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33751 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33752 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33753 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33753 1150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33754 2100 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33755 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33756 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-33757 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+33757 1150 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33758 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33759 900 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 33760 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -129,17 +129,12 @@ local PVP_COSTS = [[
 34989 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34990 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34990 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34990 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34991 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34991 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34991 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34992 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34992 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34992 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34993 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34993 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34993 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34994 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34994 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34994 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34995 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -152,14 +147,9 @@ local PVP_COSTS = [[
 34997 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34997 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34998 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34998 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-34999 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 34999 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35000 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35000 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35001 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35001 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35002 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35002 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35003 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35003 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -209,14 +199,9 @@ local PVP_COSTS = [[
 35021 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35021 1000 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35022 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35022 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35023 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35023 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35024 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35024 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35025 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35025 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35026 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35026 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35027 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35027 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -414,18 +399,11 @@ local PVP_COSTS = [[
 35109 3750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35110 650 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35110 650 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35110 650 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35111 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35111 1125 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35112 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35112 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35113 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35113 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35114 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35114 1500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 35115 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-35115 1875 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-36737 650 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 36737 650 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 36737 650 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 38545 800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -488,9 +466,9 @@ local PVP_COSTS = [[
 40859 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 40860 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 40861 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-40862 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-40863 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-40864 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+40862 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+40863 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+40864 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 40877 49600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 40878 49600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 40879 62000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
@@ -511,7 +489,7 @@ local PVP_COSTS = [[
 40938 2250 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 40960 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 40961 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-40962 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+40962 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 40966 49600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 40972 31600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 40973 49600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
@@ -544,10 +522,10 @@ local PVP_COSTS = [[
 41031 12000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 700 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41032 2250 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41036 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41037 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41037 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41041 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41042 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41043 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41043 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41047 31600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41048 62000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41049 49600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
@@ -586,10 +564,10 @@ local PVP_COSTS = [[
 41204 2250 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41208 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41209 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41210 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41210 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41214 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41215 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41216 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41216 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41223 31600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41224 39400 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41228 49600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
@@ -602,10 +580,10 @@ local PVP_COSTS = [[
 41271 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41272 60000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41273 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41274 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41274 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41278 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41279 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41280 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41280 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41284 7200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 400 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41286 1350 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41290 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
@@ -659,10 +637,10 @@ local PVP_COSTS = [[
 41676 12000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 700 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41677 2250 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41681 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41682 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41682 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41712 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41713 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41714 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41714 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41765 7200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 400 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41766 1350 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41770 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
@@ -686,7 +664,7 @@ local PVP_COSTS = [[
 41862 12000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 700 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41863 2250 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41867 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41868 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41868 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41872 7200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 400 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41873 1350 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41877 49600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
@@ -712,7 +690,7 @@ local PVP_COSTS = [[
 41926 2250 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41930 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41931 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41933 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41933 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41937 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41938 7200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 400 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41939 1350 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -727,7 +705,7 @@ local PVP_COSTS = [[
 41958 2250 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41962 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41963 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-41964 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+41964 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41968 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 41969 7200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 400 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 41970 1350 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -742,7 +720,7 @@ local PVP_COSTS = [[
 42004 2250 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 42008 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 42009 9600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 550 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
-42010 1800 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+42010 1750 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 42014 50000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 42015 7200 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t 400 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 42016 1350 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
@@ -775,9 +753,12 @@ local PVP_COSTS = [[
 42067 47400 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 42068 47400 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 42110 38000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
+42110 38000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
+42112 38000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 42112 38000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 42114 47400 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 42115 47400 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
+42123 49600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 42123 49600 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 42128 62000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
 42129 62000 |TInterface\TargetingFrame\UI-PVP-FFA:40:40:0:-8|t
@@ -831,6 +812,8 @@ local PVP_COSTS = [[
 42852 1200 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 44419 4500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 44420 4500 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+45706 100 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
+45706 100 |TInterface\PVPFrame\PVP-ArenaPoints-Icon:14|t
 ]]
 
 Engravings["PvP:"] = setmetatable({}, {

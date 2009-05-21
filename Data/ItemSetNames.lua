@@ -200,11 +200,6 @@ local ITEM_SET_NAMES = [[
 30141 Tier 5
 30142 Tier 5
 30143 Tier 5
-30144 Tier 5
-30145 Tier 5
-30146 Tier 5
-30148 Tier 5
-30149 Tier 5
 30150 Tier 5
 30151 Tier 5
 30152 Tier 5
@@ -340,16 +335,6 @@ local ITEM_SET_NAMES = [[
 31057 Tier 6
 31058 Tier 6
 31059 Tier 6
-31060 Tier 6
-31061 Tier 6
-31063 Tier 6
-31064 Tier 6
-31065 Tier 6
-31066 Tier 6
-31067 Tier 6
-31068 Tier 6
-31069 Tier 6
-31070 Tier 6
 31375 Season 1
 31376 Season 1
 31377 Season 1
@@ -1586,6 +1571,101 @@ local ITEM_SET_NAMES = [[
 44418 Season 5 (Normal)
 44419 Season 5 (Heroic)
 44420 Season 5 (Heroic)
+45335 Tier 7 Heroic
+45336 Tier 7 Heroic
+45337 Tier 7 Heroic
+45338 Tier 7 Heroic
+45339 Tier 7 Heroic
+45340 Tier 7 Heroic
+45341 Tier 7 Heroic
+45342 Tier 7 Heroic
+45343 Tier 7 Heroic
+45344 Tier 7 Heroic
+45345 Tier 7 Heroic
+45346 Tier 7 Heroic
+45347 Tier 7 Heroic
+45348 Tier 7 Heroic
+45349 Tier 7 Heroic
+45351 Tier 7 Heroic
+45352 Tier 7 Heroic
+45353 Tier 7 Heroic
+45354 Tier 7 Heroic
+45355 Tier 7 Heroic
+45356 Tier 7 Heroic
+45357 Tier 7 Heroic
+45358 Tier 7 Heroic
+45359 Tier 7 Heroic
+45360 Tier 7 Heroic
+45361 Tier 7 Heroic
+45362 Tier 7 Heroic
+45363 Tier 7 Heroic
+45364 Tier 7 Heroic
+45365 Tier 7 Heroic
+45367 Tier 7 Heroic
+45368 Tier 7 Heroic
+45369 Tier 7 Heroic
+45370 Tier 7 Heroic
+45371 Tier 7 Heroic
+45372 Tier 7 Heroic
+45373 Tier 7 Heroic
+45374 Tier 7 Heroic
+45375 Tier 7 Heroic
+45376 Tier 7 Heroic
+45377 Tier 7 Heroic
+45379 Tier 7 Heroic
+45380 Tier 7 Heroic
+45381 Tier 7 Heroic
+45382 Tier 7 Heroic
+45383 Tier 7 Heroic
+45384 Tier 7 Heroic
+45385 Tier 7 Heroic
+45386 Tier 7 Heroic
+45387 Tier 7 Heroic
+45388 Tier 7 Heroic
+45389 Tier 7 Heroic
+45390 Tier 7 Heroic
+45391 Tier 7 Heroic
+45392 Tier 7 Heroic
+45393 Tier 7 Heroic
+45394 Tier 7 Heroic
+45395 Tier 7 Heroic
+45396 Tier 7 Heroic
+45397 Tier 7 Heroic
+45398 Tier 7 Heroic
+45399 Tier 7 Heroic
+45400 Tier 7 Heroic
+45401 Tier 7 Heroic
+45402 Tier 7 Heroic
+45403 Tier 7 Heroic
+45404 Tier 7 Heroic
+45405 Tier 7 Heroic
+45406 Tier 7 Heroic
+45408 Tier 7 Heroic
+45409 Tier 7 Heroic
+45410 Tier 7 Heroic
+45411 Tier 7 Heroic
+45412 Tier 7 Heroic
+45413 Tier 7 Heroic
+45414 Tier 7 Heroic
+45415 Tier 7 Heroic
+45416 Tier 7 Heroic
+45417 Tier 7 Heroic
+45419 Tier 7 Heroic
+45420 Tier 7 Heroic
+45421 Tier 7 Heroic
+45422 Tier 7 Heroic
+45424 Tier 7 Heroic
+45425 Tier 7 Heroic
+45426 Tier 7 Heroic
+45427 Tier 7 Heroic
+45428 Tier 7 Heroic
+45429 Tier 7 Heroic
+45430 Tier 7 Heroic
+45431 Tier 7 Heroic
+45432 Tier 7 Heroic
+45433 Tier 7 Heroic
+46131 Tier 7 Heroic
+46313 Tier 7 Heroic
 ]]
 
 Engravings["Item set:"] = setmetatable({}, {

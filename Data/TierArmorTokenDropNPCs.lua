@@ -45,21 +45,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 27881 Prince Malchezaar
 27882 Gruul the Dragonkiller
 27883 High King Maulgar
-28126 The Curator
-28127 Prince Malchezaar
-28128 Gruul the Dragonkiller
-28129 High King Maulgar
-28130 Magtheridon
-28136 The Curator
-28137 Prince Malchezaar
-28138 Gruul the Dragonkiller
-28139 High King Maulgar
-28140 Magtheridon
-28331 Prince Malchezaar
-28332 Gruul the Dragonkiller
-28333 High King Maulgar
-28334 Magtheridon
-28335 The Curator
 28963 Prince Malchezaar
 28964 Magtheridon
 28966 Gruul the Dragonkiller
@@ -175,11 +160,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 30141 Lady Vashj
 30142 Fathom-Lord Karathress
 30143 Void Reaver
-30144 Kael'thas Sunstrider
-30145 Leotheras the Blind
-30146 Lady Vashj
-30148 Fathom-Lord Karathress
-30149 Void Reaver
 30150 Kael'thas Sunstrider
 30151 Leotheras the Blind
 30152 Lady Vashj
@@ -315,21 +295,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31057 Illidan Stormrage
 31058 Illidari Council
 31059 Mother Shahraz
-31060 Azgalor
-31061 Azgalor
-31063 Archimonde
-31064 Archimonde
-31065 Illidan Stormrage
-31066 Illidan Stormrage
-31067 Illidari Council
-31068 Illidari Council
-31069 Mother Shahraz
-31070 Mother Shahraz
-31375 The Curator
-31376 Prince Malchezaar
-31377 Gruul the Dragonkiller
-31378 High King Maulgar
-31379 Magtheridon
 31396 Magtheridon
 31397 The Curator
 31400 Prince Malchezaar
@@ -345,41 +310,11 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31616 Prince Malchezaar
 31618 Gruul the Dragonkiller
 31619 High King Maulgar
-31960 Kael'thas Sunstrider
-31961 Leotheras the Blind
-31962 Lady Vashj
-31963 Fathom-Lord Karathress
-31964 Void Reaver
-31967 Leotheras the Blind
-31968 Lady Vashj
-31969 Fathom-Lord Karathress
-31971 Void Reaver
-31972 Kael'thas Sunstrider
-31973 Leotheras the Blind
-31974 Lady Vashj
-31975 Fathom-Lord Karathress
-31976 Void Reaver
-31977 Kael'thas Sunstrider
-31979 Void Reaver
-31980 Lady Vashj
-31981 Leotheras the Blind
-31982 Kael'thas Sunstrider
-31983 Fathom-Lord Karathress
-31987 Leotheras the Blind
-31988 Lady Vashj
-31989 Fathom-Lord Karathress
-31990 Void Reaver
-31991 Kael'thas Sunstrider
 31992 Kael'thas Sunstrider
 31993 Leotheras the Blind
 31995 Fathom-Lord Karathress
 31996 Void Reaver
 31997 Lady Vashj
-31998 Leotheras the Blind
-31999 Lady Vashj
-32000 Fathom-Lord Karathress
-32001 Void Reaver
-32002 Kael'thas Sunstrider
 32004 Kael'thas Sunstrider
 32005 Leotheras the Blind
 32006 Lady Vashj
@@ -390,11 +325,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32011 Lady Vashj
 32012 Fathom-Lord Karathress
 32013 Void Reaver
-32015 Leotheras the Blind
-32016 Lady Vashj
-32017 Fathom-Lord Karathress
-32018 Void Reaver
-32019 Kael'thas Sunstrider
 32020 Kael'thas Sunstrider
 32021 Leotheras the Blind
 32022 Lady Vashj
@@ -405,11 +335,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32031 Lady Vashj
 32032 Fathom-Lord Karathress
 32033 Void Reaver
-32034 Leotheras the Blind
-32035 Lady Vashj
-32036 Fathom-Lord Karathress
-32037 Void Reaver
-32038 Kael'thas Sunstrider
 32039 Kael'thas Sunstrider
 32040 Leotheras the Blind
 32041 Lady Vashj
@@ -420,11 +345,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32049 Leotheras the Blind
 32050 Kael'thas Sunstrider
 32051 Fathom-Lord Karathress
-32056 Leotheras the Blind
-32057 Lady Vashj
-32058 Fathom-Lord Karathress
-32059 Void Reaver
-32060 Kael'thas Sunstrider
 33811 Brutallus
 33812 Felmyst
 33813 Sathrovarr the Corruptor
@@ -473,15 +393,8 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 34431 Sathrovarr the Corruptor
 34432 Sathrovarr the Corruptor
 34433 Sathrovarr the Corruptor
-34434 Sathrovarr the Corruptor
-34435 Sathrovarr the Corruptor
-34436 Sathrovarr the Corruptor
-34437 Sathrovarr the Corruptor
-34438 Sathrovarr the Corruptor
-34439 Sathrovarr the Corruptor
 34441 Sathrovarr the Corruptor
 34442 Sathrovarr the Corruptor
-34443 Sathrovarr the Corruptor
 34444 Sathrovarr the Corruptor
 34445 Sathrovarr the Corruptor
 34446 Sathrovarr the Corruptor
@@ -490,15 +403,8 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 34485 Brutallus
 34487 Brutallus
 34488 Brutallus
-34527 Brutallus
-34528 Brutallus
-34541 Brutallus
-34542 Brutallus
-34543 Brutallus
-34545 Brutallus
 34546 Brutallus
 34547 Brutallus
-34549 Brutallus
 34554 Brutallus
 34555 Brutallus
 34556 Brutallus
@@ -507,15 +413,8 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 34559 Felmyst
 34560 Felmyst
 34561 Felmyst
-34562 Felmyst
-34563 Felmyst
-34564 Felmyst
-34565 Felmyst
-34566 Felmyst
-34567 Felmyst
 34568 Felmyst
 34569 Felmyst
-34570 Felmyst
 34571 Felmyst
 34572 Felmyst
 34573 Felmyst
