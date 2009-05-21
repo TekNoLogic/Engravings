@@ -36,3 +36,76 @@ for _,frame in pairs{GameTooltip, ItemRefTooltip, ShoppingTooltip1, ShoppingTool
 	origs[frame] = frame:GetScript("OnTooltipSetItem")
 	frame:SetScript("OnTooltipSetItem", OnTooltipSetItem)
 end
+
+
+---------------------------------
+--      Wowhead generator      --
+---------------------------------
+
+local slotids = {
+	INVTYPE_HEAD = 1,
+	INVTYPE_NECK = 2,
+	INVTYPE_SHOULDER = 3,
+	INVTYPE_BODY = 4,
+	INVTYPE_CHEST = 5,
+	INVTYPE_ROBE = 5,
+	INVTYPE_WAIST = 6,
+	INVTYPE_LEGS = 7,
+	INVTYPE_FEET = 8,
+	INVTYPE_WRIST = 9,
+	INVTYPE_HAND = 10,
+	INVTYPE_FINGER = 11,
+	INVTYPE_TRINKET = 13,
+	INVTYPE_CLOAK = 15,
+	INVTYPE_WEAPON = 17,
+	INVTYPE_SHIELD = 17,
+	INVTYPE_2HWEAPON = 16,
+	INVTYPE_WEAPONMAINHAND = 16,
+	INVTYPE_WEAPONOFFHAND = 17,
+	INVTYPE_HOLDABLE = 17,
+	INVTYPE_RANGED = 18,
+	INVTYPE_THROWN = 18,
+	INVTYPE_RANGEDRIGHT = 18,
+	INVTYPE_RELIC = 18,
+}
+local slots = setmetatable({}, {
+	__index = function(t,i)
+		local _, _, _, _, _, _, _, _, slotname = GetItemInfo(i)
+		local slotid = slotids[slotname]
+		t[i] = slotid
+		return slotid
+	end
+})
+local temp = {}
+
+function EngravingsGenerateWowheadSet(spec, data)
+	local values = setmetatable({}, {
+		__index = function(t,i)
+			local v = data:match("\n"..i.." ([^\n]+)\n")
+			if v then t[i] = v; return v
+			else t[i] = 0; return 0 end
+		end
+	})
+
+	local lastid, lastbest
+	Engravings["Wowhead score ("..spec.."):"] = setmetatable({}, {
+		__index = function(t,i)
+			local v = values[i]
+			if not v or v == 0 then t[i] = false; return end
+
+			if lastid ~= i then
+				local slotid = slots[i]
+				local items = slotid and GetInventoryItemsForSlot(slotid, wipe(temp))
+				local best = true
+				if items then
+					for _,id in pairs(items) do
+						if id ~= i and tonumber(values[id]) > tonumber(v) then best = false end
+					end
+				end
+				lastid, lastbest = i, best
+			end
+
+			return (lastbest and "|cff80ff80" or "")..v
+		end
+	})
+end
