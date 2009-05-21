@@ -344,7 +344,7 @@ def mine_item_weights(wh)
 					data += item_data.map {|val| [val["id"], "%.3f" % val["score"]]}
 				end
 			end
-			export(File.join("Data", "Wowhead#{c.to_s.capitalize}#{spec.to_s.capitalize}.lua"), "WOWHEAD_SCORE", "Wowhead score (#{spec.to_s.capitalize}):", data.compact.sort.map {|d| d.join(" ")}.join("\n"), c.to_s.upcase.gsub("_", ""))
+			export(File.join("Data", "Wowhead#{c.to_s.capitalize}#{spec.to_s.capitalize}.lua"), "WOWHEAD_SCORE", "Wowhead score (#{spec.to_s.gsub("_", " ").capitalize}):", data.compact.sort.map {|d| d.join(" ")}.join("\n"), c.to_s.upcase.gsub("_", ""))
 		end
 	end
 end
