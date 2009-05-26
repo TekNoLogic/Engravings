@@ -45,6 +45,21 @@ local TIER_ARMOR_TOKEN_ZONES = [[
 27881 Karazhan
 27882 Gruul's Lair
 27883 Gruul's Lair
+28126 Karazhan
+28127 Karazhan
+28128 Gruul's Lair
+28129 Gruul's Lair
+28130 Magtheridon's Lair
+28136 Karazhan
+28137 Karazhan
+28138 Gruul's Lair
+28139 Gruul's Lair
+28140 Magtheridon's Lair
+28331 Karazhan
+28332 Gruul's Lair
+28333 Gruul's Lair
+28334 Magtheridon's Lair
+28335 Karazhan
 28963 Karazhan
 28964 Magtheridon's Lair
 28966 Gruul's Lair
@@ -160,6 +175,11 @@ local TIER_ARMOR_TOKEN_ZONES = [[
 30141 Serpentshrine Cavern
 30142 Serpentshrine Cavern
 30143 The Eye
+30144 The Eye
+30145 Serpentshrine Cavern
+30146 Serpentshrine Cavern
+30148 Serpentshrine Cavern
+30149 The Eye
 30150 The Eye
 30151 Serpentshrine Cavern
 30152 Serpentshrine Cavern
@@ -295,6 +315,21 @@ local TIER_ARMOR_TOKEN_ZONES = [[
 31057 Black Temple
 31058 Black Temple
 31059 Black Temple
+31060 Hyjal Summit
+31061 Hyjal Summit
+31063 Hyjal Summit
+31064 Hyjal Summit
+31065 Black Temple
+31066 Black Temple
+31067 Black Temple
+31068 Black Temple
+31069 Black Temple
+31070 Black Temple
+31375 Karazhan
+31376 Karazhan
+31377 Gruul's Lair
+31378 Gruul's Lair
+31379 Magtheridon's Lair
 31396 Magtheridon's Lair
 31397 Karazhan
 31400 Karazhan
@@ -310,11 +345,41 @@ local TIER_ARMOR_TOKEN_ZONES = [[
 31616 Karazhan
 31618 Gruul's Lair
 31619 Gruul's Lair
+31960 The Eye
+31961 Serpentshrine Cavern
+31962 Serpentshrine Cavern
+31963 Serpentshrine Cavern
+31964 The Eye
+31967 Serpentshrine Cavern
+31968 Serpentshrine Cavern
+31969 Serpentshrine Cavern
+31971 The Eye
+31972 The Eye
+31973 Serpentshrine Cavern
+31974 Serpentshrine Cavern
+31975 Serpentshrine Cavern
+31976 The Eye
+31977 The Eye
+31979 The Eye
+31980 Serpentshrine Cavern
+31981 Serpentshrine Cavern
+31982 The Eye
+31983 Serpentshrine Cavern
+31987 Serpentshrine Cavern
+31988 Serpentshrine Cavern
+31989 Serpentshrine Cavern
+31990 The Eye
+31991 The Eye
 31992 The Eye
 31993 Serpentshrine Cavern
 31995 Serpentshrine Cavern
 31996 The Eye
 31997 Serpentshrine Cavern
+31998 Serpentshrine Cavern
+31999 Serpentshrine Cavern
+32000 Serpentshrine Cavern
+32001 The Eye
+32002 The Eye
 32004 The Eye
 32005 Serpentshrine Cavern
 32006 Serpentshrine Cavern
@@ -345,6 +410,11 @@ local TIER_ARMOR_TOKEN_ZONES = [[
 32049 Serpentshrine Cavern
 32050 The Eye
 32051 Serpentshrine Cavern
+32056 Serpentshrine Cavern
+32057 Serpentshrine Cavern
+32058 Serpentshrine Cavern
+32059 The Eye
+32060 The Eye
 33811 Sunwell Plateau
 33812 Sunwell Plateau
 33813 Sunwell Plateau
@@ -393,8 +463,15 @@ local TIER_ARMOR_TOKEN_ZONES = [[
 34431 Sunwell Plateau
 34432 Sunwell Plateau
 34433 Sunwell Plateau
+34434 Sunwell Plateau
+34435 Sunwell Plateau
+34436 Sunwell Plateau
+34437 Sunwell Plateau
+34438 Sunwell Plateau
+34439 Sunwell Plateau
 34441 Sunwell Plateau
 34442 Sunwell Plateau
+34443 Sunwell Plateau
 34444 Sunwell Plateau
 34445 Sunwell Plateau
 34446 Sunwell Plateau
@@ -403,8 +480,15 @@ local TIER_ARMOR_TOKEN_ZONES = [[
 34485 Sunwell Plateau
 34487 Sunwell Plateau
 34488 Sunwell Plateau
+34527 Sunwell Plateau
+34528 Sunwell Plateau
+34541 Sunwell Plateau
+34542 Sunwell Plateau
+34543 Sunwell Plateau
+34545 Sunwell Plateau
 34546 Sunwell Plateau
 34547 Sunwell Plateau
+34549 Sunwell Plateau
 34554 Sunwell Plateau
 34555 Sunwell Plateau
 34556 Sunwell Plateau
@@ -413,8 +497,15 @@ local TIER_ARMOR_TOKEN_ZONES = [[
 34559 Sunwell Plateau
 34560 Sunwell Plateau
 34561 Sunwell Plateau
+34562 Sunwell Plateau
+34563 Sunwell Plateau
+34564 Sunwell Plateau
+34565 Sunwell Plateau
+34566 Sunwell Plateau
+34567 Sunwell Plateau
 34568 Sunwell Plateau
 34569 Sunwell Plateau
+34570 Sunwell Plateau
 34571 Sunwell Plateau
 34572 Sunwell Plateau
 34573 Sunwell Plateau

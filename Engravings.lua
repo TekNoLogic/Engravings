@@ -68,15 +68,30 @@ local slotids = {
 	INVTYPE_RANGEDRIGHT = 18,
 	INVTYPE_RELIC = 18,
 }
-local slots = setmetatable({}, {
-	__index = function(t,i)
-		local _, _, _, _, _, _, _, _, slotname = GetItemInfo(i)
-		local slotid = slotids[slotname]
-		t[i] = slotid
-		return slotid
-	end
-})
+local slots = setmetatable({}, {__index = function(t,i)
+	local _, _, _, _, _, _, _, _, slotname = GetItemInfo(i)
+	local slotid = slotids[slotname]
+	t[i] = slotid
+	return slotid
+end})
 local temp = {}
+local setitems = setmetatable({}, {__index = function(t,i)
+	local v = {}
+	t[i] = v
+	return v
+end})
+
+local f = CreateFrame("Frame")
+f:SetScript("OnEvent", function()
+	wipe(setitems)
+	local temp2 = {}
+	for i=1,GetNumEquipmentSets() do
+		GetEquipmentSetItemIDs(GetEquipmentSetInfo(i), temp2)
+		for i,id in pairs(temp2) do table.insert(setitems[i], id) end
+	end
+end)
+f:RegisterEvent("EQUIPMENT_SETS_CHANGED")
+if IsLoggedIn() then f:GetScript("OnEvent")() else f:RegisterEvent("PLAYER_LOGIN") end
 
 function EngravingsGenerateWowheadSet(spec, data)
 	local values = setmetatable({}, {
@@ -97,7 +112,10 @@ function EngravingsGenerateWowheadSet(spec, data)
 				local slotid = slots[i]
 				local items = slotid and GetInventoryItemsForSlot(slotid, wipe(temp))
 				local best = true
-				if items then
+				for _,id in pairs(setitems[slotid]) do
+					if id ~= i and tonumber(values[id]) > tonumber(v) then best = false end
+				end
+				if best and items then
 					for _,id in pairs(items) do
 						if id ~= i and tonumber(values[id]) > tonumber(v) then best = false end
 					end

@@ -200,6 +200,11 @@ local ITEM_SET_NAMES = [[
 30141 Tier 5
 30142 Tier 5
 30143 Tier 5
+30144 Tier 5
+30145 Tier 5
+30146 Tier 5
+30148 Tier 5
+30149 Tier 5
 30150 Tier 5
 30151 Tier 5
 30152 Tier 5
@@ -335,6 +340,16 @@ local ITEM_SET_NAMES = [[
 31057 Tier 6
 31058 Tier 6
 31059 Tier 6
+31060 Tier 6
+31061 Tier 6
+31063 Tier 6
+31064 Tier 6
+31065 Tier 6
+31066 Tier 6
+31067 Tier 6
+31068 Tier 6
+31069 Tier 6
+31070 Tier 6
 31375 Season 1
 31376 Season 1
 31377 Season 1
@@ -1664,7 +1679,10 @@ local ITEM_SET_NAMES = [[
 45431 Tier 7 Heroic
 45432 Tier 7 Heroic
 45433 Tier 7 Heroic
+45983 Season 1
 46131 Tier 7 Heroic
+46171 Season 1
+46171 Season 5 (Heroic)
 46313 Tier 7 Heroic
 ]]
 
