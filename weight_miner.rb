@@ -26,6 +26,18 @@ def mine_item_weights(wh)
 	}
 	types = [:cloth, :leather, :mail, :plate]
 	types.each_index {|i| items[types[i]] = armor_slots.map {|s| "4.#{i+1}&filter=sl=#{s};"}}
+	class_item_types = {
+		:mage         => [:common, :cloth],
+		:warlock      => [:common, :cloth],
+		:priest       => [:common, :cloth],
+		:druid        => [:common, :cloth, :leather],
+		:rogue        => [:common, :cloth, :leather],
+		:shaman       => [:common, :cloth, :leather, :mail],
+		:hunter       => [:common, :cloth, :leather, :mail],
+		:paladin      => [:common, :cloth, :leather, :mail, :plate],
+		:warrior      => [:common, :cloth, :leather, :mail, :plate],
+		:death_knight => [:common, :cloth, :leather, :mail, :plate],
+	}
 	item_sets = {
 		:mage         => [:common,   :cloth,   :wand, :offhand, :shield, :dagger,        :staff,                                                     :sword_one],
 		:warlock      => [:common,   :cloth,   :wand, :offhand, :shield, :dagger,        :staff,                                                     :sword_one],
@@ -40,7 +52,7 @@ def mine_item_weights(wh)
 	}
 
 	wh.get_weight_filters.each_pair do |c,specs|
-		item_values = item_sets[c].map {|s| items[s]}.flatten
+		item_values = (item_sets[c] + class_item_types[c]).map {|s| items[s]}.flatten
 
 		specs.each_pair do |spec,w|
 			data = []
