@@ -1,3 +1,8 @@
+3.1.0.12-Release
+    New data!
+    More wowhead scores!
+    Add majick "best in bag/upgrade" highlighting of wowhead scores
+
 3.1.0.11-Release
     New 3.1 datas!
 
