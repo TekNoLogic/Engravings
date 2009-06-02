@@ -80,14 +80,21 @@ local setitems = setmetatable({}, {__index = function(t,i)
 	t[i] = v
 	return v
 end})
+local itemsets = {}
+ENGRAVINGS_ITEMSETS = itemsets
 
 local f = CreateFrame("Frame")
 f:SetScript("OnEvent", function()
 	wipe(setitems)
+	wipe(itemsets)
 	local temp2 = {}
 	for i=1,GetNumEquipmentSets() do
-		GetEquipmentSetItemIDs(GetEquipmentSetInfo(i), temp2)
-		for i,id in pairs(temp2) do table.insert(setitems[i], id) end
+		local setname, tex = GetEquipmentSetInfo(i)
+		GetEquipmentSetItemIDs(setname, temp2)
+		for i,id in pairs(temp2) do
+			table.insert(setitems[i], id)
+			itemsets[id] = (itemsets[id] and (itemsets[id]..", ") or "").."|T"..tex..":18|t"..setname
+		end
 	end
 end)
 f:RegisterEvent("EQUIPMENT_SETS_CHANGED")
