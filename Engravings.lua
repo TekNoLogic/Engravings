@@ -119,8 +119,10 @@ function EngravingsGenerateWowheadSet(spec, data)
 				local slotid = slots[i]
 				local items = slotid and GetInventoryItemsForSlot(slotid, wipe(temp))
 				local best = true
-				for _,id in pairs(setitems[slotid]) do
-					if id ~= i and tonumber(values[id]) > tonumber(v) then best = false end
+				if slotid then
+					for _,id in pairs(setitems[slotid]) do
+						if id ~= i and tonumber(values[id]) > tonumber(v) then best = false end
+					end
 				end
 				if best and items then
 					for _,id in pairs(items) do
