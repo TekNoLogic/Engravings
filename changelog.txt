@@ -1,3 +1,8 @@
+3.1.0.13-Release
+    Add in equipment sets and in bags datasources
+    Lookie lookie data update!
+    Blasted nil indexes
+
 3.1.0.12-Release
     New data!
     More wowhead scores!
