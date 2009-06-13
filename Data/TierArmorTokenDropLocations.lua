@@ -390,6 +390,11 @@ local TIER_ARMOR_TOKEN_ZONES = [[
 32011 Serpentshrine Cavern
 32012 Serpentshrine Cavern
 32013 The Eye
+32015 Serpentshrine Cavern
+32016 Serpentshrine Cavern
+32017 Serpentshrine Cavern
+32018 The Eye
+32019 The Eye
 32020 The Eye
 32021 Serpentshrine Cavern
 32022 Serpentshrine Cavern
@@ -400,6 +405,11 @@ local TIER_ARMOR_TOKEN_ZONES = [[
 32031 Serpentshrine Cavern
 32032 Serpentshrine Cavern
 32033 The Eye
+32034 Serpentshrine Cavern
+32035 Serpentshrine Cavern
+32036 Serpentshrine Cavern
+32037 The Eye
+32038 The Eye
 32039 The Eye
 32040 Serpentshrine Cavern
 32041 Serpentshrine Cavern

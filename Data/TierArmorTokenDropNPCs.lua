@@ -390,6 +390,11 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32011 Lady Vashj
 32012 Fathom-Lord Karathress
 32013 Void Reaver
+32015 Leotheras the Blind
+32016 Lady Vashj
+32017 Fathom-Lord Karathress
+32018 Void Reaver
+32019 Kael'thas Sunstrider
 32020 Kael'thas Sunstrider
 32021 Leotheras the Blind
 32022 Lady Vashj
@@ -400,6 +405,11 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32031 Lady Vashj
 32032 Fathom-Lord Karathress
 32033 Void Reaver
+32034 Leotheras the Blind
+32035 Lady Vashj
+32036 Fathom-Lord Karathress
+32037 Void Reaver
+32038 Kael'thas Sunstrider
 32039 Kael'thas Sunstrider
 32040 Leotheras the Blind
 32041 Lady Vashj
