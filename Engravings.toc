@@ -49,6 +49,8 @@ Data\TierArmorTokenDropLocations.lua
 Data\TierArmorTokenDropNPCs.lua
 Data\HeadOnAPike.lua
 Data\ItemSetNames.lua
+Data\InSets.lua
+Data\InBags.lua
 
 Data\WowheadDeath_knightBlood.lua
 Data\WowheadDeath_knightFrost_dps.lua
