@@ -1,5 +1,7 @@
 
 local RAWFOODS = [[
+2672 No bonus or +2 Stam/Spi
+6889 +2 Stam/Spi or Cake
 23676 +2 Stam/Spi
 22644 +4 Stam/Spi
 24477 +20 Stam/Spi

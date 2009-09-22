@@ -10,7 +10,6 @@ local DROP_NPC = [[
 21525 Mage-Lord Urom
 21907 Pathaleon the Calculator
 22206 Prince Keleseth
-22206 Prince Taldaram
 22559 Moroes
 22560 Shade of Aran
 22561 Terestian Illhoof
@@ -1890,7 +1889,6 @@ local DROP_NPC = [[
 39152 Slad'ran
 39188 Anub'Rekhan
 39189 Anub'Rekhan
-39189 Gluth
 39190 Anub'Rekhan
 39191 Anub'Rekhan
 39192 Anub'Rekhan
@@ -1931,6 +1929,7 @@ local DROP_NPC = [[
 39249 Heigan the Unclean
 39250 Heigan the Unclean
 39251 Heigan the Unclean
+39252 Gluth
 39252 Heigan the Unclean
 39254 Heigan the Unclean
 39255 Heigan the Unclean
@@ -1954,6 +1953,7 @@ local DROP_NPC = [[
 39278 Grobbulus
 39279 Grobbulus
 39280 Grobbulus
+39281 Gluth
 39281 Grobbulus
 39282 Grobbulus
 39284 Gluth
@@ -2024,7 +2024,6 @@ local DROP_NPC = [[
 39546 Archavon the Stone Watcher
 39554 Archavon the Stone Watcher
 39555 Archavon the Stone Watcher
-39557 Archavon the Stone Watcher
 39558 Archavon the Stone Watcher
 39560 Archavon the Stone Watcher
 39564 Archavon the Stone Watcher
@@ -2046,14 +2045,16 @@ local DROP_NPC = [[
 39622 Archavon the Stone Watcher
 39623 Archavon the Stone Watcher
 39626 Archavon the Stone Watcher
-39629 Archavon the Stone Watcher
 39630 Archavon the Stone Watcher
+39632 Archavon the Stone Watcher
 39634 Archavon the Stone Watcher
 39639 Archavon the Stone Watcher
 39657 Ionar
 39701 Anub'Rekhan
+39701 Gluth
 39702 Anub'Rekhan
 39703 Anub'Rekhan
+39703 Gluth
 39704 Anub'Rekhan
 39706 Anub'Rekhan
 39712 Anub'Rekhan
@@ -2068,8 +2069,10 @@ local DROP_NPC = [[
 39721 Anub'Rekhan
 39721 Gluth
 39722 Anub'Rekhan
+39723 Gluth
 39723 Grand Widow Faerlina
 39725 Grand Widow Faerlina
+39726 Gluth
 39726 Grand Widow Faerlina
 39727 Grand Widow Faerlina
 39728 Grand Widow Faerlina
@@ -2080,6 +2083,7 @@ local DROP_NPC = [[
 39732 Grand Widow Faerlina
 39734 Grand Widow Faerlina
 39735 Grand Widow Faerlina
+39756 Gluth
 39756 Grand Widow Faerlina
 39757 Grand Widow Faerlina
 39758 Maexxna
@@ -2149,9 +2153,9 @@ local DROP_NPC = [[
 40185 Noth the Plaguebringer
 40186 Noth the Plaguebringer
 40188 Noth the Plaguebringer
+40189 Gluth
 40189 Noth the Plaguebringer
 40190 Noth the Plaguebringer
-40191 Gluth
 40191 Noth the Plaguebringer
 40192 Noth the Plaguebringer
 40193 Gluth
@@ -2163,7 +2167,6 @@ local DROP_NPC = [[
 40201 Heigan the Unclean
 40203 Gluth
 40203 Heigan the Unclean
-40204 Gluth
 40204 Heigan the Unclean
 40205 Heigan the Unclean
 40207 Heigan the Unclean
@@ -2227,6 +2230,7 @@ local DROP_NPC = [[
 40260 Patchwerk
 40261 Patchwerk
 40262 Patchwerk
+40263 Gluth
 40263 Patchwerk
 40264 Patchwerk
 40265 Gluth
@@ -2236,9 +2240,9 @@ local DROP_NPC = [[
 40268 Gluth
 40268 Patchwerk
 40269 Patchwerk
+40271 Gluth
 40271 Patchwerk
 40272 Patchwerk
-40273 Gluth
 40273 Patchwerk
 40274 Gluth
 40274 Grobbulus
@@ -2254,10 +2258,10 @@ local DROP_NPC = [[
 40284 Grobbulus
 40285 Grobbulus
 40286 Gluth
+40287 Gluth
 40287 Grobbulus
 40288 Gluth
 40288 Grobbulus
-40289 Gluth
 40289 Grobbulus
 40294 Thaddius
 40296 Thaddius
@@ -2286,18 +2290,27 @@ local DROP_NPC = [[
 40329 Gothik the Harvester
 40330 Gothik the Harvester
 40331 Gothik the Harvester
+40332 Gluth
 40332 Gothik the Harvester
 40333 Gothik the Harvester
+40334 Gluth
 40334 Gothik the Harvester
 40335 Gothik the Harvester
+40336 Gluth
 40336 Gothik the Harvester
+40337 Gluth
 40337 Gothik the Harvester
+40339 Gluth
 40339 Gothik the Harvester
+40340 Gluth
 40340 Gothik the Harvester
 40341 Gothik the Harvester
+40342 Gluth
 40342 Gothik the Harvester
 40346 Gluth
 40348 Gluth
+40350 Gluth
+40351 Gluth
 40351 Grobbulus
 40363 Sapphiron
 40365 Sapphiron
@@ -2403,6 +2416,7 @@ local DROP_NPC = [[
 40579 Archavon the Stone Watcher
 40580 Archavon the Stone Watcher
 40583 Archavon the Stone Watcher
+40602 Gluth
 40602 Noth the Plaguebringer
 40610 Gluth
 40611 Gluth
@@ -2456,16 +2470,22 @@ local DROP_NPC = [[
 40802 Archavon the Stone Watcher
 40803 Archavon the Stone Watcher
 40804 Archavon the Stone Watcher
+40804 Emalon the Storm Watcher
 40805 Archavon the Stone Watcher
+40805 Emalon the Storm Watcher
 40806 Archavon the Stone Watcher
+40806 Emalon the Storm Watcher
 40807 Emalon the Storm Watcher
 40809 Emalon the Storm Watcher
 40840 Archavon the Stone Watcher
 40841 Archavon the Stone Watcher
 40842 Archavon the Stone Watcher
 40844 Archavon the Stone Watcher
+40844 Emalon the Storm Watcher
 40845 Archavon the Stone Watcher
+40845 Emalon the Storm Watcher
 40846 Archavon the Stone Watcher
+40846 Emalon the Storm Watcher
 40847 Emalon the Storm Watcher
 40848 Emalon the Storm Watcher
 40849 Emalon the Storm Watcher
@@ -2479,9 +2499,11 @@ local DROP_NPC = [[
 40905 Archavon the Stone Watcher
 40925 Archavon the Stone Watcher
 40926 Archavon the Stone Watcher
+40926 Emalon the Storm Watcher
 40927 Emalon the Storm Watcher
 40937 Archavon the Stone Watcher
 40938 Archavon the Stone Watcher
+40938 Emalon the Storm Watcher
 40939 Emalon the Storm Watcher
 40974 Emalon the Storm Watcher
 40975 Emalon the Storm Watcher
@@ -2497,14 +2519,16 @@ local DROP_NPC = [[
 41006 Archavon the Stone Watcher
 41007 Emalon the Storm Watcher
 41026 Archavon the Stone Watcher
-41026 Emalon the Storm Watcher
 41027 Emalon the Storm Watcher
+41031 Archavon the Stone Watcher
 41032 Archavon the Stone Watcher
 41033 Emalon the Storm Watcher
 41051 Emalon the Storm Watcher
+41055 Emalon the Storm Watcher
 41060 Emalon the Storm Watcher
 41065 Emalon the Storm Watcher
 41070 Emalon the Storm Watcher
+41075 Emalon the Storm Watcher
 41079 Archavon the Stone Watcher
 41080 Archavon the Stone Watcher
 41085 Archavon the Stone Watcher
@@ -2514,12 +2538,14 @@ local DROP_NPC = [[
 41137 Emalon the Storm Watcher
 41141 Archavon the Stone Watcher
 41142 Archavon the Stone Watcher
+41142 Emalon the Storm Watcher
 41143 Emalon the Storm Watcher
 41162 Archavon the Stone Watcher
 41198 Archavon the Stone Watcher
 41199 Emalon the Storm Watcher
 41203 Archavon the Stone Watcher
 41204 Archavon the Stone Watcher
+41204 Emalon the Storm Watcher
 41205 Emalon the Storm Watcher
 41224 Emalon the Storm Watcher
 41225 Emalon the Storm Watcher
@@ -2549,6 +2575,7 @@ local DROP_NPC = [[
 41649 Archavon the Stone Watcher
 41653 Archavon the Stone Watcher
 41654 Archavon the Stone Watcher
+41654 Emalon the Storm Watcher
 41655 Emalon the Storm Watcher
 41660 Archavon the Stone Watcher
 41665 Archavon the Stone Watcher
@@ -2556,6 +2583,7 @@ local DROP_NPC = [[
 41667 Emalon the Storm Watcher
 41765 Archavon the Stone Watcher
 41766 Archavon the Stone Watcher
+41766 Emalon the Storm Watcher
 41767 Emalon the Storm Watcher
 41771 Archavon the Stone Watcher
 41772 Archavon the Stone Watcher
@@ -2573,6 +2601,7 @@ local DROP_NPC = [[
 41832 Emalon the Storm Watcher
 41835 Emalon the Storm Watcher
 41836 Emalon the Storm Watcher
+41839 Emalon the Storm Watcher
 41840 Emalon the Storm Watcher
 41857 Archavon the Stone Watcher
 41858 Archavon the Stone Watcher
@@ -2581,6 +2610,7 @@ local DROP_NPC = [[
 41864 Emalon the Storm Watcher
 41872 Archavon the Stone Watcher
 41873 Archavon the Stone Watcher
+41873 Emalon the Storm Watcher
 41874 Emalon the Storm Watcher
 41880 Emalon the Storm Watcher
 41881 Emalon the Storm Watcher
@@ -2598,25 +2628,31 @@ local DROP_NPC = [[
 41920 Archavon the Stone Watcher
 41925 Archavon the Stone Watcher
 41926 Archavon the Stone Watcher
+41926 Emalon the Storm Watcher
 41927 Emalon the Storm Watcher
 41938 Archavon the Stone Watcher
 41939 Archavon the Stone Watcher
+41939 Emalon the Storm Watcher
 41940 Emalon the Storm Watcher
 41950 Archavon the Stone Watcher
 41951 Archavon the Stone Watcher
 41957 Archavon the Stone Watcher
 41958 Archavon the Stone Watcher
+41958 Emalon the Storm Watcher
 41959 Emalon the Storm Watcher
 41969 Archavon the Stone Watcher
 41970 Archavon the Stone Watcher
+41970 Emalon the Storm Watcher
 41971 Emalon the Storm Watcher
 41997 Archavon the Stone Watcher
 42001 Archavon the Stone Watcher
 42003 Archavon the Stone Watcher
 42004 Archavon the Stone Watcher
+42004 Emalon the Storm Watcher
 42005 Emalon the Storm Watcher
 42015 Archavon the Stone Watcher
 42016 Archavon the Stone Watcher
+42016 Emalon the Storm Watcher
 42017 Emalon the Storm Watcher
 42027 Emalon the Storm Watcher
 42028 Emalon the Storm Watcher
@@ -2624,8 +2660,12 @@ local DROP_NPC = [[
 42035 Emalon the Storm Watcher
 42036 Emalon the Storm Watcher
 42038 Emalon the Storm Watcher
+42039 Emalon the Storm Watcher
 42067 Emalon the Storm Watcher
 42068 Emalon the Storm Watcher
+42071 Emalon the Storm Watcher
+42072 Emalon the Storm Watcher
+42073 Emalon the Storm Watcher
 42074 Emalon the Storm Watcher
 42075 Emalon the Storm Watcher
 42114 Emalon the Storm Watcher
@@ -2739,6 +2779,7 @@ local DROP_NPC = [[
 45038 Ignis the Furnace Master
 45038 Razorscale
 45038 Runemaster Molgeim
+45038 Steelbreaker
 45038 Stormcaller Brundir
 45038 XT-002 Deconstructor
 45038 Yogg-Saron
@@ -2785,33 +2826,52 @@ local DROP_NPC = [[
 45186 Ignis the Furnace Master
 45187 Ignis the Furnace Master
 45193 Runemaster Molgeim
+45193 Steelbreaker
 45193 Stormcaller Brundir
 45224 Runemaster Molgeim
+45224 Steelbreaker
 45224 Stormcaller Brundir
 45225 Runemaster Molgeim
+45225 Steelbreaker
 45225 Stormcaller Brundir
 45226 Runemaster Molgeim
+45226 Steelbreaker
 45226 Stormcaller Brundir
 45227 Runemaster Molgeim
+45227 Steelbreaker
 45227 Stormcaller Brundir
 45228 Runemaster Molgeim
+45228 Steelbreaker
 45228 Stormcaller Brundir
 45232 Runemaster Molgeim
+45232 Steelbreaker
 45232 Stormcaller Brundir
 45233 Runemaster Molgeim
+45233 Steelbreaker
 45233 Stormcaller Brundir
 45234 Runemaster Molgeim
+45234 Steelbreaker
 45234 Stormcaller Brundir
 45235 Runemaster Molgeim
+45235 Steelbreaker
 45235 Stormcaller Brundir
 45236 Runemaster Molgeim
+45236 Steelbreaker
 45236 Stormcaller Brundir
 45238 Runemaster Molgeim
+45238 Steelbreaker
 45238 Stormcaller Brundir
 45239 Runemaster Molgeim
+45239 Steelbreaker
 45239 Stormcaller Brundir
 45240 Runemaster Molgeim
+45240 Steelbreaker
 45240 Stormcaller Brundir
+45241 Steelbreaker
+45242 Steelbreaker
+45243 Steelbreaker
+45244 Steelbreaker
+45245 Steelbreaker
 45246 XT-002 Deconstructor
 45248 XT-002 Deconstructor
 45249 XT-002 Deconstructor
@@ -2894,6 +2954,7 @@ local DROP_NPC = [[
 45370 Emalon the Storm Watcher
 45371 Emalon the Storm Watcher
 45376 Emalon the Storm Watcher
+45378 Runemaster Molgeim
 45378 Steelbreaker
 45378 Stormcaller Brundir
 45379 Emalon the Storm Watcher
@@ -2956,10 +3017,14 @@ local DROP_NPC = [[
 45523 Yogg-Saron
 45524 Yogg-Saron
 45525 Yogg-Saron
+45527 Yogg-Saron
 45529 Yogg-Saron
 45530 Yogg-Saron
 45531 Yogg-Saron
 45532 Yogg-Saron
+45536 Yogg-Saron
+45537 Yogg-Saron
+45607 Steelbreaker
 45624 Auriaya
 45624 Emalon the Storm Watcher
 45624 Flame Leviathan
@@ -2967,6 +3032,7 @@ local DROP_NPC = [[
 45624 Ignis the Furnace Master
 45624 Razorscale
 45624 Runemaster Molgeim
+45624 Steelbreaker
 45624 Stormcaller Brundir
 45624 XT-002 Deconstructor
 45624 Yogg-Saron
@@ -2992,9 +3058,15 @@ local DROP_NPC = [[
 45713 Auriaya
 45832 Auriaya
 45857 Runemaster Molgeim
+45857 Steelbreaker
 45864 Auriaya
 45865 Auriaya
 45866 Auriaya
+45867 XT-002 Deconstructor
+45868 XT-002 Deconstructor
+45869 XT-002 Deconstructor
+45870 XT-002 Deconstructor
+45871 XT-002 Deconstructor
 45996 General Vezax
 45997 General Vezax
 46008 General Vezax
@@ -3006,17 +3078,25 @@ local DROP_NPC = [[
 46015 General Vezax
 46016 Yogg-Saron
 46018 Yogg-Saron
+46019 Yogg-Saron
+46021 Yogg-Saron
 46022 Yogg-Saron
 46024 Yogg-Saron
 46025 Yogg-Saron
 46027 Auriaya
 46027 Flame Leviathan
 46027 Ignis the Furnace Master
-46027 Runemaster Molgeim
+46027 Steelbreaker
 46027 Stormcaller Brundir
 46027 XT-002 Deconstructor
+46027 Yogg-Saron
 46028 Yogg-Saron
 46030 Yogg-Saron
+46031 Yogg-Saron
+46033 General Vezax
+46034 General Vezax
+46035 General Vezax
+46036 General Vezax
 46113 Emalon the Storm Watcher
 46116 Emalon the Storm Watcher
 46119 Emalon the Storm Watcher
@@ -3060,7 +3140,8 @@ local DROP_NPC = [[
 46348 Flame Leviathan
 46348 General Vezax
 46348 Ignis the Furnace Master
-46348 Runemaster Molgeim
+46348 Steelbreaker
+46348 Stormcaller Brundir
 46348 XT-002 Deconstructor
 46348 Yogg-Saron
 ]]

@@ -20,9 +20,8 @@ local DROP_LOCATIONS = [[
 21904 Karazhan
 21905 The Arcatraz
 21906 The Mechanar (Normal)
-21907 The Mechanar (Heroic)
-22206 The Old Kingdom (Heroic)
-22206 Utgarde Keep
+21907 The Mechanar
+22206 Utgarde Keep (Normal)
 22533 The Steamvault (Heroic)
 22543 Mana-Tombs (Heroic)
 22544 Auchenai Crypts
@@ -1427,20 +1426,20 @@ local DROP_LOCATIONS = [[
 34705 Magisters' Terrace
 34706 Magisters' Terrace
 34707 Magisters' Terrace (Normal)
-34708 Magisters' Terrace
+34708 Magisters' Terrace (Normal)
 34783 Magisters' Terrace (Normal)
 34788 Magisters' Terrace
-34789 Magisters' Terrace
+34789 Magisters' Terrace (Normal)
 34790 Magisters' Terrace (Normal)
-34791 Magisters' Terrace
+34791 Magisters' Terrace (Normal)
 34792 Magisters' Terrace (Normal)
 34793 Magisters' Terrace
 34794 Magisters' Terrace
 34795 Magisters' Terrace
 34796 Magisters' Terrace
-34797 Magisters' Terrace
+34797 Magisters' Terrace (Normal)
 34798 Magisters' Terrace
-34799 Magisters' Terrace
+34799 Magisters' Terrace (Normal)
 34807 Magisters' Terrace
 34808 Magisters' Terrace
 34809 Magisters' Terrace (Normal)
@@ -1883,9 +1882,9 @@ local DROP_LOCATIONS = [[
 39152 Naxxramas (Heroic)
 39152 The Obsidian Sanctum (Heroic)
 39152 The Violet Hold (Normal)
-39152 Ulduar
+39152 Ulduar (Heroic)
 39152 Utgarde Pinnacle (Normal)
-39152 Vault of Archavon (Heroic)
+39152 Vault of Archavon
 39188 Naxxramas (Normal)
 39189 Naxxramas (Normal)
 39190 Naxxramas (Normal)
@@ -2027,7 +2026,6 @@ local DROP_LOCATIONS = [[
 39546 Vault of Archavon (Normal)
 39554 Vault of Archavon (Normal)
 39555 Vault of Archavon (Normal)
-39557 Vault of Archavon (Normal)
 39558 Vault of Archavon (Normal)
 39560 Vault of Archavon (Normal)
 39564 Vault of Archavon (Normal)
@@ -2049,8 +2047,8 @@ local DROP_LOCATIONS = [[
 39622 Vault of Archavon (Normal)
 39623 Vault of Archavon (Normal)
 39626 Vault of Archavon (Normal)
-39629 Vault of Archavon (Normal)
 39630 Vault of Archavon (Normal)
+39632 Vault of Archavon (Normal)
 39634 Vault of Archavon (Normal)
 39639 Vault of Archavon (Normal)
 39657 Halls of Lightning (Normal)
@@ -2402,17 +2400,17 @@ local DROP_LOCATIONS = [[
 40801 Vault of Archavon (Normal)
 40802 Vault of Archavon (Normal)
 40803 Vault of Archavon (Normal)
-40804 Vault of Archavon (Heroic)
-40805 Vault of Archavon (Heroic)
-40806 Vault of Archavon (Heroic)
+40804 Vault of Archavon
+40805 Vault of Archavon
+40806 Vault of Archavon
 40807 Vault of Archavon (Heroic)
 40809 Vault of Archavon (Heroic)
 40840 Vault of Archavon (Normal)
 40841 Vault of Archavon (Normal)
 40842 Vault of Archavon (Normal)
-40844 Vault of Archavon (Heroic)
-40845 Vault of Archavon (Heroic)
-40846 Vault of Archavon (Heroic)
+40844 Vault of Archavon
+40845 Vault of Archavon
+40846 Vault of Archavon
 40847 Vault of Archavon (Heroic)
 40848 Vault of Archavon (Heroic)
 40849 Vault of Archavon (Heroic)
@@ -2425,10 +2423,10 @@ local DROP_LOCATIONS = [[
 40904 Vault of Archavon (Normal)
 40905 Vault of Archavon (Heroic)
 40925 Vault of Archavon (Normal)
-40926 Vault of Archavon (Heroic)
+40926 Vault of Archavon
 40927 Vault of Archavon (Heroic)
 40937 Vault of Archavon (Normal)
-40938 Vault of Archavon (Heroic)
+40938 Vault of Archavon
 40939 Vault of Archavon (Heroic)
 40974 Vault of Archavon (Normal)
 40975 Vault of Archavon (Normal)
@@ -2443,14 +2441,17 @@ local DROP_LOCATIONS = [[
 41005 Vault of Archavon (Normal)
 41006 Vault of Archavon (Heroic)
 41007 Vault of Archavon (Heroic)
-41026 Vault of Archavon
+41026 Vault of Archavon (Heroic)
 41027 Vault of Archavon (Heroic)
+41031 Vault of Archavon (Normal)
 41032 Vault of Archavon (Heroic)
 41033 Vault of Archavon (Heroic)
 41051 Vault of Archavon (Heroic)
+41055 Vault of Archavon (Heroic)
 41060 Vault of Archavon (Heroic)
 41065 Vault of Archavon (Heroic)
 41070 Vault of Archavon (Heroic)
+41075 Vault of Archavon (Heroic)
 41079 Vault of Archavon (Normal)
 41080 Vault of Archavon (Heroic)
 41085 Vault of Archavon (Normal)
@@ -2459,13 +2460,13 @@ local DROP_LOCATIONS = [[
 41136 Vault of Archavon (Heroic)
 41137 Vault of Archavon (Heroic)
 41141 Vault of Archavon (Normal)
-41142 Vault of Archavon (Heroic)
+41142 Vault of Archavon
 41143 Vault of Archavon (Heroic)
 41162 Vault of Archavon (Normal)
 41198 Vault of Archavon (Heroic)
 41199 Vault of Archavon (Heroic)
 41203 Vault of Archavon (Normal)
-41204 Vault of Archavon (Heroic)
+41204 Vault of Archavon
 41205 Vault of Archavon (Heroic)
 41224 Vault of Archavon (Normal)
 41225 Vault of Archavon (Heroic)
@@ -2494,14 +2495,14 @@ local DROP_LOCATIONS = [[
 41648 Vault of Archavon (Normal)
 41649 Vault of Archavon (Heroic)
 41653 Vault of Archavon (Normal)
-41654 Vault of Archavon (Heroic)
+41654 Vault of Archavon
 41655 Vault of Archavon (Heroic)
 41660 Vault of Archavon (Heroic)
 41665 Vault of Archavon (Normal)
 41666 Vault of Archavon (Heroic)
 41667 Vault of Archavon (Heroic)
 41765 Vault of Archavon (Normal)
-41766 Vault of Archavon (Heroic)
+41766 Vault of Archavon
 41767 Vault of Archavon (Heroic)
 41771 Vault of Archavon (Normal)
 41772 Vault of Archavon (Heroic)
@@ -2520,6 +2521,7 @@ local DROP_LOCATIONS = [[
 41832 Vault of Archavon (Heroic)
 41835 Vault of Archavon (Normal)
 41836 Vault of Archavon (Heroic)
+41839 Vault of Archavon (Normal)
 41840 Vault of Archavon (Heroic)
 41857 Vault of Archavon (Normal)
 41858 Vault of Archavon (Heroic)
@@ -2527,7 +2529,7 @@ local DROP_LOCATIONS = [[
 41863 Vault of Archavon (Heroic)
 41864 Vault of Archavon (Heroic)
 41872 Vault of Archavon (Normal)
-41873 Vault of Archavon (Heroic)
+41873 Vault of Archavon
 41874 Vault of Archavon (Heroic)
 41880 Vault of Archavon (Normal)
 41881 Vault of Archavon (Heroic)
@@ -2544,26 +2546,26 @@ local DROP_LOCATIONS = [[
 41919 Vault of Archavon (Normal)
 41920 Vault of Archavon (Heroic)
 41925 Vault of Archavon (Normal)
-41926 Vault of Archavon (Heroic)
+41926 Vault of Archavon
 41927 Vault of Archavon (Heroic)
 41938 Vault of Archavon (Normal)
-41939 Vault of Archavon (Heroic)
+41939 Vault of Archavon
 41940 Vault of Archavon (Heroic)
 41950 Vault of Archavon (Normal)
 41951 Vault of Archavon (Heroic)
 41957 Vault of Archavon (Normal)
-41958 Vault of Archavon (Heroic)
+41958 Vault of Archavon
 41959 Vault of Archavon (Heroic)
 41969 Vault of Archavon (Normal)
-41970 Vault of Archavon (Heroic)
+41970 Vault of Archavon
 41971 Vault of Archavon (Heroic)
 41997 Vault of Archavon (Heroic)
 42001 Vault of Archavon (Normal)
 42003 Vault of Archavon (Normal)
-42004 Vault of Archavon (Heroic)
+42004 Vault of Archavon
 42005 Vault of Archavon (Heroic)
 42015 Vault of Archavon (Normal)
-42016 Vault of Archavon (Heroic)
+42016 Vault of Archavon
 42017 Vault of Archavon (Heroic)
 42027 Vault of Archavon (Normal)
 42028 Vault of Archavon (Normal)
@@ -2571,8 +2573,12 @@ local DROP_LOCATIONS = [[
 42035 Vault of Archavon (Heroic)
 42036 Vault of Archavon (Heroic)
 42038 Vault of Archavon (Heroic)
+42039 Vault of Archavon (Heroic)
 42067 Vault of Archavon (Normal)
 42068 Vault of Archavon (Normal)
+42071 Vault of Archavon (Heroic)
+42072 Vault of Archavon (Heroic)
+42073 Vault of Archavon (Heroic)
 42074 Vault of Archavon (Heroic)
 42075 Vault of Archavon (Heroic)
 42114 Vault of Archavon (Normal)
@@ -2638,9 +2644,10 @@ local DROP_LOCATIONS = [[
 43508 Ulduar (Heroic)
 43508 Vault of Archavon (Heroic)
 43509 Naxxramas (Heroic)
-43509 Ulduar
+43509 Ulduar (Heroic)
 43510 Naxxramas (Heroic)
-43510 Ulduar
+43510 Ulduar (Heroic)
+43510 Vault of Archavon (Heroic)
 43951 The Culling of Stratholme (Heroic)
 43952 The Eye of Eternity (Heroic)
 43953 The Eye of Eternity (Normal)
@@ -2663,7 +2670,7 @@ local DROP_LOCATIONS = [[
 44569 Naxxramas (Normal)
 44577 Naxxramas (Heroic)
 44731 Halls of Stone
-44731 The Old Kingdom
+44731 The Old Kingdom (Heroic)
 44731 Utgarde Keep
 45038 Ulduar (Heroic)
 45086 Ulduar (Heroic)
@@ -2722,6 +2729,11 @@ local DROP_LOCATIONS = [[
 45238 Ulduar (Heroic)
 45239 Ulduar (Heroic)
 45240 Ulduar (Heroic)
+45241 Ulduar (Heroic)
+45242 Ulduar (Heroic)
+45243 Ulduar (Heroic)
+45244 Ulduar (Heroic)
+45245 Ulduar (Heroic)
 45246 Ulduar (Heroic)
 45248 Ulduar (Heroic)
 45249 Ulduar (Heroic)
@@ -2759,6 +2771,7 @@ local DROP_LOCATIONS = [[
 45288 Ulduar (Normal)
 45289 Ulduar (Normal)
 45292 Ulduar (Normal)
+45294 Ulduar (Normal)
 45298 Ulduar (Normal)
 45299 Ulduar (Normal)
 45302 Ulduar (Normal)
@@ -2846,23 +2859,33 @@ local DROP_LOCATIONS = [[
 45454 Ulduar (Heroic)
 45455 Ulduar (Normal)
 45456 Ulduar (Normal)
+45457 Ulduar (Heroic)
 45458 Ulduar (Normal)
+45459 Ulduar (Heroic)
+45460 Ulduar (Heroic)
+45461 Ulduar (Heroic)
+45462 Ulduar (Heroic)
 45463 Ulduar (Heroic)
 45464 Ulduar (Normal)
 45466 Ulduar (Heroic)
 45467 Ulduar (Heroic)
 45469 Ulduar (Heroic)
+45470 Ulduar (Heroic)
 45471 Ulduar (Heroic)
+45472 Ulduar (Heroic)
 45473 Ulduar (Heroic)
 45474 Ulduar (Heroic)
 45479 Ulduar (Heroic)
 45481 Ulduar (Heroic)
 45482 Ulduar (Heroic)
 45483 Ulduar (Heroic)
+45484 Ulduar (Heroic)
+45487 Ulduar (Heroic)
 45489 Ulduar (Heroic)
 45490 Ulduar (Heroic)
 45491 Ulduar (Heroic)
 45492 Ulduar (Heroic)
+45496 Ulduar (Heroic)
 45498 Ulduar (Heroic)
 45501 Ulduar (Heroic)
 45502 Ulduar (Heroic)
@@ -2883,10 +2906,13 @@ local DROP_LOCATIONS = [[
 45523 Ulduar (Heroic)
 45524 Ulduar (Heroic)
 45525 Ulduar (Heroic)
+45527 Ulduar (Heroic)
 45529 Ulduar (Heroic)
 45530 Ulduar (Heroic)
 45531 Ulduar (Heroic)
 45532 Ulduar (Heroic)
+45536 Ulduar (Heroic)
+45537 Ulduar (Heroic)
 45538 Ulduar (Heroic)
 45539 Ulduar (Heroic)
 45540 Ulduar (Heroic)
@@ -2899,6 +2925,9 @@ local DROP_LOCATIONS = [[
 45549 Ulduar (Heroic)
 45570 Ulduar (Heroic)
 45605 Ulduar (Heroic)
+45607 Ulduar (Heroic)
+45612 Ulduar (Heroic)
+45613 Ulduar (Heroic)
 45624 Ulduar
 45624 Vault of Archavon (Heroic)
 45632 Ulduar (Heroic)
@@ -2959,6 +2988,11 @@ local DROP_LOCATIONS = [[
 45864 Ulduar (Normal)
 45865 Ulduar (Normal)
 45866 Ulduar (Normal)
+45867 Ulduar (Normal)
+45868 Ulduar (Normal)
+45869 Ulduar (Normal)
+45870 Ulduar (Normal)
+45871 Ulduar (Normal)
 45872 Ulduar (Normal)
 45873 Ulduar (Normal)
 45876 Ulduar (Normal)
@@ -2980,6 +3014,7 @@ local DROP_LOCATIONS = [[
 45936 Ulduar (Normal)
 45940 Ulduar (Normal)
 45941 Ulduar (Normal)
+45943 Ulduar (Normal)
 45945 Ulduar (Normal)
 45946 Ulduar (Normal)
 45947 Ulduar (Normal)
@@ -2987,6 +3022,9 @@ local DROP_LOCATIONS = [[
 45973 Ulduar (Normal)
 45974 Ulduar (Normal)
 45976 Ulduar (Normal)
+45989 Ulduar (Normal)
+45990 Ulduar (Normal)
+45993 Ulduar (Normal)
 45996 Ulduar (Normal)
 45997 Ulduar (Normal)
 46008 Ulduar (Normal)
@@ -2998,12 +3036,19 @@ local DROP_LOCATIONS = [[
 46015 Ulduar (Normal)
 46016 Ulduar (Normal)
 46018 Ulduar (Normal)
+46019 Ulduar (Normal)
+46021 Ulduar (Normal)
 46022 Ulduar (Normal)
 46024 Ulduar (Normal)
 46025 Ulduar (Normal)
 46027 Ulduar (Heroic)
 46028 Ulduar (Normal)
 46030 Ulduar (Normal)
+46031 Ulduar (Normal)
+46033 Ulduar (Normal)
+46034 Ulduar (Normal)
+46035 Ulduar (Normal)
+46036 Ulduar (Normal)
 46110 Ulduar
 46113 Vault of Archavon (Heroic)
 46116 Vault of Archavon (Heroic)
