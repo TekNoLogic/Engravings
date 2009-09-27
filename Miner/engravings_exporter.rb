@@ -20,6 +20,16 @@ Engravings["| + title + %q|"] = setmetatable({}, {
     end
   end
 
+  def self.export_wowhead_set(filename, title, data, restrict_class)
+    self.write_file(filename) do |f|
+      f << "\nlocal _, c = UnitClass('player')\nif c ~= '#{restrict_class.to_s.upcase.gsub("_", "")}' then return end\n"
+      f << "\nEngravingsGenerateWowheadSet('#{title}', [[\n"
+      f << data.join("\n")
+      f << "\n]])\n"
+      data.size
+    end
+  end
+
   private
 
   def self.write_file(filename)
