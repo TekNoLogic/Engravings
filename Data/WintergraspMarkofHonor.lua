@@ -50,6 +50,27 @@ local TOKEN_REWARDS = [[
 46086 25 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
 46087 25 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
 46088 25 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48974 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48975 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48976 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48977 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48978 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48979 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48980 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48981 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48982 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48983 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48987 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48988 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48990 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48991 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48992 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48993 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48994 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48997 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48998 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+48999 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+49000 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
 ]]
 
 Engravings["Wintergrasp Mark of Honor:"] = setmetatable({}, {

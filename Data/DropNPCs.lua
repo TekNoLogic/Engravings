@@ -868,15 +868,12 @@ local DROP_NPC = [[
 30538 Quagmirran
 30541 The Black Stalker
 30543 Warlord Kalithresh
-30546 Blood Guard Porung
 30546 Grand Warlock Nethekurse
 30546 Warbringer O'mrogg
 30546 Warchief Kargath Bladefist
-30547 Blood Guard Porung
 30547 Grand Warlock Nethekurse
 30547 Warbringer O'mrogg
 30547 Warchief Kargath Bladefist
-30548 Blood Guard Porung
 30548 Grand Warlock Nethekurse
 30548 Warbringer O'mrogg
 30548 Warchief Kargath Bladefist
@@ -889,13 +886,10 @@ local DROP_NPC = [[
 30551 Hydromancer Thespia
 30551 Mekgineer Steamrigger
 30551 Warlord Kalithresh
-30552 Anzu
 30552 Darkweaver Syth
 30552 Talon King Ikiss
-30553 Anzu
 30553 Darkweaver Syth
 30553 Talon King Ikiss
-30554 Anzu
 30554 Darkweaver Syth
 30554 Talon King Ikiss
 30555 Aeonus
@@ -958,15 +952,12 @@ local DROP_NPC = [[
 30583 Nexus-Prince Shaffar
 30583 Pandemonius
 30583 Tavarok
-30583 Yor
 30584 Nexus-Prince Shaffar
 30584 Pandemonius
 30584 Tavarok
-30584 Yor
 30585 Nexus-Prince Shaffar
 30585 Pandemonius
 30585 Tavarok
-30585 Yor
 30586 Exarch Maladaar
 30586 Shirrak the Dead Watcher
 30587 Exarch Maladaar
@@ -1036,11 +1027,6 @@ local DROP_NPC = [[
 30685 Rokad the Ravager
 30686 Rokad the Ravager
 30687 Rokad the Ravager
-30705 Blood Guard Porung
-30707 Blood Guard Porung
-30708 Blood Guard Porung
-30709 Blood Guard Porung
-30710 Blood Guard Porung
 30720 Morogrim Tidewalker
 30861 Rage Winterchill
 30862 Rage Winterchill
@@ -1117,10 +1103,6 @@ local DROP_NPC = [[
 31101 Mother Shahraz
 31102 Mother Shahraz
 31103 Mother Shahraz
-31920 Yor
-31922 Yor
-31923 Yor
-31924 Yor
 32072 Warp Splinter
 32073 Talon King Ikiss
 32076 Pathaleon the Calculator
@@ -1314,12 +1296,6 @@ local DROP_NPC = [[
 32754 Shade of Akama
 32754 Supremus
 32754 Teron Gorefiend
-32768 Anzu
-32769 Anzu
-32778 Anzu
-32779 Anzu
-32780 Anzu
-32781 Anzu
 32837 Illidan Stormrage
 32838 Illidan Stormrage
 32895 Lady Vashj
@@ -1893,7 +1869,6 @@ local DROP_NPC = [[
 39191 Anub'Rekhan
 39192 Anub'Rekhan
 39193 Anub'Rekhan
-39195 Gluth
 39195 Grand Widow Faerlina
 39196 Grand Widow Faerlina
 39197 Grand Widow Faerlina
@@ -1929,7 +1904,6 @@ local DROP_NPC = [[
 39249 Heigan the Unclean
 39250 Heigan the Unclean
 39251 Heigan the Unclean
-39252 Gluth
 39252 Heigan the Unclean
 39254 Heigan the Unclean
 39255 Heigan the Unclean
@@ -1939,7 +1913,6 @@ local DROP_NPC = [[
 39259 Loatheb
 39260 Loatheb
 39261 Patchwerk
-39262 Gluth
 39262 Patchwerk
 39267 Patchwerk
 39270 Patchwerk
@@ -1953,10 +1926,8 @@ local DROP_NPC = [[
 39278 Grobbulus
 39279 Grobbulus
 39280 Grobbulus
-39281 Gluth
 39281 Grobbulus
 39282 Grobbulus
-39284 Gluth
 39284 Grobbulus
 39285 Grobbulus
 39291 Thaddius
@@ -1974,7 +1945,6 @@ local DROP_NPC = [[
 39309 Instructor Razuvious
 39311 Instructor Razuvious
 39344 Gothik the Harvester
-39345 Gluth
 39345 Gothik the Harvester
 39369 Gothik the Harvester
 39379 Gothik the Harvester
@@ -2019,22 +1989,13 @@ local DROP_NPC = [[
 39534 Ionar
 39535 Ionar
 39536 Ionar
-39539 Archavon the Stone Watcher
-39543 Archavon the Stone Watcher
-39546 Archavon the Stone Watcher
 39554 Archavon the Stone Watcher
-39555 Archavon the Stone Watcher
 39558 Archavon the Stone Watcher
 39560 Archavon the Stone Watcher
 39564 Archavon the Stone Watcher
 39579 Archavon the Stone Watcher
 39580 Archavon the Stone Watcher
 39582 Archavon the Stone Watcher
-39589 Archavon the Stone Watcher
-39591 Archavon the Stone Watcher
-39592 Archavon the Stone Watcher
-39593 Archavon the Stone Watcher
-39595 Archavon the Stone Watcher
 39606 Archavon the Stone Watcher
 39607 Archavon the Stone Watcher
 39609 Archavon the Stone Watcher
@@ -2045,24 +2006,16 @@ local DROP_NPC = [[
 39622 Archavon the Stone Watcher
 39623 Archavon the Stone Watcher
 39626 Archavon the Stone Watcher
-39630 Archavon the Stone Watcher
-39632 Archavon the Stone Watcher
-39634 Archavon the Stone Watcher
-39639 Archavon the Stone Watcher
 39657 Ionar
 39701 Anub'Rekhan
-39701 Gluth
 39702 Anub'Rekhan
 39703 Anub'Rekhan
-39703 Gluth
 39704 Anub'Rekhan
 39706 Anub'Rekhan
 39712 Anub'Rekhan
-39712 Gluth
 39714 Anub'Rekhan
 39714 Gluth
 39716 Anub'Rekhan
-39716 Gluth
 39718 Anub'Rekhan
 39719 Anub'Rekhan
 39720 Anub'Rekhan
@@ -2071,31 +2024,26 @@ local DROP_NPC = [[
 39722 Anub'Rekhan
 39723 Gluth
 39723 Grand Widow Faerlina
+39724 Grand Widow Faerlina
 39725 Grand Widow Faerlina
-39726 Gluth
 39726 Grand Widow Faerlina
 39727 Grand Widow Faerlina
 39728 Grand Widow Faerlina
 39729 Grand Widow Faerlina
-39730 Gluth
 39730 Grand Widow Faerlina
 39731 Grand Widow Faerlina
 39732 Grand Widow Faerlina
 39734 Grand Widow Faerlina
 39735 Grand Widow Faerlina
-39756 Gluth
 39756 Grand Widow Faerlina
 39757 Grand Widow Faerlina
 39758 Maexxna
 39759 Maexxna
-39760 Gluth
 39760 Maexxna
 39761 Maexxna
 39763 Maexxna
 39764 Maexxna
-39765 Gluth
 39765 Maexxna
-39766 Gluth
 39766 Maexxna
 39767 Maexxna
 39768 Maexxna
@@ -2153,19 +2101,16 @@ local DROP_NPC = [[
 40185 Noth the Plaguebringer
 40186 Noth the Plaguebringer
 40188 Noth the Plaguebringer
-40189 Gluth
 40189 Noth the Plaguebringer
 40190 Noth the Plaguebringer
 40191 Noth the Plaguebringer
 40192 Noth the Plaguebringer
-40193 Gluth
 40193 Noth the Plaguebringer
 40196 Noth the Plaguebringer
 40197 Noth the Plaguebringer
 40198 Noth the Plaguebringer
 40200 Noth the Plaguebringer
 40201 Heigan the Unclean
-40203 Gluth
 40203 Heigan the Unclean
 40204 Heigan the Unclean
 40205 Heigan the Unclean
@@ -2230,29 +2175,22 @@ local DROP_NPC = [[
 40260 Patchwerk
 40261 Patchwerk
 40262 Patchwerk
-40263 Gluth
 40263 Patchwerk
 40264 Patchwerk
-40265 Gluth
 40265 Patchwerk
 40266 Patchwerk
 40267 Patchwerk
-40268 Gluth
 40268 Patchwerk
 40269 Patchwerk
-40271 Gluth
 40271 Patchwerk
 40272 Patchwerk
 40273 Patchwerk
-40274 Gluth
 40274 Grobbulus
 40275 Grobbulus
-40277 Gluth
 40277 Grobbulus
 40278 Grobbulus
 40279 Grobbulus
 40280 Grobbulus
-40281 Gluth
 40281 Grobbulus
 40283 Grobbulus
 40284 Grobbulus
@@ -2260,7 +2198,6 @@ local DROP_NPC = [[
 40286 Gluth
 40287 Gluth
 40287 Grobbulus
-40288 Gluth
 40288 Grobbulus
 40289 Grobbulus
 40294 Thaddius
@@ -2290,27 +2227,19 @@ local DROP_NPC = [[
 40329 Gothik the Harvester
 40330 Gothik the Harvester
 40331 Gothik the Harvester
-40332 Gluth
 40332 Gothik the Harvester
 40333 Gothik the Harvester
-40334 Gluth
 40334 Gothik the Harvester
 40335 Gothik the Harvester
-40336 Gluth
 40336 Gothik the Harvester
-40337 Gluth
 40337 Gothik the Harvester
 40339 Gluth
 40339 Gothik the Harvester
-40340 Gluth
 40340 Gothik the Harvester
 40341 Gothik the Harvester
-40342 Gluth
 40342 Gothik the Harvester
 40346 Gluth
 40348 Gluth
-40350 Gluth
-40351 Gluth
 40351 Grobbulus
 40363 Sapphiron
 40365 Sapphiron
@@ -2416,7 +2345,6 @@ local DROP_NPC = [[
 40579 Archavon the Stone Watcher
 40580 Archavon the Stone Watcher
 40583 Archavon the Stone Watcher
-40602 Gluth
 40602 Noth the Plaguebringer
 40610 Gluth
 40611 Gluth
@@ -2472,11 +2400,14 @@ local DROP_NPC = [[
 40804 Archavon the Stone Watcher
 40804 Emalon the Storm Watcher
 40805 Archavon the Stone Watcher
-40805 Emalon the Storm Watcher
 40806 Archavon the Stone Watcher
 40806 Emalon the Storm Watcher
 40807 Emalon the Storm Watcher
 40809 Emalon the Storm Watcher
+40809 Koralon the Flame Watcher
+40810 Koralon the Flame Watcher
+40811 Koralon the Flame Watcher
+40812 Koralon the Flame Watcher
 40840 Archavon the Stone Watcher
 40841 Archavon the Stone Watcher
 40842 Archavon the Stone Watcher
@@ -2485,109 +2416,104 @@ local DROP_NPC = [[
 40845 Archavon the Stone Watcher
 40845 Emalon the Storm Watcher
 40846 Archavon the Stone Watcher
-40846 Emalon the Storm Watcher
 40847 Emalon the Storm Watcher
+40847 Koralon the Flame Watcher
 40848 Emalon the Storm Watcher
+40848 Koralon the Flame Watcher
 40849 Emalon the Storm Watcher
-40879 Emalon the Storm Watcher
-40880 Emalon the Storm Watcher
+40850 Koralon the Flame Watcher
+40851 Koralon the Flame Watcher
+40852 Koralon the Flame Watcher
 40881 Emalon the Storm Watcher
 40882 Emalon the Storm Watcher
-40888 Emalon the Storm Watcher
+40883 Koralon the Flame Watcher
+40884 Koralon the Flame Watcher
 40889 Emalon the Storm Watcher
+40890 Koralon the Flame Watcher
 40904 Archavon the Stone Watcher
 40905 Archavon the Stone Watcher
 40925 Archavon the Stone Watcher
 40926 Archavon the Stone Watcher
-40926 Emalon the Storm Watcher
 40927 Emalon the Storm Watcher
+40927 Koralon the Flame Watcher
+40928 Koralon the Flame Watcher
 40937 Archavon the Stone Watcher
 40938 Archavon the Stone Watcher
-40938 Emalon the Storm Watcher
 40939 Emalon the Storm Watcher
+40940 Koralon the Flame Watcher
 40974 Emalon the Storm Watcher
-40975 Emalon the Storm Watcher
 40976 Emalon the Storm Watcher
 40977 Emalon the Storm Watcher
-40982 Emalon the Storm Watcher
+40978 Koralon the Flame Watcher
+40979 Koralon the Flame Watcher
 40983 Emalon the Storm Watcher
+40984 Koralon the Flame Watcher
 40990 Archavon the Stone Watcher
 40991 Archavon the Stone Watcher
 41000 Archavon the Stone Watcher
-41001 Emalon the Storm Watcher
-41005 Archavon the Stone Watcher
+41002 Koralon the Flame Watcher
 41006 Archavon the Stone Watcher
-41007 Emalon the Storm Watcher
+41008 Koralon the Flame Watcher
 41026 Archavon the Stone Watcher
-41027 Emalon the Storm Watcher
-41031 Archavon the Stone Watcher
+41028 Koralon the Flame Watcher
 41032 Archavon the Stone Watcher
-41033 Emalon the Storm Watcher
-41051 Emalon the Storm Watcher
-41055 Emalon the Storm Watcher
-41060 Emalon the Storm Watcher
-41065 Emalon the Storm Watcher
-41070 Emalon the Storm Watcher
-41075 Emalon the Storm Watcher
-41079 Archavon the Stone Watcher
+41034 Koralon the Flame Watcher
 41080 Archavon the Stone Watcher
 41085 Archavon the Stone Watcher
 41086 Archavon the Stone Watcher
-41135 Archavon the Stone Watcher
 41136 Archavon the Stone Watcher
-41137 Emalon the Storm Watcher
+41138 Koralon the Flame Watcher
 41141 Archavon the Stone Watcher
 41142 Archavon the Stone Watcher
 41142 Emalon the Storm Watcher
 41143 Emalon the Storm Watcher
-41162 Archavon the Stone Watcher
+41143 Koralon the Flame Watcher
+41144 Koralon the Flame Watcher
 41198 Archavon the Stone Watcher
-41199 Emalon the Storm Watcher
+41200 Koralon the Flame Watcher
 41203 Archavon the Stone Watcher
 41204 Archavon the Stone Watcher
 41204 Emalon the Storm Watcher
 41205 Emalon the Storm Watcher
-41224 Emalon the Storm Watcher
+41205 Koralon the Flame Watcher
+41206 Koralon the Flame Watcher
 41225 Emalon the Storm Watcher
-41229 Emalon the Storm Watcher
+41226 Koralon the Flame Watcher
 41230 Emalon the Storm Watcher
-41234 Emalon the Storm Watcher
+41231 Koralon the Flame Watcher
 41235 Emalon the Storm Watcher
+41236 Koralon the Flame Watcher
 41286 Archavon the Stone Watcher
-41287 Emalon the Storm Watcher
-41291 Archavon the Stone Watcher
+41288 Koralon the Flame Watcher
 41292 Archavon the Stone Watcher
 41293 Emalon the Storm Watcher
-41296 Archavon the Stone Watcher
+41294 Koralon the Flame Watcher
 41297 Archavon the Stone Watcher
-41298 Emalon the Storm Watcher
-41302 Archavon the Stone Watcher
+41299 Koralon the Flame Watcher
 41303 Archavon the Stone Watcher
-41304 Emalon the Storm Watcher
-41308 Archavon the Stone Watcher
+41305 Koralon the Flame Watcher
 41309 Archavon the Stone Watcher
-41314 Archavon the Stone Watcher
 41315 Archavon the Stone Watcher
-41621 Emalon the Storm Watcher
-41625 Emalon the Storm Watcher
-41640 Emalon the Storm Watcher
+41636 Koralon the Flame Watcher
 41648 Archavon the Stone Watcher
 41649 Archavon the Stone Watcher
 41653 Archavon the Stone Watcher
 41654 Archavon the Stone Watcher
 41654 Emalon the Storm Watcher
 41655 Emalon the Storm Watcher
+41655 Koralon the Flame Watcher
+41656 Koralon the Flame Watcher
 41660 Archavon the Stone Watcher
-41665 Archavon the Stone Watcher
 41666 Archavon the Stone Watcher
-41667 Emalon the Storm Watcher
+41668 Koralon the Flame Watcher
 41765 Archavon the Stone Watcher
 41766 Archavon the Stone Watcher
 41766 Emalon the Storm Watcher
 41767 Emalon the Storm Watcher
-41771 Archavon the Stone Watcher
+41767 Koralon the Flame Watcher
+41768 Koralon the Flame Watcher
 41772 Archavon the Stone Watcher
-41773 Emalon the Storm Watcher
+41774 Koralon the Flame Watcher
 41790 Herald Volazj
 41791 Cyanigosa
 41792 Sjonnir The Ironshaper
@@ -2597,127 +2523,88 @@ local DROP_NPC = [[
 41796 Anub'arak
 41797 King Ymiron
 41799 Loken
-41831 Emalon the Storm Watcher
 41832 Emalon the Storm Watcher
+41833 Koralon the Flame Watcher
 41835 Emalon the Storm Watcher
 41836 Emalon the Storm Watcher
-41839 Emalon the Storm Watcher
+41837 Koralon the Flame Watcher
 41840 Emalon the Storm Watcher
+41841 Koralon the Flame Watcher
 41857 Archavon the Stone Watcher
 41858 Archavon the Stone Watcher
 41862 Archavon the Stone Watcher
 41863 Archavon the Stone Watcher
 41864 Emalon the Storm Watcher
+41865 Koralon the Flame Watcher
 41872 Archavon the Stone Watcher
 41873 Archavon the Stone Watcher
-41873 Emalon the Storm Watcher
 41874 Emalon the Storm Watcher
-41880 Emalon the Storm Watcher
+41875 Koralon the Flame Watcher
 41881 Emalon the Storm Watcher
+41882 Koralon the Flame Watcher
 41884 Emalon the Storm Watcher
 41885 Emalon the Storm Watcher
-41892 Emalon the Storm Watcher
+41886 Koralon the Flame Watcher
 41893 Emalon the Storm Watcher
+41894 Koralon the Flame Watcher
 41897 Emalon the Storm Watcher
 41898 Emalon the Storm Watcher
-41902 Emalon the Storm Watcher
+41899 Koralon the Flame Watcher
 41903 Emalon the Storm Watcher
-41908 Emalon the Storm Watcher
+41904 Koralon the Flame Watcher
 41909 Emalon the Storm Watcher
+41910 Koralon the Flame Watcher
 41919 Archavon the Stone Watcher
 41920 Archavon the Stone Watcher
 41925 Archavon the Stone Watcher
 41926 Archavon the Stone Watcher
-41926 Emalon the Storm Watcher
 41927 Emalon the Storm Watcher
+41928 Koralon the Flame Watcher
 41938 Archavon the Stone Watcher
 41939 Archavon the Stone Watcher
-41939 Emalon the Storm Watcher
 41940 Emalon the Storm Watcher
+41941 Koralon the Flame Watcher
 41950 Archavon the Stone Watcher
 41951 Archavon the Stone Watcher
 41957 Archavon the Stone Watcher
 41958 Archavon the Stone Watcher
 41958 Emalon the Storm Watcher
 41959 Emalon the Storm Watcher
+41959 Koralon the Flame Watcher
+41960 Koralon the Flame Watcher
 41969 Archavon the Stone Watcher
 41970 Archavon the Stone Watcher
 41970 Emalon the Storm Watcher
 41971 Emalon the Storm Watcher
+41971 Koralon the Flame Watcher
+41972 Koralon the Flame Watcher
 41997 Archavon the Stone Watcher
 42001 Archavon the Stone Watcher
 42003 Archavon the Stone Watcher
 42004 Archavon the Stone Watcher
 42004 Emalon the Storm Watcher
 42005 Emalon the Storm Watcher
+42005 Koralon the Flame Watcher
+42006 Koralon the Flame Watcher
 42015 Archavon the Stone Watcher
 42016 Archavon the Stone Watcher
 42016 Emalon the Storm Watcher
 42017 Emalon the Storm Watcher
+42017 Koralon the Flame Watcher
+42018 Koralon the Flame Watcher
 42027 Emalon the Storm Watcher
-42028 Emalon the Storm Watcher
 42034 Emalon the Storm Watcher
 42035 Emalon the Storm Watcher
-42036 Emalon the Storm Watcher
-42038 Emalon the Storm Watcher
-42039 Emalon the Storm Watcher
-42067 Emalon the Storm Watcher
-42068 Emalon the Storm Watcher
-42071 Emalon the Storm Watcher
-42072 Emalon the Storm Watcher
-42073 Emalon the Storm Watcher
+42041 Koralon the Flame Watcher
+42042 Koralon the Flame Watcher
 42074 Emalon the Storm Watcher
 42075 Emalon the Storm Watcher
-42114 Emalon the Storm Watcher
-42115 Emalon the Storm Watcher
+42081 Koralon the Flame Watcher
+42082 Koralon the Flame Watcher
 42116 Emalon the Storm Watcher
 42117 Emalon the Storm Watcher
-43228 Anomalus
-43228 Anub'arak
-43228 Chrono-Lord Epoch
-43228 Cyanigosa
-43228 Drakos the Interrogator
-43228 Eck the Ferocious
-43228 Elder Nadox
-43228 Erekem
-43228 Gal'darah
-43228 General Bjarngrim
-43228 Gortok Palehoof
-43228 Grand Magus Telestra
-43228 Hadronox
-43228 Herald Volazj
-43228 Ichoron
-43228 Ingvar the Plunderer
-43228 Ionar
-43228 Jedoga Shadowseeker
-43228 Keristrasza
-43228 King Dred
-43228 King Ymiron
-43228 Krik'thir the Gatewatcher
-43228 Krystallus
-43228 Lavanthor
-43228 Loken
-43228 Mage-Lord Urom
-43228 Maiden of Grief
-43228 Meathook
-43228 Moorabi
-43228 Moragg
-43228 Novos the Summoner
-43228 Ormorok the Tree-Shaper
-43228 Prince Keleseth
-43228 Prince Taldaram
-43228 Salramm the Fleshcrafter
-43228 Sjonnir The Ironshaper
-43228 Skadi the Ruthless
-43228 Skarvald the Constructor
-43228 Slad'ran
-43228 Svala Sorrowgrave
-43228 The Prophet Tharon'ja
-43228 Trollgore
-43228 Varos Cloudstrider
-43228 Volkhan
-43228 Xevozz
-43228 Zuramat the Obliterator
+42118 Koralon the Flame Watcher
+42119 Koralon the Flame Watcher
 43277 Jedoga Shadowseeker
 43278 Jedoga Shadowseeker
 43279 Jedoga Shadowseeker
@@ -2728,10 +2615,6 @@ local DROP_NPC = [[
 43305 Gal'darah
 43306 Gal'darah
 43309 Gal'darah
-43310 Eck the Ferocious
-43311 Eck the Ferocious
-43312 Eck the Ferocious
-43313 Eck the Ferocious
 43345 Sartharion
 43346 Sartharion
 43347 Sartharion
@@ -2753,6 +2636,7 @@ local DROP_NPC = [[
 43410 Moragg
 43500 Cyanigosa
 43954 Sartharion
+43959 Koralon the Flame Watcher
 43988 Sartharion
 43989 Sartharion
 43990 Sartharion
@@ -2767,12 +2651,10 @@ local DROP_NPC = [[
 44007 Sartharion
 44008 Sartharion
 44011 Sartharion
-44151 Skadi the Ruthless
 44569 Sapphiron
 44577 Sapphiron
 44731 Maiden of Grief
 44731 Prince Keleseth
-44731 Prince Taldaram
 45038 Auriaya
 45038 Flame Leviathan
 45038 General Vezax
@@ -2951,9 +2833,7 @@ local DROP_NPC = [[
 45360 Emalon the Storm Watcher
 45362 Emalon the Storm Watcher
 45367 Emalon the Storm Watcher
-45370 Emalon the Storm Watcher
 45371 Emalon the Storm Watcher
-45376 Emalon the Storm Watcher
 45378 Runemaster Molgeim
 45378 Steelbreaker
 45378 Stormcaller Brundir
@@ -2967,8 +2847,6 @@ local DROP_NPC = [[
 45397 Emalon the Storm Watcher
 45399 Emalon the Storm Watcher
 45401 Emalon the Storm Watcher
-45403 Emalon the Storm Watcher
-45406 Emalon the Storm Watcher
 45409 Emalon the Storm Watcher
 45414 Emalon the Storm Watcher
 45416 Emalon the Storm Watcher
@@ -3012,6 +2890,8 @@ local DROP_NPC = [[
 45513 General Vezax
 45514 General Vezax
 45515 General Vezax
+45517 General Vezax
+45519 General Vezax
 45521 Yogg-Saron
 45522 Yogg-Saron
 45523 Yogg-Saron
@@ -3022,20 +2902,10 @@ local DROP_NPC = [[
 45530 Yogg-Saron
 45531 Yogg-Saron
 45532 Yogg-Saron
-45536 Yogg-Saron
+45534 Yogg-Saron
+45535 Yogg-Saron
 45537 Yogg-Saron
 45607 Steelbreaker
-45624 Auriaya
-45624 Emalon the Storm Watcher
-45624 Flame Leviathan
-45624 General Vezax
-45624 Ignis the Furnace Master
-45624 Razorscale
-45624 Runemaster Molgeim
-45624 Steelbreaker
-45624 Stormcaller Brundir
-45624 XT-002 Deconstructor
-45624 Yogg-Saron
 45635 Yogg-Saron
 45636 Yogg-Saron
 45637 Yogg-Saron
@@ -3085,18 +2955,20 @@ local DROP_NPC = [[
 46025 Yogg-Saron
 46027 Auriaya
 46027 Flame Leviathan
-46027 Ignis the Furnace Master
-46027 Steelbreaker
 46027 Stormcaller Brundir
 46027 XT-002 Deconstructor
 46027 Yogg-Saron
 46028 Yogg-Saron
 46030 Yogg-Saron
 46031 Yogg-Saron
+46032 General Vezax
 46033 General Vezax
 46034 General Vezax
 46035 General Vezax
 46036 General Vezax
+46068 Yogg-Saron
+46095 Yogg-Saron
+46097 Yogg-Saron
 46113 Emalon the Storm Watcher
 46116 Emalon the Storm Watcher
 46119 Emalon the Storm Watcher
@@ -3136,14 +3008,206 @@ local DROP_NPC = [[
 46207 Emalon the Storm Watcher
 46208 Emalon the Storm Watcher
 46210 Emalon the Storm Watcher
-46348 Auriaya
 46348 Flame Leviathan
-46348 General Vezax
 46348 Ignis the Furnace Master
 46348 Steelbreaker
-46348 Stormcaller Brundir
 46348 XT-002 Deconstructor
 46348 Yogg-Saron
+47750 Koralon the Flame Watcher
+47752 Koralon the Flame Watcher
+47753 Koralon the Flame Watcher
+47755 Koralon the Flame Watcher
+47770 Koralon the Flame Watcher
+47772 Koralon the Flame Watcher
+47773 Koralon the Flame Watcher
+47775 Koralon the Flame Watcher
+47780 Koralon the Flame Watcher
+47782 Koralon the Flame Watcher
+47783 Koralon the Flame Watcher
+47785 Koralon the Flame Watcher
+47800 Koralon the Flame Watcher
+47802 Koralon the Flame Watcher
+47803 Koralon the Flame Watcher
+47805 Koralon the Flame Watcher
+47980 Koralon the Flame Watcher
+47982 Koralon the Flame Watcher
+47983 Koralon the Flame Watcher
+47985 Koralon the Flame Watcher
+48064 Koralon the Flame Watcher
+48066 Koralon the Flame Watcher
+48072 Koralon the Flame Watcher
+48074 Koralon the Flame Watcher
+48077 Koralon the Flame Watcher
+48079 Koralon the Flame Watcher
+48094 Koralon the Flame Watcher
+48096 Koralon the Flame Watcher
+48097 Koralon the Flame Watcher
+48099 Koralon the Flame Watcher
+48130 Koralon the Flame Watcher
+48133 Koralon the Flame Watcher
+48135 Koralon the Flame Watcher
+48150 Koralon the Flame Watcher
+48152 Koralon the Flame Watcher
+48153 Koralon the Flame Watcher
+48163 Koralon the Flame Watcher
+48165 Koralon the Flame Watcher
+48180 Koralon the Flame Watcher
+48182 Koralon the Flame Watcher
+48192 Koralon the Flame Watcher
+48193 Koralon the Flame Watcher
+48195 Koralon the Flame Watcher
+48210 Koralon the Flame Watcher
+48212 Koralon the Flame Watcher
+48220 Koralon the Flame Watcher
+48222 Koralon the Flame Watcher
+48224 Koralon the Flame Watcher
+48226 Koralon the Flame Watcher
+48239 Koralon the Flame Watcher
+48241 Koralon the Flame Watcher
+48244 Koralon the Flame Watcher
+48246 Koralon the Flame Watcher
+48252 Koralon the Flame Watcher
+48254 Koralon the Flame Watcher
+48256 Koralon the Flame Watcher
+48258 Koralon the Flame Watcher
+48271 Koralon the Flame Watcher
+48273 Koralon the Flame Watcher
+48276 Koralon the Flame Watcher
+48278 Koralon the Flame Watcher
+48286 Koralon the Flame Watcher
+48288 Koralon the Flame Watcher
+48301 Koralon the Flame Watcher
+48303 Koralon the Flame Watcher
+48317 Koralon the Flame Watcher
+48319 Koralon the Flame Watcher
+48332 Koralon the Flame Watcher
+48334 Koralon the Flame Watcher
+48337 Koralon the Flame Watcher
+48339 Koralon the Flame Watcher
+48347 Koralon the Flame Watcher
+48349 Koralon the Flame Watcher
+48362 Koralon the Flame Watcher
+48364 Koralon the Flame Watcher
+48373 Koralon the Flame Watcher
+48375 Koralon the Flame Watcher
+48377 Koralon the Flame Watcher
+48379 Koralon the Flame Watcher
+48387 Koralon the Flame Watcher
+48389 Koralon the Flame Watcher
+48392 Koralon the Flame Watcher
+48394 Koralon the Flame Watcher
+48445 Koralon the Flame Watcher
+48446 Koralon the Flame Watcher
+48449 Koralon the Flame Watcher
+48452 Koralon the Flame Watcher
+48457 Koralon the Flame Watcher
+48459 Koralon the Flame Watcher
+48462 Koralon the Flame Watcher
+48464 Koralon the Flame Watcher
+48476 Koralon the Flame Watcher
+48480 Koralon the Flame Watcher
+48482 Koralon the Flame Watcher
+48484 Koralon the Flame Watcher
+48497 Koralon the Flame Watcher
+48499 Koralon the Flame Watcher
+48502 Koralon the Flame Watcher
+48504 Koralon the Flame Watcher
+48533 Koralon the Flame Watcher
+48537 Koralon the Flame Watcher
+48539 Koralon the Flame Watcher
+48541 Koralon the Flame Watcher
+48554 Koralon the Flame Watcher
+48556 Koralon the Flame Watcher
+48561 Koralon the Flame Watcher
+48574 Koralon the Flame Watcher
+48576 Koralon the Flame Watcher
+48578 Koralon the Flame Watcher
+48591 Koralon the Flame Watcher
+48593 Koralon the Flame Watcher
+48608 Koralon the Flame Watcher
+48610 Koralon the Flame Watcher
+48623 Koralon the Flame Watcher
+48625 Koralon the Flame Watcher
+48635 Koralon the Flame Watcher
+48638 Koralon the Flame Watcher
+48640 Koralon the Flame Watcher
+48655 Koralon the Flame Watcher
+48658 Koralon the Flame Watcher
+48660 Koralon the Flame Watcher
+49295 Onyxia
+49296 Onyxia
+49297 Onyxia
+49298 Onyxia
+49299 Onyxia
+49301 Onyxia
+49302 Onyxia
+49303 Onyxia
+49304 Onyxia
+49305 Onyxia
+49306 Onyxia
+49307 Onyxia
+49308 Onyxia
+49309 Onyxia
+49310 Onyxia
+49315 Onyxia
+49316 Onyxia
+49317 Onyxia
+49318 Onyxia
+49319 Onyxia
+49320 Onyxia
+49321 Onyxia
+49322 Onyxia
+49323 Onyxia
+49324 Onyxia
+49325 Onyxia
+49326 Onyxia
+49327 Onyxia
+49328 Onyxia
+49329 Onyxia
+49330 Onyxia
+49331 Onyxia
+49332 Onyxia
+49333 Onyxia
+49437 Onyxia
+49463 Onyxia
+49464 Onyxia
+49465 Onyxia
+49466 Onyxia
+49467 Onyxia
+49468 Onyxia
+49469 Onyxia
+49470 Onyxia
+49471 Onyxia
+49472 Onyxia
+49473 Onyxia
+49474 Onyxia
+49475 Onyxia
+49476 Onyxia
+49477 Onyxia
+49478 Onyxia
+49479 Onyxia
+49480 Onyxia
+49481 Onyxia
+49482 Onyxia
+49483 Onyxia
+49484 Onyxia
+49488 Onyxia
+49489 Onyxia
+49490 Onyxia
+49491 Onyxia
+49492 Onyxia
+49493 Onyxia
+49494 Onyxia
+49495 Onyxia
+49496 Onyxia
+49497 Onyxia
+49498 Onyxia
+49499 Onyxia
+49500 Onyxia
+49501 Onyxia
+49636 Onyxia
+49643 Onyxia
+49644 Onyxia
 ]]
 
 Engravings["Dropped by:"] = setmetatable({}, {
