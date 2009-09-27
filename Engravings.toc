@@ -35,10 +35,12 @@ Data\RepTokens.lua
 Data\Stacksize.lua
 Data\PvPGear.lua
 Data\PvPCosts.lua
-Data\BadgeOfJustice.lua
-Data\EmblemOfHeroism.lua
-Data\EmblemOfValor.lua
+Data\BadgeofJustice.lua
+Data\Champion'sSeal.lua
+Data\EmblemofHeroism.lua
+Data\EmblemofValor.lua
 Data\EmblemofConquest.lua
+Data\EmblemofTriumph.lua
 Data\SpiritShard.lua
 Data\StoneKeeper'sShard.lua
 Data\WintergraspMarkofHonor.lua
