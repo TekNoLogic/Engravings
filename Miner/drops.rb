@@ -17,12 +17,16 @@ EXCLUDE = [29434, 40752, 40753]
 
 
 wh = Wowhead.new
+
+tokens = wh.get("/?items=10").map {|i| i["id"]}
+
 zone_ids = wh.get("/?zones=2", "zones").map {|z| z["id"]} + wh.get("/?zones=3", "zones").map {|z| z["id"]}
 puts "Found #{zone_ids.size} instances"
 
 instance_drops = []
 boss_drops = []
 boss_ids = []
+zone_drops = {}
 zone_ids.each do |zone_id|
   puts "\nQuerying zone #{zone_id}"
   page = "/?zone=#{zone_id}"
@@ -33,28 +37,22 @@ zone_ids.each do |zone_id|
   name = $1
   name = name[/: (.*)/, 1] if name =~ /:/
 
-  imports = 0
-
-  boss_ids += (wh.get(page, "bosses").map {|b| b["id"]} rescue [])
-  normal_drops = (wh.get(page, "normal-drops").map {|i| i["id"]} rescue [])
-  heroic_drops = (wh.get(page, "heroic-drops").map {|i| i["id"]} rescue [])
-
-  normal_10_drops = (wh.get(page, "normal-10-drops").map {|i| i["id"]} rescue [])
-  normal_25_drops = (wh.get(page, "normal-25-drops").map {|i| i["id"]} rescue [])
-  heroic_10_drops = (wh.get(page, "heroic-10-drops").map {|i| i["id"]} rescue [])
-  heroic_25_drops = (wh.get(page, "heroic-25-drops").map {|i| i["id"]} rescue [])
+  boss_ids += (wh.get(page, "bosses").map {|b| [b["id"], zone_id]} rescue [])
+  normal_drops = (wh.get(page, "normal-drops").map {|i| i["id"]} - tokens rescue [])
+  heroic_drops = (wh.get(page, "heroic-drops").map {|i| i["id"]} - tokens rescue [])
+  normal_10_drops = (wh.get(page, "normal-10-drops").map {|i| i["id"]} - tokens rescue [])
+  normal_25_drops = (wh.get(page, "normal-25-drops").map {|i| i["id"]} - tokens rescue [])
+  heroic_10_drops = (wh.get(page, "heroic-10-drops").map {|i| i["id"]} - tokens rescue [])
+  heroic_25_drops = (wh.get(page, "heroic-25-drops").map {|i| i["id"]} - tokens rescue [])
 
   normal_only = normal_drops - heroic_drops
   heroic_only = heroic_drops - normal_drops
   both_drops = heroic_drops - heroic_only
 
-  drops = (wh.get(page, "drops").map {|i| i["id"]} rescue [])
+  drops = (wh.get(page, "drops").map {|i| i["id"]} - tokens rescue [])
 
-  all_drops = []
-  all_drops += normal_only
-  all_drops += heroic_only
-  all_drops += both_drops
-  all_drops += drops
+  all_drops = drops + normal_only + heroic_only + both_drops + normal_10_drops + normal_25_drops + heroic_10_drops + heroic_25_drops
+  zone_drops[zone_id] = all_drops
 
   formatted_drops = []
   formatted_drops += normal_10_drops.map {|id| "#{id} #{name} (10)"}
@@ -69,32 +67,27 @@ zone_ids.each do |zone_id|
   instance_drops += formatted_drops
 end
 
-# boss_ids.each do |npc_id|
+boss_ids.each do |npc_id, zone_id|
 #   boss_drops += parse_npc(http, npc_id, val[2])} unless val[0].nil?
-  # puts "\nQuerying NPC #{npc_id}"
-  # res = http.get "/?npc=#{npc_id}"
-  #
-  # name = $1 if res.body =~ /<h1>(.*) - NPC - World of Warcraft<\/h1>/
-  # #~ name = $1
-  # #~ name = name[/: (.*)/, 1] if name =~ /:/
-  # puts "  Found npc '#{name}'"
-  #
-  # imports = 0
-  #
-  # normal_drops = parse_list($&, EXCLUDE) if res.body =~ /id: 'normal-drops'(.*)/
-  # heroic_drops = parse_list($&, EXCLUDE) if res.body =~ /id: 'heroic-drops'(.*)/
-  # drops = parse_list($&, EXCLUDE) if res.body =~ /id: 'drops'(.*)/
-  #
-  # all_drops = []
-  # all_drops += normal_drops unless normal_drops.nil?
-  # all_drops += heroic_drops unless heroic_drops.nil?
-  # all_drops += drops unless drops.nil?
-  #
-  # all_drops -= (all_drops - zone_drops)
-  # puts "    Found #{all_drops.size} items"
-  # all_drops.map {|id| "#{id} #{name}"}
-# end
+  puts "\nQuerying NPC #{npc_id}"
+  page = "/?npc=#{npc_id}"
+
+  name = $1 if wh.fetch_page(page) =~ /<h1>(.*) - NPC - World of Warcraft<\/h1>/
+  #~ name = $1
+  #~ name = name[/: (.*)/, 1] if name =~ /:/
+  puts "  Found npc '#{name}'"
+
+  all_drops = (wh.get(page, "normal-drops").map {|i| i["id"]} - tokens rescue [])
+  all_drops += (wh.get(page, "heroic-drops").map {|i| i["id"]} - tokens rescue [])
+  all_drops += (wh.get(page, "normal-10-drops").map {|i| i["id"]} - tokens rescue [])
+  all_drops += (wh.get(page, "normal-25-drops").map {|i| i["id"]} - tokens rescue [])
+  all_drops += (wh.get(page, "heroic-10-drops").map {|i| i["id"]} - tokens rescue [])
+  all_drops += (wh.get(page, "heroic-25-drops").map {|i| i["id"]} - tokens rescue [])
+  all_drops += (wh.get(page, "drops").map {|i| i["id"]} - tokens rescue [])
+  all_drops -= (all_drops - zone_drops[zone_id])
+  boss_drops += all_drops.map {|id| "#{id} #{name}"}
+end
 
 Engravings.export("DropLocations.lua", "DROP_LOCATIONS", "Drops in:", instance_drops)
-# Engravings.export("DropNPCs.lua", "DROP_NPC", "Dropped by:", boss_drops.uniq)
+Engravings.export("DropNPCs.lua", "DROP_NPC", "Dropped by:", boss_drops.uniq)
 
