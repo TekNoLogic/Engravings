@@ -1,11 +1,11 @@
 
 local TOKEN_REWARDS = [[
-36918 10 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
-36921 10 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
-36924 10 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
-36927 10 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
-36930 10 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
-36933 10 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+36919 20 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+36922 20 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+36925 20 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+36928 10 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+36931 10 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+36934 10 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
 40610 80 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
 40611 80 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
 40612 80 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
@@ -145,6 +145,14 @@ local TOKEN_REWARDS = [[
 43102 10 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
 44230 200 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
 44231 200 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+48677 40 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+48683 40 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+48685 40 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+48687 40 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+48689 40 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+48691 40 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+48716 40 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
+48718 65 |TInterface\Icons\Spell_Holy_ProclaimChampion:18|t
 ]]
 
 Engravings["Emblem of Heroism:"] = setmetatable({}, {

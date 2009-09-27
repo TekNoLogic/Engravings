@@ -82,6 +82,16 @@ local TOKEN_REWARDS = [[
 42010 46 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
 42016 46 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
 45087 18 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+45114 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+45144 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+45145 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+45169 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+45254 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+45255 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+45270 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+45436 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+45509 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+45510 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
 45632 58 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
 45633 58 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
 45634 58 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
@@ -117,6 +127,7 @@ local TOKEN_REWARDS = [[
 45846 39 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
 45847 39 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
 45848 39 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
+46138 19 |TInterface\Icons\Spell_Holy_ChampionsGrace:18|t
 ]]
 
 Engravings["Emblem of Conquest:"] = setmetatable({}, {
