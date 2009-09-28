@@ -70,38 +70,6 @@ def mine_pvp_prices(http)
 end
 
 
-def mine_item_sets(http)
-	puts "\nQuerying Item set names"
-
-	item_sets = []
-	vendors = [
-		["/?npc=20616", "Tier 4"],
-		["/?npc=21906", "Tier 5"],
-		["/?npc=23381", "Tier 6"],
-		["/?items&filter=na=Heroes';minle=200", "Tier 7 Normal"],
-		["/?items&filter=na=Valorous;minle=213", "Tier 7 Heroic"],
-		["/?items&filter=na=Gladiator%27s;maxle=135", "Season 1"],
-		["/?items&filter=na=Merciless+Gladiator's", "Season 2"],
-		["/?items&filter=na=Vengeful+Gladiator's", "Season 3"],
-		["/?items&filter=na=Brutal+Gladiator's", "Season 4"],
-		["/?items&filter=na=Savage+Gladiator's", "Season 5 (Rare)"],
-		["/?items&filter=na=Hateful+Gladiator's", "Season 5 (Normal)"],
-		["/?items&filter=na=Deadly+Gladiator's", "Season 5 (Heroic)"],
-		["/?items&filter=na=Veteran's;minle=126", "Season 2 Non-set"],
-		["/?items&filter=na=Vindicator's;minle=141;maxle=157", "Season 3 Non-set"],
-		["/?items&filter=na=Guardian's;minle=154", "Season 4 Non-set"],
-	].each do |vendor,set_name|
-		puts "Querying set '#{set_name}'"
-		res = http.get vendor
-		items = parse_list($&) if res.body =~ /id: 'sells'(.*)/ || res.body =~ /id: 'items'(.*)/
-		items.each {|item| item_sets << "#{item} #{set_name}"}
-	end
-
-	export(File.join("Data", "ItemSetNames.lua"), "ITEM_SET_NAMES", "Item set:", item_sets.sort.join("\n"))
-	puts "Item set names added, #{item_sets.size} items imported."
-end
-
 Net::HTTP.start("www.wowhead.com") do |http|
 	mine_pvp_prices http
-	mine_item_sets http
 end

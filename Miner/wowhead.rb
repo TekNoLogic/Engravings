@@ -34,12 +34,13 @@ class Wowhead
 
 
 	def sanitize(str)
-		str.gsub(/"/, "TOKEN1").gsub(/\\'/, "TOKEN2").gsub(/(&[^;]+);/, "\1TOKEN3").gsub(";", "").gsub(/\[,\{/, "[{").gsub(/([^,]),+([^,])/, '\1,\2').gsub(/'/, '"').gsub(/([{,])\s*([^{:,]+):/, '\1"\2":').gsub(/TOKEN3/, ";").gsub(/TOKEN2/, "'").gsub(/TOKEN1/, '"')
+		str.gsub(/\t/, "").gsub(/"/, "TOKEN1").gsub(/\\'/, "TOKEN2").gsub(/'/, "TOKEN2").gsub(/(&[^;]+);/, "\1TOKEN3").gsub(";", "").gsub(/\[,\{/, "[{").gsub(/([^,]),+([^,])/, '\1,\2').gsub(/'/, '"').gsub(/([{,])\s*([^{:,]+):/, '\1"\2":').gsub(/TOKEN3/, ";").gsub(/TOKEN2/, "'").gsub(/TOKEN1/, '"')
 	end
 
 
 	def sanitize2(str)
-		str.gsub(/"/, "TOKEN1").gsub(/\\'/, "TOKEN2").gsub(/\[,+\{/, "[{").gsub(/'/, '"').gsub(/([^,]),+([^,])/, '\1,\2').gsub(/([{,])\s*([^{:,]+):/, '\1"\2":').gsub(/TOKEN2/, "'").gsub(/TOKEN1/, "'")
+	  File.open("wh.json", "w") {|f| f << str}
+		str.gsub(/\t/, "").gsub(/"/, "TOKEN1").gsub(/\\'/, "TOKEN2").gsub(/\[,+\{/, "[{").gsub(/'/, '"').gsub(/([^,]),+([^,])/, '\1,\2').gsub(/([{,])\s*([^{:,]+):/, '\1"\2":').gsub(/TOKEN2/, "'").gsub(/TOKEN1/, "'")
 	end
 
 	def minimal_sanitize(str)
