@@ -17,13 +17,14 @@ end
 
 class Wowhead
 
-	def initialize
-	  @cache = File.exists?("cache.yaml") ? YAML.load_file("cache.yaml") : {}
-		@http = Net::HTTP.start("www.wowhead.com")
-		@http2 = Net::HTTP.start("static.wowhead.com")
+  def initialize
+    @cache = File.exists?("cache.yaml") ? YAML.load_file("cache.yaml") : {}
+    @http = Net::HTTP.start("www.wowhead.com")
+    @http2 = Net::HTTP.start("static.wowhead.com")
+    @zone_names = {}
 
-		at_exit {File.open("cache.yaml", "w") {|f| f << @cache.to_yaml}}
-	end
+    at_exit {File.open("cache.yaml", "w") {|f| f << @cache.to_yaml}}
+  end
 
 
   def fetch_page(url, static = false)
@@ -112,5 +113,13 @@ class Wowhead
 			[k,v]
 		end.flatten]
 	end
+
+  def zone_name(id)
+    @zone_names[id] ||= begin
+      page = fetch_page("/?zone=#{id}")
+      raise "Cannot find zone name" unless match = page.match(/<h1>([^:]+: )?(.*) - Zone - World of Warcraft<\/h1>/).to_a
+      match[2]
+    end
+  end
 
 end

@@ -48,49 +48,6 @@ def parse_prices(body, block_id = "sells")
 end
 
 
-def mine_raid_tokens(http)
-	puts "\nQuerying raid token rewards"
-
-	tier_armor = []
-	vendors = [
-		"/?npc=20616", # Tier 4
-		"/?npc=21906", # Tier 5
-		"/?npc=23381", # Tier 6
-		"/?npc=25976", # Tier 6 additional (Sunwell)
-		"/?npc=26090", # Season 1
-		"/?npc=26091", # Season 2
-		"/?npc=26089", # Season 3 Non-set
-		#~ "/?npc=26092", # Season 3, currently sells S2?
-	].each do |vendor|
-		res = http.get vendor
-
-		if res.body =~ /id: 'sells'(.*)/
-			list = $&.gsub(/sourcemore:\[[^\]]+\]/, "")
-			list.scan(/id:(\d+),[^\}]*,cost:\[0,0,0,\[\[(\d+),1\]\]\]\}/) {|itemid, tokenid| tier_armor << [itemid, tokenid]}
-		end
-	end
-	token_sources, token_zones = [], []
-	tier_armor.map {|itemid, tokenid| tokenid}.uniq.each do |tokenid|
-		res = http.get "/?item=#{tokenid}"
-		if res.body =~ /id: 'dropped-by'(.*)/
-			npcs = $&
-			npc_names = npcs.scan(/name:'([^,]+)',/).flatten.reject {|name| name == "Lady Sacrolash" || name == "Grand Warlock Alythess"}
-			token_sources << [tokenid, (npc_names.include?("Lady Malande") ? "Illidari Council" : npc_names.first)]
-			token_zones << [tokenid, npcs.scan(/location:\[(\d+)\]/).flatten.uniq.first]
-		end
-	end
-
-	zones = token_zones.map{|token,zone| zone}.uniq.map do |zone|
-		res = http.get "/?zone=#{zone}"
-		[zone, $1] if res.body =~ /<h1>(.*) - Zone - World of Warcraft<\/h1>/
-	end
-
-	export(File.join("Data", "TierArmorTokenDropNPCs.lua"), "TIER_ARMOR_TOKEN_NPCS", "Token dropped by:", tier_armor.map {|itemid, tokenid| "#{itemid} #{token_sources.assoc(tokenid)[1].gsub("\\'", "'")}"}.sort.join("\n"))
-	export(File.join("Data", "TierArmorTokenDropLocations.lua"), "TIER_ARMOR_TOKEN_ZONES", "Token dropped in:", tier_armor.map {|itemid, tokenid| "#{itemid} #{zones.assoc(token_zones.assoc(tokenid)[1])[1]}"}.sort.join("\n"))
-	puts "Tier token rewards added, #{tier_armor.size} items imported."
-end
-
-
 def mine_pvp_prices(http)
 	puts "\nQuerying PvP rewards"
 
@@ -145,7 +102,6 @@ def mine_item_sets(http)
 end
 
 Net::HTTP.start("www.wowhead.com") do |http|
-	mine_raid_tokens http
 	mine_pvp_prices http
 	mine_item_sets http
 end
