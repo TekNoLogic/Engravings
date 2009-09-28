@@ -235,10 +235,15 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 30233 Lady Vashj
 30234 Fathom-Lord Karathress
 30235 Void Reaver
+30486 Illidan Stormrage
 30486 Kael'thas Sunstrider
+30487 Azgalor
 30487 Leotheras the Blind
+30488 Archimonde
 30488 Lady Vashj
 30489 Fathom-Lord Karathress
+30489 Illidari Council
+30490 Mother Shahraz
 30490 Void Reaver
 30969 Azgalor
 30970 Azgalor
@@ -345,85 +350,165 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31616 Prince Malchezaar
 31618 Gruul the Dragonkiller
 31619 High King Maulgar
+31960 Illidan Stormrage
 31960 Kael'thas Sunstrider
+31961 Azgalor
 31961 Leotheras the Blind
+31962 Archimonde
 31962 Lady Vashj
 31963 Fathom-Lord Karathress
+31963 Illidari Council
+31964 Mother Shahraz
 31964 Void Reaver
+31967 Azgalor
 31967 Leotheras the Blind
+31968 Archimonde
 31968 Lady Vashj
 31969 Fathom-Lord Karathress
+31969 Illidari Council
+31971 Mother Shahraz
 31971 Void Reaver
+31972 Illidan Stormrage
 31972 Kael'thas Sunstrider
+31973 Azgalor
 31973 Leotheras the Blind
+31974 Archimonde
 31974 Lady Vashj
 31975 Fathom-Lord Karathress
+31975 Illidari Council
+31976 Mother Shahraz
 31976 Void Reaver
+31977 Illidan Stormrage
 31977 Kael'thas Sunstrider
+31979 Mother Shahraz
 31979 Void Reaver
+31980 Archimonde
 31980 Lady Vashj
+31981 Azgalor
 31981 Leotheras the Blind
+31982 Illidan Stormrage
 31982 Kael'thas Sunstrider
 31983 Fathom-Lord Karathress
+31983 Illidari Council
+31987 Azgalor
 31987 Leotheras the Blind
+31988 Archimonde
 31988 Lady Vashj
 31989 Fathom-Lord Karathress
+31989 Illidari Council
+31990 Mother Shahraz
 31990 Void Reaver
+31991 Illidan Stormrage
 31991 Kael'thas Sunstrider
+31992 Illidan Stormrage
 31992 Kael'thas Sunstrider
+31993 Azgalor
 31993 Leotheras the Blind
 31995 Fathom-Lord Karathress
+31995 Illidari Council
+31996 Mother Shahraz
 31996 Void Reaver
+31997 Archimonde
 31997 Lady Vashj
+31998 Azgalor
 31998 Leotheras the Blind
+31999 Archimonde
 31999 Lady Vashj
 32000 Fathom-Lord Karathress
+32000 Illidari Council
+32001 Mother Shahraz
 32001 Void Reaver
+32002 Illidan Stormrage
 32002 Kael'thas Sunstrider
+32004 Illidan Stormrage
 32004 Kael'thas Sunstrider
+32005 Azgalor
 32005 Leotheras the Blind
+32006 Archimonde
 32006 Lady Vashj
 32007 Fathom-Lord Karathress
+32007 Illidari Council
+32008 Mother Shahraz
 32008 Void Reaver
+32009 Illidan Stormrage
 32009 Kael'thas Sunstrider
+32010 Azgalor
 32010 Leotheras the Blind
+32011 Archimonde
 32011 Lady Vashj
 32012 Fathom-Lord Karathress
+32012 Illidari Council
+32013 Mother Shahraz
 32013 Void Reaver
+32015 Azgalor
 32015 Leotheras the Blind
+32016 Archimonde
 32016 Lady Vashj
 32017 Fathom-Lord Karathress
+32017 Illidari Council
+32018 Mother Shahraz
 32018 Void Reaver
+32019 Illidan Stormrage
 32019 Kael'thas Sunstrider
+32020 Illidan Stormrage
 32020 Kael'thas Sunstrider
+32021 Azgalor
 32021 Leotheras the Blind
+32022 Archimonde
 32022 Lady Vashj
 32023 Fathom-Lord Karathress
+32023 Illidari Council
+32024 Mother Shahraz
 32024 Void Reaver
+32029 Illidan Stormrage
 32029 Kael'thas Sunstrider
+32030 Azgalor
 32030 Leotheras the Blind
+32031 Archimonde
 32031 Lady Vashj
 32032 Fathom-Lord Karathress
+32032 Illidari Council
+32033 Mother Shahraz
 32033 Void Reaver
+32034 Azgalor
 32034 Leotheras the Blind
+32035 Archimonde
 32035 Lady Vashj
 32036 Fathom-Lord Karathress
+32036 Illidari Council
+32037 Mother Shahraz
 32037 Void Reaver
+32038 Illidan Stormrage
 32038 Kael'thas Sunstrider
+32039 Illidan Stormrage
 32039 Kael'thas Sunstrider
+32040 Azgalor
 32040 Leotheras the Blind
+32041 Archimonde
 32041 Lady Vashj
 32042 Fathom-Lord Karathress
+32042 Illidari Council
+32043 Mother Shahraz
 32043 Void Reaver
+32047 Mother Shahraz
 32047 Void Reaver
+32048 Archimonde
 32048 Lady Vashj
+32049 Azgalor
 32049 Leotheras the Blind
+32050 Illidan Stormrage
 32050 Kael'thas Sunstrider
 32051 Fathom-Lord Karathress
+32051 Illidari Council
+32056 Azgalor
 32056 Leotheras the Blind
+32057 Archimonde
 32057 Lady Vashj
 32058 Fathom-Lord Karathress
+32058 Illidari Council
+32059 Mother Shahraz
 32059 Void Reaver
+32060 Illidan Stormrage
 32060 Kael'thas Sunstrider
 33811 Brutallus
 33812 Felmyst
@@ -521,6 +606,246 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 34573 Felmyst
 34574 Felmyst
 34575 Felmyst
+39491 Kel'Thuzad
+39492 Gluth
+39493 Thaddius
+39494 Loatheb
+39495 Sartharion
+39496 Kel'Thuzad
+39497 Gluth
+39498 Thaddius
+39499 Loatheb
+39500 Sartharion
+39514 Kel'Thuzad
+39515 Gluth
+39517 Thaddius
+39518 Loatheb
+39519 Sartharion
+39521 Kel'Thuzad
+39523 Gluth
+39528 Thaddius
+39529 Loatheb
+39530 Sartharion
+39531 Kel'Thuzad
+39538 Gluth
+39539 Thaddius
+39542 Loatheb
+39543 Sartharion
+39544 Sartharion
+39545 Kel'Thuzad
+39546 Thaddius
+39547 Gluth
+39548 Loatheb
+39553 Kel'Thuzad
+39554 Gluth
+39555 Thaddius
+39556 Loatheb
+39557 Sartharion
+39558 Gluth
+39560 Sartharion
+39561 Kel'Thuzad
+39564 Thaddius
+39565 Loatheb
+39578 Kel'Thuzad
+39579 Gluth
+39580 Thaddius
+39581 Loatheb
+39582 Sartharion
+39583 Kel'Thuzad
+39588 Gluth
+39589 Thaddius
+39590 Loatheb
+39591 Sartharion
+39592 Gluth
+39593 Sartharion
+39594 Kel'Thuzad
+39595 Thaddius
+39596 Loatheb
+39597 Gluth
+39601 Sartharion
+39602 Kel'Thuzad
+39603 Thaddius
+39604 Loatheb
+39605 Kel'Thuzad
+39606 Gluth
+39607 Thaddius
+39608 Loatheb
+39609 Sartharion
+39610 Kel'Thuzad
+39611 Gluth
+39612 Thaddius
+39613 Loatheb
+39617 Gluth
+39618 Sartharion
+39619 Kel'Thuzad
+39620 Thaddius
+39621 Loatheb
+39622 Sartharion
+39623 Gluth
+39624 Sartharion
+39625 Kel'Thuzad
+39626 Thaddius
+39627 Loatheb
+39628 Kel'Thuzad
+39629 Gluth
+39630 Thaddius
+39631 Loatheb
+39632 Sartharion
+39633 Gluth
+39634 Sartharion
+39635 Kel'Thuzad
+39636 Thaddius
+39637 Loatheb
+39638 Gluth
+39639 Sartharion
+39640 Kel'Thuzad
+39641 Thaddius
+39642 Loatheb
+40415 Sartharion
+40416 Kel'Thuzad
+40417 Thaddius
+40418 Gluth
+40419 Loatheb
+40420 Sartharion
+40421 Kel'Thuzad
+40422 Thaddius
+40423 Gluth
+40424 Loatheb
+40445 Sartharion
+40447 Kel'Thuzad
+40448 Thaddius
+40449 Gluth
+40450 Loatheb
+40454 Sartharion
+40456 Kel'Thuzad
+40457 Thaddius
+40458 Gluth
+40459 Loatheb
+40460 Sartharion
+40461 Kel'Thuzad
+40462 Thaddius
+40463 Gluth
+40465 Loatheb
+40466 Sartharion
+40467 Kel'Thuzad
+40468 Thaddius
+40469 Gluth
+40470 Loatheb
+40471 Gluth
+40472 Sartharion
+40473 Kel'Thuzad
+40493 Thaddius
+40494 Loatheb
+40495 Gluth
+40496 Sartharion
+40499 Kel'Thuzad
+40500 Thaddius
+40502 Loatheb
+40503 Gluth
+40504 Sartharion
+40505 Kel'Thuzad
+40506 Thaddius
+40507 Loatheb
+40508 Gluth
+40509 Sartharion
+40510 Kel'Thuzad
+40512 Thaddius
+40513 Loatheb
+40514 Gluth
+40515 Sartharion
+40516 Kel'Thuzad
+40517 Thaddius
+40518 Loatheb
+40520 Sartharion
+40521 Kel'Thuzad
+40522 Thaddius
+40523 Gluth
+40524 Loatheb
+40525 Gluth
+40527 Sartharion
+40528 Kel'Thuzad
+40529 Thaddius
+40530 Loatheb
+40544 Gluth
+40545 Sartharion
+40546 Kel'Thuzad
+40547 Thaddius
+40548 Loatheb
+40550 Gluth
+40552 Sartharion
+40554 Kel'Thuzad
+40556 Thaddius
+40557 Loatheb
+40559 Gluth
+40563 Sartharion
+40565 Kel'Thuzad
+40567 Thaddius
+40568 Loatheb
+40569 Gluth
+40570 Sartharion
+40571 Kel'Thuzad
+40572 Thaddius
+40573 Loatheb
+40574 Gluth
+40575 Sartharion
+40576 Kel'Thuzad
+40577 Thaddius
+40578 Loatheb
+40579 Gluth
+40580 Sartharion
+40581 Kel'Thuzad
+40583 Thaddius
+40584 Loatheb
+45335 Yogg-Saron
+45340 Yogg-Saron
+45348 Yogg-Saron
+45354 Yogg-Saron
+45358 Yogg-Saron
+45361 VX-001
+45364 Yogg-Saron
+45368 Yogg-Saron
+45374 Yogg-Saron
+45375 Yogg-Saron
+45381 Yogg-Saron
+45389 Yogg-Saron
+45395 Yogg-Saron
+45396 Yogg-Saron
+45402 VX-001
+45405 Yogg-Saron
+45408 VX-001
+45411 Yogg-Saron
+45412 VX-001
+45413 Yogg-Saron
+45421 Yogg-Saron
+45424 Yogg-Saron
+45425 VX-001
+45429 Yogg-Saron
+45431 VX-001
+46117 Yogg-Saron
+46122 Yogg-Saron
+46127 Yogg-Saron
+46134 Yogg-Saron
+46136 Yogg-Saron
+46142 VX-001
+46145 Yogg-Saron
+46148 VX-001
+46149 Yogg-Saron
+46152 Yogg-Saron
+46157 Yogg-Saron
+46164 VX-001
+46165 Yogg-Saron
+46167 Yogg-Saron
+46177 Yogg-Saron
+46182 Yogg-Saron
+46187 Yogg-Saron
+46190 Yogg-Saron
+46196 Yogg-Saron
+46199 VX-001
+46200 VX-001
+46203 Yogg-Saron
+46204 Yogg-Saron
+46207 VX-001
+46211 Yogg-Saron
 ]]
 
 Engravings["Token dropped by:"] = setmetatable({}, {
