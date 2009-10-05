@@ -1989,7 +1989,6 @@ local DROP_NPC = [[
 39534 Ionar
 39535 Ionar
 39536 Ionar
-39554 Archavon the Stone Watcher
 39558 Archavon the Stone Watcher
 39560 Archavon the Stone Watcher
 39564 Archavon the Stone Watcher
@@ -2458,6 +2457,7 @@ local DROP_NPC = [[
 41028 Koralon the Flame Watcher
 41032 Archavon the Stone Watcher
 41034 Koralon the Flame Watcher
+41071 Koralon the Flame Watcher
 41080 Archavon the Stone Watcher
 41085 Archavon the Stone Watcher
 41086 Archavon the Stone Watcher
@@ -2486,7 +2486,6 @@ local DROP_NPC = [[
 41286 Archavon the Stone Watcher
 41288 Koralon the Flame Watcher
 41292 Archavon the Stone Watcher
-41293 Emalon the Storm Watcher
 41294 Koralon the Flame Watcher
 41297 Archavon the Stone Watcher
 41299 Koralon the Flame Watcher
@@ -2494,7 +2493,6 @@ local DROP_NPC = [[
 41305 Koralon the Flame Watcher
 41309 Archavon the Stone Watcher
 41315 Archavon the Stone Watcher
-41636 Koralon the Flame Watcher
 41648 Archavon the Stone Watcher
 41649 Archavon the Stone Watcher
 41653 Archavon the Stone Watcher
@@ -2525,7 +2523,6 @@ local DROP_NPC = [[
 41799 Loken
 41832 Emalon the Storm Watcher
 41833 Koralon the Flame Watcher
-41835 Emalon the Storm Watcher
 41836 Emalon the Storm Watcher
 41837 Koralon the Flame Watcher
 41840 Emalon the Storm Watcher
@@ -2542,12 +2539,10 @@ local DROP_NPC = [[
 41875 Koralon the Flame Watcher
 41881 Emalon the Storm Watcher
 41882 Koralon the Flame Watcher
-41884 Emalon the Storm Watcher
 41885 Emalon the Storm Watcher
 41886 Koralon the Flame Watcher
 41893 Emalon the Storm Watcher
 41894 Koralon the Flame Watcher
-41897 Emalon the Storm Watcher
 41898 Emalon the Storm Watcher
 41899 Koralon the Flame Watcher
 41903 Emalon the Storm Watcher
@@ -2592,7 +2587,6 @@ local DROP_NPC = [[
 42017 Emalon the Storm Watcher
 42017 Koralon the Flame Watcher
 42018 Koralon the Flame Watcher
-42027 Emalon the Storm Watcher
 42034 Emalon the Storm Watcher
 42035 Emalon the Storm Watcher
 42041 Koralon the Flame Watcher
@@ -2837,9 +2831,7 @@ local DROP_NPC = [[
 45378 Runemaster Molgeim
 45378 Steelbreaker
 45378 Stormcaller Brundir
-45379 Emalon the Storm Watcher
 45383 Emalon the Storm Watcher
-45384 Emalon the Storm Watcher
 45387 Emalon the Storm Watcher
 45388 Emalon the Storm Watcher
 45392 Emalon the Storm Watcher
@@ -2848,7 +2840,6 @@ local DROP_NPC = [[
 45399 Emalon the Storm Watcher
 45401 Emalon the Storm Watcher
 45409 Emalon the Storm Watcher
-45414 Emalon the Storm Watcher
 45416 Emalon the Storm Watcher
 45418 Runemaster Molgeim
 45418 Steelbreaker
@@ -3043,7 +3034,6 @@ local DROP_NPC = [[
 48096 Koralon the Flame Watcher
 48097 Koralon the Flame Watcher
 48099 Koralon the Flame Watcher
-48130 Koralon the Flame Watcher
 48133 Koralon the Flame Watcher
 48135 Koralon the Flame Watcher
 48150 Koralon the Flame Watcher
@@ -3082,13 +3072,11 @@ local DROP_NPC = [[
 48319 Koralon the Flame Watcher
 48332 Koralon the Flame Watcher
 48334 Koralon the Flame Watcher
-48337 Koralon the Flame Watcher
-48339 Koralon the Flame Watcher
 48347 Koralon the Flame Watcher
 48349 Koralon the Flame Watcher
 48362 Koralon the Flame Watcher
 48364 Koralon the Flame Watcher
-48373 Koralon the Flame Watcher
+48367 Koralon the Flame Watcher
 48375 Koralon the Flame Watcher
 48377 Koralon the Flame Watcher
 48379 Koralon the Flame Watcher
@@ -3098,7 +3086,6 @@ local DROP_NPC = [[
 48394 Koralon the Flame Watcher
 48445 Koralon the Flame Watcher
 48446 Koralon the Flame Watcher
-48449 Koralon the Flame Watcher
 48452 Koralon the Flame Watcher
 48457 Koralon the Flame Watcher
 48459 Koralon the Flame Watcher
@@ -3128,7 +3115,6 @@ local DROP_NPC = [[
 48610 Koralon the Flame Watcher
 48623 Koralon the Flame Watcher
 48625 Koralon the Flame Watcher
-48635 Koralon the Flame Watcher
 48638 Koralon the Flame Watcher
 48640 Koralon the Flame Watcher
 48655 Koralon the Flame Watcher
