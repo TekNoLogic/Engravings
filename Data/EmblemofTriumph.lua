@@ -81,6 +81,7 @@ local TOKEN_REWARDS = [[
 42011 50 |TInterface\Icons\spell_holy_summonchampion:18|t
 42017 50 |TInterface\Icons\spell_holy_summonchampion:18|t
 45624 1 |TInterface\Icons\spell_holy_summonchampion:18|t
+47556 15 |TInterface\Icons\spell_holy_summonchampion:18|t
 47658 25 |TInterface\Icons\spell_holy_summonchampion:18|t
 47659 25 |TInterface\Icons\spell_holy_summonchampion:18|t
 47660 25 |TInterface\Icons\spell_holy_summonchampion:18|t
