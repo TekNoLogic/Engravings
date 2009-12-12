@@ -109,7 +109,7 @@ function EngravingsGenerateWowheadSet(spec, data)
 		end
 	})
 
-	local lastid, lastbest
+	local lastid, lastbest, secondbest
 	Engravings["Wowhead score ("..spec.."):"] = setmetatable({}, {
 		__index = function(t,i)
 			local v = values[i]
@@ -117,22 +117,24 @@ function EngravingsGenerateWowheadSet(spec, data)
 
 			if lastid ~= i then
 				local slotid = slots[i]
+				local trinkring = slotid == 11 or slotid == 13
 				local items = slotid and GetInventoryItemsForSlot(slotid, wipe(temp))
 				local best = true
+				local secondbest = false
 				if slotid then
 					for _,id in pairs(setitems[slotid]) do
-						if id ~= i and tonumber(values[id]) > tonumber(v) then best = false end
+						if id ~= i and tonumber(values[id]) > tonumber(v) then best, secondbest = false, trinkring and best end
 					end
 				end
 				if best and items then
 					for _,id in pairs(items) do
-						if id ~= i and tonumber(values[id]) > tonumber(v) then best = false end
+						if id ~= i and tonumber(values[id]) > tonumber(v) then best, secondbest = false, trinkring and best end
 					end
 				end
-				lastid, lastbest = i, best
+				lastid, lastbest, lastsecondbest = i, best, secondbest
 			end
 
-			return (lastbest and "|cff80ff80" or "")..v
+			return (lastbest and "|cff80ff80" or lastsecondbest and "|cffffff80" or "")..v
 		end
 	})
 end
