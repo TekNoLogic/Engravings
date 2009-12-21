@@ -1,3 +1,6 @@
+3.3.0.15-Release
+    Highlight second best score in yellow for trinkets and rings
+
 3.2.0.14-Release
     New datas!
     Remove ilvl module, built into default UI now
