@@ -1,3 +1,11 @@
+3.3.0.15-Release
+    Highlight second best score in yellow for trinkets and rings
+
+3.2.0.14-Release
+    New datas!
+    Remove ilvl module, built into default UI now
+    New low level raw food
+
 3.1.0.13-Release
     Add in equipment sets and in bags datasources
     Lookie lookie data update!
