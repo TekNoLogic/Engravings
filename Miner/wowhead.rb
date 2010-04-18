@@ -41,10 +41,7 @@ class Wowhead
 
 
   def sanitize2(str)
-    x = str.gsub(/\\"/, "TOKEN1").gsub(/:"([^:"]+):([^:"]+"[,}])/, ':"\1TOKEN2\2').gsub(/([\w']+):/, '"\1":').gsub(/TOKEN2/, ":").gsub(/TOKEN1/, '\"')
-    File.open("blah.json", "w") {|f| f << x.gsub(/([,}\]])/, '\1'+"\n")}
-    File.open("orig.json", "w") {|f| f << str.gsub(/([,}\]])/, '\1'+"\n")}
-    x
+    str.gsub(/\\"/, "TOKEN1").gsub(/:"([^:"]+):([^:"]+"[,}])/, ':"\1TOKEN2\2').gsub(/([\w']+):/, '"\1":').gsub(/TOKEN2/, ":").gsub(/TOKEN1/, '\"')
   end
 
 	def minimal_sanitize(str)
