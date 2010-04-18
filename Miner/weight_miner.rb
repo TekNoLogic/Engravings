@@ -52,7 +52,7 @@ wh.get_weight_filters.each_pair do |c,specs|
     p "Grabbing #{spec} #{c} item scores"
     item_values.each do |v|
       [2,3,4].each do |q|
-        item_data = wh.get("/?items=#{v}qu=#{q};gm=3;#{w}") || []
+        item_data = wh.get("/items=#{v}qu=#{q};gm=3;#{w}") || []
         data += item_data.map {|val| [val["id"], "%.3f" % val["score"]]}
       end
     end

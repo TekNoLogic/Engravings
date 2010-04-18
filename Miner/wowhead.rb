@@ -79,7 +79,7 @@ class Wowhead
 		@class_ids ||= get_class_ids
 		@spec_names ||= get_spec_names
 
-		res = fetch_page("/?data=weight-presets&amp;261")
+		res = fetch_page("/data=weight-presets&amp;261")
 		raw_presets = parse_list(res.gsub("var wt_presets = ", ""))
 		presets = raw_presets.map do |cid,data|
 			data = data["pve"].map do |name,weights|
