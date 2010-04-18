@@ -144,78 +144,6 @@ local ITEM_SET_NAMES = [[
 16578 Level 60 PvP Epic
 16579 Level 60 PvP Epic
 16580 Level 60 PvP Epic
-16666 Dungeon 1
-16667 Dungeon 1
-16668 Dungeon 1
-16669 Dungeon 1
-16670 Dungeon 1
-16671 Dungeon 1
-16672 Dungeon 1
-16673 Dungeon 1
-16674 Dungeon 1
-16675 Dungeon 1
-16676 Dungeon 1
-16677 Dungeon 1
-16678 Dungeon 1
-16679 Dungeon 1
-16680 Dungeon 1
-16681 Dungeon 1
-16682 Dungeon 1
-16683 Dungeon 1
-16684 Dungeon 1
-16685 Dungeon 1
-16686 Dungeon 1
-16687 Dungeon 1
-16688 Dungeon 1
-16689 Dungeon 1
-16690 Dungeon 1
-16691 Dungeon 1
-16692 Dungeon 1
-16693 Dungeon 1
-16694 Dungeon 1
-16695 Dungeon 1
-16696 Dungeon 1
-16697 Dungeon 1
-16698 Dungeon 1
-16699 Dungeon 1
-16700 Dungeon 1
-16701 Dungeon 1
-16702 Dungeon 1
-16703 Dungeon 1
-16704 Dungeon 1
-16705 Dungeon 1
-16706 Dungeon 1
-16707 Dungeon 1
-16708 Dungeon 1
-16709 Dungeon 1
-16710 Dungeon 1
-16711 Dungeon 1
-16712 Dungeon 1
-16713 Dungeon 1
-16714 Dungeon 1
-16715 Dungeon 1
-16716 Dungeon 1
-16717 Dungeon 1
-16718 Dungeon 1
-16719 Dungeon 1
-16720 Dungeon 1
-16721 Dungeon 1
-16722 Dungeon 1
-16723 Dungeon 1
-16724 Dungeon 1
-16725 Dungeon 1
-16726 Dungeon 1
-16727 Dungeon 1
-16728 Dungeon 1
-16729 Dungeon 1
-16730 Dungeon 1
-16731 Dungeon 1
-16732 Dungeon 1
-16733 Dungeon 1
-16734 Dungeon 1
-16735 Dungeon 1
-16736 Dungeon 1
-16737 Dungeon 1
 16795 Tier 1 Raid
 16796 Tier 1 Raid
 16797 Tier 1 Raid
@@ -546,78 +474,6 @@ local ITEM_SET_NAMES = [[
 21416 Ruins of Ahn'Qiraj
 21417 Ruins of Ahn'Qiraj
 21418 Ruins of Ahn'Qiraj
-21994 Dungeon 2
-21995 Dungeon 2
-21996 Dungeon 2
-21997 Dungeon 2
-21998 Dungeon 2
-21999 Dungeon 2
-22000 Dungeon 2
-22001 Dungeon 2
-22002 Dungeon 2
-22003 Dungeon 2
-22004 Dungeon 2
-22005 Dungeon 2
-22006 Dungeon 2
-22007 Dungeon 2
-22008 Dungeon 2
-22009 Dungeon 2
-22010 Dungeon 2
-22011 Dungeon 2
-22013 Dungeon 2
-22015 Dungeon 2
-22016 Dungeon 2
-22017 Dungeon 2
-22060 Dungeon 2
-22061 Dungeon 2
-22062 Dungeon 2
-22063 Dungeon 2
-22064 Dungeon 2
-22065 Dungeon 2
-22066 Dungeon 2
-22067 Dungeon 2
-22068 Dungeon 2
-22069 Dungeon 2
-22070 Dungeon 2
-22071 Dungeon 2
-22072 Dungeon 2
-22073 Dungeon 2
-22074 Dungeon 2
-22075 Dungeon 2
-22076 Dungeon 2
-22077 Dungeon 2
-22078 Dungeon 2
-22079 Dungeon 2
-22080 Dungeon 2
-22081 Dungeon 2
-22082 Dungeon 2
-22083 Dungeon 2
-22084 Dungeon 2
-22085 Dungeon 2
-22086 Dungeon 2
-22087 Dungeon 2
-22088 Dungeon 2
-22089 Dungeon 2
-22090 Dungeon 2
-22091 Dungeon 2
-22092 Dungeon 2
-22093 Dungeon 2
-22095 Dungeon 2
-22096 Dungeon 2
-22097 Dungeon 2
-22098 Dungeon 2
-22099 Dungeon 2
-22100 Dungeon 2
-22101 Dungeon 2
-22102 Dungeon 2
-22106 Dungeon 2
-22107 Dungeon 2
-22108 Dungeon 2
-22109 Dungeon 2
-22110 Dungeon 2
-22111 Dungeon 2
-22112 Dungeon 2
-22113 Dungeon 2
 22416 Tier 3 Raid
 22417 Tier 3 Raid
 22418 Tier 3 Raid
@@ -820,24 +676,11 @@ local ITEM_SET_NAMES = [[
 25999 Arena Season 1
 26000 Arena Season 1
 26001 Arena Season 1
-27465 Dungeon 3
-27468 Dungeon 3
 27469 Arena Season 1
 27470 Arena Season 1
 27471 Arena Season 1
 27472 Arena Season 1
 27473 Arena Season 1
-27474 Dungeon 3
-27475 Dungeon 3
-27497 Dungeon 3
-27508 Dungeon 3
-27509 Dungeon 3
-27510 Dungeon 3
-27528 Dungeon 3
-27531 Dungeon 3
-27535 Dungeon 3
-27536 Dungeon 3
-27537 Dungeon 3
 27702 Arena Season 1
 27703 Arena Season 1
 27704 Arena Season 1
@@ -848,37 +691,11 @@ local ITEM_SET_NAMES = [[
 27709 Arena Season 1
 27710 Arena Season 1
 27711 Arena Season 1
-27713 Dungeon 3
-27737 Dungeon 3
-27738 Dungeon 3
-27739 Dungeon 3
-27771 Dungeon 3
-27775 Dungeon 3
-27776 Dungeon 3
-27778 Dungeon 3
-27796 Dungeon 3
-27797 Dungeon 3
-27801 Dungeon 3
-27802 Dungeon 3
-27803 Dungeon 3
-27837 Dungeon 3
-27838 Dungeon 3
-27839 Dungeon 3
-27870 Dungeon 3
-27873 Dungeon 3
-27874 Dungeon 3
-27875 Dungeon 3
 27879 Arena Season 1
 27880 Arena Season 1
 27881 Arena Season 1
 27882 Arena Season 1
 27883 Arena Season 1
-27907 Dungeon 3
-27908 Dungeon 3
-27909 Dungeon 3
-27936 Dungeon 3
-27948 Dungeon 3
-27977 Dungeon 3
 28126 Arena Season 1
 28127 Arena Season 1
 28128 Arena Season 1
@@ -889,37 +706,11 @@ local ITEM_SET_NAMES = [[
 28138 Arena Season 1
 28139 Arena Season 1
 28140 Arena Season 1
-28191 Dungeon 3
-28192 Dungeon 3
-28193 Dungeon 3
-28202 Dungeon 3
-28203 Dungeon 3
-28204 Dungeon 3
-28205 Dungeon 3
-28224 Dungeon 3
-28225 Dungeon 3
-28228 Dungeon 3
-28229 Dungeon 3
-28230 Dungeon 3
-28231 Dungeon 3
-28232 Dungeon 3
-28264 Dungeon 3
-28275 Dungeon 3
-28278 Dungeon 3
-28285 Dungeon 3
 28331 Arena Season 1
 28332 Arena Season 1
 28333 Arena Season 1
 28334 Arena Season 1
 28335 Arena Season 1
-28348 Dungeon 3
-28349 Dungeon 3
-28350 Dungeon 3
-28401 Dungeon 3
-28403 Dungeon 3
-28413 Dungeon 3
-28414 Dungeon 3
-28415 Dungeon 3
 28613 Level 70 PvP Rare
 28614 Level 70 PvP Rare
 28615 Level 70 PvP Rare
@@ -2531,16 +2322,16 @@ local ITEM_SET_NAMES = [[
 47755 Tier 9 Raid
 47756 Tier 9 Raid
 47757 Tier 9 Raid
-47758 Tier 9 Raid
-47759 Tier 9 Raid
-47760 Tier 9 Raid
-47761 Tier 9 Raid
-47762 Tier 9 Raid
-47763 Tier 9 Raid
-47764 Tier 9 Raid
-47765 Tier 9 Raid
-47766 Tier 9 Raid
-47767 Tier 9 Raid
+47758 Tier 9 Raid (Heroic)
+47759 Tier 9 Raid (Heroic)
+47760 Tier 9 Raid (Heroic)
+47761 Tier 9 Raid (Heroic)
+47762 Tier 9 Raid (Heroic)
+47763 Tier 9 Raid (Heroic)
+47764 Tier 9 Raid (Heroic)
+47765 Tier 9 Raid (Heroic)
+47766 Tier 9 Raid (Heroic)
+47767 Tier 9 Raid (Heroic)
 47768 Tier 9 Raid
 47769 Tier 9 Raid
 47770 Tier 9 Raid
@@ -2561,16 +2352,16 @@ local ITEM_SET_NAMES = [[
 47785 Tier 9 Raid
 47786 Tier 9 Raid
 47787 Tier 9 Raid
-47788 Tier 9 Raid
-47789 Tier 9 Raid
-47790 Tier 9 Raid
-47791 Tier 9 Raid
-47792 Tier 9 Raid
-47793 Tier 9 Raid
-47794 Tier 9 Raid
-47795 Tier 9 Raid
-47796 Tier 9 Raid
-47797 Tier 9 Raid
+47788 Tier 9 Raid (Heroic)
+47789 Tier 9 Raid (Heroic)
+47790 Tier 9 Raid (Heroic)
+47791 Tier 9 Raid (Heroic)
+47792 Tier 9 Raid (Heroic)
+47793 Tier 9 Raid (Heroic)
+47794 Tier 9 Raid (Heroic)
+47795 Tier 9 Raid (Heroic)
+47796 Tier 9 Raid (Heroic)
+47797 Tier 9 Raid (Heroic)
 47798 Tier 9 Raid
 47799 Tier 9 Raid
 47800 Tier 9 Raid
@@ -2591,16 +2382,16 @@ local ITEM_SET_NAMES = [[
 47985 Tier 9 Raid
 47986 Tier 9 Raid
 47987 Tier 9 Raid
-48029 Tier 9 Raid
-48031 Tier 9 Raid
-48033 Tier 9 Raid
-48035 Tier 9 Raid
-48037 Tier 9 Raid
-48057 Tier 9 Raid
-48058 Tier 9 Raid
-48059 Tier 9 Raid
-48060 Tier 9 Raid
-48061 Tier 9 Raid
+48029 Tier 9 Raid (Heroic)
+48031 Tier 9 Raid (Heroic)
+48033 Tier 9 Raid (Heroic)
+48035 Tier 9 Raid (Heroic)
+48037 Tier 9 Raid (Heroic)
+48057 Tier 9 Raid (Heroic)
+48058 Tier 9 Raid (Heroic)
+48059 Tier 9 Raid (Heroic)
+48060 Tier 9 Raid (Heroic)
+48061 Tier 9 Raid (Heroic)
 48062 Tier 9 Raid
 48063 Tier 9 Raid
 48064 Tier 9 Raid
@@ -2621,16 +2412,16 @@ local ITEM_SET_NAMES = [[
 48079 Tier 9 Raid
 48080 Tier 9 Raid
 48081 Tier 9 Raid
-48082 Tier 9 Raid
-48083 Tier 9 Raid
-48084 Tier 9 Raid
-48085 Tier 9 Raid
-48086 Tier 9 Raid
-48087 Tier 9 Raid
-48088 Tier 9 Raid
-48089 Tier 9 Raid
-48090 Tier 9 Raid
-48091 Tier 9 Raid
+48082 Tier 9 Raid (Heroic)
+48083 Tier 9 Raid (Heroic)
+48084 Tier 9 Raid (Heroic)
+48085 Tier 9 Raid (Heroic)
+48086 Tier 9 Raid (Heroic)
+48087 Tier 9 Raid (Heroic)
+48088 Tier 9 Raid (Heroic)
+48089 Tier 9 Raid (Heroic)
+48090 Tier 9 Raid (Heroic)
+48091 Tier 9 Raid (Heroic)
 48092 Tier 9 Raid
 48093 Tier 9 Raid
 48094 Tier 9 Raid
@@ -2651,16 +2442,16 @@ local ITEM_SET_NAMES = [[
 48135 Tier 9 Raid
 48136 Tier 9 Raid
 48137 Tier 9 Raid
-48138 Tier 9 Raid
-48139 Tier 9 Raid
-48140 Tier 9 Raid
-48141 Tier 9 Raid
-48142 Tier 9 Raid
-48143 Tier 9 Raid
-48144 Tier 9 Raid
-48145 Tier 9 Raid
-48146 Tier 9 Raid
-48147 Tier 9 Raid
+48138 Tier 9 Raid (Heroic)
+48139 Tier 9 Raid (Heroic)
+48140 Tier 9 Raid (Heroic)
+48141 Tier 9 Raid (Heroic)
+48142 Tier 9 Raid (Heroic)
+48143 Tier 9 Raid (Heroic)
+48144 Tier 9 Raid (Heroic)
+48145 Tier 9 Raid (Heroic)
+48146 Tier 9 Raid (Heroic)
+48147 Tier 9 Raid (Heroic)
 48148 Tier 9 Raid
 48149 Tier 9 Raid
 48150 Tier 9 Raid
@@ -2681,16 +2472,16 @@ local ITEM_SET_NAMES = [[
 48165 Tier 9 Raid
 48166 Tier 9 Raid
 48167 Tier 9 Raid
-48168 Tier 9 Raid
-48169 Tier 9 Raid
-48170 Tier 9 Raid
-48171 Tier 9 Raid
-48172 Tier 9 Raid
-48173 Tier 9 Raid
-48174 Tier 9 Raid
-48175 Tier 9 Raid
-48176 Tier 9 Raid
-48177 Tier 9 Raid
+48168 Tier 9 Raid (Heroic)
+48169 Tier 9 Raid (Heroic)
+48170 Tier 9 Raid (Heroic)
+48171 Tier 9 Raid (Heroic)
+48172 Tier 9 Raid (Heroic)
+48173 Tier 9 Raid (Heroic)
+48174 Tier 9 Raid (Heroic)
+48175 Tier 9 Raid (Heroic)
+48176 Tier 9 Raid (Heroic)
+48177 Tier 9 Raid (Heroic)
 48178 Tier 9 Raid
 48179 Tier 9 Raid
 48180 Tier 9 Raid
@@ -2711,16 +2502,16 @@ local ITEM_SET_NAMES = [[
 48195 Tier 9 Raid
 48196 Tier 9 Raid
 48197 Tier 9 Raid
-48198 Tier 9 Raid
-48199 Tier 9 Raid
-48200 Tier 9 Raid
-48201 Tier 9 Raid
-48202 Tier 9 Raid
-48203 Tier 9 Raid
-48204 Tier 9 Raid
-48205 Tier 9 Raid
-48206 Tier 9 Raid
-48207 Tier 9 Raid
+48198 Tier 9 Raid (Heroic)
+48199 Tier 9 Raid (Heroic)
+48200 Tier 9 Raid (Heroic)
+48201 Tier 9 Raid (Heroic)
+48202 Tier 9 Raid (Heroic)
+48203 Tier 9 Raid (Heroic)
+48204 Tier 9 Raid (Heroic)
+48205 Tier 9 Raid (Heroic)
+48206 Tier 9 Raid (Heroic)
+48207 Tier 9 Raid (Heroic)
 48208 Tier 9 Raid
 48209 Tier 9 Raid
 48210 Tier 9 Raid
@@ -2741,16 +2532,16 @@ local ITEM_SET_NAMES = [[
 48225 Tier 9 Raid
 48226 Tier 9 Raid
 48227 Tier 9 Raid
-48228 Tier 9 Raid
-48229 Tier 9 Raid
-48230 Tier 9 Raid
-48231 Tier 9 Raid
-48232 Tier 9 Raid
-48233 Tier 9 Raid
-48234 Tier 9 Raid
-48235 Tier 9 Raid
-48236 Tier 9 Raid
-48237 Tier 9 Raid
+48228 Tier 9 Raid (Heroic)
+48229 Tier 9 Raid (Heroic)
+48230 Tier 9 Raid (Heroic)
+48231 Tier 9 Raid (Heroic)
+48232 Tier 9 Raid (Heroic)
+48233 Tier 9 Raid (Heroic)
+48234 Tier 9 Raid (Heroic)
+48235 Tier 9 Raid (Heroic)
+48236 Tier 9 Raid (Heroic)
+48237 Tier 9 Raid (Heroic)
 48238 Tier 9 Raid
 48239 Tier 9 Raid
 48240 Tier 9 Raid
@@ -2771,16 +2562,16 @@ local ITEM_SET_NAMES = [[
 48257 Tier 9 Raid
 48258 Tier 9 Raid
 48259 Tier 9 Raid
-48260 Tier 9 Raid
-48261 Tier 9 Raid
-48262 Tier 9 Raid
-48263 Tier 9 Raid
-48264 Tier 9 Raid
-48265 Tier 9 Raid
-48266 Tier 9 Raid
-48267 Tier 9 Raid
-48268 Tier 9 Raid
-48269 Tier 9 Raid
+48260 Tier 9 Raid (Heroic)
+48261 Tier 9 Raid (Heroic)
+48262 Tier 9 Raid (Heroic)
+48263 Tier 9 Raid (Heroic)
+48264 Tier 9 Raid (Heroic)
+48265 Tier 9 Raid (Heroic)
+48266 Tier 9 Raid (Heroic)
+48267 Tier 9 Raid (Heroic)
+48268 Tier 9 Raid (Heroic)
+48269 Tier 9 Raid (Heroic)
 48270 Tier 9 Raid
 48271 Tier 9 Raid
 48272 Tier 9 Raid
@@ -2801,11 +2592,11 @@ local ITEM_SET_NAMES = [[
 48287 Tier 9 Raid
 48288 Tier 9 Raid
 48289 Tier 9 Raid
-48290 Tier 9 Raid
-48291 Tier 9 Raid
-48292 Tier 9 Raid
-48293 Tier 9 Raid
-48294 Tier 9 Raid
+48290 Tier 9 Raid (Heroic)
+48291 Tier 9 Raid (Heroic)
+48292 Tier 9 Raid (Heroic)
+48293 Tier 9 Raid (Heroic)
+48294 Tier 9 Raid (Heroic)
 48295 Tier 9 Raid
 48296 Tier 9 Raid
 48297 Tier 9 Raid
@@ -2816,11 +2607,11 @@ local ITEM_SET_NAMES = [[
 48302 Tier 9 Raid
 48303 Tier 9 Raid
 48304 Tier 9 Raid
-48305 Tier 9 Raid
-48306 Tier 9 Raid
-48307 Tier 9 Raid
-48308 Tier 9 Raid
-48309 Tier 9 Raid
+48305 Tier 9 Raid (Heroic)
+48306 Tier 9 Raid (Heroic)
+48307 Tier 9 Raid (Heroic)
+48308 Tier 9 Raid (Heroic)
+48309 Tier 9 Raid (Heroic)
 48310 Tier 9 Raid
 48312 Tier 9 Raid
 48313 Tier 9 Raid
@@ -2831,16 +2622,16 @@ local ITEM_SET_NAMES = [[
 48318 Tier 9 Raid
 48319 Tier 9 Raid
 48320 Tier 9 Raid
-48321 Tier 9 Raid
-48322 Tier 9 Raid
-48323 Tier 9 Raid
-48324 Tier 9 Raid
-48325 Tier 9 Raid
-48326 Tier 9 Raid
-48327 Tier 9 Raid
-48328 Tier 9 Raid
-48329 Tier 9 Raid
-48330 Tier 9 Raid
+48321 Tier 9 Raid (Heroic)
+48322 Tier 9 Raid (Heroic)
+48323 Tier 9 Raid (Heroic)
+48324 Tier 9 Raid (Heroic)
+48325 Tier 9 Raid (Heroic)
+48326 Tier 9 Raid (Heroic)
+48327 Tier 9 Raid (Heroic)
+48328 Tier 9 Raid (Heroic)
+48329 Tier 9 Raid (Heroic)
+48330 Tier 9 Raid (Heroic)
 48331 Tier 9 Raid
 48332 Tier 9 Raid
 48333 Tier 9 Raid
@@ -2857,25 +2648,25 @@ local ITEM_SET_NAMES = [[
 48344 Tier 9 Raid
 48345 Tier 9 Raid
 48346 Tier 9 Raid
-48346 Tier 9 Raid
-48347 Tier 9 Raid
 48347 Tier 9 Raid
 48348 Tier 9 Raid
-48348 Tier 9 Raid
-48349 Tier 9 Raid
 48349 Tier 9 Raid
 48350 Tier 9 Raid
-48350 Tier 9 Raid
-48351 Tier 9 Raid
-48352 Tier 9 Raid
-48353 Tier 9 Raid
-48354 Tier 9 Raid
-48355 Tier 9 Raid
-48356 Tier 9 Raid
-48357 Tier 9 Raid
-48358 Tier 9 Raid
-48359 Tier 9 Raid
-48360 Tier 9 Raid
+48351 Tier 9 Raid (Heroic)
+48352 Tier 9 Raid (Heroic)
+48353 Tier 9 Raid (Heroic)
+48354 Tier 9 Raid (Heroic)
+48355 Tier 9 Raid (Heroic)
+48356 Tier 9 Raid (Heroic)
+48357 Tier 9 Raid (Heroic)
+48358 Tier 9 Raid (Heroic)
+48359 Tier 9 Raid (Heroic)
+48360 Tier 9 Raid (Heroic)
+48361 Tier 9 Raid
+48362 Tier 9 Raid
+48363 Tier 9 Raid
+48364 Tier 9 Raid
+48365 Tier 9 Raid
 48366 Tier 9 Raid
 48367 Tier 9 Raid
 48368 Tier 9 Raid
@@ -2891,11 +2682,11 @@ local ITEM_SET_NAMES = [[
 48378 Tier 9 Raid
 48379 Tier 9 Raid
 48380 Tier 9 Raid
-48381 Tier 9 Raid
-48382 Tier 9 Raid
-48383 Tier 9 Raid
-48384 Tier 9 Raid
-48385 Tier 9 Raid
+48381 Tier 9 Raid (Heroic)
+48382 Tier 9 Raid (Heroic)
+48383 Tier 9 Raid (Heroic)
+48384 Tier 9 Raid (Heroic)
+48385 Tier 9 Raid (Heroic)
 48386 Tier 9 Raid
 48387 Tier 9 Raid
 48388 Tier 9 Raid
@@ -2906,26 +2697,26 @@ local ITEM_SET_NAMES = [[
 48393 Tier 9 Raid
 48394 Tier 9 Raid
 48395 Tier 9 Raid
-48396 Tier 9 Raid
-48397 Tier 9 Raid
-48398 Tier 9 Raid
-48399 Tier 9 Raid
-48400 Tier 9 Raid
+48396 Tier 9 Raid (Heroic)
+48397 Tier 9 Raid (Heroic)
+48398 Tier 9 Raid (Heroic)
+48399 Tier 9 Raid (Heroic)
+48400 Tier 9 Raid (Heroic)
 48429 Tier 9 Raid
 48430 Tier 9 Raid
-48433 Tier 9 Raid
+48433 Tier 9 Raid (Heroic)
 48436 Tier 9 Raid
 48445 Tier 9 Raid
 48446 Tier 9 Raid
-48447 Tier 9 Raid
+48447 Tier 9 Raid (Heroic)
 48448 Tier 9 Raid
 48449 Tier 9 Raid
 48450 Tier 9 Raid
-48451 Tier 9 Raid
+48451 Tier 9 Raid (Heroic)
 48452 Tier 9 Raid
-48453 Tier 9 Raid
+48453 Tier 9 Raid (Heroic)
 48454 Tier 9 Raid
-48455 Tier 9 Raid
+48455 Tier 9 Raid (Heroic)
 48456 Tier 9 Raid
 48457 Tier 9 Raid
 48458 Tier 9 Raid
@@ -2936,11 +2727,11 @@ local ITEM_SET_NAMES = [[
 48463 Tier 9 Raid
 48464 Tier 9 Raid
 48465 Tier 9 Raid
-48466 Tier 9 Raid
-48467 Tier 9 Raid
-48468 Tier 9 Raid
-48469 Tier 9 Raid
-48470 Tier 9 Raid
+48466 Tier 9 Raid (Heroic)
+48467 Tier 9 Raid (Heroic)
+48468 Tier 9 Raid (Heroic)
+48469 Tier 9 Raid (Heroic)
+48470 Tier 9 Raid (Heroic)
 48472 Tier 9 Raid
 48474 Tier 9 Raid
 48476 Tier 9 Raid
@@ -2951,16 +2742,16 @@ local ITEM_SET_NAMES = [[
 48483 Tier 9 Raid
 48484 Tier 9 Raid
 48485 Tier 9 Raid
-48486 Tier 9 Raid
-48487 Tier 9 Raid
-48488 Tier 9 Raid
-48489 Tier 9 Raid
-48490 Tier 9 Raid
-48491 Tier 9 Raid
-48492 Tier 9 Raid
-48493 Tier 9 Raid
-48494 Tier 9 Raid
-48495 Tier 9 Raid
+48486 Tier 9 Raid (Heroic)
+48487 Tier 9 Raid (Heroic)
+48488 Tier 9 Raid (Heroic)
+48489 Tier 9 Raid (Heroic)
+48490 Tier 9 Raid (Heroic)
+48491 Tier 9 Raid (Heroic)
+48492 Tier 9 Raid (Heroic)
+48493 Tier 9 Raid (Heroic)
+48494 Tier 9 Raid (Heroic)
+48495 Tier 9 Raid (Heroic)
 48496 Tier 9 Raid
 48497 Tier 9 Raid
 48498 Tier 9 Raid
@@ -2981,16 +2772,16 @@ local ITEM_SET_NAMES = [[
 48540 Tier 9 Raid
 48541 Tier 9 Raid
 48542 Tier 9 Raid
-48543 Tier 9 Raid
-48544 Tier 9 Raid
-48545 Tier 9 Raid
-48546 Tier 9 Raid
-48547 Tier 9 Raid
-48548 Tier 9 Raid
-48549 Tier 9 Raid
-48550 Tier 9 Raid
-48551 Tier 9 Raid
-48552 Tier 9 Raid
+48543 Tier 9 Raid (Heroic)
+48544 Tier 9 Raid (Heroic)
+48545 Tier 9 Raid (Heroic)
+48546 Tier 9 Raid (Heroic)
+48547 Tier 9 Raid (Heroic)
+48548 Tier 9 Raid (Heroic)
+48549 Tier 9 Raid (Heroic)
+48550 Tier 9 Raid (Heroic)
+48551 Tier 9 Raid (Heroic)
+48552 Tier 9 Raid (Heroic)
 48553 Tier 9 Raid
 48554 Tier 9 Raid
 48555 Tier 9 Raid
@@ -3011,16 +2802,16 @@ local ITEM_SET_NAMES = [[
 48577 Tier 9 Raid
 48578 Tier 9 Raid
 48579 Tier 9 Raid
-48580 Tier 9 Raid
-48581 Tier 9 Raid
-48582 Tier 9 Raid
-48583 Tier 9 Raid
-48584 Tier 9 Raid
-48585 Tier 9 Raid
-48586 Tier 9 Raid
-48587 Tier 9 Raid
-48588 Tier 9 Raid
-48589 Tier 9 Raid
+48580 Tier 9 Raid (Heroic)
+48581 Tier 9 Raid (Heroic)
+48582 Tier 9 Raid (Heroic)
+48583 Tier 9 Raid (Heroic)
+48584 Tier 9 Raid (Heroic)
+48585 Tier 9 Raid (Heroic)
+48586 Tier 9 Raid (Heroic)
+48587 Tier 9 Raid (Heroic)
+48588 Tier 9 Raid (Heroic)
+48589 Tier 9 Raid (Heroic)
 48590 Tier 9 Raid
 48591 Tier 9 Raid
 48592 Tier 9 Raid
@@ -3041,16 +2832,16 @@ local ITEM_SET_NAMES = [[
 48609 Tier 9 Raid
 48610 Tier 9 Raid
 48611 Tier 9 Raid
-48612 Tier 9 Raid
-48613 Tier 9 Raid
-48614 Tier 9 Raid
-48615 Tier 9 Raid
-48616 Tier 9 Raid
-48617 Tier 9 Raid
-48618 Tier 9 Raid
-48619 Tier 9 Raid
-48620 Tier 9 Raid
-48621 Tier 9 Raid
+48612 Tier 9 Raid (Heroic)
+48613 Tier 9 Raid (Heroic)
+48614 Tier 9 Raid (Heroic)
+48615 Tier 9 Raid (Heroic)
+48616 Tier 9 Raid (Heroic)
+48617 Tier 9 Raid (Heroic)
+48618 Tier 9 Raid (Heroic)
+48619 Tier 9 Raid (Heroic)
+48620 Tier 9 Raid (Heroic)
+48621 Tier 9 Raid (Heroic)
 48622 Tier 9 Raid
 48623 Tier 9 Raid
 48624 Tier 9 Raid
@@ -3071,16 +2862,16 @@ local ITEM_SET_NAMES = [[
 48639 Tier 9 Raid
 48640 Tier 9 Raid
 48641 Tier 9 Raid
-48642 Tier 9 Raid
-48643 Tier 9 Raid
-48644 Tier 9 Raid
-48645 Tier 9 Raid
-48646 Tier 9 Raid
-48647 Tier 9 Raid
-48648 Tier 9 Raid
-48649 Tier 9 Raid
-48650 Tier 9 Raid
-48651 Tier 9 Raid
+48642 Tier 9 Raid (Heroic)
+48643 Tier 9 Raid (Heroic)
+48644 Tier 9 Raid (Heroic)
+48645 Tier 9 Raid (Heroic)
+48646 Tier 9 Raid (Heroic)
+48647 Tier 9 Raid (Heroic)
+48648 Tier 9 Raid (Heroic)
+48649 Tier 9 Raid (Heroic)
+48650 Tier 9 Raid (Heroic)
+48651 Tier 9 Raid (Heroic)
 48652 Tier 9 Raid
 48653 Tier 9 Raid
 48654 Tier 9 Raid
@@ -3091,7 +2882,373 @@ local ITEM_SET_NAMES = [[
 48659 Tier 9 Raid
 48660 Tier 9 Raid
 48661 Tier 9 Raid
+50078 Tier 10 Raid
+50079 Tier 10 Raid
+50080 Tier 10 Raid
+50081 Tier 10 Raid
+50082 Tier 10 Raid
+50087 Tier 10 Raid
+50088 Tier 10 Raid
+50089 Tier 10 Raid
+50090 Tier 10 Raid
+50094 Tier 10 Raid
+50095 Tier 10 Raid
+50096 Tier 10 Raid
+50097 Tier 10 Raid
+50098 Tier 10 Raid
+50105 Tier 10 Raid
+50106 Tier 10 Raid
+50107 Tier 10 Raid
+50108 Tier 10 Raid
+50109 Tier 10 Raid
+50113 Tier 10 Raid
+50114 Tier 10 Raid
+50115 Tier 10 Raid
+50116 Tier 10 Raid
+50117 Tier 10 Raid
+50118 Tier 10 Raid
+50240 Tier 10 Raid
+50241 Tier 10 Raid
+50242 Tier 10 Raid
+50243 Tier 10 Raid
+50244 Tier 10 Raid
+50275 Tier 10 Raid
+50276 Tier 10 Raid
+50277 Tier 10 Raid
+50278 Tier 10 Raid
+50279 Tier 10 Raid
+50324 Tier 10 Raid
+50325 Tier 10 Raid
+50326 Tier 10 Raid
+50327 Tier 10 Raid
+50328 Tier 10 Raid
+50391 Tier 10 Raid
+50392 Tier 10 Raid
+50393 Tier 10 Raid
+50394 Tier 10 Raid
+50396 Tier 10 Raid
+50765 Tier 10 Raid
+50766 Tier 10 Raid
+50767 Tier 10 Raid
+50768 Tier 10 Raid
+50769 Tier 10 Raid
+50819 Tier 10 Raid
+50820 Tier 10 Raid
+50821 Tier 10 Raid
+50822 Tier 10 Raid
+50823 Tier 10 Raid
+50824 Tier 10 Raid
+50825 Tier 10 Raid
+50826 Tier 10 Raid
+50827 Tier 10 Raid
+50828 Tier 10 Raid
+50830 Tier 10 Raid
+50831 Tier 10 Raid
+50832 Tier 10 Raid
+50833 Tier 10 Raid
+50834 Tier 10 Raid
+50835 Tier 10 Raid
+50836 Tier 10 Raid
+50837 Tier 10 Raid
+50838 Tier 10 Raid
+50839 Tier 10 Raid
+50841 Tier 10 Raid
+50842 Tier 10 Raid
+50843 Tier 10 Raid
+50844 Tier 10 Raid
+50845 Tier 10 Raid
+50846 Tier 10 Raid
+50847 Tier 10 Raid
+50848 Tier 10 Raid
+50849 Tier 10 Raid
+50850 Tier 10 Raid
+50853 Tier 10 Raid
+50854 Tier 10 Raid
+50855 Tier 10 Raid
+50856 Tier 10 Raid
+50857 Tier 10 Raid
+50860 Tier 10 Raid
+50861 Tier 10 Raid
+50862 Tier 10 Raid
+50863 Tier 10 Raid
+50864 Tier 10 Raid
+50865 Tier 10 Raid
+50866 Tier 10 Raid
+50867 Tier 10 Raid
+50868 Tier 10 Raid
+50869 Tier 10 Raid
+51125 Tier 10 Raid
+51126 Tier 10 Raid
+51127 Tier 10 Raid
+51128 Tier 10 Raid
+51129 Tier 10 Raid
+51130 Tier 10 Raid
+51131 Tier 10 Raid
+51132 Tier 10 Raid
+51133 Tier 10 Raid
+51134 Tier 10 Raid
+51135 Tier 10 Raid
+51136 Tier 10 Raid
+51137 Tier 10 Raid
+51138 Tier 10 Raid
+51139 Tier 10 Raid
+51140 Tier 10 Raid
+51141 Tier 10 Raid
+51142 Tier 10 Raid
+51143 Tier 10 Raid
+51144 Tier 10 Raid
+51145 Tier 10 Raid
+51146 Tier 10 Raid
+51147 Tier 10 Raid
+51148 Tier 10 Raid
+51149 Tier 10 Raid
+51150 Tier 10 Raid
+51151 Tier 10 Raid
+51152 Tier 10 Raid
+51153 Tier 10 Raid
+51154 Tier 10 Raid
+51155 Tier 10 Raid
+51156 Tier 10 Raid
+51157 Tier 10 Raid
+51158 Tier 10 Raid
+51159 Tier 10 Raid
+51160 Tier 10 Raid
+51161 Tier 10 Raid
+51162 Tier 10 Raid
+51163 Tier 10 Raid
+51164 Tier 10 Raid
+51165 Tier 10 Raid
+51166 Tier 10 Raid
+51167 Tier 10 Raid
+51168 Tier 10 Raid
+51169 Tier 10 Raid
+51170 Tier 10 Raid
+51171 Tier 10 Raid
+51172 Tier 10 Raid
+51173 Tier 10 Raid
+51174 Tier 10 Raid
+51175 Tier 10 Raid
+51176 Tier 10 Raid
+51177 Tier 10 Raid
+51178 Tier 10 Raid
+51179 Tier 10 Raid
+51180 Tier 10 Raid
+51181 Tier 10 Raid
+51182 Tier 10 Raid
+51183 Tier 10 Raid
+51184 Tier 10 Raid
+51185 Tier 10 Raid
+51186 Tier 10 Raid
+51187 Tier 10 Raid
+51188 Tier 10 Raid
+51189 Tier 10 Raid
+51190 Tier 10 Raid
+51191 Tier 10 Raid
+51192 Tier 10 Raid
+51193 Tier 10 Raid
+51194 Tier 10 Raid
+51195 Tier 10 Raid
+51196 Tier 10 Raid
+51197 Tier 10 Raid
+51198 Tier 10 Raid
+51199 Tier 10 Raid
+51200 Tier 10 Raid
+51201 Tier 10 Raid
+51202 Tier 10 Raid
+51203 Tier 10 Raid
+51204 Tier 10 Raid
+51205 Tier 10 Raid
+51206 Tier 10 Raid
+51207 Tier 10 Raid
+51208 Tier 10 Raid
+51209 Tier 10 Raid
+51210 Tier 10 Raid
+51211 Tier 10 Raid
+51212 Tier 10 Raid
+51213 Tier 10 Raid
+51214 Tier 10 Raid
+51215 Tier 10 Raid
+51216 Tier 10 Raid
+51217 Tier 10 Raid
+51218 Tier 10 Raid
+51219 Tier 10 Raid
+51220 Tier 10 Raid (Heroic)
+51221 Tier 10 Raid (Heroic)
+51222 Tier 10 Raid (Heroic)
+51223 Tier 10 Raid (Heroic)
+51224 Tier 10 Raid (Heroic)
+51225 Tier 10 Raid (Heroic)
+51226 Tier 10 Raid (Heroic)
+51227 Tier 10 Raid (Heroic)
+51228 Tier 10 Raid (Heroic)
+51229 Tier 10 Raid (Heroic)
+51230 Tier 10 Raid (Heroic)
+51231 Tier 10 Raid (Heroic)
+51232 Tier 10 Raid (Heroic)
+51233 Tier 10 Raid (Heroic)
+51234 Tier 10 Raid (Heroic)
+51235 Tier 10 Raid (Heroic)
+51236 Tier 10 Raid (Heroic)
+51237 Tier 10 Raid (Heroic)
+51238 Tier 10 Raid (Heroic)
+51239 Tier 10 Raid (Heroic)
+51240 Tier 10 Raid (Heroic)
+51241 Tier 10 Raid (Heroic)
+51242 Tier 10 Raid (Heroic)
+51243 Tier 10 Raid (Heroic)
+51244 Tier 10 Raid (Heroic)
+51245 Tier 10 Raid (Heroic)
+51246 Tier 10 Raid (Heroic)
+51247 Tier 10 Raid (Heroic)
+51248 Tier 10 Raid (Heroic)
+51249 Tier 10 Raid (Heroic)
+51250 Tier 10 Raid (Heroic)
+51251 Tier 10 Raid (Heroic)
+51252 Tier 10 Raid (Heroic)
+51253 Tier 10 Raid (Heroic)
+51254 Tier 10 Raid (Heroic)
+51255 Tier 10 Raid (Heroic)
+51256 Tier 10 Raid (Heroic)
+51257 Tier 10 Raid (Heroic)
+51258 Tier 10 Raid (Heroic)
+51259 Tier 10 Raid (Heroic)
+51260 Tier 10 Raid (Heroic)
+51261 Tier 10 Raid (Heroic)
+51262 Tier 10 Raid (Heroic)
+51263 Tier 10 Raid (Heroic)
+51264 Tier 10 Raid (Heroic)
+51265 Tier 10 Raid (Heroic)
+51266 Tier 10 Raid (Heroic)
+51267 Tier 10 Raid (Heroic)
+51268 Tier 10 Raid (Heroic)
+51269 Tier 10 Raid (Heroic)
+51270 Tier 10 Raid (Heroic)
+51271 Tier 10 Raid (Heroic)
+51272 Tier 10 Raid (Heroic)
+51273 Tier 10 Raid (Heroic)
+51274 Tier 10 Raid (Heroic)
+51275 Tier 10 Raid (Heroic)
+51276 Tier 10 Raid (Heroic)
+51277 Tier 10 Raid (Heroic)
+51278 Tier 10 Raid (Heroic)
+51279 Tier 10 Raid (Heroic)
+51280 Tier 10 Raid (Heroic)
+51281 Tier 10 Raid (Heroic)
+51282 Tier 10 Raid (Heroic)
+51283 Tier 10 Raid (Heroic)
+51284 Tier 10 Raid (Heroic)
+51285 Tier 10 Raid (Heroic)
+51286 Tier 10 Raid (Heroic)
+51287 Tier 10 Raid (Heroic)
+51288 Tier 10 Raid (Heroic)
+51289 Tier 10 Raid (Heroic)
+51290 Tier 10 Raid (Heroic)
+51291 Tier 10 Raid (Heroic)
+51292 Tier 10 Raid (Heroic)
+51293 Tier 10 Raid (Heroic)
+51294 Tier 10 Raid (Heroic)
+51295 Tier 10 Raid (Heroic)
+51296 Tier 10 Raid (Heroic)
+51297 Tier 10 Raid (Heroic)
+51298 Tier 10 Raid (Heroic)
+51299 Tier 10 Raid (Heroic)
+51300 Tier 10 Raid (Heroic)
+51301 Tier 10 Raid (Heroic)
+51302 Tier 10 Raid (Heroic)
+51303 Tier 10 Raid (Heroic)
+51304 Tier 10 Raid (Heroic)
+51305 Tier 10 Raid (Heroic)
+51306 Tier 10 Raid (Heroic)
+51307 Tier 10 Raid (Heroic)
+51308 Tier 10 Raid (Heroic)
+51309 Tier 10 Raid (Heroic)
+51310 Tier 10 Raid (Heroic)
+51311 Tier 10 Raid (Heroic)
+51312 Tier 10 Raid (Heroic)
+51313 Tier 10 Raid (Heroic)
+51314 Tier 10 Raid (Heroic)
+51413 Arena Season 8
+51414 Arena Season 8
+51415 Arena Season 8
+51416 Arena Season 8
+51418 Arena Season 8
+51419 Arena Season 8
+51420 Arena Season 8
+51421 Arena Season 8
+51422 Arena Season 8
+51424 Arena Season 8
+51425 Arena Season 8
+51426 Arena Season 8
+51427 Arena Season 8
+51428 Arena Season 8
+51430 Arena Season 8
+51433 Arena Season 8
+51434 Arena Season 8
+51435 Arena Season 8
+51436 Arena Season 8
+51438 Arena Season 8
+51458 Arena Season 8
+51459 Arena Season 8
+51460 Arena Season 8
+51461 Arena Season 8
+51462 Arena Season 8
+51463 Arena Season 8
+51464 Arena Season 8
+51465 Arena Season 8
+51466 Arena Season 8
+51467 Arena Season 8
+51468 Arena Season 8
+51469 Arena Season 8
+51470 Arena Season 8
+51471 Arena Season 8
+51473 Arena Season 8
+51474 Arena Season 8
+51475 Arena Season 8
+51476 Arena Season 8
+51477 Arena Season 8
+51479 Arena Season 8
+51482 Arena Season 8
+51483 Arena Season 8
+51484 Arena Season 8
+51485 Arena Season 8
+51486 Arena Season 8
+51487 Arena Season 8
+51488 Arena Season 8
+51489 Arena Season 8
+51490 Arena Season 8
+51491 Arena Season 8
+51492 Arena Season 8
+51493 Arena Season 8
+51494 Arena Season 8
+51495 Arena Season 8
+51496 Arena Season 8
+51497 Arena Season 8
+51498 Arena Season 8
+51499 Arena Season 8
+51500 Arena Season 8
+51502 Arena Season 8
+51503 Arena Season 8
+51504 Arena Season 8
+51505 Arena Season 8
+51506 Arena Season 8
+51508 Arena Season 8
+51509 Arena Season 8
+51510 Arena Season 8
+51511 Arena Season 8
+51512 Arena Season 8
+51514 Arena Season 8
+51536 Arena Season 8
+51537 Arena Season 8
+51538 Arena Season 8
+51539 Arena Season 8
+51540 Arena Season 8
+51541 Arena Season 8
+51542 Arena Season 8
+51543 Arena Season 8
+51544 Arena Season 8
+51545 Arena Season 8
 ]]
+
 
 Engravings["Item set:"] = setmetatable({}, {
 	__index = function(t,i)

@@ -1,5 +1,5 @@
 
-local TIER_ARMOR_TOKEN_NPCS = [[
+local ARMOR_TOKEN_NPCS = [[
 24544 Magtheridon
 24545 Prince Malchezaar
 24546 High King Maulgar
@@ -242,7 +242,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 30488 Archimonde
 30488 Lady Vashj
 30489 Fathom-Lord Karathress
-30489 Illidari Council
 30490 Mother Shahraz
 30490 Void Reaver
 30969 Azgalor
@@ -251,8 +250,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 30974 Archimonde
 30975 Illidan Stormrage
 30976 Illidan Stormrage
-30977 Illidari Council
-30978 Illidari Council
 30979 Mother Shahraz
 30980 Mother Shahraz
 30982 Azgalor
@@ -264,16 +261,12 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 30990 Illidan Stormrage
 30991 Illidan Stormrage
 30992 Illidan Stormrage
-30993 Illidari Council
-30994 Illidari Council
-30995 Illidari Council
 30996 Mother Shahraz
 30997 Mother Shahraz
 30998 Mother Shahraz
 31001 Azgalor
 31003 Archimonde
 31004 Illidan Stormrage
-31005 Illidari Council
 31006 Mother Shahraz
 31007 Azgalor
 31008 Azgalor
@@ -284,16 +277,12 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31016 Illidan Stormrage
 31017 Illidan Stormrage
 31018 Illidan Stormrage
-31019 Illidari Council
-31020 Illidari Council
-31021 Illidari Council
 31022 Mother Shahraz
 31023 Mother Shahraz
 31024 Mother Shahraz
 31026 Azgalor
 31027 Archimonde
 31028 Illidan Stormrage
-31029 Illidari Council
 31030 Mother Shahraz
 31032 Azgalor
 31034 Azgalor
@@ -304,21 +293,16 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31041 Illidan Stormrage
 31042 Illidan Stormrage
 31043 Illidan Stormrage
-31044 Illidari Council
-31045 Illidari Council
-31046 Illidari Council
 31047 Mother Shahraz
 31048 Mother Shahraz
 31049 Mother Shahraz
 31050 Azgalor
 31051 Archimonde
 31052 Illidan Stormrage
-31053 Illidari Council
 31054 Mother Shahraz
 31055 Azgalor
 31056 Archimonde
 31057 Illidan Stormrage
-31058 Illidari Council
 31059 Mother Shahraz
 31060 Azgalor
 31061 Azgalor
@@ -326,8 +310,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31064 Archimonde
 31065 Illidan Stormrage
 31066 Illidan Stormrage
-31067 Illidari Council
-31068 Illidari Council
 31069 Mother Shahraz
 31070 Mother Shahraz
 31375 The Curator
@@ -357,7 +339,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31962 Archimonde
 31962 Lady Vashj
 31963 Fathom-Lord Karathress
-31963 Illidari Council
 31964 Mother Shahraz
 31964 Void Reaver
 31967 Azgalor
@@ -365,7 +346,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31968 Archimonde
 31968 Lady Vashj
 31969 Fathom-Lord Karathress
-31969 Illidari Council
 31971 Mother Shahraz
 31971 Void Reaver
 31972 Illidan Stormrage
@@ -375,7 +355,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31974 Archimonde
 31974 Lady Vashj
 31975 Fathom-Lord Karathress
-31975 Illidari Council
 31976 Mother Shahraz
 31976 Void Reaver
 31977 Illidan Stormrage
@@ -389,13 +368,11 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31982 Illidan Stormrage
 31982 Kael'thas Sunstrider
 31983 Fathom-Lord Karathress
-31983 Illidari Council
 31987 Azgalor
 31987 Leotheras the Blind
 31988 Archimonde
 31988 Lady Vashj
 31989 Fathom-Lord Karathress
-31989 Illidari Council
 31990 Mother Shahraz
 31990 Void Reaver
 31991 Illidan Stormrage
@@ -405,7 +382,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31993 Azgalor
 31993 Leotheras the Blind
 31995 Fathom-Lord Karathress
-31995 Illidari Council
 31996 Mother Shahraz
 31996 Void Reaver
 31997 Archimonde
@@ -415,7 +391,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 31999 Archimonde
 31999 Lady Vashj
 32000 Fathom-Lord Karathress
-32000 Illidari Council
 32001 Mother Shahraz
 32001 Void Reaver
 32002 Illidan Stormrage
@@ -427,7 +402,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32006 Archimonde
 32006 Lady Vashj
 32007 Fathom-Lord Karathress
-32007 Illidari Council
 32008 Mother Shahraz
 32008 Void Reaver
 32009 Illidan Stormrage
@@ -437,7 +411,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32011 Archimonde
 32011 Lady Vashj
 32012 Fathom-Lord Karathress
-32012 Illidari Council
 32013 Mother Shahraz
 32013 Void Reaver
 32015 Azgalor
@@ -445,7 +418,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32016 Archimonde
 32016 Lady Vashj
 32017 Fathom-Lord Karathress
-32017 Illidari Council
 32018 Mother Shahraz
 32018 Void Reaver
 32019 Illidan Stormrage
@@ -457,7 +429,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32022 Archimonde
 32022 Lady Vashj
 32023 Fathom-Lord Karathress
-32023 Illidari Council
 32024 Mother Shahraz
 32024 Void Reaver
 32029 Illidan Stormrage
@@ -467,7 +438,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32031 Archimonde
 32031 Lady Vashj
 32032 Fathom-Lord Karathress
-32032 Illidari Council
 32033 Mother Shahraz
 32033 Void Reaver
 32034 Azgalor
@@ -475,7 +445,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32035 Archimonde
 32035 Lady Vashj
 32036 Fathom-Lord Karathress
-32036 Illidari Council
 32037 Mother Shahraz
 32037 Void Reaver
 32038 Illidan Stormrage
@@ -487,7 +456,6 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32041 Archimonde
 32041 Lady Vashj
 32042 Fathom-Lord Karathress
-32042 Illidari Council
 32043 Mother Shahraz
 32043 Void Reaver
 32047 Mother Shahraz
@@ -499,13 +467,11 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 32050 Illidan Stormrage
 32050 Kael'thas Sunstrider
 32051 Fathom-Lord Karathress
-32051 Illidari Council
 32056 Azgalor
 32056 Leotheras the Blind
 32057 Archimonde
 32057 Lady Vashj
 32058 Fathom-Lord Karathress
-32058 Illidari Council
 32059 Mother Shahraz
 32059 Void Reaver
 32060 Illidan Stormrage
@@ -607,96 +573,96 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 34574 Felmyst
 34575 Felmyst
 39491 Kel'Thuzad
-39492 Gluth
+39492 Four Horsemen Chest
 39493 Thaddius
 39494 Loatheb
 39495 Sartharion
 39496 Kel'Thuzad
-39497 Gluth
+39497 Four Horsemen Chest
 39498 Thaddius
 39499 Loatheb
 39500 Sartharion
 39514 Kel'Thuzad
-39515 Gluth
+39515 Four Horsemen Chest
 39517 Thaddius
 39518 Loatheb
 39519 Sartharion
 39521 Kel'Thuzad
-39523 Gluth
+39523 Four Horsemen Chest
 39528 Thaddius
 39529 Loatheb
 39530 Sartharion
 39531 Kel'Thuzad
-39538 Gluth
+39538 Four Horsemen Chest
 39539 Thaddius
 39542 Loatheb
 39543 Sartharion
 39544 Sartharion
 39545 Kel'Thuzad
 39546 Thaddius
-39547 Gluth
+39547 Four Horsemen Chest
 39548 Loatheb
 39553 Kel'Thuzad
-39554 Gluth
+39554 Four Horsemen Chest
 39555 Thaddius
 39556 Loatheb
 39557 Sartharion
-39558 Gluth
+39558 Four Horsemen Chest
 39560 Sartharion
 39561 Kel'Thuzad
 39564 Thaddius
 39565 Loatheb
 39578 Kel'Thuzad
-39579 Gluth
+39579 Four Horsemen Chest
 39580 Thaddius
 39581 Loatheb
 39582 Sartharion
 39583 Kel'Thuzad
-39588 Gluth
+39588 Four Horsemen Chest
 39589 Thaddius
 39590 Loatheb
 39591 Sartharion
-39592 Gluth
+39592 Four Horsemen Chest
 39593 Sartharion
 39594 Kel'Thuzad
 39595 Thaddius
 39596 Loatheb
-39597 Gluth
+39597 Four Horsemen Chest
 39601 Sartharion
 39602 Kel'Thuzad
 39603 Thaddius
 39604 Loatheb
 39605 Kel'Thuzad
-39606 Gluth
+39606 Four Horsemen Chest
 39607 Thaddius
 39608 Loatheb
 39609 Sartharion
 39610 Kel'Thuzad
-39611 Gluth
+39611 Four Horsemen Chest
 39612 Thaddius
 39613 Loatheb
-39617 Gluth
+39617 Four Horsemen Chest
 39618 Sartharion
 39619 Kel'Thuzad
 39620 Thaddius
 39621 Loatheb
 39622 Sartharion
-39623 Gluth
+39623 Four Horsemen Chest
 39624 Sartharion
 39625 Kel'Thuzad
 39626 Thaddius
 39627 Loatheb
 39628 Kel'Thuzad
-39629 Gluth
+39629 Four Horsemen Chest
 39630 Thaddius
 39631 Loatheb
 39632 Sartharion
-39633 Gluth
+39633 Four Horsemen Chest
 39634 Sartharion
 39635 Kel'Thuzad
 39636 Thaddius
 39637 Loatheb
-39638 Gluth
+39638 Four Horsemen Chest
 39639 Sartharion
 39640 Kel'Thuzad
 39641 Thaddius
@@ -704,54 +670,54 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 40415 Sartharion
 40416 Kel'Thuzad
 40417 Thaddius
-40418 Gluth
+40418 Four Horsemen Chest
 40419 Loatheb
 40420 Sartharion
 40421 Kel'Thuzad
 40422 Thaddius
-40423 Gluth
+40423 Four Horsemen Chest
 40424 Loatheb
 40445 Sartharion
 40447 Kel'Thuzad
 40448 Thaddius
-40449 Gluth
+40449 Four Horsemen Chest
 40450 Loatheb
 40454 Sartharion
 40456 Kel'Thuzad
 40457 Thaddius
-40458 Gluth
+40458 Four Horsemen Chest
 40459 Loatheb
 40460 Sartharion
 40461 Kel'Thuzad
 40462 Thaddius
-40463 Gluth
+40463 Four Horsemen Chest
 40465 Loatheb
 40466 Sartharion
 40467 Kel'Thuzad
 40468 Thaddius
-40469 Gluth
+40469 Four Horsemen Chest
 40470 Loatheb
-40471 Gluth
+40471 Four Horsemen Chest
 40472 Sartharion
 40473 Kel'Thuzad
 40493 Thaddius
 40494 Loatheb
-40495 Gluth
+40495 Four Horsemen Chest
 40496 Sartharion
 40499 Kel'Thuzad
 40500 Thaddius
 40502 Loatheb
-40503 Gluth
+40503 Four Horsemen Chest
 40504 Sartharion
 40505 Kel'Thuzad
 40506 Thaddius
 40507 Loatheb
-40508 Gluth
+40508 Four Horsemen Chest
 40509 Sartharion
 40510 Kel'Thuzad
 40512 Thaddius
 40513 Loatheb
-40514 Gluth
+40514 Four Horsemen Chest
 40515 Sartharion
 40516 Kel'Thuzad
 40517 Thaddius
@@ -759,98 +725,411 @@ local TIER_ARMOR_TOKEN_NPCS = [[
 40520 Sartharion
 40521 Kel'Thuzad
 40522 Thaddius
-40523 Gluth
+40523 Four Horsemen Chest
 40524 Loatheb
-40525 Gluth
+40525 Four Horsemen Chest
 40527 Sartharion
 40528 Kel'Thuzad
 40529 Thaddius
 40530 Loatheb
-40544 Gluth
+40544 Four Horsemen Chest
 40545 Sartharion
 40546 Kel'Thuzad
 40547 Thaddius
 40548 Loatheb
-40550 Gluth
+40550 Four Horsemen Chest
 40552 Sartharion
 40554 Kel'Thuzad
 40556 Thaddius
 40557 Loatheb
-40559 Gluth
+40559 Four Horsemen Chest
 40563 Sartharion
 40565 Kel'Thuzad
 40567 Thaddius
 40568 Loatheb
-40569 Gluth
+40569 Four Horsemen Chest
 40570 Sartharion
 40571 Kel'Thuzad
 40572 Thaddius
 40573 Loatheb
-40574 Gluth
+40574 Four Horsemen Chest
 40575 Sartharion
 40576 Kel'Thuzad
 40577 Thaddius
 40578 Loatheb
-40579 Gluth
+40579 Four Horsemen Chest
 40580 Sartharion
 40581 Kel'Thuzad
 40583 Thaddius
 40584 Loatheb
 45335 Yogg-Saron
+45336 Cache of Innovation
+45337 Freya's Gift
+45338 Cache of Winter
+45339 Cache of Storms
 45340 Yogg-Saron
+45341 Freya's Gift
+45342 Cache of Innovation
+45343 Cache of Winter
+45344 Cache of Storms
+45345 Freya's Gift
+45346 Cache of Innovation
+45347 Cache of Winter
 45348 Yogg-Saron
+45349 Cache of Storms
+45351 Freya's Gift
+45352 Cache of Storms
+45353 Cache of Winter
 45354 Yogg-Saron
+45355 Freya's Gift
+45356 Cache of Innovation
+45357 Cache of Winter
 45358 Yogg-Saron
-45361 VX-001
+45359 Cache of Storms
+45360 Freya's Gift
+45362 Cache of Winter
+45363 Cache of Storms
 45364 Yogg-Saron
+45365 Cache of Innovation
+45367 Cache of Winter
 45368 Yogg-Saron
+45369 Cache of Storms
+45370 Freya's Gift
+45371 Cache of Winter
+45373 Cache of Storms
 45374 Yogg-Saron
 45375 Yogg-Saron
+45376 Freya's Gift
+45379 Cache of Winter
+45380 Cache of Storms
 45381 Yogg-Saron
+45383 Freya's Gift
+45384 Cache of Winter
+45385 Cache of Storms
+45387 Freya's Gift
+45388 Cache of Winter
 45389 Yogg-Saron
+45390 Cache of Storms
+45392 Freya's Gift
+45393 Cache of Storms
+45394 Cache of Winter
 45395 Yogg-Saron
 45396 Yogg-Saron
-45402 VX-001
+45397 Freya's Gift
+45398 Cache of Innovation
+45399 Cache of Winter
+45400 Cache of Storms
+45401 Freya's Gift
+45403 Cache of Winter
+45404 Cache of Storms
 45405 Yogg-Saron
-45408 VX-001
+45406 Freya's Gift
+45409 Cache of Winter
+45410 Cache of Storms
 45411 Yogg-Saron
-45412 VX-001
 45413 Yogg-Saron
+45414 Freya's Gift
+45415 Cache of Storms
+45416 Cache of Winter
+45419 Freya's Gift
+45420 Cache of Winter
 45421 Yogg-Saron
+45422 Cache of Storms
 45424 Yogg-Saron
-45425 VX-001
+45426 Freya's Gift
+45427 Cache of Winter
+45428 Cache of Storms
 45429 Yogg-Saron
-45431 VX-001
+45430 Freya's Gift
+45432 Cache of Winter
+45433 Cache of Storms
+46111 Cache of Winter
+46113 Cache of Innovation
+46115 Cache of Storms
+46116 Freya's Gift
 46117 Yogg-Saron
+46118 Cache of Winter
+46119 Cache of Innovation
+46120 Cache of Storms
+46121 Freya's Gift
 46122 Yogg-Saron
+46123 Cache of Winter
+46124 Cache of Innovation
+46125 Cache of Storms
+46126 Freya's Gift
 46127 Yogg-Saron
+46129 Cache of Storms
+46130 Cache of Winter
+46131 Freya's Gift
+46132 Cache of Innovation
+46133 Freya's Gift
 46134 Yogg-Saron
+46135 Cache of Innovation
 46136 Yogg-Saron
-46142 VX-001
+46137 Cache of Winter
+46139 Freya's Gift
+46140 Cache of Storms
+46141 Cache of Winter
+46143 Cache of Storms
+46144 Freya's Gift
 46145 Yogg-Saron
-46148 VX-001
+46146 Cache of Winter
 46149 Yogg-Saron
+46150 Freya's Gift
+46151 Cache of Storms
 46152 Yogg-Saron
+46153 Freya's Gift
+46154 Cache of Winter
+46155 Cache of Innovation
+46156 Cache of Storms
 46157 Yogg-Saron
-46164 VX-001
+46158 Cache of Innovation
+46159 Cache of Winter
+46160 Freya's Gift
+46161 Cache of Storms
+46162 Cache of Winter
+46163 Cache of Innovation
 46165 Yogg-Saron
+46166 Cache of Storms
 46167 Yogg-Saron
+46168 Cache of Winter
+46169 Freya's Gift
+46170 Freya's Gift
+46172 Cache of Storms
+46173 Cache of Winter
+46174 Cache of Innovation
+46175 Cache of Storms
+46176 Freya's Gift
 46177 Yogg-Saron
+46178 Cache of Winter
+46179 Cache of Innovation
+46180 Cache of Storms
+46181 Freya's Gift
 46182 Yogg-Saron
+46183 Cache of Innovation
+46184 Cache of Storms
+46185 Freya's Gift
+46186 Cache of Winter
 46187 Yogg-Saron
+46188 Cache of Innovation
+46189 Cache of Innovation
 46190 Yogg-Saron
+46191 Cache of Storms
+46192 Freya's Gift
+46193 Cache of Winter
+46194 Cache of Winter
+46195 Freya's Gift
 46196 Yogg-Saron
-46199 VX-001
-46200 VX-001
+46197 Cache of Storms
+46198 Cache of Winter
+46201 Cache of Storms
+46202 Freya's Gift
 46203 Yogg-Saron
 46204 Yogg-Saron
-46207 VX-001
+46205 Cache of Winter
+46206 Cache of Winter
+46208 Freya's Gift
+46209 Cache of Storms
+46210 Freya's Gift
 46211 Yogg-Saron
+46212 Cache of Storms
+46313 Cache of Innovation
+47758 Argent Crusade Tribute Chest
+47759 Argent Crusade Tribute Chest
+47760 Argent Crusade Tribute Chest
+47761 Argent Crusade Tribute Chest
+47762 Argent Crusade Tribute Chest
+47763 Argent Crusade Tribute Chest
+47764 Argent Crusade Tribute Chest
+47765 Argent Crusade Tribute Chest
+47766 Argent Crusade Tribute Chest
+47767 Argent Crusade Tribute Chest
+47788 Argent Crusade Tribute Chest
+47789 Argent Crusade Tribute Chest
+47790 Argent Crusade Tribute Chest
+47791 Argent Crusade Tribute Chest
+47792 Argent Crusade Tribute Chest
+47793 Argent Crusade Tribute Chest
+47794 Argent Crusade Tribute Chest
+47795 Argent Crusade Tribute Chest
+47796 Argent Crusade Tribute Chest
+47797 Argent Crusade Tribute Chest
+48029 Argent Crusade Tribute Chest
+48031 Argent Crusade Tribute Chest
+48033 Argent Crusade Tribute Chest
+48035 Argent Crusade Tribute Chest
+48037 Argent Crusade Tribute Chest
+48057 Argent Crusade Tribute Chest
+48058 Argent Crusade Tribute Chest
+48059 Argent Crusade Tribute Chest
+48060 Argent Crusade Tribute Chest
+48061 Argent Crusade Tribute Chest
+48082 Argent Crusade Tribute Chest
+48083 Argent Crusade Tribute Chest
+48084 Argent Crusade Tribute Chest
+48085 Argent Crusade Tribute Chest
+48086 Argent Crusade Tribute Chest
+48087 Argent Crusade Tribute Chest
+48088 Argent Crusade Tribute Chest
+48089 Argent Crusade Tribute Chest
+48090 Argent Crusade Tribute Chest
+48091 Argent Crusade Tribute Chest
+48138 Argent Crusade Tribute Chest
+48139 Argent Crusade Tribute Chest
+48140 Argent Crusade Tribute Chest
+48141 Argent Crusade Tribute Chest
+48142 Argent Crusade Tribute Chest
+48143 Argent Crusade Tribute Chest
+48144 Argent Crusade Tribute Chest
+48145 Argent Crusade Tribute Chest
+48146 Argent Crusade Tribute Chest
+48147 Argent Crusade Tribute Chest
+48168 Argent Crusade Tribute Chest
+48169 Argent Crusade Tribute Chest
+48170 Argent Crusade Tribute Chest
+48171 Argent Crusade Tribute Chest
+48172 Argent Crusade Tribute Chest
+48173 Argent Crusade Tribute Chest
+48174 Argent Crusade Tribute Chest
+48175 Argent Crusade Tribute Chest
+48176 Argent Crusade Tribute Chest
+48177 Argent Crusade Tribute Chest
+48198 Argent Crusade Tribute Chest
+48199 Argent Crusade Tribute Chest
+48200 Argent Crusade Tribute Chest
+48201 Argent Crusade Tribute Chest
+48202 Argent Crusade Tribute Chest
+48203 Argent Crusade Tribute Chest
+48204 Argent Crusade Tribute Chest
+48205 Argent Crusade Tribute Chest
+48206 Argent Crusade Tribute Chest
+48207 Argent Crusade Tribute Chest
+48228 Argent Crusade Tribute Chest
+48229 Argent Crusade Tribute Chest
+48230 Argent Crusade Tribute Chest
+48231 Argent Crusade Tribute Chest
+48232 Argent Crusade Tribute Chest
+48233 Argent Crusade Tribute Chest
+48234 Argent Crusade Tribute Chest
+48235 Argent Crusade Tribute Chest
+48236 Argent Crusade Tribute Chest
+48237 Argent Crusade Tribute Chest
+48260 Argent Crusade Tribute Chest
+48261 Argent Crusade Tribute Chest
+48262 Argent Crusade Tribute Chest
+48263 Argent Crusade Tribute Chest
+48264 Argent Crusade Tribute Chest
+48265 Argent Crusade Tribute Chest
+48266 Argent Crusade Tribute Chest
+48267 Argent Crusade Tribute Chest
+48268 Argent Crusade Tribute Chest
+48269 Argent Crusade Tribute Chest
+48290 Argent Crusade Tribute Chest
+48291 Argent Crusade Tribute Chest
+48292 Argent Crusade Tribute Chest
+48293 Argent Crusade Tribute Chest
+48294 Argent Crusade Tribute Chest
+48305 Argent Crusade Tribute Chest
+48306 Argent Crusade Tribute Chest
+48307 Argent Crusade Tribute Chest
+48308 Argent Crusade Tribute Chest
+48309 Argent Crusade Tribute Chest
+48321 Argent Crusade Tribute Chest
+48322 Argent Crusade Tribute Chest
+48323 Argent Crusade Tribute Chest
+48324 Argent Crusade Tribute Chest
+48325 Argent Crusade Tribute Chest
+48326 Argent Crusade Tribute Chest
+48327 Argent Crusade Tribute Chest
+48328 Argent Crusade Tribute Chest
+48329 Argent Crusade Tribute Chest
+48330 Argent Crusade Tribute Chest
+48351 Argent Crusade Tribute Chest
+48352 Argent Crusade Tribute Chest
+48353 Argent Crusade Tribute Chest
+48354 Argent Crusade Tribute Chest
+48355 Argent Crusade Tribute Chest
+48356 Argent Crusade Tribute Chest
+48357 Argent Crusade Tribute Chest
+48358 Argent Crusade Tribute Chest
+48359 Argent Crusade Tribute Chest
+48360 Argent Crusade Tribute Chest
+48381 Argent Crusade Tribute Chest
+48382 Argent Crusade Tribute Chest
+48383 Argent Crusade Tribute Chest
+48384 Argent Crusade Tribute Chest
+48385 Argent Crusade Tribute Chest
+48396 Argent Crusade Tribute Chest
+48397 Argent Crusade Tribute Chest
+48398 Argent Crusade Tribute Chest
+48399 Argent Crusade Tribute Chest
+48400 Argent Crusade Tribute Chest
+48433 Argent Crusade Tribute Chest
+48447 Argent Crusade Tribute Chest
+48451 Argent Crusade Tribute Chest
+48453 Argent Crusade Tribute Chest
+48455 Argent Crusade Tribute Chest
+48466 Argent Crusade Tribute Chest
+48467 Argent Crusade Tribute Chest
+48468 Argent Crusade Tribute Chest
+48469 Argent Crusade Tribute Chest
+48470 Argent Crusade Tribute Chest
+48486 Argent Crusade Tribute Chest
+48487 Argent Crusade Tribute Chest
+48488 Argent Crusade Tribute Chest
+48489 Argent Crusade Tribute Chest
+48490 Argent Crusade Tribute Chest
+48491 Argent Crusade Tribute Chest
+48492 Argent Crusade Tribute Chest
+48493 Argent Crusade Tribute Chest
+48494 Argent Crusade Tribute Chest
+48495 Argent Crusade Tribute Chest
+48543 Argent Crusade Tribute Chest
+48544 Argent Crusade Tribute Chest
+48545 Argent Crusade Tribute Chest
+48546 Argent Crusade Tribute Chest
+48547 Argent Crusade Tribute Chest
+48548 Argent Crusade Tribute Chest
+48549 Argent Crusade Tribute Chest
+48550 Argent Crusade Tribute Chest
+48551 Argent Crusade Tribute Chest
+48552 Argent Crusade Tribute Chest
+48580 Argent Crusade Tribute Chest
+48581 Argent Crusade Tribute Chest
+48582 Argent Crusade Tribute Chest
+48583 Argent Crusade Tribute Chest
+48584 Argent Crusade Tribute Chest
+48585 Argent Crusade Tribute Chest
+48586 Argent Crusade Tribute Chest
+48587 Argent Crusade Tribute Chest
+48588 Argent Crusade Tribute Chest
+48589 Argent Crusade Tribute Chest
+48612 Argent Crusade Tribute Chest
+48613 Argent Crusade Tribute Chest
+48614 Argent Crusade Tribute Chest
+48615 Argent Crusade Tribute Chest
+48616 Argent Crusade Tribute Chest
+48617 Argent Crusade Tribute Chest
+48618 Argent Crusade Tribute Chest
+48619 Argent Crusade Tribute Chest
+48620 Argent Crusade Tribute Chest
+48621 Argent Crusade Tribute Chest
+48642 Argent Crusade Tribute Chest
+48643 Argent Crusade Tribute Chest
+48644 Argent Crusade Tribute Chest
+48645 Argent Crusade Tribute Chest
+48646 Argent Crusade Tribute Chest
+48647 Argent Crusade Tribute Chest
+48648 Argent Crusade Tribute Chest
+48649 Argent Crusade Tribute Chest
+48650 Argent Crusade Tribute Chest
+48651 Argent Crusade Tribute Chest
 ]]
+
 
 Engravings["Token dropped by:"] = setmetatable({}, {
 	__index = function(t,i)
-		local v = TIER_ARMOR_TOKEN_NPCS:match("\n"..i.." ([^\n]+)\n")
+		local v = ARMOR_TOKEN_NPCS:match("\n"..i.." ([^\n]+)\n")
 		if v then t[i] = v; return v
 		else t[i] = false; return end
 	end

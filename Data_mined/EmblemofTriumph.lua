@@ -80,6 +80,10 @@ local TOKEN_REWARDS = [[
 42005 75 |TInterface\Icons\spell_holy_summonchampion:18|t
 42011 50 |TInterface\Icons\spell_holy_summonchampion:18|t
 42017 50 |TInterface\Icons\spell_holy_summonchampion:18|t
+43950 1 |TInterface\Icons\spell_holy_summonchampion:18|t
+44710 1 |TInterface\Icons\spell_holy_summonchampion:18|t
+44711 1 |TInterface\Icons\spell_holy_summonchampion:18|t
+44713 1 |TInterface\Icons\spell_holy_summonchampion:18|t
 45624 1 |TInterface\Icons\spell_holy_summonchampion:18|t
 47556 15 |TInterface\Icons\spell_holy_summonchampion:18|t
 47658 25 |TInterface\Icons\spell_holy_summonchampion:18|t
@@ -521,7 +525,9 @@ local TOKEN_REWARDS = [[
 48661 45 |TInterface\Icons\spell_holy_summonchampion:18|t 1 |TInterface\Icons\INV_Misc_Trophy_Argent:18|t
 48722 50 |TInterface\Icons\spell_holy_summonchampion:18|t
 48724 50 |TInterface\Icons\spell_holy_summonchampion:18|t
+49702 1 |TInterface\Icons\spell_holy_summonchampion:18|t
 ]]
+
 
 Engravings["Emblem of Triumph:"] = setmetatable({}, {
 	__index = function(t,i)

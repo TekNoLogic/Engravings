@@ -247,6 +247,7 @@ local TOKEN_REWARDS = [[
 35326 75 |TInterface\Icons\Spell_Holy_ChampionsBond:18|t
 ]]
 
+
 Engravings["Badge of Justice:"] = setmetatable({}, {
 	__index = function(t,i)
 		local v = TOKEN_REWARDS:match("\n"..i.." ([^\n]+)\n")

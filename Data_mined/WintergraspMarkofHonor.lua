@@ -71,7 +71,22 @@ local TOKEN_REWARDS = [[
 48998 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
 48999 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
 49000 15 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51568 25 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51569 25 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51570 25 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51571 25 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51572 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51573 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51574 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51575 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51576 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51577 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51578 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51579 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51580 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
+51581 40 |TInterface\Icons\INV_Jewelry_Ring_66:18|t
 ]]
+
 
 Engravings["Wintergrasp Mark of Honor:"] = setmetatable({}, {
 	__index = function(t,i)

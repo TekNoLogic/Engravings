@@ -97,16 +97,16 @@ local TOKEN_REWARDS = [[
 45597 100 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
 45606 40 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
 45725 150 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
-46743 500g 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
-46744 500g 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
-46745 500g 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
-46746 500g 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
-46747 500g 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
-46748 500g 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
-46749 500g 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
-46750 500g 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
-46751 500g 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
-46752 500g 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
+46743 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
+46744 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
+46745 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
+46746 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
+46747 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
+46748 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
+46749 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
+46750 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
+46751 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
+46752 5 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
 46813 150 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
 46814 150 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
 46815 100 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
@@ -129,6 +129,7 @@ local TOKEN_REWARDS = [[
 48716 75 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
 48718 95 |TInterface\Icons\Ability_Paladin_ArtofWar:18|t
 ]]
+
 
 Engravings["Champion's Seal:"] = setmetatable({}, {
 	__index = function(t,i)
