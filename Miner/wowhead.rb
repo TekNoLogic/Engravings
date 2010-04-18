@@ -5,6 +5,7 @@ require 'net/http'
 require 'json'
 require 'timeout'
 require "yaml"
+require 'digest/sha1'
 
 
 module Enumerable
@@ -27,8 +28,10 @@ class Wowhead
 
 
   def fetch_page(url, static = false)
-    cache_key = [url, static]
-    @cache[cache_key] ||= Timeout::timeout(10) { (static ? @http2 : @http).get(url).body }
+    Dir.mkdir "cache" unless File.directory? "cache"
+    cache_key = File.join("cache", Digest::SHA1.hexdigest("#{url}-#{static}"))
+    File.open(cache_key, "w") {|f| Timeout::timeout(10) { f << (static ? @http2 : @http).get(url).body }} unless File.exists? cache_key
+    File.read(cache_key)
   end
 
 
