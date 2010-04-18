@@ -55,11 +55,11 @@ Data\InBags.lua
 
 Data\WowheadDeath_knightBlood.lua
 Data\WowheadDeath_knightFrost_dps.lua
-Data\WowheadDeath_knightFrost_tanking.lua
+Data\WowheadDeath_knightFrost_tank.lua
 Data\WowheadDeath_knightUnholy.lua
 Data\WowheadDruidBalance.lua
-Data\WowheadDruidFeral_dps.lua
-Data\WowheadDruidFeral_tanking.lua
+Data\WowheadDruidFeral_combat_dps.lua
+Data\WowheadDruidFeral_combat_tanking.lua
 Data\WowheadDruidRestoration.lua
 Data\WowheadHunterBeast_mastery.lua
 Data\WowheadHunterMarksmanship.lua
@@ -72,9 +72,11 @@ Data\WowheadPaladinProtection.lua
 Data\WowheadPaladinRetribution.lua
 Data\WowheadPriestDiscipline.lua
 Data\WowheadPriestHoly.lua
-Data\WowheadPriestShadow.lua
-Data\WowheadRogueGeneral.lua
-Data\WowheadShamanElemental.lua
+Data\WowheadPriestShadow_magic.lua
+Data\WowheadRogueAssassination.lua
+Data\WowheadRogueCombat.lua
+Data\WowheadRogueSubtlety.lua
+Data\WowheadShamanElemental_combat.lua
 Data\WowheadShamanEnhancement.lua
 Data\WowheadShamanRestoration.lua
 Data\WowheadWarlockAffliction.lua
