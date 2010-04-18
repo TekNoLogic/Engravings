@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'wowhead'
-require 'engravings_exporter'
+require 'engravings'
 
 
 wh = Wowhead.new

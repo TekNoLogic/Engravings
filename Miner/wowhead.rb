@@ -116,4 +116,12 @@ class Wowhead
 		end.flatten]
 	end
 
+  def zone_name(id)
+    @zone_names[id] ||= begin
+      page = fetch_page("/?zone=#{id}")
+      raise "Cannot find zone name" unless match = page.match(/<h1>([^:]+: )?(.*) - Zone - World of Warcraft<\/h1>/).to_a
+      match[2]
+    end
+  end
+
 end

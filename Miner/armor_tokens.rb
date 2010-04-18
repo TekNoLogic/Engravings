@@ -5,26 +5,24 @@ require 'engravings_exporter'
 
 
 wh = Wowhead.new
+tokens = wh.get("/items=15.-2").map {|i| i["id"]}
 
-npcs = []
-zones = []
-dds = ["", " (10N)", " (25N)", " (10H)", " (25H)"]
-zone_names = wh.get_variable("/js/locale_enus.js?787", "g_zones")
-tokens = wh.get("/items=15.-2&filter=minle=61")
-tokens.each do |i|
-  items = wh.get("/item=#{i["id"]}", "currency-for").map {|j| j["id"]}
+token_sources = []
+token_zones = []
+tokens.each do |itemid|
+  puts "\nQuerying #{itemid}"
 
-  npc_names = i["sourcemore"].map {|s| s["n"]}.compact.reject {|name| name == "Lady Sacrolash" || name == "Grand Warlock Alythess"}
-  name = (npc_names.include?("Lady Malande") ? "Illidari Council" : npc_names.first) unless npc_names.compact.empty?
-  npcs += items.map {|j| "#{j} #{name}"} unless name.nil?
+  buys = wh.get("/item=#{itemid}", "currency-for").map {|i| i["id"]} rescue []
+  dropped_by = wh.get("/item=#{itemid}", "dropped-by")
+  next unless dropped_by
+  npc_names = dropped_by.map {|i| i["name"]} - ["Lady Sacrolash", "Grand Warlock Alythess"]
+  npc_names -= ["Gluth"] if npc_names.size > 1
+  npc_name = npc_names.include?("Lady Malande") ? "Illidari Council" : npc_names.first
+  drop_zone = dropped_by.map {|i| i["location"]}.flatten.uniq.map {|zid| wh.zone_name(zid)}.first
 
-  if i["sourcemore"]
-    zone_id = i["sourcemore"].reject {|s| s["n"].nil?}.map {|s| s["z"]}.first
-    zone_dd = i["sourcemore"].reject {|s| s["n"].nil?}.map {|s| s["dd"]}.first
-    dd = dds[zone_dd.to_i] unless zone_dd.nil?
-    zones += items.map {|j| "#{j} #{zone_names[zone_id.to_s]}#{dd}"} unless zone_id.nil?
-  end
+  token_zones += buys.map {|id| "#{id} #{drop_zone}"}
+  token_sources += buys.map {|id| "#{id} #{npc_name}"} unless itemid == 47242 # Don't include Trophy of the Crusade boss names
 end
 
-Engravings.export("ArmorTokenDropNPCs.lua", "ARMOR_TOKEN_NPCS", "Token dropped by:", npcs)
-Engravings.export("ArmorTokenDropLocations.lua", "ARMOR_TOKEN_ZONES", "Token dropped in:", zones)
+Engravings.export("ArmorTokenDropNPCs.lua", "ARMOR_TOKEN_NPCS", "Token dropped by:", token_sources)
+Engravings.export("ArmorTokenDropLocations.lua", "ARMOR_TOKEN_ZONES", "Token dropped in:", token_zones)
