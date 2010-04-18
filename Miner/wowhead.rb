@@ -19,11 +19,8 @@ end
 class Wowhead
 
 	def initialize
-	  @cache = File.exists?("cache.yaml") ? YAML.load_file("cache.yaml") : {}
 		@http = Net::HTTP.start("www.wowhead.com")
 		@http2 = Net::HTTP.start("static.wowhead.com")
-
-		at_exit {File.open("cache.yaml", "w") {|f| f << @cache.to_yaml}}
 	end
 
 
@@ -36,12 +33,15 @@ class Wowhead
 
 
 	def sanitize(str)
-		str.gsub(/"/, "TOKEN1").gsub(/\\'/, "TOKEN2").gsub(/(&[^;]+);/, "\1TOKEN3").gsub(";", "").gsub(/\[,\{/, "[{").gsub(/([^,]),+([^,])/, '\1,\2').gsub(/'/, '"').gsub(/([{,])\s*([^{:,]+):/, '\1"\2":').gsub(/TOKEN3/, ";").gsub(/TOKEN2/, "'").gsub(/TOKEN1/, '"')
+	  sanitize2(str)
 	end
 
 
   def sanitize2(str)
-    str.gsub(/\\"/, "TOKEN1").gsub(/:"([^:"]+):([^:"]+"[,}])/, ':"\1TOKEN2\2').gsub(/([\w']+):/, '"\1":').gsub(/TOKEN2/, ":").gsub(/TOKEN1/, '\"')
+    x = str.gsub(/\\"/, "TOKEN1").gsub(/:"[^"]+"[,}]/) {|m| ":#{m[1..-1].gsub(/:/, "TOKEN2")}"}.gsub(/([\w']+):/, '"\1":').gsub(/;/, '').gsub(/TOKEN2/, ":").gsub(/TOKEN1/, '\"')
+    File.open("sani.json", "w") {|f| f << x.gsub(/([\]},]+)/, '\1'+"\n")}
+    File.open("orig.json", "w") {|f| f << str.gsub(/([\]},]+)/, '\1'+"\n")}
+    x
   end
 
 	def minimal_sanitize(str)

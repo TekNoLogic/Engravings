@@ -18,9 +18,9 @@ EXCLUDE = [29434, 40752, 40753]
 
 wh = Wowhead.new
 
-tokens = wh.get("/?items=10").map {|i| i["id"]}
+tokens = wh.get("/items=10").map {|i| i["id"]}
 
-zone_ids = wh.get("/?zones=2", "zones").map {|z| z["id"]} + wh.get("/?zones=3", "zones").map {|z| z["id"]}
+zone_ids = wh.get("/zones=2", "zones").map {|z| z["id"]} + wh.get("/zones=3", "zones").map {|z| z["id"]}
 puts "Found #{zone_ids.size} instances"
 
 instance_drops = []
@@ -29,7 +29,7 @@ boss_ids = []
 zone_drops = {}
 zone_ids.each do |zone_id|
   puts "\nQuerying zone #{zone_id}"
-  page = "/?zone=#{zone_id}"
+  page = "/zone=#{zone_id}"
   res = wh.fetch_page page
 
   next unless res =~ /<h1><span class="(?:bc|wotlk)-icon">(.*)<\/span><\/h1>/
@@ -37,7 +37,7 @@ zone_ids.each do |zone_id|
   name = $1
   name = name[/: (.*)/, 1] if name =~ /:/
 
-  boss_ids += (wh.get(page, "bosses").map {|b| [b["id"], zone_id]} rescue [])
+  boss_ids += (wh.get(page, "npcs").select {|b| b["boss"] == 1}.map {|b| [b["id"], zone_id, b["name"]]} rescue [])
   normal_drops = (wh.get(page, "normal-drops").map {|i| i["id"]} - tokens rescue [])
   heroic_drops = (wh.get(page, "heroic-drops").map {|i| i["id"]} - tokens rescue [])
   normal_10_drops = (wh.get(page, "normal-10-drops").map {|i| i["id"]} - tokens rescue [])
@@ -67,15 +67,9 @@ zone_ids.each do |zone_id|
   instance_drops += formatted_drops
 end
 
-boss_ids.each do |npc_id, zone_id|
-#   boss_drops += parse_npc(http, npc_id, val[2])} unless val[0].nil?
-  puts "\nQuerying NPC #{npc_id}"
-  page = "/?npc=#{npc_id}"
-
-  name = $1 if wh.fetch_page(page) =~ /<h1>(.*) - NPC - World of Warcraft<\/h1>/
-  #~ name = $1
-  #~ name = name[/: (.*)/, 1] if name =~ /:/
-  puts "  Found npc '#{name}'"
+boss_ids.each do |npc_id, zone_id, name|
+  puts "\nQuerying NPC #{name}"
+  page = "/npc=#{npc_id}"
 
   all_drops = (wh.get(page, "normal-drops").map {|i| i["id"]} - tokens rescue [])
   all_drops += (wh.get(page, "heroic-drops").map {|i| i["id"]} - tokens rescue [])

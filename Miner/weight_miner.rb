@@ -49,7 +49,7 @@ wh.get_weight_filters.each_pair do |c,specs|
 
   specs.each_pair do |spec,w|
     data = []
-    p "Grabbing #{spec} #{c} item scores"
+    puts "Grabbing #{spec} #{c} item scores\n"
     item_values.each do |v|
       [2,3,4].each do |q|
         item_data = wh.get("/items=#{v}qu=#{q};gm=3;#{w}") || []
