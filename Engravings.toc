@@ -42,6 +42,7 @@ Data_mined\ArmorTokenDropLocations.lua
 Data_mined\ArmorTokenDropNPCs.lua
 Data_mined\BadgeofJustice.lua
 Data_mined\ChampionsSeal.lua
+Data_mined\Cooking.lua
 Data_mined\DalaranCookingAward.lua
 Data_mined\DalaranJewelcraftersToken.lua
 Data_mined\DropLocations.lua
