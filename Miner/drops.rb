@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'wowhead'
-require 'engravings'
+require 'engravings_exporter'
 
 
 # MANUAL_IMPORT = {

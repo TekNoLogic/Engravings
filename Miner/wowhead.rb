@@ -19,6 +19,7 @@ end
 class Wowhead
 
 	def initialize
+	  @zone_names = {}
 		@http = Net::HTTP.start("www.wowhead.com")
 		@http2 = Net::HTTP.start("static.wowhead.com")
 	end
