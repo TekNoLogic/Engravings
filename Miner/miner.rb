@@ -2,6 +2,7 @@
 
 File.delete(*Dir["../Data_mined/*"])
 
+require 'cooking'
 require 'armor_tokens'
 require 'drops'
 require 'item_sets'
