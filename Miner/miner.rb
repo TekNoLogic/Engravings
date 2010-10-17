@@ -2,6 +2,16 @@
 
 File.delete(*Dir["../Data_mined/*"])
 
+
+if File.exist?("sani.json")
+  require 'rubygems'
+  require 'json'
+  f = File.read "sani.json"
+  JSON.parse f
+  exit 0
+end
+
+
 require 'cooking'
 require 'armor_tokens'
 require 'drops'

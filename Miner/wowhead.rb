@@ -39,7 +39,15 @@ class Wowhead
 
 
   def sanitize2(str)
-    x = str.gsub(/\\"/, "TOKEN1").gsub(/:"[^"]+"[,}]/) {|m| ":#{m[1..-1].gsub(/:/, "TOKEN2")}"}.gsub(/([\w']+):/, '"\1":').gsub(/;/, '').gsub(/TOKEN2/, ":").gsub(/TOKEN1/, '\"')
+    x = str.gsub(/\\"/, "TOKEN1").gsub(/:"[^"]+"[,}]/) {|m| ":#{m[1..-1].gsub(/:/, "TOKEN2")}"}
+    [
+      [/[;\t\n]/, ''],
+      [/([{,])([a-z0-9]+):/i, '\1"\2":'],
+      [/__icon:'[^']+',/, ''],
+      [/undefined/, '1'],
+      [/TOKEN2/, ":"],
+      [/TOKEN1/, '\"']
+    ].each {|re, st| x = x.gsub(re, st)}
     File.open("sani.json", "w") {|f| f << x.gsub(/([\]},]+)/, '\1'+"\n")}
     File.open("orig.json", "w") {|f| f << str.gsub(/([\]},]+)/, '\1'+"\n")}
     x
@@ -57,7 +65,9 @@ class Wowhead
 
 
   def parse_list2(raw_data)
-    JSON.parse(sanitize2(raw_data))
+    j = JSON.parse(sanitize2(raw_data))
+    File.delete("sani.json", "orig.json")
+    j
   end
 
 
