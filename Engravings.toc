@@ -60,11 +60,10 @@ Data_mined\WarsongGulchMarkofHonor.lua
 Data_mined\WintergraspMarkofHonor.lua
 Data_mined\WowheadDeath_knightBlood.lua
 Data_mined\WowheadDeath_knightFrost_dps.lua
-Data_mined\WowheadDeath_knightFrost_tank.lua
 Data_mined\WowheadDeath_knightUnholy.lua
 Data_mined\WowheadDruidBalance.lua
-Data_mined\WowheadDruidFeral_combat_dps.lua
-Data_mined\WowheadDruidFeral_combat_tank.lua
+Data_mined\WowheadDruidFeral_dps.lua
+Data_mined\WowheadDruidFeral_tank.lua
 Data_mined\WowheadDruidRestoration.lua
 Data_mined\WowheadHunterBeast_mastery.lua
 Data_mined\WowheadHunterMarksmanship.lua
@@ -87,5 +86,6 @@ Data_mined\WowheadShamanRestoration.lua
 Data_mined\WowheadWarlockAffliction.lua
 Data_mined\WowheadWarlockDemonology.lua
 Data_mined\WowheadWarlockDestruction.lua
+Data_mined\WowheadWarriorArms.lua
 Data_mined\WowheadWarriorFury.lua
 Data_mined\WowheadWarriorProtection.lua
