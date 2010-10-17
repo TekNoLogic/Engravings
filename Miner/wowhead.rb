@@ -20,15 +20,19 @@ class Wowhead
 
   def initialize
     @zone_names = {}
-    @http = Net::HTTP.start("www.wowhead.com")
-    @http2 = Net::HTTP.start("static.wowhead.com")
+    @http = Net::HTTP.new("www.wowhead.com")
+    @http2 = Net::HTTP.new("static.wowhead.com")
   end
-
 
   def fetch_page(url, static = false)
     Dir.mkdir "cache" unless File.directory? "cache"
     cache_key = File.join("cache", Digest::SHA1.hexdigest("#{url}-#{static}"))
-    File.open(cache_key, "w") {|f| Timeout::timeout(10) { f << (static ? @http2 : @http).get(url).body }} unless File.exists? cache_key
+
+    unless File.exists? cache_key
+      http = static ? @http2 : @http
+      http.start unless http.started?
+      File.open(cache_key, "w") {|f| f << http.get(url).body}
+    end
     File.read(cache_key)
   end
 
