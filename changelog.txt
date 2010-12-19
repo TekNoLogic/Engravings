@@ -1,3 +1,7 @@
+4.0.0.18-Beta
+    Those badges are all gone now
+    New weighted scores
+
 3.3.0.17-Release
     New cooking ingred data!
 
