@@ -53,9 +53,10 @@ wh.get_weight_filters.each_pair do |c,specs|
     item_values.each do |v|
       [2,3,4].each do |q|
         item_data = wh.get("/items=#{v}qu=#{q};gm=3;#{w}") || []
-        data += item_data.map {|val| [val["id"], "%.3f" % val["score"]]}
+        data += item_data.select {|val| val["score"] > 0.01}.map {|val| [val["id"], "%.3f" % val["score"]]}
       end
     end
+    data = data.uniq
     Engravings.export_wowhead_set("Wowhead#{c.to_s.capitalize}#{spec.gsub(/ /, "_").capitalize}.lua", spec, data.compact.sort.map {|d| d.join(" ")}, c)
   end
 end
