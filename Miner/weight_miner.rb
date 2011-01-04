@@ -18,17 +18,20 @@ items = {
 }
 types = [:cloth, :leather, :mail, :plate]
 types.each_index {|i| items[types[i]] = armor_slots.map {|s| "4.#{i+1}&filter=sl=#{s};"}}
+low_types = [:low_leather, :low_mail]
+low_types.each_index {|i| items[types[i]] = armor_slots.map {|s| "4.#{i+2}&filter=maxle=45;sl=#{s};"}}
+items[:high_mail] = armor_slots.map {|s| "4.3&filter=minle=46;sl=#{s};"}
 class_item_types = {
   :mage         => [:common, :cloth],
   :warlock      => [:common, :cloth],
   :priest       => [:common, :cloth],
-  :druid        => [:common, :cloth, :leather],
-  :rogue        => [:common, :cloth, :leather],
-  :shaman       => [:common, :cloth, :leather, :mail],
-  :hunter       => [:common, :cloth, :leather, :mail],
-  :paladin      => [:common, :cloth, :leather, :mail, :plate],
-  :warrior      => [:common, :cloth, :leather, :mail, :plate],
-  :death_knight => [:common, :cloth, :leather, :mail, :plate],
+  :druid        => [:common, :leather],
+  :rogue        => [:common, :leather],
+  :shaman       => [:common, :low_leather, :high_mail],
+  :hunter       => [:common, :low_leather, :high_mail],
+  :paladin      => [:common, :low_mail, :plate],
+  :warrior      => [:common, :low_mail, :plate],
+  :death_knight => [:common, :plate],
 }
 item_sets = {
   :mage         => [:common,   :cloth,  :wand, :offhand, :shield, :dagger,        :staff,                                                     :sword_one],
@@ -52,7 +55,7 @@ wh.get_weight_filters.each_pair do |c,specs|
     item_values.each do |v|
       [2,3,4].each do |q|
         item_data = wh.get("/items=#{v}qu=#{q};gm=3;#{w}") || []
-        data += item_data.select {|val| val["score"] > 0.01}.map {|val| [val["id"], "%.3f" % val["score"]]}
+        data += item_data.select {|val| (val["score"] || 0) > 0.01}.map {|val| [val["id"], "%.3f" % val["score"]]}
       end
     end
     data = data.uniq
