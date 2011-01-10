@@ -109,7 +109,7 @@ function EngravingsGenerateWowheadSet(spec, data)
 		end
 	})
 
-	local lastid, lastbest, secondbest
+	local lastid, lastbest, lastsecondbest
 	Engravings["Wowhead score ("..spec.."):"] = setmetatable({}, {
 		__index = function(t,i)
 			local v = values[i]
@@ -119,19 +119,45 @@ function EngravingsGenerateWowheadSet(spec, data)
 				local slotid = slots[i]
 				local trinkring = slotid == 11 or slotid == 13
 				local items = slotid and GetInventoryItemsForSlot(slotid, wipe(temp))
+				local bestid, bestscore = 0, 0
+				local secondbestid, secondbestscore = 0, 0
 				local best = true
 				local secondbest = false
+
+				-- Scan the items we have in saved sets for this slot
 				if slotid then
 					for _,id in pairs(setitems[slotid]) do
-						if id ~= i and tonumber(values[id]) > tonumber(v) then best, secondbest = false, trinkring and best end
+						local thisscore = tonumber(values[id])
+						if thisscore > bestscore then
+							-- Best item so far, push the current best down to second
+							secondbestid, secondbestscore = bestid, bestscore
+							bestid, bestscore = id, thisscore
+						elseif thisscore > secondbestscore and thisscore ~= bestscore then
+							-- Not the best, but is better than the secondbest
+							secondbestid, secondbestscore = id, thisscore
+						end
 					end
 				end
-				if best and items then
+
+				-- Also test items we have on us
+				if items then
 					for _,id in pairs(items) do
-						if id ~= i and tonumber(values[id]) > tonumber(v) then best, secondbest = false, trinkring and best end
+						local thisscore = tonumber(values[id])
+						if thisscore > bestscore then
+							-- Best item so far, push the current best down to second
+							secondbestid, secondbestscore = bestid, bestscore
+							bestid, bestscore = id, thisscore
+						elseif thisscore > secondbestscore and thisscore ~= bestscore then
+							-- Not the best, but is better than the secondbest
+							secondbestid, secondbestscore = id, thisscore
+						end
 					end
 				end
-				lastid, lastbest, lastsecondbest = i, best, secondbest
+
+				-- Purge secondbest if we don't have a trinket or ring
+				if not trinkring then secondbestid, secondbestscore = nil end
+
+				lastid, lastbest, lastsecondbest = i, bestid == i, secondbestid == i
 			end
 
 			return (lastbest and "|cff80ff80" or lastsecondbest and "|cffffff80" or "")..v
