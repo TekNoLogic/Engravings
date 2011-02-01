@@ -118,53 +118,29 @@ function EngravingsGenerateWowheadSet(spec, data)
 			if lastid ~= i then
 				local slotid = slots[i]
 				local trinkring = slotid == 11 or slotid == 13
-				local items = slotid and GetInventoryItemsForSlot(slotid, wipe(temp))
+				local items = slotid and GetInventoryItemsForSlot(slotid, wipe(temp)) or wipe(temp)
 				local bestid, bestscore = 0, 0
 				local secondbestid, secondbestscore = 0, 0
 				local best = true
 				local secondbest = false
 
-				-- Scan the items we have in saved sets for this slot
-				if slotid then
-					for _,id in pairs(setitems[slotid]) do
-						local thisscore = tonumber(values[id])
-						if thisscore > bestscore then
-							-- Best item so far, push the current best down to second
-							secondbestid, secondbestscore = bestid, bestscore
-							bestid, bestscore = id, thisscore
-						elseif thisscore > secondbestscore and thisscore ~= bestscore then
-							-- Not the best, but is better than the secondbest
-							secondbestid, secondbestscore = id, thisscore
-						end
+				-- Add the current item we're viewing
+				table.insert(items, i)
+
+				-- Add items we have in saved sets for this slot
+				if slotid then for _,id in pairs(setitems[slotid]) do table.insert(items, id) end end
+
+				for _,id in pairs(items) do
+					local thisscore = tonumber(values[id])
+					if thisscore > bestscore then
+						-- Best item so far, push the current best down to second
+						secondbestid, secondbestscore = bestid, bestscore
+						bestid, bestscore = id, thisscore
+					elseif thisscore > secondbestscore and thisscore ~= bestscore then
+						-- Not the best, but is better than the secondbest
+						secondbestid, secondbestscore = id, thisscore
 					end
 				end
-
-				-- Also test items we have on us
-				if items then
-					for _,id in pairs(items) do
-						local thisscore = tonumber(values[id])
-						if thisscore > bestscore then
-							-- Best item so far, push the current best down to second
-							secondbestid, secondbestscore = bestid, bestscore
-							bestid, bestscore = id, thisscore
-						elseif thisscore > secondbestscore and thisscore ~= bestscore then
-							-- Not the best, but is better than the secondbest
-							secondbestid, secondbestscore = id, thisscore
-						end
-					end
-				end
-
-				-- Finally, test the id we were passed, in case we don't own the item yet
-				local thisscore = tonumber(values[i])
-				if thisscore > bestscore then
-					-- Best item so far, push the current best down to second
-					secondbestid, secondbestscore = bestid, bestscore
-					bestid, bestscore = i, thisscore
-				elseif thisscore > secondbestscore and thisscore ~= bestscore then
-					-- Not the best, but is better than the secondbest
-					secondbestid, secondbestscore = i, thisscore
-				end
-
 
 				-- Purge secondbest if we don't have a trinket or ring
 				if not trinkring then secondbestid, secondbestscore = nil end
