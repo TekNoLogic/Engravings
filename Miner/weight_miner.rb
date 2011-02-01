@@ -19,7 +19,7 @@ items = {
 types = [:cloth, :leather, :mail, :plate]
 types.each_index {|i| items[types[i]] = armor_slots.map {|s| "4.#{i+1}&filter=sl=#{s};"}}
 low_types = [:low_leather, :low_mail]
-low_types.each_index {|i| items[types[i]] = armor_slots.map {|s| "4.#{i+2}&filter=maxle=45;sl=#{s};"}}
+low_types.each_index {|i| items[low_types[i]] = armor_slots.map {|s| "4.#{i+2}&filter=maxle=45;sl=#{s};"}}
 items[:high_mail] = armor_slots.map {|s| "4.3&filter=minle=46;sl=#{s};"}
 class_item_types = {
   :mage         => [:common, :cloth],
