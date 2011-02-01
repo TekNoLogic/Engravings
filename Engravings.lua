@@ -154,6 +154,18 @@ function EngravingsGenerateWowheadSet(spec, data)
 					end
 				end
 
+				-- Finally, test the id we were passed, in case we don't own the item yet
+				local thisscore = tonumber(values[i])
+				if thisscore > bestscore then
+					-- Best item so far, push the current best down to second
+					secondbestid, secondbestscore = bestid, bestscore
+					bestid, bestscore = i, thisscore
+				elseif thisscore > secondbestscore and thisscore ~= bestscore then
+					-- Not the best, but is better than the secondbest
+					secondbestid, secondbestscore = i, thisscore
+				end
+
+
 				-- Purge secondbest if we don't have a trinket or ring
 				if not trinkring then secondbestid, secondbestscore = nil end
 
