@@ -1,3 +1,12 @@
+4.0.0.19-Beta
+    Hrm... seems I have two raw food modules, need to fix that later
+    New weights
+    Fix best scores not being highlighted for items we don't yet own
+    Make highlighting of second-best rings and trinkets work more righter
+    Add qty in bank
+    Remove weights for lower AC armor
+    New relic datas
+
 4.0.0.18-Beta
     Those badges are all gone now
     New weighted scores
