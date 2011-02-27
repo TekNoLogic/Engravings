@@ -27,10 +27,24 @@ local RAWFOODS = [[
 31671 +23 Damage/+20 Spi
 33823 +8 Resist
 33824 +20 Spell Crit/Spi
+34736 Feast or Last Week's Mammoth or +80 AP/+40 Stam
 35562 +24 AP or +14 Damage+Heal
+43009 Feast or Tracker Snacks or +46 SP/+40 Stam
+43010 Feast or +40 Crit/Stam 0r +40 Expt/Stam
+43012 Feast or +40 Crit/Stam or +40 Stam/Spi or +40 Expt/Stam
+43013 Feast or Critter Bites
+43501 Tasty Cupcake
+53072 +90 Int/Stam or or +90 Stam/Spi
+62778 Barbeque
+62779 +60 Hit/Stam
+62781 +60 Agi/Stam
+62782 Feast or +90 Hit/Stam
+62783 +90 Haste/Stam
+62784 +90 Expt/Stam or +90 Str/Stam
+62791 +60 Str/Stam or +60 Stam/Spi
 ]]
 
-Engravings["Cooked:"] = setmetatable({}, {
+Engravings["Cooking:"] = setmetatable({}, {
 	__index = function(t,i)
 		local v = RAWFOODS:match("\n"..i.." ([^\n]+)\n")
 		if v then
@@ -42,3 +56,5 @@ Engravings["Cooked:"] = setmetatable({}, {
 		end
 	end
 })
+
+TEKKRAWFOODS = RAWFOODS
