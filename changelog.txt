@@ -1,3 +1,6 @@
+4.0.0.20-Beta
+    Some trinkets and rings have the exact same score
+
 4.0.0.19-Beta
     Hrm... seems I have two raw food modules, need to fix that later
     New weights
