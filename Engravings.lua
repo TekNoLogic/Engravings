@@ -132,7 +132,7 @@ function EngravingsGenerateWowheadSet(spec, data)
 
 				for _,id in pairs(items) do
 					local thisscore = tonumber(values[id])
-					if thisscore > bestscore then
+					if thisscore >= bestscore then
 						-- Best item so far, push the current best down to second
 						secondbestid, secondbestscore = bestid, bestscore
 						bestid, bestscore = id, thisscore
