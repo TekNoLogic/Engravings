@@ -2,7 +2,6 @@
 local COOKING = [[
 1015 +6 Stam/Spi
 1080 +6 Stam/Spi
-1081 +6 Stam/Spi
 12037 +8 Stam/Spi
 12184 +8 Stam/Spi
 12202 +8 Stam/Spi
@@ -30,14 +29,11 @@ local COOKING = [[
 27668 +2 Stam/Spi
 27669 +4 Stam/Spi
 27671 +20 Stam/Spi
-27676 +20 Stam/Spi
 27682 +20 Stam/Spi
 2886 +2 Stam/Spi
 2924 +4 Stam/Spi
 31670 +20 Stam/Spi
-3172 +4 Stam/Spi
 3173 +4 Stam/Spi
-3174 +4 Stam/Spi
 3404 +8 Stam/Spi
 35562 +24 AP or +14 SP
 3667 +6 Stam/Spi or +8 Stam/Spi
@@ -46,7 +42,10 @@ local COOKING = [[
 3730 +6 Stam/Spi
 3731 +6 Stam/Spi or +8 Stam/Spi
 41801 +40 Stam/Spi
+41810 +30 Stam/Spi or +40 Stam/Spi
+43012 +30 Stam/Spi or +40 Stam/Spi
 4655 +8 Stam/Spi
+53072 +90 Stam/Spi
 5465 +2 Stam/Spi
 5467 +2 Stam/Spi
 5468 +4 Stam/Spi
@@ -55,6 +54,7 @@ local COOKING = [[
 5471 +6 Stam/Spi
 5503 +4 Stam/Spi
 5504 +6 Stam/Spi
+62791 +60 Stam/Spi
 6889 +2 Stam/Spi
 723 +4 Stam/Spi
 7974 +24 AP/+14 SP

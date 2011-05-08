@@ -3247,6 +3247,356 @@ local ITEM_SET_NAMES = [[
 51543 Arena Season 8
 51544 Arena Season 8
 51545 Arena Season 8
+60243 Tier 11 Raid
+60244 Tier 11 Raid
+60245 Tier 11 Raid
+60246 Tier 11 Raid
+60247 Tier 11 Raid
+60248 Tier 11 Raid
+60249 Tier 11 Raid
+60250 Tier 11 Raid
+60251 Tier 11 Raid
+60252 Tier 11 Raid
+60253 Tier 11 Raid
+60254 Tier 11 Raid
+60255 Tier 11 Raid
+60256 Tier 11 Raid
+60257 Tier 11 Raid
+60258 Tier 11 Raid
+60259 Tier 11 Raid
+60261 Tier 11 Raid
+60262 Tier 11 Raid
+60275 Tier 11 Raid
+60276 Tier 11 Raid
+60277 Tier 11 Raid
+60278 Tier 11 Raid
+60279 Tier 11 Raid
+60280 Tier 11 Raid
+60281 Tier 11 Raid
+60282 Tier 11 Raid
+60283 Tier 11 Raid
+60284 Tier 11 Raid
+60285 Tier 11 Raid
+60286 Tier 11 Raid
+60287 Tier 11 Raid
+60288 Tier 11 Raid
+60289 Tier 11 Raid
+60290 Tier 11 Raid
+60298 Tier 11 Raid
+60299 Tier 11 Raid
+60300 Tier 11 Raid
+60301 Tier 11 Raid
+60302 Tier 11 Raid
+60303 Tier 11 Raid
+60304 Tier 11 Raid
+60305 Tier 11 Raid
+60306 Tier 11 Raid
+60307 Tier 11 Raid
+60308 Tier 11 Raid
+60309 Tier 11 Raid
+60310 Tier 11 Raid
+60311 Tier 11 Raid
+60312 Tier 11 Raid
+60313 Tier 11 Raid
+60314 Tier 11 Raid
+60315 Tier 11 Raid
+60316 Tier 11 Raid
+60317 Tier 11 Raid
+60318 Tier 11 Raid
+60319 Tier 11 Raid
+60320 Tier 11 Raid
+60321 Tier 11 Raid
+60322 Tier 11 Raid
+60323 Tier 11 Raid
+60324 Tier 11 Raid
+60325 Tier 11 Raid
+60326 Tier 11 Raid
+60327 Tier 11 Raid
+60328 Tier 11 Raid
+60329 Tier 11 Raid
+60330 Tier 11 Raid
+60331 Tier 11 Raid
+60332 Tier 11 Raid
+60339 Tier 11 Raid
+60340 Tier 11 Raid
+60341 Tier 11 Raid
+60342 Tier 11 Raid
+60343 Tier 11 Raid
+60344 Tier 11 Raid
+60345 Tier 11 Raid
+60346 Tier 11 Raid
+60347 Tier 11 Raid
+60348 Tier 11 Raid
+60349 Tier 11 Raid
+60350 Tier 11 Raid
+60351 Tier 11 Raid
+60352 Tier 11 Raid
+60353 Tier 11 Raid
+60354 Tier 11 Raid
+60355 Tier 11 Raid
+60356 Tier 11 Raid
+60357 Tier 11 Raid
+60358 Tier 11 Raid
+60359 Tier 11 Raid
+60360 Tier 11 Raid
+60361 Tier 11 Raid
+60362 Tier 11 Raid
+60363 Tier 11 Raid
+60408 Arena Season 9
+60409 Arena Season 9
+60410 Arena Season 9
+60411 Arena Season 9
+60412 Arena Season 9
+60413 Arena Season 9
+60414 Arena Season 9
+60415 Arena Season 9
+60416 Arena Season 9
+60417 Arena Season 9
+60418 Arena Season 9
+60419 Arena Season 9
+60420 Arena Season 9
+60421 Arena Season 9
+60422 Arena Season 9
+60423 Arena Season 9
+60424 Arena Season 9
+60425 Arena Season 9
+60426 Arena Season 9
+60427 Arena Season 9
+60428 Arena Season 9
+60429 Arena Season 9
+60430 Arena Season 9
+60431 Arena Season 9
+60432 Arena Season 9
+60433 Arena Season 9
+60434 Arena Season 9
+60435 Arena Season 9
+60436 Arena Season 9
+60437 Arena Season 9
+60438 Arena Season 9
+60439 Arena Season 9
+60440 Arena Season 9
+60441 Arena Season 9
+60442 Arena Season 9
+60443 Arena Season 9
+60444 Arena Season 9
+60445 Arena Season 9
+60446 Arena Season 9
+60447 Arena Season 9
+60448 Arena Season 9
+60449 Arena Season 9
+60450 Arena Season 9
+60451 Arena Season 9
+60452 Arena Season 9
+60453 Arena Season 9
+60454 Arena Season 9
+60455 Arena Season 9
+60456 Arena Season 9
+60457 Arena Season 9
+60458 Arena Season 9
+60459 Arena Season 9
+60460 Arena Season 9
+60461 Arena Season 9
+60462 Arena Season 9
+60463 Arena Season 9
+60464 Arena Season 9
+60465 Arena Season 9
+60466 Arena Season 9
+60467 Arena Season 9
+60468 Arena Season 9
+60469 Arena Season 9
+60470 Arena Season 9
+60471 Arena Season 9
+60472 Arena Season 9
+60473 Arena Season 9
+60474 Arena Season 9
+60475 Arena Season 9
+60476 Arena Season 9
+60477 Arena Season 9
+60478 Arena Season 9
+60479 Arena Season 9
+60480 Arena Season 9
+60481 Arena Season 9
+60482 Arena Season 9
+60601 Arena Season 9
+60602 Arena Season 9
+60603 Arena Season 9
+60604 Arena Season 9
+60605 Arena Season 9
+64708 Level 85 PvP Rare
+64709 Level 85 PvP Rare
+64710 Level 85 PvP Rare
+64711 Level 85 PvP Rare
+64712 Level 85 PvP Rare
+64727 Level 85 PvP Rare
+64728 Level 85 PvP Rare
+64729 Level 85 PvP Rare
+64730 Level 85 PvP Rare
+64731 Level 85 PvP Rare
+64735 Level 85 PvP Rare
+64736 Level 85 PvP Rare
+64737 Level 85 PvP Rare
+64738 Level 85 PvP Rare
+64739 Level 85 PvP Rare
+64745 Level 85 PvP Rare
+64746 Level 85 PvP Rare
+64747 Level 85 PvP Rare
+64748 Level 85 PvP Rare
+64749 Level 85 PvP Rare
+64764 Level 85 PvP Rare
+64765 Level 85 PvP Rare
+64766 Level 85 PvP Rare
+64767 Level 85 PvP Rare
+64768 Level 85 PvP Rare
+64769 Level 85 PvP Rare
+64770 Level 85 PvP Rare
+64771 Level 85 PvP Rare
+64772 Level 85 PvP Rare
+64773 Level 85 PvP Rare
+64776 Level 85 PvP Rare
+64777 Level 85 PvP Rare
+64778 Level 85 PvP Rare
+64779 Level 85 PvP Rare
+64780 Level 85 PvP Rare
+64784 Level 85 PvP Rare
+64785 Level 85 PvP Rare
+64786 Level 85 PvP Rare
+64787 Level 85 PvP Rare
+64788 Level 85 PvP Rare
+64795 Level 85 PvP Rare
+64796 Level 85 PvP Rare
+64797 Level 85 PvP Rare
+64798 Level 85 PvP Rare
+64799 Level 85 PvP Rare
+64802 Level 85 PvP Rare
+64803 Level 85 PvP Rare
+64804 Level 85 PvP Rare
+64805 Level 85 PvP Rare
+64806 Level 85 PvP Rare
+64811 Level 85 PvP Rare
+64812 Level 85 PvP Rare
+64813 Level 85 PvP Rare
+64814 Level 85 PvP Rare
+64815 Level 85 PvP Rare
+64827 Level 85 PvP Rare
+64828 Level 85 PvP Rare
+64829 Level 85 PvP Rare
+64830 Level 85 PvP Rare
+64831 Level 85 PvP Rare
+64838 Level 85 PvP Rare
+64839 Level 85 PvP Rare
+64840 Level 85 PvP Rare
+64841 Level 85 PvP Rare
+64842 Level 85 PvP Rare
+64843 Level 85 PvP Rare
+64844 Level 85 PvP Rare
+64845 Level 85 PvP Rare
+64846 Level 85 PvP Rare
+64847 Level 85 PvP Rare
+64853 Level 85 PvP Rare
+64854 Level 85 PvP Rare
+64855 Level 85 PvP Rare
+64856 Level 85 PvP Rare
+64857 Level 85 PvP Rare
+64874 Level 85 PvP Rare
+64875 Level 85 PvP Rare
+64876 Level 85 PvP Rare
+64877 Level 85 PvP Rare
+64878 Level 85 PvP Rare
+65179 Tier 11 Raid (Heroic)
+65180 Tier 11 Raid (Heroic)
+65181 Tier 11 Raid (Heroic)
+65182 Tier 11 Raid (Heroic)
+65183 Tier 11 Raid (Heroic)
+65184 Tier 11 Raid (Heroic)
+65185 Tier 11 Raid (Heroic)
+65186 Tier 11 Raid (Heroic)
+65187 Tier 11 Raid (Heroic)
+65188 Tier 11 Raid (Heroic)
+65189 Tier 11 Raid (Heroic)
+65190 Tier 11 Raid (Heroic)
+65191 Tier 11 Raid (Heroic)
+65192 Tier 11 Raid (Heroic)
+65193 Tier 11 Raid (Heroic)
+65194 Tier 11 Raid (Heroic)
+65195 Tier 11 Raid (Heroic)
+65196 Tier 11 Raid (Heroic)
+65197 Tier 11 Raid (Heroic)
+65198 Tier 11 Raid (Heroic)
+65199 Tier 11 Raid (Heroic)
+65200 Tier 11 Raid (Heroic)
+65201 Tier 11 Raid (Heroic)
+65202 Tier 11 Raid (Heroic)
+65203 Tier 11 Raid (Heroic)
+65204 Tier 11 Raid (Heroic)
+65205 Tier 11 Raid (Heroic)
+65206 Tier 11 Raid (Heroic)
+65207 Tier 11 Raid (Heroic)
+65208 Tier 11 Raid (Heroic)
+65209 Tier 11 Raid (Heroic)
+65210 Tier 11 Raid (Heroic)
+65211 Tier 11 Raid (Heroic)
+65212 Tier 11 Raid (Heroic)
+65213 Tier 11 Raid (Heroic)
+65214 Tier 11 Raid (Heroic)
+65215 Tier 11 Raid (Heroic)
+65216 Tier 11 Raid (Heroic)
+65217 Tier 11 Raid (Heroic)
+65218 Tier 11 Raid (Heroic)
+65219 Tier 11 Raid (Heroic)
+65220 Tier 11 Raid (Heroic)
+65221 Tier 11 Raid (Heroic)
+65222 Tier 11 Raid (Heroic)
+65223 Tier 11 Raid (Heroic)
+65224 Tier 11 Raid (Heroic)
+65225 Tier 11 Raid (Heroic)
+65226 Tier 11 Raid (Heroic)
+65227 Tier 11 Raid (Heroic)
+65228 Tier 11 Raid (Heroic)
+65229 Tier 11 Raid (Heroic)
+65230 Tier 11 Raid (Heroic)
+65231 Tier 11 Raid (Heroic)
+65232 Tier 11 Raid (Heroic)
+65233 Tier 11 Raid (Heroic)
+65234 Tier 11 Raid (Heroic)
+65235 Tier 11 Raid (Heroic)
+65236 Tier 11 Raid (Heroic)
+65237 Tier 11 Raid (Heroic)
+65238 Tier 11 Raid (Heroic)
+65239 Tier 11 Raid (Heroic)
+65240 Tier 11 Raid (Heroic)
+65241 Tier 11 Raid (Heroic)
+65242 Tier 11 Raid (Heroic)
+65243 Tier 11 Raid (Heroic)
+65244 Tier 11 Raid (Heroic)
+65245 Tier 11 Raid (Heroic)
+65246 Tier 11 Raid (Heroic)
+65247 Tier 11 Raid (Heroic)
+65248 Tier 11 Raid (Heroic)
+65249 Tier 11 Raid (Heroic)
+65250 Tier 11 Raid (Heroic)
+65251 Tier 11 Raid (Heroic)
+65252 Tier 11 Raid (Heroic)
+65253 Tier 11 Raid (Heroic)
+65254 Tier 11 Raid (Heroic)
+65255 Tier 11 Raid (Heroic)
+65256 Tier 11 Raid (Heroic)
+65257 Tier 11 Raid (Heroic)
+65258 Tier 11 Raid (Heroic)
+65259 Tier 11 Raid (Heroic)
+65260 Tier 11 Raid (Heroic)
+65261 Tier 11 Raid (Heroic)
+65262 Tier 11 Raid (Heroic)
+65263 Tier 11 Raid (Heroic)
+65264 Tier 11 Raid (Heroic)
+65265 Tier 11 Raid (Heroic)
+65266 Tier 11 Raid (Heroic)
+65267 Tier 11 Raid (Heroic)
+65268 Tier 11 Raid (Heroic)
+65269 Tier 11 Raid (Heroic)
+65270 Tier 11 Raid (Heroic)
+65271 Tier 11 Raid (Heroic)
+65272 Tier 11 Raid (Heroic)
+65273 Tier 11 Raid (Heroic)
 ]]
 
 
