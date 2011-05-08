@@ -52,8 +52,8 @@ Data_mined\WowheadDeath_knightBlood.lua
 Data_mined\WowheadDeath_knightFrost_dps.lua
 Data_mined\WowheadDeath_knightUnholy.lua
 Data_mined\WowheadDruidBalance.lua
-Data_mined\WowheadDruidFeral_combat_dps.lua
-Data_mined\WowheadDruidFeral_combat_tank.lua
+Data_mined\WowheadDruidFeral_dps.lua
+Data_mined\WowheadDruidFeral_tank.lua
 Data_mined\WowheadDruidRestoration.lua
 Data_mined\WowheadHunterBeast_mastery.lua
 Data_mined\WowheadHunterMarksmanship.lua
