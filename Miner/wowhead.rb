@@ -31,7 +31,7 @@ class Wowhead
     unless File.exists? cache_key
       http = static ? @http2 : @http
       http.start unless http.started?
-      File.open(cache_key, "w") {|f| f << http.get(url).body}
+      File.open(cache_key, "w") {|f| f << http.get(url, {'Referer' => 'http://www.wowhead.com/'}).body}
     end
     File.read(cache_key)
   end
@@ -49,6 +49,8 @@ class Wowhead
       [/([{,])([a-z0-9]+):/i, '\1"\2":'],
       [/__icon:'[^']+',/, ''],
       [/undefined/, '1'],
+      [/:'/, ':"'],
+      [/',/, '",'],
       [/TOKEN2/, ":"],
       [/TOKEN1/, '\"']
     ].each {|re, st| x = x.gsub(re, st)}
@@ -82,7 +84,7 @@ class Wowhead
 
   def get_variable(page, variable, sanitation = true, static = true)
     res = fetch_page(page, static)
-    parse_list($1, sanitation) if res =~ /var #{variable} ?= ?(.+?);\n?(function|var |Menu|\Z)/
+    parse_list($1, sanitation) if res =~ /var #{variable} ?= ?(.+?);\n?(if|function|var |Menu|\Z)/
   end
 
   def get_items(page)
@@ -94,7 +96,7 @@ class Wowhead
     @class_ids ||= get_class_ids
     @spec_names ||= get_spec_names
 
-    res = fetch_page("/data=weight-presets&amp;261")
+    res = fetch_page("/data=weight-presets&amp;1326")
     raw_presets = parse_list(res.gsub("var wt_presets = ", ""))
     presets = raw_presets.map do |cid,data|
       data = data["pve"].map do |name,weights|
@@ -113,7 +115,7 @@ class Wowhead
   end
 
   def get_filter_ids
-    parsed_data = get_variable("/js/filters.js?261", "fi_filters")
+    parsed_data = get_variable("/js/filters.js?1326", "fi_filters")
     Hash[*parsed_data.map {|a,b| b}.flatten.map {|v| [v["name"], v["id"]]}.flatten]
   end
 
