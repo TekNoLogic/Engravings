@@ -7,6 +7,16 @@ require 'engravings_exporter'
 wh = Wowhead.new
 
 
+$reforge_map = {
+  "spi" => "Spirit",
+  "hitrtng" => "Hit",
+  "critstrkrtng" => "Crit",
+  "hastertng" => "Haste",
+  "dodgertng" => "Dodge",
+  "parryrtng" => "Parry",
+  "mastrtng" => "Mastery",
+  "exprtng" => "Expertise",
+}
 armor_slots = [1, 3, 5, 6, 7, 8, 9, 10]
 items = {
   :common => ["4.-6&filter=", "4.-5&filter=", "4.-3&filter=", "4.-2&filter=", "4.-4&filter="],
@@ -46,19 +56,31 @@ item_sets = {
   :death_knight => [:common,   :plate, :relic, :offhand,                                  :polearm, :mace_one, :mace_two, :axe_one, :axe_two, :sword_one, :sword_two],
 }
 
+def reforge_tag(val)
+  s1 = val["reforge"]["s1"]
+  s2 = val["reforge"]["s2"]
+  s1 = $reforge_map[s1] || s1
+  s2 = $reforge_map[s2] || s2
+  "#{s1} --> #{s2}"
+end
+
 wh.get_weight_filters.each_pair do |c,specs|
   item_values = (item_sets[c] + class_item_types[c]).map {|s| items[s]}.flatten
 
   specs.each_pair do |spec,w|
-    data = []
+    weight_data = []
+    reforge_data = []
     puts "Grabbing #{spec} #{c} item scores\n"
     item_values.each do |v|
       [2,3,4].each do |q|
         item_data = wh.get("/items=#{v}qu=#{q};gm=3;rf=1;#{w}") || []
-        data += item_data.select {|val| (val["score"] || 0) > 0.01}.map {|val| [val["id"], "%.3f" % val["score"]]}
+        weight_data += item_data.select {|val| (val["score"] || 0) > 0.01}.map {|val| [val["id"], "%.3f" % val["score"]]}
+        reforge_data += item_data.select {|val| (val["reforge"] && val["reforge"]["amount"] || 0) > 0}.map {|val| [val["id"], reforge_tag(val)]}
       end
     end
-    data = data.uniq
-    Engravings.export_wowhead_set("Wowhead#{c.to_s.capitalize}#{spec.gsub(/ /, "_").capitalize}.lua", spec, data.compact.sort.map {|d| d.join(" ")}, c)
+    weight_data = weight_data.uniq
+    reforge_data = reforge_data.uniq
+    Engravings.export_wowhead_set("Wowhead#{c.to_s.capitalize}#{spec.gsub(/ /, "_").capitalize}.lua", spec, weight_data.compact.sort.map {|d| d.join(" ")}, c)
+    Engravings.export("Reforge#{c.to_s.capitalize}#{spec.gsub(/ /, "_").capitalize}.lua", "REFORGERY", "Reforge (#{spec}):", reforge_data.compact.sort.map {|d| d.join(" ")}, c)
   end
 end
