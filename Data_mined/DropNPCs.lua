@@ -1,4 +1,6 @@
 
+if select(4, GetBuildInfo()) >= 40200 then return end
+
 local DROP_NPC = [[
 16908 Onyxia
 16914 Onyxia

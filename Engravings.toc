@@ -37,6 +37,7 @@ Data\SpiritShard.lua
 Data\HeadOnAPike.lua
 Data\InSets.lua
 Data\InBags.lua
+Data\ItemDrops.lua
 
 Data_mined\ArmorTokenDropLocations.lua
 Data_mined\ArmorTokenDropNPCs.lua
