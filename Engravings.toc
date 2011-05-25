@@ -7,6 +7,7 @@
 ## X-Website: http://code.google.com/p/tekkub-wow/
 ## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Inventory
+## X-Icon: Interface\Icons\INV_Misc_StoneTablet_11
 
 ## SavedVariables: EngravingsDB, EngravingsDB2
 ## SavedVariablesPerCharacter: EngravingsDBPC
@@ -14,6 +15,7 @@
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed
 ## X-LoadOn-Slash: /engrave
+## X-LoadOn-InterfaceOptions: Engravings
 
 LibStub.lua
 tekKonfigScroll.lua
