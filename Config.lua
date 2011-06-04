@@ -5,6 +5,8 @@ local db, dbpc
 local initdb = Engravings.initdb
 Engravings.initdb = nil
 
+if AddonLoader and AddonLoader.RemoveInterfaceOptions then AddonLoader:RemoveInterfaceOptions("Engravings") end
+
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 frame.name = "Engravings"
 frame:Hide()

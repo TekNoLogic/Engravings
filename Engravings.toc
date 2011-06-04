@@ -1,4 +1,4 @@
-## Interface: 40000
+## Interface: 40100
 
 ## Title: Engravings
 ## Notes: Adds notes to item tooltips.
@@ -7,6 +7,7 @@
 ## X-Website: http://code.google.com/p/tekkub-wow/
 ## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Inventory
+## X-Icon: Interface\Icons\INV_Misc_StoneTablet_11
 
 ## SavedVariables: EngravingsDB, EngravingsDB2
 ## SavedVariablesPerCharacter: EngravingsDBPC
@@ -14,6 +15,7 @@
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed
 ## X-LoadOn-Slash: /engrave
+## X-LoadOn-InterfaceOptions: Engravings
 
 LibStub.lua
 tekKonfigScroll.lua
@@ -37,6 +39,7 @@ Data\SpiritShard.lua
 Data\HeadOnAPike.lua
 Data\InSets.lua
 Data\InBags.lua
+Data\ItemDrops.lua
 
 Data_mined\ArmorTokenDropLocations.lua
 Data_mined\ArmorTokenDropNPCs.lua
@@ -48,6 +51,37 @@ Data_mined\DropLocations.lua
 Data_mined\DropNPCs.lua
 Data_mined\ItemSetNames.lua
 Data_mined\PvPCosts.lua
+Data_mined\ReforgeDeath_knightBlood.lua
+Data_mined\ReforgeDeath_knightFrost_dps.lua
+Data_mined\ReforgeDeath_knightUnholy.lua
+Data_mined\ReforgeDruidBalance.lua
+Data_mined\ReforgeDruidFeral_dps.lua
+Data_mined\ReforgeDruidFeral_tank.lua
+Data_mined\ReforgeDruidRestoration.lua
+Data_mined\ReforgeHunterBeast_mastery.lua
+Data_mined\ReforgeHunterMarksmanship.lua
+Data_mined\ReforgeHunterSurvival.lua
+Data_mined\ReforgeMageArcane.lua
+Data_mined\ReforgeMageFire.lua
+Data_mined\ReforgeMageFrost.lua
+Data_mined\ReforgePaladinHoly.lua
+Data_mined\ReforgePaladinProtection.lua
+Data_mined\ReforgePaladinRetribution.lua
+Data_mined\ReforgePriestDiscipline.lua
+Data_mined\ReforgePriestHoly.lua
+Data_mined\ReforgePriestShadow_magic.lua
+Data_mined\ReforgeRogueAssassination.lua
+Data_mined\ReforgeRogueCombat.lua
+Data_mined\ReforgeRogueSubtlety.lua
+Data_mined\ReforgeShamanElemental_combat.lua
+Data_mined\ReforgeShamanEnhancement.lua
+Data_mined\ReforgeShamanRestoration.lua
+Data_mined\ReforgeWarlockAffliction.lua
+Data_mined\ReforgeWarlockDemonology.lua
+Data_mined\ReforgeWarlockDestruction.lua
+Data_mined\ReforgeWarriorArms.lua
+Data_mined\ReforgeWarriorFury.lua
+Data_mined\ReforgeWarriorProtection.lua
 Data_mined\WowheadDeath_knightBlood.lua
 Data_mined\WowheadDeath_knightFrost_dps.lua
 Data_mined\WowheadDeath_knightUnholy.lua

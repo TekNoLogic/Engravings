@@ -1,3 +1,10 @@
+4.1.0.22-Beta
+    Mine drop NPCs and instances from the encounter journal on 4.2
+
+4.1.0.21-Beta
+    New item scores, now factors in reforgery
+    New reforging data sets
+
 4.0.0.20-Beta
     Some trinkets and rings have the exact same score
 

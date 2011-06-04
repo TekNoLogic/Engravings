@@ -1,4 +1,6 @@
 
+if select(4, GetBuildInfo()) >= 40200 then return end
+
 local DROP_LOCATIONS = [[
 16908 Onyxia's Lair (10)
 16914 Onyxia's Lair (10)
