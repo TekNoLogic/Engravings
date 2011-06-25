@@ -33,15 +33,14 @@ local function ScanInstance(instanceID, instancename, heroic, tenman)
 end
 
 
-local i = 1
-local instanceID, instancename, description, background, buttonImage = EJ_GetInstanceByIndex(i)
-local instanceButton
-while instanceID do
-	ScanInstance(instanceID, instancename, true, false)
-	ScanInstance(instanceID, instancename, false, false)
-	i = i + 1
-	instanceID, instancename, description, background, buttonImage = EJ_GetInstanceByIndex(i)
+for j=1,2 do
+	local i = 1
+	local instanceID, instancename, description, background, buttonImage = EJ_GetInstanceByIndex(i, j == 1)
+	local instanceButton
+	while instanceID do
+		ScanInstance(instanceID, instancename, true, false)
+		ScanInstance(instanceID, instancename, false, false)
+		i = i + 1
+		instanceID, instancename, description, background, buttonImage = EJ_GetInstanceByIndex(i, j == 1)
+	end
 end
-
-
-
