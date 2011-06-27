@@ -1,3 +1,8 @@
+4.2.0.23-Beta
+    New big config panel for 4.2
+    Fix journal miner
+    Add support for AddonLoader's LoadOn-InterfaceOptions thingy
+
 4.1.0.22-Beta
     Mine drop NPCs and instances from the encounter journal on 4.2
 
