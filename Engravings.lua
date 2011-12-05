@@ -12,6 +12,12 @@ local function initdb()
 end
 Engravings.initdb = initdb
 
+local function AddLines(frame, title, line, ...)
+	if not line then return end
+	frame:AddDoubleLine(type(title) == "string" and title or "", line, R, G, B, R, G, B)
+	AddLines(frame, " ", ...)
+end
+
 local function OnTooltipSetItem(frame, ...)
 	if not db then db, dbpc = initdb() end
 	if not sortedtitles then
@@ -25,7 +31,7 @@ local function OnTooltipSetItem(frame, ...)
 		local id = tonumber(link:match("item:(%d+):"))
 		for i,title in pairs(sortedtitles) do
 			local data = sources[title]
-			if not (db[title] or dbpc[title]) and data[id] then frame:AddDoubleLine(type(title) == "string" and title or "", data[id], R, G, B, R, G, B) end
+			if not (db[title] or dbpc[title]) and data[id] then AddLines(frame, title, string.split("|", data[id])) end
 		end
 	end
 	if origs[frame] then return origs[frame](frame, ...) end
