@@ -31,7 +31,7 @@ local function OnTooltipSetItem(frame, ...)
 		local id = tonumber(link:match("item:(%d+):"))
 		for i,title in pairs(sortedtitles) do
 			local data = sources[title]
-			if not (db[title] or dbpc[title]) and data[id] then AddLines(frame, title, string.split("|", data[id])) end
+			if not (db[title] or dbpc[title]) and data[id] then AddLines(frame, title, string.split("`", data[id])) end
 		end
 	end
 	if origs[frame] then return origs[frame](frame, ...) end
