@@ -35,12 +35,12 @@ for spec,weights in pairs(spec_weights) do
 		total_weight = total_weight + weight
 	end
 
-	Engravings["Score (".. spec.. "):"] = setmetatable({}, {
+	local values = setmetatable({}, {
 		__index = function(t,i)
 			local name, link = GetItemInfo(i)
 			if not link then return end
 
-			for j in pairs(stats) do stats[j] = nil end
+			wipe(stats)
 			stats = GetItemStats(link, stats)
 
 			local score = 0
@@ -48,8 +48,18 @@ for spec,weights in pairs(spec_weights) do
 				score = score + val * (weights[stat] or 0)
 			end
 
-			score = string.format("%.03f", score / total_weight)
-			-- score = math.floor((score / total_weight) * 1000) / 1000
+			score = math.floor((score / total_weight) * 1000) / 1000
+
+			t[i] = score
+			return score
+		end
+	})
+
+	Engravings["Score (".. spec.. "):"] = setmetatable({}, {
+		__index = function(t,i)
+			local v = values[i]
+
+			score = string.format("%.03f", v)
 
 			t[i] = score
 			return score
