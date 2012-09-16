@@ -27,6 +27,7 @@ Engravings.lua
 Config.lua
 
 Scores\ItemSets.lua
+Scores\Weights.lua
 Scores\Source.lua
 
 CustomEngravings.lua
