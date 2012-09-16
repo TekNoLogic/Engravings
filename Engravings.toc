@@ -26,6 +26,9 @@ LibDataBroker-1.1\LibDataBroker-1.1.lua
 Engravings.lua
 Config.lua
 
+Scores/ItemSets.lua
+Scores/Source.lua
+
 CustomEngravings.lua
 Data\Currency.lua
 Data\WeightediLevel.lua
@@ -40,7 +43,6 @@ Data\HeadOnAPike.lua
 Data\InSets.lua
 Data\InBags.lua
 Data\ItemDrops.lua
-Data\Scores.lua
 
 Data_mined\ArmorTokenDropLocations.lua
 Data_mined\ArmorTokenDropNPCs.lua

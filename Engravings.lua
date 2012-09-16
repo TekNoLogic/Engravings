@@ -1,4 +1,7 @@
 
+local myname, ns = ...
+
+
 Engravings = {}
 local sources = Engravings
 local origs = {}
@@ -81,30 +84,6 @@ local slots = setmetatable({}, {__index = function(t,i)
 	return slotid
 end})
 local temp = {}
-local setitems = setmetatable({}, {__index = function(t,i)
-	local v = {}
-	t[i] = v
-	return v
-end})
-local itemsets = {}
-ENGRAVINGS_ITEMSETS = itemsets
-
-local f = CreateFrame("Frame")
-f:SetScript("OnEvent", function()
-	wipe(setitems)
-	wipe(itemsets)
-	local temp2 = {}
-	for i=1,GetNumEquipmentSets() do
-		local setname, tex = GetEquipmentSetInfo(i)
-		GetEquipmentSetItemIDs(setname, temp2)
-		for i,id in pairs(temp2) do
-			table.insert(setitems[i], id)
-			itemsets[id] = (itemsets[id] and (itemsets[id]..", ") or "").."|T"..tex..":18|t"..setname
-		end
-	end
-end)
-f:RegisterEvent("EQUIPMENT_SETS_CHANGED")
-if IsLoggedIn() then f:GetScript("OnEvent")() else f:RegisterEvent("PLAYER_LOGIN") end
 
 function EngravingsGenerateWowheadSet(spec, data)
 	local values = setmetatable({}, {
@@ -134,7 +113,7 @@ function EngravingsGenerateWowheadSet(spec, data)
 				table.insert(items, i)
 
 				-- Add items we have in saved sets for this slot
-				if slotid then for _,id in pairs(setitems[slotid]) do table.insert(items, id) end end
+				if slotid then for _,id in pairs(ns.setitems[slotid]) do table.insert(items, id) end end
 
 				for _,id in pairs(items) do
 					local thisscore = tonumber(values[id])
