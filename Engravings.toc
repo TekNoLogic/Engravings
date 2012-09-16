@@ -26,8 +26,8 @@ LibDataBroker-1.1\LibDataBroker-1.1.lua
 Engravings.lua
 Config.lua
 
-Scores/ItemSets.lua
-Scores/Source.lua
+Scores\ItemSets.lua
+Scores\Source.lua
 
 CustomEngravings.lua
 Data\Currency.lua
