@@ -30,14 +30,5 @@ for spec,weights in pairs(ns.spec_weights) do
 		end
 	})
 
-	Engravings["Score (".. spec.. "):"] = setmetatable({}, {
-		__index = function(t,i)
-			local v = values[i]
-
-			score = string.format("%.03f", v)
-
-			t[i] = score
-			return score
-		end
-	})
+	ns.GenerateScoreSet("Score ("..spec.."):", values)
 end
