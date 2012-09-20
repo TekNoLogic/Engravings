@@ -27,7 +27,7 @@ local function reforge(spec, id, stats, weights)
 	for target_stat in pairs(targets) do
 		for source_stat in pairs(sources) do
 			if target_stat ~= source_stat and stats[source_stat]
-				and weights[target_stat] then
+				and weights[target_stat] and not stats[target_stat] then
 
 				local usable = stats[source_stat] * 0.4
 				local source_weight = usable * (weights[source_stat] or 0)
