@@ -50,7 +50,11 @@ local function reforge(spec, id, stats, weights)
 end
 
 
-local stats, total_weights = {}, {}
+local stats, total_weights, gem = {}, {}, {
+	EMPTY_SOCKET_RED = true,
+	EMPTY_SOCKET_YELLOW = true,
+	EMPTY_SOCKET_BLUE = true,
+}
 for spec,weights in pairs(ns.spec_weights) do
 	local total_weight = 0
 
@@ -70,6 +74,7 @@ for spec,weights in pairs(ns.spec_weights) do
 			local score = 0
 			for stat,val in pairs(stats) do
 				score = score + val * (weights[stat] or 0)
+				if gem[stat] then score = score + ns.gem_value end
 			end
 
 			score = score / total_weight
