@@ -45,6 +45,8 @@ local function reforge(spec, id, stats, weights)
 
 	reforges[spec] = reforges[spec] or {}
 	reforges[spec][id] = _G[source].. " -> ".. _G[target]
+	stats[target] = stats[source] * 0.4
+	stats[source] = stats[source] * 0.6
 end
 
 
@@ -70,7 +72,7 @@ for spec,weights in pairs(ns.spec_weights) do
 				score = score + val * (weights[stat] or 0)
 			end
 
-			score = math.floor((score / total_weight) * 1000) / 1000
+			score = score / total_weight
 
 			t[i] = score
 			return score
