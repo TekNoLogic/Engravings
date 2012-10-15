@@ -84,7 +84,7 @@ for spec,weights in pairs(ns.spec_weights) do
 		end
 	})
 
-	Engravings["Tek Reforge ("..spec.."):"] = setmetatable({}, {
+	Engravings["Reforge ("..spec.."):"] = setmetatable({}, {
 		__index = function(t,i)
 			return reforges[spec] and reforges[spec][i]
 		end
