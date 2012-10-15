@@ -28,6 +28,7 @@ Config.lua
 
 Scores\ItemSets.lua
 Scores\Weights.lua
+Scores\Gems.lua
 Scores\BestScore.lua
 Scores\Source.lua
 
