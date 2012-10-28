@@ -41,6 +41,15 @@ local slots = setmetatable({}, {__index = function(t,i)
 end})
 
 
+-- Is the item equipped in the mainhand slot a one-hand weapon?
+local function MainhandIsOnehandWeapon()
+	local id = GetInventoryItemID('player', 16)
+	if not id then return false end
+	local _, _, _, _, _, _, _, _, slotname = GetItemInfo(id)
+	return slotname == 'INVTYPE_WEAPON'
+end
+
+
 function ns.GenerateScoreSet(name, values)
 	local lastid, lastbest, lastsecondbest
 	Engravings[name] = setmetatable({}, {
@@ -50,7 +59,9 @@ function ns.GenerateScoreSet(name, values)
 
 			if lastid ~= i then
 				local slotid = slots[i]
-				local showsecond = slotid == 11 or slotid == 13 or slotid == 17
+				local showsecond = slotid == 17 and IsDualWielding()
+				                     and MainhandIsOnehandWeapon()
+				                     or slotid == 11 or slotid == 13
 				local items = slotid and GetInventoryItemsForSlot(slotid, wipe(temp))
 				              or wipe(temp)
 				local bestid, bestscore = 0, 0
