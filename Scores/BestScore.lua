@@ -68,7 +68,7 @@ function ns.GenerateScoreSet(name, values)
 
 				for _,id in pairs(items) do
 					local thisscore = tonumber(values[id])
-					if thisscore then
+					if thisscore and id ~= bestid and id ~= secondbestid then
 						if thisscore >= bestscore then
 							-- Best item so far, push the current best down to second
 							secondbestid, secondbestscore = bestid, bestscore
