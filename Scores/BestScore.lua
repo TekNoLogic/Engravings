@@ -50,7 +50,7 @@ function ns.GenerateScoreSet(name, values)
 
 			if lastid ~= i then
 				local slotid = slots[i]
-				local trinkring = slotid == 11 or slotid == 13
+				local showsecond = slotid == 11 or slotid == 13 or slotid == 17
 				local items = slotid and GetInventoryItemsForSlot(slotid, wipe(temp))
 				              or wipe(temp)
 				local bestid, bestscore = 0, 0
@@ -82,7 +82,7 @@ function ns.GenerateScoreSet(name, values)
 				end
 
 				-- Purge secondbest if we don't have a trinket or ring
-				if not trinkring then secondbestid, secondbestscore = nil end
+				if not showsecond then secondbestid, secondbestscore = nil end
 
 				lastid, lastbest, lastsecondbest = i, bestid == i, secondbestid == i
 			end
