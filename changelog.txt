@@ -1,3 +1,7 @@
+5.0.1.24-Beta
+    Fix item drop scanner
+    Use our own calculated scores and reforges instead of mining data from wowhead
+
 4.2.0.23-Beta
     New big config panel for 4.2
     Fix journal miner
