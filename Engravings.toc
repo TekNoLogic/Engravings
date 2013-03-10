@@ -26,6 +26,7 @@ LibDataBroker-1.1\LibDataBroker-1.1.lua
 Engravings.lua
 Config.lua
 
+Scores\ClassGear.lua
 Scores\ItemSets.lua
 Scores\Weights.lua
 Scores\Gems.lua

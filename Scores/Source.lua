@@ -64,8 +64,8 @@ for spec,weights in pairs(ns.spec_weights) do
 
 	local values = setmetatable({}, {
 		__index = function(t,i)
-			local name, link = GetItemInfo(i)
-			if not link then return end
+			local name, link, _, _, _, _, itemtype = GetItemInfo(i)
+			if not link or not ns.classgear[itemtype] then return end
 
 			wipe(stats)
 			stats = GetItemStats(link, stats)
