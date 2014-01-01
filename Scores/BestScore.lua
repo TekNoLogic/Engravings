@@ -2,10 +2,13 @@
 local myname, ns = ...
 
 
-local temp = {}
+local temp, temp2 = {}, {}
 local CBEST = "|cff80ff80"
 local CSECOND = "|cffffff80"
-
+local _, myclass = UnitClass("player")
+local candualwield = myclass == "ROGUE" or myclass == "WARRIOR"
+                     or myclass == "HUNTER" or myclass == "SHAMAN"
+                     or myclass == "DEATHKNIGHT" or myclass == "MONK"
 
 local slotids = {
 	INVTYPE_HEAD = 1,
@@ -36,8 +39,17 @@ local slotids = {
 local slots = setmetatable({}, {__index = function(t,i)
 	local _, _, _, _, _, _, _, _, slotname = GetItemInfo(i)
 	local slotid = slotids[slotname]
+	if slotname == "INVTYPE_WEAPON" and not candualwield then slotid = 16 end
 	t[i] = slotid
 	return slotid
+end})
+
+
+local twohanders = setmetatable({}, {__index = function(t,i)
+	local _, _, _, _, _, _, _, _, slotname = GetItemInfo(i)
+	local twohand = slotname == "INVTYPE_2HWEAPON"
+	t[i] = twohand
+	return twohand
 end})
 
 
@@ -62,6 +74,8 @@ function ns.GenerateScoreSet(name, values)
 				local showsecond = slotid == 17 and IsDualWielding()
 				                     and MainhandIsOnehandWeapon()
 				                     or slotid == 11 or slotid == 13
+				local onehandonly = slotid == 16 and not twohanders[i]
+				local twohandonly = slotid == 16 and twohanders[i]
 				local items = slotid and GetInventoryItemsForSlot(slotid, wipe(temp))
 				              or wipe(temp)
 				local bestid, bestscore = 0, 0
@@ -69,15 +83,33 @@ function ns.GenerateScoreSet(name, values)
 				local best = true
 				local secondbest = false
 
+				-- GetInventoryItemsForSlot returns indexed by location, lets reverse
+				-- that so we don't get any dupe IDs
+				wipe(temp2)
+				for k,v in pairs(items) do temp2[v] = k end
+				items = temp2
+
 				-- Add the current item we're viewing
-				table.insert(items, i)
+				items[i] = true
 
 				-- Add items we have in saved sets for this slot
 				if slotid then
-					for _,id in pairs(ns.setitems[slotid]) do table.insert(items, id) end
+					for _,id in pairs(ns.setitems[slotid]) do items[id] = true end
 				end
 
-				for _,id in pairs(items) do
+				-- We get some odd values here
+				items[1]  = nil
+				items[0]  = nil
+				items[-1] = nil
+
+				for id in pairs(items) do
+					local twohand = twohanders[id]
+					if onehandonly and twohand or twohandonly and not twohand then
+						items[id] = nil
+					end
+				end
+
+				for id in pairs(items) do
 					local thisscore = tonumber(values[id])
 					if thisscore and id ~= bestid and id ~= secondbestid then
 						if thisscore >= bestscore then
