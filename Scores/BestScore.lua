@@ -57,8 +57,7 @@ end})
 local function MainhandIsOnehandWeapon()
 	local id = GetInventoryItemID('player', 16)
 	if not id then return false end
-	local _, _, _, _, _, _, _, _, slotname = GetItemInfo(id)
-	return slotname == 'INVTYPE_WEAPON'
+	return not twohanders[id]
 end
 
 
