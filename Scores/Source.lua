@@ -36,7 +36,11 @@ for spec,weights in pairs(ns.spec_weights) do
 
 	local values = setmetatable({}, {
 		__index = function(t,i)
-			local name, link, _, _, _, _, itemtype = GetItemInfo(i)
+			local name, link, _, _, _, _, itemtype, _, slotname = GetItemInfo(i)
+			if slotname == "INVTYPE_CLOAK" then
+				-- Why the fuck are cloaks "Cloth" and not "Misc"?
+				itemtype = GetAuctionItemSubClasses(2)
+			end
 			if not link or (itemtype and not ns.classgear[itemtype]) then return end
 
 			wipe(stats)
