@@ -2,9 +2,10 @@
 if select(4, GetBuildInfo()) < 40200 then return end
 
 
-local t, t2, t3 = {}, {}, {}
+local t, t2, t3, t4 = {}, {}, {}, {}
 Engravings["Drops in:"] = t
 Engravings["Dropped by:"] = t2
+Engravings["Drop modes:"] = t4
 
 
 local function ScanInstance(instanceID, instancename, mode, diff)
@@ -71,9 +72,11 @@ for tier=1,EJ_GetNumTiers() do
 end
 
 for itemID,instances in pairs(t3) do
-	local s
+	local s, s2
 	for instance,modes in pairs(instances) do
-		s = (s and (s.. "`") or "").. instance.. " (".. table.concat(modes, ", ").. ")"
+		s = (s and (s.. "`") or "").. instance
+		s2 = table.concat(modes, ", ")
 	end
 	t[itemID] = s
+	t4[itemID] = s2
 end
