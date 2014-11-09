@@ -8,7 +8,6 @@ Engravings["Dropped by:"] = t2
 
 
 local function ScanInstance(instanceID, instancename, mode, diff)
-	EJ_SetDifficulty(diff)
 	EJ_SelectInstance(instanceID)
 	for i=1,EJ_GetNumLoot() do
 		local itemname, icon, slot, armorType, itemID = EJ_GetLootInfoByIndex(i)
@@ -39,15 +38,35 @@ local function ScanInstance(instanceID, instancename, mode, diff)
 end
 
 
-for j=1,2 do
-	local i, israid = 1, j == 1
-	local suffixes = israid and {"10", "25", "10H", "25H", "LFR"} or {"Normal", "Heroic"}
-	local instanceID, instancename, description, background, buttonImage = EJ_GetInstanceByIndex(i, israid)
-	local instanceButton
-	while instanceID do
-		for diff,mode in ipairs(suffixes) do ScanInstance(instanceID, instancename, mode, diff) end
-		i = i + 1
-		instanceID, instancename, description, background, buttonImage = EJ_GetInstanceByIndex(i, israid)
+local difficulties = {
+	PLAYER_DIFFICULTY1, -- 5M
+	PLAYER_DIFFICULTY2, -- 5M
+	"10N",
+	"25N",
+	"10H",
+	"25H",
+	"25LFR",
+	PLAYER_DIFFICULTY5, -- 5M
+	[14] = PLAYER_DIFFICULTY1,
+	[15] = PLAYER_DIFFICULTY2,
+	[16] = PLAYER_DIFFICULTY6,
+	[17] = PLAYER_DIFFICULTY3,
+}
+for tier=1,EJ_GetNumTiers() do
+	EJ_SelectTier(tier)
+	for j=1,2 do
+		local i, israid = 1, j == 1
+		local instanceID, instancename, description, background, buttonImage = EJ_GetInstanceByIndex(i, israid)
+		while instanceID do
+			EJ_SelectInstance(instanceID)
+			for diff,mode in pairs(difficulties) do
+				if EJ_IsValidInstanceDifficulty(diff) then
+					ScanInstance(instanceID, instancename, mode, diff)
+				end
+			end
+			i = i + 1
+			instanceID, instancename, description, background, buttonImage = EJ_GetInstanceByIndex(i, israid)
+		end
 	end
 end
 
