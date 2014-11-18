@@ -2,7 +2,6 @@
 local myname, ns = ...
 
 
-local scoresets = {}
 local temp, temp2 = {}, {}
 local CBEST = "|cff80ff80"
 local CSECOND = "|cffffff80"
@@ -134,15 +133,4 @@ function ns.GenerateScoreSet(name, values)
 			return string.format("%s%.03f", color, v)
 		end
 	})
-  scoresets[name] = Engravings[name]
 end
-
-
-local f = CreateFrame("Frame")
-f:SetScript("OnEvent", function()
-  for name,scores in pairs(scoresets) do
-    wipe(scores)
-  end
-end)
-
-f:RegisterEvent("ACTIVE_TALENT_GROUP_CHANGED")

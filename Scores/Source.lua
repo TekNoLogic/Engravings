@@ -2,6 +2,7 @@
 local myname, ns = ...
 
 
+local scoresets = {}
 local sources = {
 	ITEM_MOD_CRIT_RATING_SHORT = true,
 	ITEM_MOD_DODGE_RATING_SHORT = true,
@@ -59,5 +60,17 @@ for spec,weights in pairs(ns.spec_weights) do
 		end
 	})
 
+  scoresets[spec] = values
+
 	ns.GenerateScoreSet("Score ("..spec.."):", values)
 end
+
+
+local f = CreateFrame("Frame")
+f:SetScript("OnEvent", function()
+	for name,scores in pairs(scoresets) do
+		wipe(scores)
+	end
+end)
+
+f:RegisterEvent("ACTIVE_TALENT_GROUP_CHANGED")
