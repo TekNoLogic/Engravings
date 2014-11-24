@@ -1,3 +1,7 @@
+6.0.0.27-Beta
+    Update stat weights
+    Wipe scores on talent change
+
 6.0.0.26-Beta
     Fix journal scanner
     Put drop mode in its own line
