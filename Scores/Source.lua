@@ -23,11 +23,18 @@ local targets = {
 }
 
 
-local stats, total_weights, gem = {}, {}, {
+local stats, total_weights, socket = {}, {}, {
 	EMPTY_SOCKET_RED = true,
 	EMPTY_SOCKET_YELLOW = true,
 	EMPTY_SOCKET_BLUE = true,
 }
+local function GetGemScore(spec, ilvl)
+	local best = 0
+	for level,score in pairs(ns.gem_value[spec]) do
+		if ilvl >= level and score > best then best = score end
+	end
+	return best
+end
 for spec,weights in pairs(ns.spec_weights) do
 	local total_weight = 0
 
@@ -37,7 +44,7 @@ for spec,weights in pairs(ns.spec_weights) do
 
 	local values = setmetatable({}, {
 		__index = function(t,i)
-			local name, link, _, _, _, _, itemtype, _, slotname = GetItemInfo(i)
+			local name, link, _, ilvl, _, _, itemtype, _, slotname = GetItemInfo(i)
 			if slotname == "INVTYPE_CLOAK" then
 				-- Why the fuck are cloaks "Cloth" and not "Misc"?
 				itemtype = GetAuctionItemSubClasses(2)
@@ -50,7 +57,7 @@ for spec,weights in pairs(ns.spec_weights) do
 			local score = 0
 			for stat,val in pairs(stats) do
 				score = score + val * (weights[stat] or 0)
-				if gem[stat] then score = score + ns.gem_value end
+				if socket[stat] then score = score + GetGemScore(spec, ilvl) end
 			end
 
 			score = score / total_weight
