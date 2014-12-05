@@ -106,7 +106,7 @@ function ns.GenerateScoreSet(name, values)
 				if slotid then
 					-- Add our currently equipped item
 					local link = GetInventoryItemLink("player", slotid)
-					items[link] = true
+					if link then items[link] = true end
 
 					-- Add items we have in saved sets for this slot
 					for _,id in pairs(ns.setitems[slotid]) do items[id] = true end
