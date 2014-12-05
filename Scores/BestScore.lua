@@ -83,17 +83,32 @@ function ns.GenerateScoreSet(name, values)
 				local best = true
 				local secondbest = false
 
-				-- GetInventoryItemsForSlot returns indexed by location, lets reverse
-				-- that so we don't get any dupe IDs
+
+				-- Convert the GetInventoryItemsForSlot returns into links
 				wipe(temp2)
-				for k,v in pairs(items) do temp2[v] = k end
+				for mask,id in pairs(items) do
+					local player, bank, bags, voidStorage, slot, bag = EquipmentManager_UnpackLocation(mask)
+					if player and bags then
+						local link
+						if slot and bag then
+							link = GetContainerItemLink(bag, slot)
+						else
+							link = GetInventoryItemLink("player", slot)
+						end
+						temp2[link] = true
+					end
+				end
 				items = temp2
 
 				-- Add the current item we're viewing
 				items[i] = true
 
-				-- Add items we have in saved sets for this slot
 				if slotid then
+					-- Add our currently equipped item
+					local link = GetInventoryItemLink("player", slotid)
+					items[link] = true
+
+					-- Add items we have in saved sets for this slot
 					for _,id in pairs(ns.setitems[slotid]) do items[id] = true end
 				end
 
