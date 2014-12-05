@@ -62,13 +62,14 @@ end
 
 
 function ns.GenerateScoreSet(name, values)
-	local lastid, lastbest, lastsecondbest
+	local lastlink, lastbest, lastsecondbest
+  ns.fullLinkSources[name] = true
 	Engravings[name] = setmetatable({}, {
 		__index = function(t,i)
 			local v = values[i]
 			if not v or v == 0 then t[i] = false; return end
 
-			if lastid ~= i then
+			if lastlink ~= i then
 				local slotid = slots[i]
 				local showsecond = slotid == 17 and IsDualWielding()
 				                     and MainhandIsOnehandWeapon()
@@ -126,7 +127,7 @@ function ns.GenerateScoreSet(name, values)
 				-- Purge secondbest if we don't have a trinket or ring
 				if not showsecond then secondbestid, secondbestscore = nil end
 
-				lastid, lastbest, lastsecondbest = i, bestid == i, secondbestid == i
+				lastlink, lastbest, lastsecondbest = i, bestid == i, secondbestid == i
 			end
 
 			local color = lastbest and CBEST or lastsecondbest and CSECOND or ""

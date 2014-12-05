@@ -7,6 +7,8 @@ local sources = Engravings
 local origs = {}
 local R, G, B = 1, 136/255, 0
 local db, dbpc, sortedtitles
+ns.fullLinkSources = {}
+
 
 local function initdb()
 	EngravingsDB2, EngravingsDBPC = EngravingsDB2 or {}, EngravingsDBPC or {}
@@ -34,7 +36,9 @@ local function OnTooltipSetItem(frame, ...)
 		local id = tonumber(link:match("item:(%d+):"))
 		for i,title in pairs(sortedtitles) do
 			local data = sources[title]
-			if not (db[title] or dbpc[title]) and data[id] then AddLines(frame, title, string.split("`", data[id])) end
+			local key = id
+			if ns.fullLinkSources[title] then key = link end
+			if not (db[title] or dbpc[title]) and data[key] then AddLines(frame, title, string.split("`", data[key])) end
 		end
 	end
 	if origs[frame] then return origs[frame](frame, ...) end
