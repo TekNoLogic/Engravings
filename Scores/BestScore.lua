@@ -88,9 +88,9 @@ function ns.GenerateScoreSet(name, values)
 				wipe(temp2)
 				for mask,id in pairs(items) do
 					local player, bank, bags, voidStorage, slot, bag = EquipmentManager_UnpackLocation(mask)
-					if player and bags then
+					if not voidStorage then
 						local link
-						if slot and bag then
+						if bag then
 							link = GetContainerItemLink(bag, slot)
 						else
 							link = GetInventoryItemLink("player", slot)
