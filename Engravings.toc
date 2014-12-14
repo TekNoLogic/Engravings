@@ -35,7 +35,6 @@ Scores\Source.lua
 
 CustomEngravings.lua
 Data\Currency.lua
-Data\WeightediLevel.lua
 Data\ItemID.lua
 Data\ItemType.lua
 Data\Recipes.lua
@@ -58,4 +57,3 @@ Data_mined\DropLocations.lua
 Data_mined\DropNPCs.lua
 Data_mined\ItemSetNames.lua
 Data_mined\PvPCosts.lua
-
