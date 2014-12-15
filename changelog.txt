@@ -1,3 +1,7 @@
+6.0.0.29-Beta
+    Make score modules work with random-statted items
+    Remove weighted ilevel module
+
 6.0.0.28-Beta
     Update gem stats, add ilvl restrictions
 
