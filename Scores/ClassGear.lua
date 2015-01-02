@@ -37,14 +37,6 @@ end
 
 if myclass == 'HUNTER' then
 	ns.classgear = {
-		[AXE1] = true,
-		[AXE2] = true,
-		[SWORD1] = true,
-		[SWORD2] = true,
-		[POLE] = true,
-		[STAFF] = true,
-		[FIST] = true,
-		[DAGGER] = true,
 		[BOW] = true,
 		[GUN] = true,
 		[CROSSBOW] = true,
@@ -110,9 +102,6 @@ if myclass == 'ROGUE' then
 		[SWORD1] = true,
 		[FIST] = true,
 		[DAGGER] = true,
-		[BOW] = true,
-		[GUN] = true,
-		[CROSSBOW] = true,
 		[LEATHER] = true,
 		[MISC] = true,
 	}
@@ -156,9 +145,6 @@ if myclass == 'WARRIOR' then
 		[STAFF] = true,
 		[FIST] = true,
 		[DAGGER] = true,
-		[BOW] = true,
-		[GUN] = true,
-		[CROSSBOW] = true,
 		[SHIELD] = true,
 		[PLATE] = true,
 		[MISC] = true,
