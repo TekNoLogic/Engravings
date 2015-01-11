@@ -35,18 +35,18 @@ Scores\Source.lua
 
 CustomEngravings.lua
 Data\Currency.lua
+Data\EquippedIlvl.lua
+Data\HeadOnAPike.lua
+Data\InBags.lua
+Data\InSets.lua
+Data\ItemDrops.lua
 Data\ItemID.lua
 Data\ItemType.lua
-Data\Recipes.lua
 Data\RawFood.lua
+Data\Recipes.lua
 Data\RepTokens.lua
-Data\Stacksize.lua
 Data\SpiritShard.lua
-Data\HeadOnAPike.lua
-Data\InSets.lua
-Data\InBags.lua
-Data\ItemDrops.lua
-Data\EquippedIlvl.lua
+Data\Stacksize.lua
 
 Data_mined\ArmorTokenDropLocations.lua
 Data_mined\ArmorTokenDropNPCs.lua
