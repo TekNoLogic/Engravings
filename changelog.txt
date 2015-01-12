@@ -1,3 +1,6 @@
+6.0.0.30-Beta
+    Add equipped ilvl for item-making tokens
+
 6.0.0.29-Beta
     Make score modules work with random-statted items
     Remove weighted ilevel module
