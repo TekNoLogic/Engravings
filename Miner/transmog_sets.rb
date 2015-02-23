@@ -25,7 +25,8 @@ def recolor(title)
 end
 
 
-items = []
+set_names = []
+set_ids = []
 sets.each do |tset|
   id = tset["id"]
   name = recolor tset["name"][1..-1]
@@ -35,7 +36,10 @@ sets.each do |tset|
   begin
     page = wh.fetch_page "/transmog-set=#{id}"
     ids = page.scan(/appendChild\(g_items\.createIcon\((\d+),/).flatten
-    ids.each {|itemid| items << [itemid, name]}
+    ids.each do |itemid|
+      set_names << "#{itemid} #{name}"
+      set_ids << "#{itemid} #{id}"
+    end
   rescue ArgumentError => err
     puts "ERROR SCANNING PAGE"
   end
@@ -48,4 +52,5 @@ end
 #   wh.get("/itemsets&filter=cl=#{class_i}", "itemsets").reject {|i| i["note"].nil?}.each {|i| i["pieces"].each {|piece| pieces << "#{piece} #{set_notes[i["note"].to_s].gsub(/ Set/, '') + (i["heroic"] == 1 ? " (Heroic)" : '')}"}}
 # end
 
-Engravings.export("TransmogSets.lua", "TRANSMOG_SETS", "Transmog set:", items)
+Engravings.export("TransmogSets.lua", "TRANSMOG_SETS", "Transmog set:", set_names)
+Engravings.export("TransmogSetIDs.lua", "TRANSMOG_SET_IDS", "Transmog set ID:", set_ids)
