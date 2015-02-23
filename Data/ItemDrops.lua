@@ -48,10 +48,10 @@ local difficulties = {
 	"25H",
 	"25LFR",
 	PLAYER_DIFFICULTY5, -- 5M
-	[14] = PLAYER_DIFFICULTY1,
-	[15] = PLAYER_DIFFICULTY2,
-	[16] = PLAYER_DIFFICULTY6,
-	[17] = PLAYER_DIFFICULTY3,
+	[14] = "N",
+	[15] = "H",
+	[16] = "M",
+	[17] = "RF",
 }
 for tier=1,EJ_GetNumTiers() do
 	EJ_SelectTier(tier)
