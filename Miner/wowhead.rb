@@ -84,7 +84,7 @@ class Wowhead
 
   def get_variable(page, variable, sanitation = true, static = true)
     res = fetch_page(page, static)
-    parse_list($1, sanitation) if res =~ /var #{variable} ?= ?(.+?);\n?(if|function|var |Menu|\Z)/
+    parse_list($1, sanitation) if res =~ /var #{variable} ?= ?(.+?)(;|\n)(if|function|var |Menu|new |\Z)/
   end
 
   def get_items(page)
