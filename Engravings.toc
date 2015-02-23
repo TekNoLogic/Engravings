@@ -58,3 +58,5 @@ Data_mined\DropLocations.lua
 Data_mined\DropNPCs.lua
 Data_mined\ItemSetNames.lua
 Data_mined\PvPCosts.lua
+Data_mined\TransmogSets.lua
+Data_mined\TransmogSetIDs.lua
