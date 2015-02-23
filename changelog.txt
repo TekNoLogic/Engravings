@@ -1,3 +1,37 @@
+6.0.0.30-Beta
+    Add equipped ilvl for item-making tokens
+
+6.0.0.29-Beta
+    Make score modules work with random-statted items
+    Remove weighted ilevel module
+
+6.0.0.28-Beta
+    Update gem stats, add ilvl restrictions
+
+6.0.0.27-Beta
+    Update stat weights
+    Wipe scores on talent change
+
+6.0.0.26-Beta
+    Fix journal scanner
+    Put drop mode in its own line
+
+6.0.0.25-Beta
+    6.0 updates for class weights
+    Reforging is dead.  Good.  Fucking. Riddance.
+    Restrict item scores to items the player can use
+    Fix cloaks missing scores for non-cloth classes
+    Improve 1H and 2H score comparisons
+
+5.0.1.24-Beta
+    Fix item drop scanner
+    Use our own calculated scores and reforges instead of mining data from wowhead
+
+4.2.0.23-Beta
+    New big config panel for 4.2
+    Fix journal miner
+    Add support for AddonLoader's LoadOn-InterfaceOptions thingy
+
 4.1.0.22-Beta
     Mine drop NPCs and instances from the encounter journal on 4.2
 

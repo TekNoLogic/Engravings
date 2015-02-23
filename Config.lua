@@ -30,7 +30,7 @@ frame:SetScript("OnShow", function(frame)
 	subtitle:SetNonSpaceWrap(true)
 	subtitle:SetJustifyH("LEFT")
 	subtitle:SetJustifyV("TOP")
---~ 	subtitle:SetMaxLines(3)
+ 	subtitle:SetMaxLines(3)
 	subtitle:SetText("This panel can be used to toggle tooltip engravings.")
 
 	local rows, anchor = {}
@@ -38,12 +38,18 @@ frame:SetScript("OnShow", function(frame)
 		local sv = self.value:match("^Wowhead score") and dbpc or db
 		sv[self.value] = not sv[self.value]
 	end
-	for i=1,15 do
+	local HALFWAY = math.ceil(#sortedtitles/2.0) + 1
+	for i,sourcetitle in ipairs(sortedtitles) do
 		local row = CreateFrame("Button", nil, frame)
-		if not anchor then row:SetPoint("TOP", subtitle, "BOTTOM", 0, -16)
+		if not anchor or i == HALFWAY then row:SetPoint("TOP", subtitle, "BOTTOM", 0, -8)
 		else row:SetPoint("TOP", anchor, "BOTTOM", 0, -ROWGAP) end
-		row:SetPoint("LEFT", EDGEGAP, 0)
-		row:SetPoint("RIGHT", -EDGEGAP*2-8, 0)
+		if i < HALFWAY then
+			row:SetPoint("LEFT", EDGEGAP, 0)
+			row:SetPoint("RIGHT", frame, "CENTER")
+		else
+			row:SetPoint("LEFT", frame, "CENTER", 4, 0)
+			row:SetPoint("RIGHT", -EDGEGAP*2-8, 0)
+		end
 		row:SetHeight(ROWHEIGHT)
 		anchor = row
 		rows[i] = row
@@ -59,38 +65,15 @@ frame:SetScript("OnShow", function(frame)
 		check:SetDisabledCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 		check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 		check:SetScript("OnClick", OnClick)
-		row.check = check
+		check:SetChecked(not (db[sourcetitle] or dbpc[sourcetitle]))
+		check.value = sourcetitle
 
 
-		local title = row:CreateFontString(nil, "BACKGROUND", "GameFontNormal")
+		local title = row:CreateFontString(nil, "BACKGROUND", "GameFontHighlight")
 		title:SetPoint("LEFT", check, "RIGHT", 4, 0)
-		row.title = title
+		title:SetText(sourcetitle:gsub(":", ""))
 	end
 
-
-	local scrollbar = LibStub("tekKonfig-Scroll").new(frame, nil, #rows/2)
-	scrollbar:ClearAllPoints()
-	scrollbar:SetPoint("TOP", rows[1], 0, -16)
-	scrollbar:SetPoint("BOTTOM", rows[#rows], 0, 16)
-	scrollbar:SetPoint("RIGHT", -16, 0)
-
-	local f = scrollbar:GetScript("OnValueChanged")
-	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
-		local offset = math.floor(value)
-		for i,row in pairs(rows) do
-			local title = sortedtitles[i + offset]
-			row.check:SetChecked(not (db[title] or dbpc[title]))
-			row.check.value = title
-			row.title:SetText(title:gsub(":", ""))
-		end
-		return f(self, value, ...)
-	end)
-
-	scrollbar:SetMinMaxValues(0, math.max(0, #sortedtitles-#rows))
-	scrollbar:SetValue(0)
-
-	frame:EnableMouseWheel()
-	frame:SetScript("OnMouseWheel", function(self, val) scrollbar:SetValue(scrollbar:GetValue() - val*#rows/2) end)
 	frame:SetScript("OnShow", nil)
 end)
 
