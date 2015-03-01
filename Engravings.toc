@@ -23,6 +23,8 @@ tekKonfigAboutPanel.lua
 CallbackHandler-1.0.lua
 LibDataBroker-1.1\LibDataBroker-1.1.lua
 
+externals\events.lua
+
 Engravings.lua
 Config.lua
 

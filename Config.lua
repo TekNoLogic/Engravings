@@ -1,9 +1,9 @@
 
+local myname, ns = ...
+
+
 local EDGEGAP, ROWHEIGHT, ROWGAP, GAP = 16, 19, 2, 4
 local sources = Engravings
-local db, dbpc
-local initdb = Engravings.initdb
-Engravings.initdb = nil
 
 if AddonLoader and AddonLoader.RemoveInterfaceOptions then AddonLoader:RemoveInterfaceOptions("Engravings") end
 
@@ -11,7 +11,6 @@ local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 frame.name = "Engravings"
 frame:Hide()
 frame:SetScript("OnShow", function(frame)
-	if not db then db, dbpc = initdb() end
 	local sortedtitles = {}
 	for title,data in pairs(sources) do table.insert(sortedtitles, title) end
 	table.sort(sortedtitles, function(a,b) return string.lower(a) < string.lower(b) end)
@@ -35,7 +34,7 @@ frame:SetScript("OnShow", function(frame)
 
 	local rows, anchor = {}
 	local function OnClick(self)
-		local sv = self.value:match("^Wowhead score") and dbpc or db
+		local sv = self.value:match("^Wowhead score") and ns.dbpc or ns.db
 		sv[self.value] = not sv[self.value]
 	end
 	local HALFWAY = math.ceil(#sortedtitles/2.0) + 1
@@ -65,7 +64,7 @@ frame:SetScript("OnShow", function(frame)
 		check:SetDisabledCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 		check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 		check:SetScript("OnClick", OnClick)
-		check:SetChecked(not (db[sourcetitle] or dbpc[sourcetitle]))
+		check:SetChecked(not (ns.db[sourcetitle] or ns.dbpc[sourcetitle]))
 		check.value = sourcetitle
 
 
@@ -92,4 +91,3 @@ local dataobj = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("Engraving
 	icon = "Interface\\Icons\\INV_Misc_StoneTablet_11",
 	OnClick = function() InterfaceOptionsFrame_OpenToCategory(frame) end,
 })
-
