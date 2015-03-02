@@ -124,6 +124,9 @@ function ns.GenerateScoreSet(name, values)
 					end
 				end
 
+				-- Erase the current item if it was added by ID, since we have a link
+				items[ns.ids[i]] = nil
+
 				for id in pairs(items) do
 					local thisscore = tonumber(values[id])
 					if thisscore and id ~= bestid and id ~= secondbestid then

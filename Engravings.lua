@@ -27,7 +27,7 @@ local function OnTooltipSetItem(frame, ...)
 
 	local name, link = frame:GetItem()
 	if link then
-		local id = tonumber(link:match("item:(%d+):"))
+		local id = ns.ids[link]
 		for i,title in pairs(sortedtitles) do
 			local data = sources[title]
 			local key = id
