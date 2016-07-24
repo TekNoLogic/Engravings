@@ -133,6 +133,7 @@ local TOKEN_REWARDS = [[
 
 Engravings["Champion's Seal:"] = setmetatable({}, {
 	__index = function(t,i)
+		if not i then return end
 		local v = TOKEN_REWARDS:match("\n"..i.." ([^\n]+)\n")
 		if v then t[i] = v; return v
 		else t[i] = false; return end
