@@ -44,6 +44,8 @@ for spec,weights in pairs(ns.spec_weights) do
 
 	local values = setmetatable({}, {
 		__index = function(t,i)
+			if true then return end
+
 			local name, link, _, ilvl, _, _, itemtype, _, slotname = GetItemInfo(i)
 			if slotname == "INVTYPE_CLOAK" then
 				-- Why the fuck are cloaks "Cloth" and not "Misc"?
