@@ -1,5 +1,5 @@
 
-if select(4, GetBuildInfo()) < 40200 then return end
+if true then return end
 
 
 local t, t2, t3, t4 = {}, {}, {}, {}
