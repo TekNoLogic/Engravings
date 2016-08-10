@@ -7,7 +7,6 @@ local sources = Engravings
 local origs = {}
 local R, G, B = 1, 136/255, 0
 local sortedtitles
-ns.fullLinkSources = {}
 ns.dbname = "EngravingsDB2"
 ns.dbpcname = "EngravingsDBPC"
 
@@ -31,7 +30,6 @@ local function OnTooltipSetItem(frame, ...)
 		for i,title in pairs(sortedtitles) do
 			local data = sources[title]
 			local key = id
-			if ns.fullLinkSources[title] then key = link end
 			if not (ns.db[title] or ns.dbpc[title]) and data[key] then AddLines(frame, title, string.split("`", data[key])) end
 		end
 	end
@@ -42,21 +40,4 @@ end
 for _,frame in pairs{GameTooltip, ItemRefTooltip, ShoppingTooltip1, ShoppingTooltip2} do
 	origs[frame] = frame:GetScript("OnTooltipSetItem")
 	frame:SetScript("OnTooltipSetItem", OnTooltipSetItem)
-end
-
-
----------------------------------
---      Wowhead generator      --
----------------------------------
-
-function EngravingsGenerateWowheadSet(spec, data)
-	local values = setmetatable({}, {
-		__index = function(t,i)
-			local v = data:match("\n"..i.." ([^\n]+)\n")
-			if v then t[i] = v; return v
-			else t[i] = 0; return 0 end
-		end
-	})
-
-	ns.GenerateScoreSet("Wowhead score ("..spec.."):", values)
 end

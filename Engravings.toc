@@ -29,13 +29,6 @@ externals\itemid.lua
 Engravings.lua
 Config.lua
 
-Scores\ClassGear.lua
-Scores\ItemSets.lua
-Scores\Weights.lua
-Scores\Gems.lua
-Scores\BestScore.lua
-Scores\Source.lua
-
 CustomEngravings.lua
 Data\Currency.lua
 Data\EquippedIlvl.lua
