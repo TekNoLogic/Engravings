@@ -1,11 +1,8 @@
 ## Interface: 60000
 
 ## Title: Engravings
-## Notes: Adds notes to item tooltips.
+## Notes: Adds notes to item tooltips
 ## Author: Tekkub Stoutwrithe
-## Version: Alpha
-## X-Website: http://code.google.com/p/tekkub-wow/
-## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Inventory
 ## X-Icon: Interface\Icons\INV_Misc_StoneTablet_11
 
@@ -44,16 +41,3 @@ Data\Recipes.lua
 Data\RepTokens.lua
 Data\SpiritShard.lua
 Data\Stacksize.lua
-
-Data_mined\ArmorTokenDropLocations.lua
-Data_mined\ArmorTokenDropNPCs.lua
-Data_mined\ChampionsSeal.lua
-Data_mined\Cooking.lua
-Data_mined\DalaranCookingAward.lua
-Data_mined\DalaranJewelcraftersToken.lua
-Data_mined\DropLocations.lua
-Data_mined\DropNPCs.lua
-Data_mined\ItemSetNames.lua
-Data_mined\PvPCosts.lua
-Data_mined\TransmogSets.lua
-Data_mined\TransmogSetIDs.lua

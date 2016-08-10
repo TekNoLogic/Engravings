@@ -12,9 +12,11 @@ local function ScanInstance(instanceID, instancename, mode, diff)
 	EJ_SelectInstance(instanceID)
 	for i=1,EJ_GetNumLoot() do
 		local itemname, icon, slot, armorType, itemID = EJ_GetLootInfoByIndex(i)
-		t3[itemID] = t3[itemID] or {}
-		t3[itemID][instancename] = t3[itemID][instancename] or {}
-		table.insert(t3[itemID][instancename], mode)
+		if itemID then
+			t3[itemID] = t3[itemID] or {}
+			t3[itemID][instancename] = t3[itemID][instancename] or {}
+			table.insert(t3[itemID][instancename], mode)
+		end
 	end
 
 	local i = 1
@@ -24,12 +26,14 @@ local function ScanInstance(instanceID, instancename, mode, diff)
 
 		for i=1,EJ_GetNumLoot() do
 			local itemname, icon, slot, armorType, itemID = EJ_GetLootInfoByIndex(i)
-			if t2[itemID] then
-				if not string.find(t2[itemID], name) then
-					t2[itemID] = t2[itemID].. "`".. name
+			if itemID then
+				if t2[itemID] then
+					if not string.find(t2[itemID], name) then
+						t2[itemID] = t2[itemID].. "`".. name
+					end
+				else
+					t2[itemID] = name
 				end
-			else
-				t2[itemID] = name
 			end
 		end
 
