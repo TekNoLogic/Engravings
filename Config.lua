@@ -40,15 +40,10 @@ frame:SetScript("OnShow", function(frame)
 	local HALFWAY = math.ceil(#sortedtitles/2.0) + 1
 	for i,sourcetitle in ipairs(sortedtitles) do
 		local row = CreateFrame("Button", nil, frame)
-		if not anchor or i == HALFWAY then row:SetPoint("TOP", subtitle, "BOTTOM", 0, -8)
+		if not anchor then row:SetPoint("TOP", subtitle, "BOTTOM", 0, -8)
 		else row:SetPoint("TOP", anchor, "BOTTOM", 0, -ROWGAP) end
-		if i < HALFWAY then
-			row:SetPoint("LEFT", EDGEGAP, 0)
-			row:SetPoint("RIGHT", frame, "CENTER")
-		else
-			row:SetPoint("LEFT", frame, "CENTER", 4, 0)
-			row:SetPoint("RIGHT", -EDGEGAP*2-8, 0)
-		end
+		row:SetPoint("LEFT", EDGEGAP, 0)
+		row:SetPoint("RIGHT", frame, "CENTER")
 		row:SetHeight(ROWHEIGHT)
 		anchor = row
 		rows[i] = row
