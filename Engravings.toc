@@ -31,7 +31,6 @@ Data\HeadOnAPike.lua
 Data\InBags.lua
 Data\InSets.lua
 Data\InVoidStorage.lua
-Data\ItemDrops.lua
 Data\ItemID.lua
 Data\ItemType.lua
 Data\RawFood.lua
