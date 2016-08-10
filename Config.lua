@@ -79,9 +79,6 @@ end)
 InterfaceOptions_AddCategory(frame)
 
 
-LibStub("tekKonfig-AboutPanel").new("Engravings", "Engravings")
-
-
 ----------------------------------------
 --      Quicklaunch registration      --
 ----------------------------------------
