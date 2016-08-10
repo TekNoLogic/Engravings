@@ -25,16 +25,11 @@ Engravings.lua
 Config.lua
 
 CustomEngravings.lua
-Data\Currency.lua
+
 Data\EquippedIlvl.lua
-Data\HeadOnAPike.lua
 Data\InBags.lua
 Data\InSets.lua
 Data\InVoidStorage.lua
 Data\ItemID.lua
 Data\ItemType.lua
-Data\RawFood.lua
-Data\Recipes.lua
-Data\RepTokens.lua
-Data\SpiritShard.lua
 Data\Stacksize.lua
