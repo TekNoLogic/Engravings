@@ -1,11 +1,8 @@
-## Interface: 60000
+## Interface: 70000
 
 ## Title: Engravings
-## Notes: Adds notes to item tooltips.
+## Notes: Adds notes to item tooltips
 ## Author: Tekkub Stoutwrithe
-## Version: Alpha
-## X-Website: http://code.google.com/p/tekkub-wow/
-## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Inventory
 ## X-Icon: Interface\Icons\INV_Misc_StoneTablet_11
 
@@ -18,43 +15,21 @@
 ## X-LoadOn-InterfaceOptions: Engravings
 
 LibStub.lua
-tekKonfigScroll.lua
-tekKonfigAboutPanel.lua
 CallbackHandler-1.0.lua
 LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+externals\events.lua
+externals\itemid.lua
 
 Engravings.lua
 Config.lua
 
-Scores\ClassGear.lua
-Scores\ItemSets.lua
-Scores\Weights.lua
-Scores\Gems.lua
-Scores\BestScore.lua
-Scores\Source.lua
-
 CustomEngravings.lua
-Data\Currency.lua
+
 Data\EquippedIlvl.lua
-Data\HeadOnAPike.lua
 Data\InBags.lua
 Data\InSets.lua
-Data\ItemDrops.lua
+Data\InVoidStorage.lua
 Data\ItemID.lua
 Data\ItemType.lua
-Data\RawFood.lua
-Data\Recipes.lua
-Data\RepTokens.lua
-Data\SpiritShard.lua
 Data\Stacksize.lua
-
-Data_mined\ArmorTokenDropLocations.lua
-Data_mined\ArmorTokenDropNPCs.lua
-Data_mined\ChampionsSeal.lua
-Data_mined\Cooking.lua
-Data_mined\DalaranCookingAward.lua
-Data_mined\DalaranJewelcraftersToken.lua
-Data_mined\DropLocations.lua
-Data_mined\DropNPCs.lua
-Data_mined\ItemSetNames.lua
-Data_mined\PvPCosts.lua
