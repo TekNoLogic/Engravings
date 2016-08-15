@@ -1,4 +1,4 @@
-### 7.0.0.23-Beta
+### 7.0.0.31-Beta
 
 * Remove mined data sets entirely
 * Remove old dead manual data modules
