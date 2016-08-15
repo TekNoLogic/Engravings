@@ -1,137 +1,177 @@
-6.0.0.30-Beta
-    Add equipped ilvl for item-making tokens
+### 7.0.0.23-Beta
 
-6.0.0.29-Beta
-    Make score modules work with random-statted items
-    Remove weighted ilevel module
+* Remove mined data sets entirely
+* Remove old dead manual data modules
+* Remove scores modules
+* Single column config
+* Item drops is screwing with login, might as well kill it
+* Add void storage module
 
-6.0.0.28-Beta
-    Update gem stats, add ilvl restrictions
 
-6.0.0.27-Beta
-    Update stat weights
-    Wipe scores on talent change
+### 6.0.0.30-Beta
 
-6.0.0.26-Beta
-    Fix journal scanner
-    Put drop mode in its own line
+* Add equipped ilvl for item-making tokens
 
-6.0.0.25-Beta
-    6.0 updates for class weights
-    Reforging is dead.  Good.  Fucking. Riddance.
-    Restrict item scores to items the player can use
-    Fix cloaks missing scores for non-cloth classes
-    Improve 1H and 2H score comparisons
+### 6.0.0.29-Beta
 
-5.0.1.24-Beta
-    Fix item drop scanner
-    Use our own calculated scores and reforges instead of mining data from wowhead
+* Make score modules work with random-statted items
+* Remove weighted ilevel module
 
-4.2.0.23-Beta
-    New big config panel for 4.2
-    Fix journal miner
-    Add support for AddonLoader's LoadOn-InterfaceOptions thingy
+### 6.0.0.28-Beta
 
-4.1.0.22-Beta
-    Mine drop NPCs and instances from the encounter journal on 4.2
+* Update gem stats, add ilvl restrictions
 
-4.1.0.21-Beta
-    New item scores, now factors in reforgery
-    New reforging data sets
+### 6.0.0.27-Beta
 
-4.0.0.20-Beta
-    Some trinkets and rings have the exact same score
+* Update stat weights
+* Wipe scores on talent change
 
-4.0.0.19-Beta
-    Hrm... seems I have two raw food modules, need to fix that later
-    New weights
-    Fix best scores not being highlighted for items we don't yet own
-    Make highlighting of second-best rings and trinkets work more righter
-    Add qty in bank
-    Remove weights for lower AC armor
-    New relic datas
+### 6.0.0.26-Beta
 
-4.0.0.18-Beta
-    Those badges are all gone now
-    New weighted scores
+* Fix journal scanner
+* Put drop mode in its own line
 
-3.3.0.17-Release
-    New cooking ingred data!
+### 6.0.0.25-Beta
 
-3.3.0.16-Release
-    New datas!
+* 6.0 updates for class weights
+* Reforging is dead.  Good.  Fucking. Riddance.
+* Restrict item scores to items the player can use
+* Fix cloaks missing scores for non-cloth classes
+* Improve 1H and 2H score comparisons
 
-3.3.0.15-Release
-    Highlight second best score in yellow for trinkets and rings
+### 5.0.1.24-Beta
 
-3.2.0.14-Release
-    New datas!
-    Remove ilvl module, built into default UI now
-    New low level raw food
+* Fix item drop scanner
+* Use our own calculated scores and reforges instead of mining data from wowhead
 
-3.1.0.13-Release
-    Add in equipment sets and in bags datasources
-    Lookie lookie data update!
-    Blasted nil indexes
+### 4.2.0.23-Beta
 
-3.1.0.12-Release
-    New data!
-    More wowhead scores!
-    Add majick "best in bag/upgrade" highlighting of wowhead scores
+* New big config panel for 4.2
+* Fix journal miner
+* Add support for AddonLoader's LoadOn-InterfaceOptions thingy
 
-3.1.0.11-Release
-    New 3.1 datas!
+### 4.1.0.22-Beta
 
-3.0.9.10-Release
-    Make wowhead score settings save per-char
+* Mine drop NPCs and instances from the encounter journal on 4.2
 
-3.0.9.9-Release
-    Add weight scores for uncommon items (seriously, this is super useful for NR quest rewards... damn!)
+### 4.1.0.21-Beta
 
-3.0.9.8-Release
-    Sort the tooltip displays
-    Add wowhead weight datasets (only the sets for your class will be loaded)
-    Add config panel
+* New item scores, now factors in reforgery
+* New reforging data sets
 
-3.0.9.7-Release
-    New data! WHEEEEE!
-    Add support for new non-item currencies
+### 4.0.0.20-Beta
 
-3.0.1.6-Release
-    Add "weighted iLevel" module, for comparing rare and epic items to uncommons
+* Some trinkets and rings have the exact same score
 
-3.0.1.5-Release
-    Add S4 item sets
-    Update PvP costs
-    Updated drop info
-    Add item type/subtype module
-    Add raw food list for BC items
+### 4.0.0.19-Beta
 
-2.4.2.4-Beta
-    New data!
-     - Season 2 & 3 non-set items
-     - Season 4 set item costs
-     - Sunwell T6 token data (Twins not included since they drop random tokens)
-     - Ahune drops
+* Hrm... seems I have two raw food modules, need to fix that later
+* New weights
+* Fix best scores not being highlighted for items we don't yet own
+* Make highlighting of second-best rings and trinkets work more righter
+* Add qty in bank
+* Remove weights for lower AC armor
+* New relic datas
 
-2.4.2.3-Beta
-    Add some new mined data
-    Run miner, update existing datasets
+### 4.0.0.18-Beta
 
-2.4.1.2-Beta
-    GetItem can return nil, joy...
+* Those badges are all gone now
+* New weighted scores
 
-2.4.1.1-Beta
-    Removed Dongle
-    AddonLoader goodness
-    Split up into data modules, added lots of new data:
-     - Drop sources (NPCs)
-     - Drop locations
-     - Badge of Justice costs
-     - Spirit Shard costs
-     - Stack size
-     - iLevel
-     - PvP gear (source only, no prices yet)
-     - ItemID
-     - User-created notes
-    Engrave compare tips as well
+### 3.3.0.17-Release
+
+* New cooking ingred data!
+
+### 3.3.0.16-Release
+
+* New datas!
+
+### 3.3.0.15-Release
+
+* Highlight second best score in yellow for trinkets and rings
+
+### 3.2.0.14-Release
+
+* New datas!
+* Remove ilvl module, built into default UI now
+* New low level raw food
+
+### 3.1.0.13-Release
+
+* Add in equipment sets and in bags datasources
+* Lookie lookie data update!
+* Blasted nil indexes
+
+### 3.1.0.12-Release
+
+* New data!
+* More wowhead scores!
+* Add majick "best in bag/upgrade" highlighting of wowhead scores
+
+### 3.1.0.11-Release
+
+* New 3.1 datas!
+
+### 3.0.9.10-Release
+
+* Make wowhead score settings save per-char
+
+### 3.0.9.9-Release
+
+* Add weight scores for uncommon items (seriously, this is super useful for NR quest rewards... damn!)
+
+### 3.0.9.8-Release
+
+* Sort the tooltip displays
+* Add wowhead weight datasets (only the sets for your class will be loaded)
+* Add config panel
+
+### 3.0.9.7-Release
+
+* New data! WHEEEEE!
+* Add support for new non-item currencies
+
+### 3.0.1.6-Release
+
+* Add "weighted iLevel" module, for comparing rare and epic items to uncommons
+
+### 3.0.1.5-Release
+
+* Add S4 item sets
+* Update PvP costs
+* Updated drop info
+* Add item type/subtype module
+* Add raw food list for BC items
+
+### 2.4.2.4-Beta
+
+* New data!
+*  - Season 2 & 3 non-set items
+*  - Season 4 set item costs
+*  - Sunwell T6 token data (Twins not included since they drop random tokens)
+*  - Ahune drops
+
+### 2.4.2.3-Beta
+
+* Add some new mined data
+* Run miner, update existing datasets
+
+### 2.4.1.2-Beta
+
+* GetItem can return nil, joy...
+
+### 2.4.1.1-Beta
+
+* Removed Dongle
+* AddonLoader goodness
+* Split up into data modules, added lots of new data:
+*  - Drop sources (NPCs)
+*  - Drop locations
+*  - Badge of Justice costs
+*  - Spirit Shard costs
+*  - Stack size
+*  - iLevel
+*  - PvP gear (source only, no prices yet)
+*  - ItemID
+*  - User-created notes
+* Engrave compare tips as well
