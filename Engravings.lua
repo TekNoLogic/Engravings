@@ -21,7 +21,11 @@ local function OnTooltipSetItem(frame, ...)
 	if not sortedtitles then
 		sortedtitles = {}
 		for title,data in pairs(sources) do table.insert(sortedtitles, title) end
-		table.sort(sortedtitles, function(a,b) return string.lower(a) < string.lower(b) end)
+		table.sort(sortedtitles, function(a,b)
+			if a == "Vendor:" then return true
+			elseif b == "Vendor:" then return false end
+			return string.lower(a) < string.lower(b)
+		end)
 	end
 
 	local name, link = frame:GetItem()
