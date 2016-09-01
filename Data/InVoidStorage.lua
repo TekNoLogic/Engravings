@@ -9,6 +9,7 @@ Engravings["Qty in void storage:"] = setmetatable({}, voidmeta)
 function ns.OnLoad()
 	ns.dbpc.void = ns.dbpc.void or {}
 	voidmeta["__index"] = ns.dbpc.void
+	ns.OnLoadTransmog()
 end
 
 
