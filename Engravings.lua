@@ -9,6 +9,11 @@ local R, G, B = 1, 136/255, 0
 local sortedtitles
 ns.dbname = "EngravingsDB2"
 ns.dbpcname = "EngravingsDBPC"
+ns.dbdefaults = {
+	["ItemID:"] = true,
+	["SourceID:"] = true,
+	["VisualID:"] = true,
+}
 
 
 local function AddLines(frame, title, line, ...)
