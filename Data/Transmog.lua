@@ -2,17 +2,15 @@
 local myname, ns = ...
 
 
-local db
 function ns.OnLoads.Transmog()
 	ns.db.appearances = ns.db.appearances or {}
-	db = ns.db.appearances
 
 	C_TransmogCollection.ClearSearch()
 	for id=1,28 do
 		appearances = C_TransmogCollection.GetCategoryAppearances(id)
 		for i,appearance in pairs(appearances) do
 			if appearance.isCollected then
-				db[appearance.visualID] = true
+				ns.db.appearances[appearance.visualID] = true
 			end
 		end
 	end
@@ -28,7 +26,6 @@ Engravings["Transmog:"] = setmetatable({}, {
 		local visualid = Engravings["VisualID:"][i]
 		if not visualid then return end
 
-		if db[visualid] then
 			t[i] = COLLECTED
 			return COLLECTED
 		else
