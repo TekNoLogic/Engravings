@@ -14,8 +14,6 @@ function ns.OnLoads.Transmog()
 			end
 		end
 	end
-
-	ns.OnLoadTransmog = nil
 end
 
 
