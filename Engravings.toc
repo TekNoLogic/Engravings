@@ -22,6 +22,8 @@ externals\events.lua
 externals\itemid.lua
 externals\gsc.lua
 
+Init.lua
+
 Engravings.lua
 Config.lua
 

@@ -3,7 +3,7 @@ local myname, ns = ...
 
 
 local db
-function ns.OnLoadTransmog()
+function ns.OnLoads.Transmog()
 	ns.db.appearances = ns.db.appearances or {}
 	db = ns.db.appearances
 
