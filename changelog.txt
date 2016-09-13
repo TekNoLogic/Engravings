@@ -1,3 +1,11 @@
+### 7.0.0.32-Beta
+
+* Add transmog data
+* Add vendor price, for unit price of stacked items
+* Icky fix for GameTooltip:GetItem returning bad data at a vendor
+* Hide ID sets by default
+
+
 ### 7.0.0.31-Beta
 
 * Remove mined data sets entirely
