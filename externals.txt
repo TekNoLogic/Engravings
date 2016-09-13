@@ -1,3 +1,0 @@
-events.lua
-itemid.lua
-gsc.lua
