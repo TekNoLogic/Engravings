@@ -16,11 +16,18 @@ ns.dbdefaults = {
 }
 
 
+local function IsModuleEnabled(title)
+	if ns.db[title] or ns.dbpc[title] then return false end
+	return true
+end
+
+
 local function AddLines(frame, title, line, ...)
 	if not line then return end
 	frame:AddDoubleLine(type(title) == "string" and title or "", line, R, G, B, R, G, B)
 	AddLines(frame, " ", ...)
 end
+
 
 local function OnTooltipSetItem(frame, ...)
 	if not sortedtitles then
@@ -34,12 +41,13 @@ local function OnTooltipSetItem(frame, ...)
 	end
 
 	local name, link = frame:GetItem()
-	if link then
-		local id = ns.ids[link]
+	local id = link and ns.ids[link]
+	if id then
 		for i,title in pairs(sortedtitles) do
 			local data = sources[title]
-			local key = id
-			if not (ns.db[title] or ns.dbpc[title]) and data[key] then AddLines(frame, title, string.split("`", data[key])) end
+			if IsModuleEnabled(title) and data[id] then
+				AddLines(frame, title, string.split("`", data[id]))
+			end
 		end
 	end
 	if origs[frame] then return origs[frame](frame, ...) end
