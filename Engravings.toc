@@ -32,12 +32,11 @@ CustomEngravings.lua
 
 Data\EquippedIlvl.lua
 Data\InBags.lua
-Data\InSets.lua
 Data\InVoidStorage.lua
 Data\ItemID.lua
 Data\ItemType.lua
-Data\Stacksize.lua
 Data\SourceID.lua
+Data\Stacksize.lua
 Data\Transmog.lua
 Data\VendorPrice.lua
 Data\VisualID.lua
