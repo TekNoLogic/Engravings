@@ -1,3 +1,10 @@
+### 7.0.0.33-Beta
+
+* give a more descriptive error
+* Protect from nil ids
+* Remove dead files from toc
+
+
 ### 7.0.0.32-Beta
 
 * Add transmog data
