@@ -58,6 +58,6 @@ for _,m in pairs(methods) do
   local orig = GameTooltip[m]
   GameTooltip[m] = function(self, ...)
     link = nil
-    orig(GameTooltip, ...)
+    return orig(self, ...)
   end
 end
