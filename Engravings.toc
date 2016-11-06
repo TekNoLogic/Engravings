@@ -1,4 +1,4 @@
-## Interface: 70000
+## Interface: 70100
 
 ## Title: Engravings
 ## Notes: Adds notes to item tooltips
