@@ -1,3 +1,10 @@
+### 7.1.0.34-Beta
+
+* Add module for new expack API
+    Seems to only work on gear, but whatever
+* I'm a dirty hooker
+
+
 ### 7.0.0.33-Beta
 
 * give a more descriptive error
